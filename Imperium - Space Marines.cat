@@ -1619,21 +1619,21 @@
                 <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
                 <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
                 <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
                 <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D3</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c"/>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy</characteristic>
               </characteristics>
             </profile>
             <profile name="Astartes Grenade Launcher - Frag" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="ee1e-c250-e2cd-9c7f">
               <characteristics>
                 <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
-                <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+1</characteristic>
                 <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
                 <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
                 <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Heavy</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2133,8 +2133,8 @@ this unit, add 1 to any armour saving throw made against that attack.</character
                         <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
                         <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
                         <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                        <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
-                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
                         <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Assault, Heavy</characteristic>
                       </characteristics>
@@ -2325,8 +2325,8 @@ this unit, add 1 to any armour saving throw made against that attack.</character
                         <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
                         <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
                         <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                        <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
-                        <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
                         <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy</characteristic>
                       </characteristics>
@@ -5202,9 +5202,9 @@ by 1.</characteristic>
                             <profile name="➤ Cyclone Missile Launcher - Frag" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="ec75-f8cd-da82-97af">
                               <characteristics>
                                 <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
-                                <characteristic name="A" typeId="3bb-c35f-f54-fb08">2D6</characteristic>
+                                <characteristic name="A" typeId="3bb-c35f-f54-fb08">2D6+2</characteristic>
                                 <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                                <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                                <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
                                 <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
                                 <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
                                 <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
@@ -5215,10 +5215,10 @@ by 1.</characteristic>
                                 <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
                                 <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
                                 <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                                <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
-                                <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-                                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
-                                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c"/>
+                                <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
+                                <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+2</characteristic>
+                                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -6256,7 +6256,7 @@ by 1.</characteristic>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Dreadnought Combat Weapon w/ Storm Bolter" hidden="false" id="94b-7c6c-1d21-ce9e">
               <entryLinks>
-                <entryLink import="true" name="Dreadnought Combat Weapon" hidden="false" type="selectionEntry" id="4e00-1100-ecb8-733c" targetId="2693-7478-d47c-9699">
+                <entryLink import="true" name="Dreadnought Power Fist" hidden="false" type="selectionEntry" id="4e00-1100-ecb8-733c" targetId="2693-7478-d47c-9699">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d63e-3524-23a1-ddb2"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b925-585c-4c85-2cfc"/>
@@ -6387,7 +6387,7 @@ by 1.</characteristic>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Dreadnought Combat Weapon" hidden="false" id="2693-7478-d47c-9699">
       <profiles>
-        <profile name="Dreadnought Combat Weapon" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="cf7c-9c6f-3235-6c6d">
+        <profile name="Dreadnought Power Fist" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="cf7c-9c6f-3235-6c6d">
           <characteristics>
             <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
             <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
@@ -6405,9 +6405,9 @@ by 1.</characteristic>
         <profile name="➤ Missile Launcher - Frag" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="8f31-fabd-aa89-8c87">
           <characteristics>
             <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+1</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+2</characteristic>
             <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
@@ -6418,9 +6418,9 @@ by 1.</characteristic>
             <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
             <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
             <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+1</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">15</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+2</characteristic>
             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy, Devastating Wounds</characteristic>
           </characteristics>
         </profile>
@@ -9364,9 +9364,9 @@ by 1.</characteristic>
         <profile name="➤ Typhoon Missile Launcher - Frag" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="8c1-7a89-b8c8-926">
           <characteristics>
             <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">2D6</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">2D6+2</characteristic>
             <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
@@ -9376,10 +9376,10 @@ by 1.</characteristic>
           <characteristics>
             <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
             <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+2</characteristic>
             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c"/>
           </characteristics>
         </profile>
@@ -9634,8 +9634,8 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
                             <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
                             <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
                             <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                            <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
-                            <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                            <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
+                            <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
                             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
                             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy, Precision</characteristic>
                           </characteristics>
@@ -19963,7 +19963,7 @@ per turn.</characteristic>
         </profile>
         <profile name="Ancient Banner" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9ced-4a20-1c04-203d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this unit contains an Ancient, add 1 to any Men of The Hour rolls.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this unit contains an Ancient, add 2 to any Men of The Hour rolls.</characteristic>
           </characteristics>
         </profile>
         <profile name="Command Squad" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cb97-8ee0-1cbf-e38f">
