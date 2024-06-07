@@ -326,7 +326,15 @@
     <entryLink import="true" name="Chaplain" hidden="false" type="selectionEntry" id="dfb5-f763-308d-e0d9" targetId="ceb5-55c7-2d49-d952"/>
     <entryLink import="true" name="Reiver Squad" hidden="false" type="selectionEntry" id="72c7-e95f-cade-27d7" targetId="a7ae-e495-683b-7c90"/>
     <entryLink import="true" name="Captain" hidden="false" type="selectionEntry" id="91e3-a419-8c58-98f5" targetId="6c10-5b51-5bc0-8d2c"/>
-    <entryLink import="true" name="Techmarine" hidden="false" type="selectionEntry" id="c7ef-84b1-fdf5-c5a8" targetId="e671-cd3a-2b03-3954"/>
+    <entryLink import="true" name="Techmarine" hidden="false" type="selectionEntry" id="c7ef-84b1-fdf5-c5a8" targetId="e671-cd3a-2b03-3954">
+      <profiles>
+        <profile name="Monarch Watches." typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ae38-c2cc-766f-f653">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit is embarked within a transport, they may heal the transport but it does not get the +1 to hit bonus.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </entryLink>
     <entryLink import="true" name="Repulsor" hidden="false" type="selectionEntry" id="b6f6-3b6d-2508-7c12" targetId="e8e-fc5c-c689-99ca">
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -19955,7 +19963,7 @@ per turn.</characteristic>
         </profile>
         <profile name="Ancient Banner" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9ced-4a20-1c04-203d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this unit contains an Ancient, add 1 to the Objective Control characteristic of models in this unit</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this unit contains an Ancient, add 1 to any Men of The Hour rolls.</characteristic>
           </characteristics>
         </profile>
         <profile name="Command Squad" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cb97-8ee0-1cbf-e38f">
@@ -20086,8 +20094,8 @@ per turn.</characteristic>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
                     <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
                     <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy, Sustained Hits 2</characteristic>
                   </characteristics>
@@ -20184,8 +20192,8 @@ per turn.</characteristic>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
                     <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
                     <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds, Rapid Fire 1</characteristic>
                   </characteristics>
