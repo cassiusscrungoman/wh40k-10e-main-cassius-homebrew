@@ -780,9 +780,9 @@
             <infoLink name="Pistol" hidden="false" type="rule" id="ca6b-a582-97e8-ef72" targetId="8bf7-8812-923d-29e4"/>
           </infoLinks>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Fealty" hidden="false" id="b81d-c41a-4951-ffe" page="41">
+        <selectionEntry type="upgrade" import="true" name="Edgelord" hidden="false" id="b81d-c41a-4951-ffe" page="41">
           <profiles>
-            <profile name="Fealty - strike" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="9008-3db1-12b7-6d88" page="41">
+            <profile name="Edgelord - strike" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="9008-3db1-12b7-6d88" page="41">
               <characteristics>
                 <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                 <characteristic name="A" typeId="2337-daa1-6682-b110">8</characteristic>
@@ -793,7 +793,7 @@
                 <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lethal Hits</characteristic>
               </characteristics>
             </profile>
-            <profile name="Fealty - sweep" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="246b-3626-72d1-6262" page="41">
+            <profile name="Edgelord - sweep" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="246b-3626-72d1-6262" page="41">
               <characteristics>
                 <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                 <characteristic name="A" typeId="2337-daa1-6682-b110">16</characteristic>
