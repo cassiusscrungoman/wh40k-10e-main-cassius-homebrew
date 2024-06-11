@@ -1960,6 +1960,11 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in this unit targets an enemy unit with a melee attack, re-roll a Wound roll of 1. If that enemy unit is within range of an objective marker, you can re-roll the Wound roll instead.</characteristic>
           </characteristics>
         </profile>
+        <profile name="Low-ordnance Firepower" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="27a6-5058-f372-0f5b">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit is eligible to shoot and declare a charge in a turn in which they Advanced or Fell Back.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <selectionEntryGroups>
         <selectionEntryGroup name="Assault Intercessors" hidden="false" id="1e84-b3ff-decc-2f0e">
