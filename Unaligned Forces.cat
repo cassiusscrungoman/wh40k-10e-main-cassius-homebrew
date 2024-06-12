@@ -2187,7 +2187,9 @@ Designer’s Note: Place two Borewyrm Infestation tokens next to this model, re
       </profiles>
       <categoryLinks>
         <categoryLink name="Character" hidden="false" id="b010-10a0-4e2f-b3b8" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
-        <categoryLink name="Faction: All" hidden="false" id="1d84-43e2-6fb5-7dd6" targetId="57c4-bc41-2fc0-8f4f" primary="false"/>
+        <categoryLink name="Grenades" hidden="false" id="c88b-c538-4007-3f4e" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
+        <categoryLink name="Infantry" hidden="false" id="b316-5af0-627d-a6ef" targetId="cf47-a0d7-7207-29dc" primary="false"/>
+        <categoryLink name="Faction: Any" hidden="false" id="b899-b5d0-6114-e646" targetId="ba60-be43-82a0-9d2d" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
@@ -2311,6 +2313,7 @@ Designer’s Note: Place two Borewyrm Infestation tokens next to this model, re
     <categoryEntry name="Defence Emplacement" hidden="false" id="5d7b-c048-8c24-5043"/>
     <categoryEntry name="Castellum Stronghold" hidden="false" id="10ec-c57f-1acc-6db7"/>
     <categoryEntry name="Faction: All" id="57c4-bc41-2fc0-8f4f" hidden="false"/>
+    <categoryEntry name="Faction: Any" id="ba60-be43-82a0-9d2d" hidden="false"/>
   </categoryEntries>
   <sharedProfiles>
     <profile name="Reinforced Cover" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="241c-8bed-ca28-f77">
