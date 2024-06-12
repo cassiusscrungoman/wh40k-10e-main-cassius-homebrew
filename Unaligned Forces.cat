@@ -2395,7 +2395,7 @@ The Veteran Pilot may shoot, charge, and attack immediately after using this abi
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
                 <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Torrent, Twin-linked, Anti-Vehicle 4+</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds, Anti-Vehicle 4+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2405,7 +2405,7 @@ The Veteran Pilot may shoot, charge, and attack immediately after using this abi
           </constraints>
           <infoLinks>
             <infoLink name="" id="9891-9cdc-3a91-5d58" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
-            <infoLink name="Twin-linked" id="3458-aca5-fbba-5c42" hidden="false" type="rule" targetId="cf93-ad4d-2f08-a79d"/>
+            <infoLink name="Devastating Wounds" id="3458-aca5-fbba-5c42" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
           </infoLinks>
         </selectionEntry>
       </selectionEntries>
