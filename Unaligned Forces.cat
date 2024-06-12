@@ -2190,7 +2190,7 @@ Designer’s Note: Place two Borewyrm Infestation tokens next to this model, re
         <categoryLink name="Faction: All" hidden="false" id="1d84-43e2-6fb5-7dd6" targetId="57c4-bc41-2fc0-8f4f" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="1"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
       </costs>
       <modifiers>
         <modifier type="set-primary" value="9cfd-1c32-585f-7d5c" field="category"/>
@@ -2206,7 +2206,7 @@ Designer’s Note: Place two Borewyrm Infestation tokens next to this model, re
                 <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
                 <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                 <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Assault</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2216,6 +2216,7 @@ Designer’s Note: Place two Borewyrm Infestation tokens next to this model, re
           </constraints>
           <infoLinks>
             <infoLink name="Pistol" id="9dff-1fa5-abe9-3a0e" hidden="false" type="rule" targetId="8bf7-8812-923d-29e4"/>
+            <infoLink name="Assault" id="18b0-9fa7-a378-2878" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Emergency Combat Knife" hidden="false" id="a029-d9e1-13c3-7190" sortIndex="2">
@@ -2236,15 +2237,6 @@ Designer’s Note: Place two Borewyrm Infestation tokens next to this model, re
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7f45-1c1f-f967-7e3c"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9da1-f13c-2c37-86b6"/>
           </constraints>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Emergency Disembarkation" hidden="false" id="53bd-f417-0edb-537e">
-          <profiles>
-            <profile name="Emergency Disembarkation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ba4e-7ff2-b22a-4735">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Whenever a unit with the Aircraft or Hover tags are killed and their Deadly Demise roll is resolved, if the result of that roll is a 5 or less, this Pilot ejects from the aircraft. Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be deployed anywhere within 6&quot; of that line. If you choose an area off the map, this unit counts as EVACed and will be available for deployment in your next mission.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
