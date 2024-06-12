@@ -2404,9 +2404,8 @@ The Veteran Pilot may shoot, charge, and attack immediately after using this abi
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5635-5a65-7b83-f4c6"/>
           </constraints>
           <infoLinks>
-            <infoLink name="Torrent" id="8383-00f4-93a0-f6da" hidden="false" type="rule" targetId="5edf-d619-23e0-9b56"/>
             <infoLink name="" id="9891-9cdc-3a91-5d58" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
-            <infoLink name="Torrent" id="3458-aca5-fbba-5c42" hidden="false" type="rule" targetId="5edf-d619-23e0-9b56"/>
+            <infoLink name="Twin-linked" id="3458-aca5-fbba-5c42" hidden="false" type="rule" targetId="cf93-ad4d-2f08-a79d"/>
           </infoLinks>
         </selectionEntry>
       </selectionEntries>
@@ -2444,7 +2443,7 @@ The Veteran Pilot may shoot, charge, and attack immediately after using this abi
     <entryLink import="true" name="Castellum Stronghold [Legends]" hidden="false" type="selectionEntry" id="e137-53d3-833-4389" targetId="20c8-d2-586d-623"/>
     <entryLink import="true" name="Veteran Pilot" hidden="false" id="8ae3-bb48-f2a7-fdb5" targetId="99e9-c939-3852-eaef" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="50"/>
       </costs>
     </entryLink>
   </entryLinks>
