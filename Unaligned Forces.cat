@@ -2265,7 +2265,7 @@ Designer’s Note: Place two Borewyrm Infestation tokens next to this model, re
                 <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                 <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
                 <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
-                <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
                 <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
                 <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Twin-linked</characteristic>
@@ -2338,6 +2338,11 @@ The Veteran Pilot may shoot, charge, and attack immediately after using this abi
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may destroy the vehicle it&apos;s in at any time (during any phase) and trigger its Deadly Demise roll.</characteristic>
           </characteristics>
         </profile>
+        <profile name="Trojan Injection" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1693-af8a-906a-3cf6">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit destroys a vehicle with its Data Knife, that vehicle does not roll for Deadly Demise, nor is it&apos;s model removed from the battlefield.  That vehicle becomes an immovable Terrain Feature for the remainder of the battle.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink name="Character" hidden="false" id="a000-8975-2bf8-1c23" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
@@ -2345,6 +2350,7 @@ The Veteran Pilot may shoot, charge, and attack immediately after using this abi
         <categoryLink name="Infantry" hidden="false" id="c8fe-8ab2-31e3-983b" targetId="cf47-a0d7-7207-29dc" primary="false"/>
         <categoryLink name="Faction: Any" hidden="false" id="d88e-a02f-ba3d-1104" targetId="ba60-be43-82a0-9d2d" primary="false"/>
         <categoryLink name="Pilot" hidden="false" id="31bb-1755-f7fa-bd24" targetId="8824-eb56-e4b8-3644" primary="false"/>
+        <categoryLink name="Fly" hidden="false" id="06d2-45de-5518-4c5e" targetId="c619-2086-bbcf-69c9" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="50"/>
@@ -2362,7 +2368,7 @@ The Veteran Pilot may shoot, charge, and attack immediately after using this abi
                 <characteristic name="BS" typeId="94d-8a98-cf90-183e">N/A</characteristic>
                 <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
                 <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
                 <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Assault, Ignores Cover, Torrent, Precision</characteristic>
               </characteristics>
             </profile>
@@ -2389,7 +2395,7 @@ The Veteran Pilot may shoot, charge, and attack immediately after using this abi
                 <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
                 <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Torrent, Twin-linked</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Torrent, Twin-linked, Anti-Vehicle 4+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2399,7 +2405,8 @@ The Veteran Pilot may shoot, charge, and attack immediately after using this abi
           </constraints>
           <infoLinks>
             <infoLink name="Torrent" id="8383-00f4-93a0-f6da" hidden="false" type="rule" targetId="5edf-d619-23e0-9b56"/>
-            <infoLink name="Twin-linked" id="9891-9cdc-3a91-5d58" hidden="false" type="rule" targetId="cf93-ad4d-2f08-a79d"/>
+            <infoLink name="" id="9891-9cdc-3a91-5d58" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
+            <infoLink name="Torrent" id="3458-aca5-fbba-5c42" hidden="false" type="rule" targetId="5edf-d619-23e0-9b56"/>
           </infoLinks>
         </selectionEntry>
       </selectionEntries>
@@ -2435,6 +2442,11 @@ The Veteran Pilot may shoot, charge, and attack immediately after using this abi
     <entryLink import="true" name="Wall of Martyrs Defence Line [Legends]" hidden="false" type="selectionEntry" id="138c-e220-9e95-f8a3" targetId="64b7-a2df-416a-9963"/>
     <entryLink import="true" name="Imperial Fortress Walls [Legends]" hidden="false" type="selectionEntry" id="52a0-2f07-647b-30d0" targetId="f6f8-8759-3282-2ab"/>
     <entryLink import="true" name="Castellum Stronghold [Legends]" hidden="false" type="selectionEntry" id="e137-53d3-833-4389" targetId="20c8-d2-586d-623"/>
+    <entryLink import="true" name="Veteran Pilot" hidden="false" id="8ae3-bb48-f2a7-fdb5" targetId="99e9-c939-3852-eaef" type="selectionEntry">
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+      </costs>
+    </entryLink>
   </entryLinks>
   <categoryEntries>
     <categoryEntry name="Faction: Unaligned Forces" hidden="false" id="e1ff-c0fa-2ca7-3466">
@@ -2550,129 +2562,4 @@ The Veteran Pilot may shoot, charge, and attack immediately after using this abi
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
-  <selectionEntries>
-    <selectionEntry type="model" import="true" name="Veteran Pilot" hidden="false" id="3f24-9b38-3256-bba5">
-      <profiles>
-        <profile name="Veteran Pilot" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="47a6-a0b9-8bd9-f6f5">
-          <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
-            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">6</characteristic>
-            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Eject, Eject, Eject!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f0be-69dd-fcbc-2618">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If the unit with the Aircraft or Hover tags which this pilot is assigned to are killed, you may choose the result of the Deadly Demise roll. If the result of that roll is a 5 or less, this Pilot ejects from the aircraft.  Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be deployed anywhere within 6&quot; of that line.  If you choose an area off the map, this unit counts as EVACed and will be available for deployment in your next mission.
-The Veteran Pilot may shoot, charge, and attack immediately after using this ability.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Kill Me And See What Happens" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1e7b-4bde-b1c2-2e1e">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit automatically succeeds all Men Of The Hour rolls.  If take any damage (but survives the attack,) Men Of The Hour is triggered on this unit, and they gain +1 permanent wound.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="No Borders, Only Kings" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b39b-1646-8582-9627">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit gets the benefits of your faction as if it had your faction keyword.  It also gets access to your army rule and chosen detatchment rule.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Monarch" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a37a-b291-f8d0-bd52">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit cannot be selected like other units.  A Veteran Pilot may only added to your army if a standard Pilot EVACs from a mission.  You may have multiple Veteran Pilots if you EVACed several Pilots; for every Pilot EVACed, you may add one Veteran Pilot to your army for 50 points.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="A Broken Throne" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b537-84b6-251c-3128">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In the Declare Battle Formations step, you may assign this unit to an aircraft.  If applicable, they don&apos;t take up any transport space.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Can&apos;t Back Out Of This Deal" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b50b-79ab-02e6-fa41">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit is within 6&quot; of the map edge, they may go to ground and be removed from the battlefield during your command phase.  If this happens, this unit counts as being EVACed and will be available for deployment in your next mission.  Any permanent wound increases from Kill Me And See What Happens are kept between missions.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Remember Me" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a29b-382e-aedc-2707">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Unlike a standard Pilot, this unit may be deployed like normal units if you choose, though they can also still be assigned to an aircraft like a standard Pilot.  If you choose to deploy them like standard units, they don&apos;t take up any transport space.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Self Destruct" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0a9d-85f9-3e0e-21be">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may destroy the vehicle it&apos;s in at any time (during any phase) and trigger its Deadly Demise roll.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink name="Character" hidden="false" id="e351-8636-f767-99d0" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
-        <categoryLink name="Grenades" hidden="false" id="36ae-4743-8de5-2568" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
-        <categoryLink name="Infantry" hidden="false" id="48a1-ff94-5b1f-497e" targetId="cf47-a0d7-7207-29dc" primary="false"/>
-        <categoryLink name="Faction: Any" hidden="false" id="e440-2861-5ab3-cf9b" targetId="ba60-be43-82a0-9d2d" primary="false"/>
-        <categoryLink name="Pilot" hidden="false" id="bdee-2a9f-4a8d-044a" targetId="8824-eb56-e4b8-3644" primary="false"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="50"/>
-      </costs>
-      <modifiers>
-        <modifier type="set-primary" value="9cfd-1c32-585f-7d5c" field="category"/>
-      </modifiers>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Smart Pistol" hidden="false" id="1080-6349-d9f1-7171" sortIndex="1">
-          <profiles>
-            <profile name="Smart Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="ed6d-772e-15c0-ba9b">
-              <characteristics>
-                <characteristic name="Range" typeId="9896-9419-16a1-92fc">16&quot;</characteristic>
-                <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
-                <characteristic name="BS" typeId="94d-8a98-cf90-183e">N/A</characteristic>
-                <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
-                <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Assault, Ignores Cover, Torrent, Precision</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2fd1-072a-aa44-5522"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="36ac-3ab3-ab21-d911"/>
-          </constraints>
-          <infoLinks>
-            <infoLink name="Pistol" id="d676-f702-32f1-67f4" hidden="false" type="rule" targetId="8bf7-8812-923d-29e4"/>
-            <infoLink name="Assault" id="c636-7cc0-6ece-8740" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
-            <infoLink name="Torrent" id="d315-d296-a564-e0a0" hidden="false" type="rule" targetId="5edf-d619-23e0-9b56"/>
-            <infoLink name="Ignores Cover" id="3bb2-85cd-3541-f3e4" hidden="false" type="rule" targetId="4640-43e7-30b-215a"/>
-            <infoLink name="Precision" id="e610-100f-3b20-5bf0" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
-          </infoLinks>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Data Knife" hidden="false" id="7a03-4028-5f73-21b3" sortIndex="2">
-          <profiles>
-            <profile name="Data Knife" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="8404-e073-5a81-0a43">
-              <characteristics>
-                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
-                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">N/A</characteristic>
-                <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
-                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
-                <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Torrent, Twin-linked</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="496b-6712-c725-ef40"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="16ac-391f-8ffb-72ae"/>
-          </constraints>
-          <infoLinks>
-            <infoLink name="Torrent" id="ca55-1f59-0a0c-7a38" hidden="false" type="rule" targetId="5edf-d619-23e0-9b56"/>
-            <infoLink name="Twin-linked" id="1662-a1e9-aa15-aa49" hidden="false" type="rule" targetId="cf93-ad4d-2f08-a79d"/>
-          </infoLinks>
-        </selectionEntry>
-      </selectionEntries>
-      <infoLinks>
-        <infoLink name="Lone Operative" id="df96-b935-71bc-1845" hidden="false" type="rule" targetId="a8a0-8fe7-898-e0f3"/>
-        <infoLink name="Invulnerable Save (4+)" id="af62-c981-db9e-b145" hidden="false" type="profile" targetId="4117-1c37-9dd8-b6ef"/>
-      </infoLinks>
-    </selectionEntry>
-  </selectionEntries>
 </catalogue>
