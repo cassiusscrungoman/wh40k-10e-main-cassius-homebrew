@@ -2162,8 +2162,75 @@ Designer’s Note: Place two Borewyrm Infestation tokens next to this model, re
         <infoLink name="Devastating Wounds" hidden="false" type="rule" id="88b8-ec5f-b7b3-cc91" targetId="be1e-ac8e-1e2c-3528"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Pilot" hidden="false" id="ee96-bb68-1bf1-99d1">
+      <profiles>
+        <profile name="Pilot" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="4185-b5ce-1dcd-e9af">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">5</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Emergency Disembarkation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0518-2d17-ed97-5753">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Whenever a unit with the Aircraft or Hover tags are killed and their Deadly Demise roll is resolved, if the result of that roll is a 5 or less, this Pilot ejects from the aircraft.  Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be deployed anywhere within 6&quot; of that line.  If you choose an area off the map, this unit counts as EVACed and will be available for deployment in your next mission.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Out Of The Frying Pan, Into The Fire" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fa8b-5deb-e52f-9d24">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit automatically succeeds all Men Of The Hour rolls.  If they&apos;re reduced to 1 HP (but survive the attack,) Men Of The Hour is triggered on this unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Invuln Save 5+" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dcc8-545f-5555-a2ee"/>
+        <profile name="Emergency Sidearm" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="e6a4-ddfe-54b7-70e3">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Assault, Pistol</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Emergency Combat Knife" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="d3fd-d96b-1b97-75be">
+          <characteristics>
+            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
+            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+            <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Lone Operative" id="1a09-968d-e331-3dcf" hidden="false" publicationId="48fc-15aa-b307-9443">
+          <description>Unless part of an Attached unit, this unit can only be selected as the target of a ranged attack if the attacking model is within 12&quot;.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink name="Character" hidden="false" id="b010-10a0-4e2f-b3b8" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
+        <categoryLink name="Faction: All" hidden="false" id="1d84-43e2-6fb5-7dd6" targetId="57c4-bc41-2fc0-8f4f" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+      </costs>
+      <modifiers>
+        <modifier type="set-primary" value="9cfd-1c32-585f-7d5c" field="category"/>
+      </modifiers>
+    </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
+    <entryLink targetId="ee96-bb68-1bf1-99d1" id="540f-c1c0-633c-809d" type="selectionEntry" name="Pilot" hidden="false">
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="1"/>
+      </costs>
+    </entryLink>
     <entryLink import="true" name="Aegis Defence Line with Weapon Emplacement [Legends]" hidden="false" type="selectionEntry" id="33b3-aedd-9cc0-f799" targetId="5b1d-134a-9996-b634"/>
     <entryLink import="true" name="Ambull [Legends]" hidden="false" type="selectionEntry" id="60d8-7d2-71d-6e4a" targetId="e85b-17c7-1ad9-8375"/>
     <entryLink import="true" name="Bastion [Legends]" hidden="false" type="selectionEntry" id="89f2-5111-a9c4-6016" targetId="5134-5fe9-e489-43c4"/>
@@ -2291,69 +2358,4 @@ Designer’s Note: Place two Borewyrm Infestation tokens next to this model, re
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
-  <selectionEntries>
-    <selectionEntry type="model" import="true" name="Pilot" hidden="false" id="ee96-bb68-1bf1-99d1">
-      <profiles>
-        <profile name="Pilot" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="4185-b5ce-1dcd-e9af">
-          <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
-            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">5</characteristic>
-            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Emergency Disembarkation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0518-2d17-ed97-5753">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Whenever a unit with the Aircraft or Hover tags are killed and their Deadly Demise roll is resolved, if the result of that roll is a 5 or less, this Pilot ejects from the aircraft.  Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be deployed anywhere within 6&quot; of that line.  If you choose an area off the map, this unit counts as EVACed and will be available for deployment in your next mission.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Out Of The Frying Pan, Into The Fire" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fa8b-5deb-e52f-9d24">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit automatically succeeds all Men Of The Hour rolls.  If they&apos;re reduced to 1 HP (but survive the attack,) Men Of The Hour is triggered on this unit.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Invuln Save 5+" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dcc8-545f-5555-a2ee"/>
-        <profile name="Emergency Sidearm" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="e6a4-ddfe-54b7-70e3">
-          <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Assault, Pistol</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Emergency Combat Knife" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="d3fd-d96b-1b97-75be">
-          <characteristics>
-            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
-            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
-            <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
-            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-            <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule name="Lone Operative" id="1a09-968d-e331-3dcf" hidden="false" publicationId="48fc-15aa-b307-9443">
-          <description>Unless part of an Attached unit, this unit can only be selected as the target of a ranged attack if the attacking model is within 12&quot;.</description>
-        </rule>
-      </rules>
-      <categoryLinks>
-        <categoryLink name="Character" hidden="false" id="b010-10a0-4e2f-b3b8" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
-        <categoryLink name="Faction: All" hidden="false" id="1d84-43e2-6fb5-7dd6" targetId="57c4-bc41-2fc0-8f4f" primary="false"/>
-        <categoryLink name="Faction: Unaligned Forces" hidden="false" id="691f-3b47-63d3-84c8" targetId="e1ff-c0fa-2ca7-3466" primary="false"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="1"/>
-      </costs>
-      <modifiers>
-        <modifier type="set-primary" value="9cfd-1c32-585f-7d5c" field="category"/>
-      </modifiers>
-    </selectionEntry>
-  </selectionEntries>
 </catalogue>
