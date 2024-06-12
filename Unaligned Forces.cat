@@ -2226,6 +2226,7 @@ Designer’s Note: Place two Borewyrm Infestation tokens next to this model, re
         <categoryLink name="Grenades" hidden="false" id="c88b-c538-4007-3f4e" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
         <categoryLink name="Infantry" hidden="false" id="b316-5af0-627d-a6ef" targetId="cf47-a0d7-7207-29dc" primary="false"/>
         <categoryLink name="Faction: Any" hidden="false" id="b899-b5d0-6114-e646" targetId="ba60-be43-82a0-9d2d" primary="false"/>
+        <categoryLink name="Pilot" hidden="false" id="cc85-396b-bb96-5e22" targetId="8824-eb56-e4b8-3644" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
@@ -2343,6 +2344,7 @@ The Veteran Pilot may shoot, charge, and attack immediately after using this abi
         <categoryLink name="Grenades" hidden="false" id="871d-151c-4cee-0004" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
         <categoryLink name="Infantry" hidden="false" id="c8fe-8ab2-31e3-983b" targetId="cf47-a0d7-7207-29dc" primary="false"/>
         <categoryLink name="Faction: Any" hidden="false" id="d88e-a02f-ba3d-1104" targetId="ba60-be43-82a0-9d2d" primary="false"/>
+        <categoryLink name="Pilot" hidden="false" id="31bb-1755-f7fa-bd24" targetId="8824-eb56-e4b8-3644" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="50"/>
@@ -2475,6 +2477,7 @@ The Veteran Pilot may shoot, charge, and attack immediately after using this abi
     <categoryEntry name="Castellum Stronghold" hidden="false" id="10ec-c57f-1acc-6db7"/>
     <categoryEntry name="Faction: All" id="57c4-bc41-2fc0-8f4f" hidden="false"/>
     <categoryEntry name="Faction: Any" id="ba60-be43-82a0-9d2d" hidden="false"/>
+    <categoryEntry name="Pilot" id="8824-eb56-e4b8-3644" hidden="false"/>
   </categoryEntries>
   <sharedProfiles>
     <profile name="Reinforced Cover" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="241c-8bed-ca28-f77">
@@ -2550,7 +2553,7 @@ The Veteran Pilot may shoot, charge, and attack immediately after using this abi
   <selectionEntries>
     <selectionEntry type="model" import="true" name="Veteran Pilot" hidden="false" id="3f24-9b38-3256-bba5">
       <profiles>
-        <profile name="Pilot" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="47a6-a0b9-8bd9-f6f5">
+        <profile name="Veteran Pilot" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="47a6-a0b9-8bd9-f6f5">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
@@ -2607,6 +2610,7 @@ The Veteran Pilot may shoot, charge, and attack immediately after using this abi
         <categoryLink name="Grenades" hidden="false" id="36ae-4743-8de5-2568" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
         <categoryLink name="Infantry" hidden="false" id="48a1-ff94-5b1f-497e" targetId="cf47-a0d7-7207-29dc" primary="false"/>
         <categoryLink name="Faction: Any" hidden="false" id="e440-2861-5ab3-cf9b" targetId="ba60-be43-82a0-9d2d" primary="false"/>
+        <categoryLink name="Pilot" hidden="false" id="bdee-2a9f-4a8d-044a" targetId="8824-eb56-e4b8-3644" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="50"/>
