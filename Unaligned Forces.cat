@@ -2184,42 +2184,19 @@ Designer’s Note: Place two Borewyrm Infestation tokens next to this model, re
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit automatically succeeds all Men Of The Hour rolls.  If they&apos;re reduced to 1 HP (but survive the attack,) Men Of The Hour is triggered on this unit.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Invuln Save 5+" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dcc8-545f-5555-a2ee"/>
-        <profile name="Emergency Sidearm" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="e6a4-ddfe-54b7-70e3">
-          <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Assault, Pistol</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Emergency Combat Knife" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="d3fd-d96b-1b97-75be">
-          <characteristics>
-            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
-            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
-            <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
-            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-            <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
-          </characteristics>
-        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink name="Character" hidden="false" id="b010-10a0-4e2f-b3b8" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
         <categoryLink name="Faction: All" hidden="false" id="1d84-43e2-6fb5-7dd6" targetId="57c4-bc41-2fc0-8f4f" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="1"/>
       </costs>
       <modifiers>
         <modifier type="set-primary" value="9cfd-1c32-585f-7d5c" field="category"/>
       </modifiers>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Emergency Sidearm" hidden="false" id="6d52-7cad-9fb9-0a89">
+        <selectionEntry type="upgrade" import="true" name="Emergency Sidearm" hidden="false" id="6d52-7cad-9fb9-0a89" sortIndex="1">
           <profiles>
             <profile name="Emergency Sidearm" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="4c27-8ebe-950f-dc2e">
               <characteristics>
@@ -2241,7 +2218,7 @@ Designer’s Note: Place two Borewyrm Infestation tokens next to this model, re
             <infoLink name="Pistol" id="9dff-1fa5-abe9-3a0e" hidden="false" type="rule" targetId="8bf7-8812-923d-29e4"/>
           </infoLinks>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Emergency Combat Knife" hidden="false" id="a029-d9e1-13c3-7190">
+        <selectionEntry type="upgrade" import="true" name="Emergency Combat Knife" hidden="false" id="a029-d9e1-13c3-7190" sortIndex="2">
           <profiles>
             <profile name="Emergency Combat Knife" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="ab86-1d66-9c4f-afaf">
               <characteristics>
@@ -2260,6 +2237,15 @@ Designer’s Note: Place two Borewyrm Infestation tokens next to this model, re
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9da1-f13c-2c37-86b6"/>
           </constraints>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Emergency Disembarkation" hidden="false" id="53bd-f417-0edb-537e">
+          <profiles>
+            <profile name="Emergency Disembarkation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ba4e-7ff2-b22a-4735">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Whenever a unit with the Aircraft or Hover tags are killed and their Deadly Demise roll is resolved, if the result of that roll is a 5 or less, this Pilot ejects from the aircraft. Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be deployed anywhere within 6&quot; of that line. If you choose an area off the map, this unit counts as EVACed and will be available for deployment in your next mission.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
       </selectionEntries>
       <infoLinks>
         <infoLink name="Lone Operative" id="34d6-4eb6-e7c6-2ff0" hidden="false" type="rule" targetId="a8a0-8fe7-898-e0f3"/>
@@ -2267,9 +2253,9 @@ Designer’s Note: Place two Borewyrm Infestation tokens next to this model, re
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
-    <entryLink targetId="ee96-bb68-1bf1-99d1" id="540f-c1c0-633c-809d" type="selectionEntry" name="Pilot" hidden="false">
+    <entryLink targetId="ee96-bb68-1bf1-99d1" id="540f-c1c0-633c-809d" type="selectionEntry" name="Pilot" hidden="false" import="true">
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="1"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
       </costs>
     </entryLink>
     <entryLink import="true" name="Aegis Defence Line with Weapon Emplacement [Legends]" hidden="false" type="selectionEntry" id="33b3-aedd-9cc0-f799" targetId="5b1d-134a-9996-b634"/>
