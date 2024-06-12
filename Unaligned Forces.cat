@@ -2181,7 +2181,12 @@ Designer’s Note: Place two Borewyrm Infestation tokens next to this model, re
         </profile>
         <profile name="Out Of The Frying Pan, Into The Fire" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fa8b-5deb-e52f-9d24">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit automatically succeeds all Men Of The Hour rolls.  If they&apos;re reduced to 1 HP (but survive the attack,) Men Of The Hour is triggered on this unit.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit automatically succeeds all Men Of The Hour rolls.  If they&apos;re reduced to 1 wound (but survive the attack,) Men Of The Hour is triggered on this unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="No Borders, Only Kings" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fc46-721b-6d55-48c6">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit gets the benefits of your faction as if it had your faction keyword.  It also gets access to your army rule and chosen detatchment rule.</characteristic>
           </characteristics>
         </profile>
       </profiles>
