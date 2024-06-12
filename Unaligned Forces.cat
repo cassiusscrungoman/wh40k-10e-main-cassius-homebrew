@@ -2162,7 +2162,7 @@ Designer’s Note: Place two Borewyrm Infestation tokens next to this model, re
         <infoLink name="Devastating Wounds" hidden="false" type="rule" id="88b8-ec5f-b7b3-cc91" targetId="be1e-ac8e-1e2c-3528"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Pilot" hidden="false" id="ee96-bb68-1bf1-99d1">
+    <selectionEntry type="model" import="true" name="Pilot" hidden="false" id="ee96-bb68-1bf1-99d1">
       <profiles>
         <profile name="Pilot" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="4185-b5ce-1dcd-e9af">
           <characteristics>
@@ -2213,6 +2213,13 @@ Designer’s Note: Place two Borewyrm Infestation tokens next to this model, re
           <description>Unless part of an Attached unit, this unit can only be selected as the target of a ranged attack if the attacking model is within 12&quot;.</description>
         </rule>
       </rules>
+      <categoryLinks>
+        <categoryLink name="Character" hidden="false" id="b010-10a0-4e2f-b3b8" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
+        <categoryLink name="Faction: All" hidden="false" id="1d84-43e2-6fb5-7dd6" targetId="57c4-bc41-2fc0-8f4f" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="1"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
@@ -2276,6 +2283,7 @@ Designer’s Note: Place two Borewyrm Infestation tokens next to this model, re
     <categoryEntry name="Spindle Drones" hidden="false" id="cade-8bdc-1e52-e011"/>
     <categoryEntry name="Defence Emplacement" hidden="false" id="5d7b-c048-8c24-5043"/>
     <categoryEntry name="Castellum Stronghold" hidden="false" id="10ec-c57f-1acc-6db7"/>
+    <categoryEntry name="Faction: All" id="57c4-bc41-2fc0-8f4f" hidden="false"/>
   </categoryEntries>
   <sharedProfiles>
     <profile name="Reinforced Cover" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="241c-8bed-ca28-f77">
