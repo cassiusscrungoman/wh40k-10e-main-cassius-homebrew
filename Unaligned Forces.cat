@@ -2176,17 +2176,48 @@ Designer’s Note: Place two Borewyrm Infestation tokens next to this model, re
         </profile>
         <profile name="Emergency Disembarkation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0518-2d17-ed97-5753">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Whenever a unit with the Aircraft or Hover tags are killed and their Deadly Demise roll is resolved, if the result of that roll is a 5 or less, this Pilot ejects from the aircraft.  Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be deployed anywhere within 6&quot; of that line.  If you choose an area off the map, this unit counts as EVACed and will be available for deployment in your next mission.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If the unit with the Aircraft or Hover tags which this pilot is assigned to are killed and their Deadly Demise roll is resolved, if the result of that roll is a 5 or less, this Pilot ejects from the aircraft.  Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be deployed anywhere within 6&quot; of that line.  If you choose an area off the map, this unit counts as EVACed and will be available for deployment in your next mission.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Out Of The Frying Pan, Into The Fire" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fa8b-5deb-e52f-9d24">
+        <profile name="No Wingmen" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fa8b-5deb-e52f-9d24">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit automatically succeeds all Men Of The Hour rolls.  If they&apos;re reduced to 1 wound (but survive the attack,) Men Of The Hour is triggered on this unit.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit automatically succeeds all Men Of The Hour rolls.  If they&apos;re reduced to half strength (but survive the attack,) Men Of The Hour is triggered on this unit.</characteristic>
           </characteristics>
         </profile>
         <profile name="No Borders, Only Kings" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fc46-721b-6d55-48c6">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit gets the benefits of your faction as if it had your faction keyword.  It also gets access to your army rule and chosen detatchment rule.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Whoever Wins Is The Best Pilot" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d423-dfd4-cdb7-65cd">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit cannot be selected like other units.  A pilot is automatically added to your army whenever you add a unit with the Aircraft tag, and this can happen multiple times.  They cannot be deployed onto the field and must be placed in reserves.  They are only deployed when Emergency Disembarkation is triggered.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="A Golden Throne" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="67c7-2e8c-fd08-e92c">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In the Declare Battle Formations step, assign this unit to an aircraft.  If applicable, they don&apos;t take up any transport space.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Can&apos;t Back Out Of This Deal" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f31d-8fb9-93ce-8f37">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit is within 6&quot; of the map edge, they may go to ground and be removed from the battlefield during your command phase.  If this happens, this unit counts as being EVACed and will be available for deployment in your next mission.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="No...Not yet." typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="66d5-0c29-d687-ba5d">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit has EVACed, in its next mission it becomes a Veteran Pilot.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Invulnerable Save (5+)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dfff-0733-216e-286e">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save</characteristic>
+          </characteristics>
+          <comment>5+ Single model</comment>
+        </profile>
+        <profile name="Self Destruct" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9ae9-e06c-e6e9-37bb">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may destroy the vehicle it&apos;s in at any time and trigger its Deadly Demise roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2233,10 +2264,10 @@ Designer’s Note: Place two Borewyrm Infestation tokens next to this model, re
                 <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                 <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
                 <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
-                <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
                 <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Twin-linked</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2244,10 +2275,135 @@ Designer’s Note: Place two Borewyrm Infestation tokens next to this model, re
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7f45-1c1f-f967-7e3c"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9da1-f13c-2c37-86b6"/>
           </constraints>
+          <infoLinks>
+            <infoLink name="Twin-linked" id="cf08-e299-7ccd-bb25" hidden="false" type="rule" targetId="cf93-ad4d-2f08-a79d"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
         <infoLink name="Lone Operative" id="34d6-4eb6-e7c6-2ff0" hidden="false" type="rule" targetId="a8a0-8fe7-898-e0f3"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Veteran Pilot" hidden="false" id="99e9-c939-3852-eaef">
+      <profiles>
+        <profile name="Pilot" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="2ba6-91ee-fb86-fd6b">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">6</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Eject, Eject, Eject!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e9ea-2708-6bda-bad0">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If the unit with the Aircraft or Hover tags which this pilot is assigned to are killed, you may choose the result of the Deadly Demise roll. If the result of that roll is a 5 or less, this Pilot ejects from the aircraft.  Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be deployed anywhere within 6&quot; of that line.  If you choose an area off the map, this unit counts as EVACed and will be available for deployment in your next mission.
+The Veteran Pilot may shoot, charge, and attack immediately after using this ability.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Kill Me And See What Happens" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6f8e-081d-c2b9-2415">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit automatically succeeds all Men Of The Hour rolls.  If take any damage (but survives the attack,) Men Of The Hour is triggered on this unit, and they gain +1 permanent wound.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="No Borders, Only Kings" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="030d-0e1a-22dd-c2da">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit gets the benefits of your faction as if it had your faction keyword.  It also gets access to your army rule and chosen detatchment rule.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Monarch" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="299f-fd42-32d6-31a2">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit cannot be selected like other units.  A Veteran Pilot may only added to your army if a standard Pilot EVACs from a mission.  You may have multiple Veteran Pilots if you EVACed several Pilots; for every Pilot EVACed, you may add one Veteran Pilot to your army for 50 points.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="A Broken Throne" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="67a9-cc82-b510-1c96">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In the Declare Battle Formations step, you may assign this unit to an aircraft.  If applicable, they don&apos;t take up any transport space.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Can&apos;t Back Out Of This Deal" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6d21-7062-14b9-b32e">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit is within 6&quot; of the map edge, they may go to ground and be removed from the battlefield during your command phase.  If this happens, this unit counts as being EVACed and will be available for deployment in your next mission.  Any permanent wound increases from Kill Me And See What Happens are kept between missions.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Remember Me" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f045-069b-323a-da41">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Unlike a standard Pilot, this unit may be deployed like normal units if you choose, though they can also still be assigned to an aircraft like a standard Pilot.  If you choose to deploy them like standard units, they don&apos;t take up any transport space.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Self Destruct" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="def0-3b9c-82ea-da6c">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may destroy the vehicle it&apos;s in at any time (during any phase) and trigger its Deadly Demise roll.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Character" hidden="false" id="a000-8975-2bf8-1c23" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
+        <categoryLink name="Grenades" hidden="false" id="871d-151c-4cee-0004" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
+        <categoryLink name="Infantry" hidden="false" id="c8fe-8ab2-31e3-983b" targetId="cf47-a0d7-7207-29dc" primary="false"/>
+        <categoryLink name="Faction: Any" hidden="false" id="d88e-a02f-ba3d-1104" targetId="ba60-be43-82a0-9d2d" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="50"/>
+      </costs>
+      <modifiers>
+        <modifier type="set-primary" value="9cfd-1c32-585f-7d5c" field="category"/>
+      </modifiers>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Smart Pistol" hidden="false" id="d765-f85d-dd3d-f687" sortIndex="1">
+          <profiles>
+            <profile name="Smart Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="6203-8c93-93d4-3e88">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">16&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">N/A</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Assault, Ignores Cover, Torrent, Precision</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3528-fa6f-d345-a94a"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cff2-12fe-2f15-a826"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Pistol" id="15c5-a57e-978e-870c" hidden="false" type="rule" targetId="8bf7-8812-923d-29e4"/>
+            <infoLink name="Assault" id="941b-1c74-3342-e055" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
+            <infoLink name="Torrent" id="fd47-515f-2548-772b" hidden="false" type="rule" targetId="5edf-d619-23e0-9b56"/>
+            <infoLink name="Ignores Cover" id="6923-4b48-1808-5585" hidden="false" type="rule" targetId="4640-43e7-30b-215a"/>
+            <infoLink name="Precision" id="574b-7678-d769-65aa" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Data Knife" hidden="false" id="9017-3fe2-f35c-f704" sortIndex="2">
+          <profiles>
+            <profile name="Data Knife" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="6b58-0972-c32f-4863">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">N/A</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Torrent, Twin-linked</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="209b-c5e6-c5a0-6fa4"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5635-5a65-7b83-f4c6"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Torrent" id="8383-00f4-93a0-f6da" hidden="false" type="rule" targetId="5edf-d619-23e0-9b56"/>
+            <infoLink name="Twin-linked" id="9891-9cdc-3a91-5d58" hidden="false" type="rule" targetId="cf93-ad4d-2f08-a79d"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Lone Operative" id="41da-4f65-bfbe-0be1" hidden="false" type="rule" targetId="a8a0-8fe7-898-e0f3"/>
+        <infoLink name="Invulnerable Save (4+)" id="d765-1177-5810-9268" hidden="false" type="profile" targetId="4117-1c37-9dd8-b6ef"/>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -2371,6 +2527,12 @@ Designer’s Note: Place two Borewyrm Infestation tokens next to this model, re
       <characteristics>
         <characteristic name="Description" typeId="9b8f-694b-e5e-b573">You can only include this FORTIFICATION in your army in games of Onslaught size or greater.</characteristic>
       </characteristics>
+    </profile>
+    <profile name="Invulnerable Save (4+)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4117-1c37-9dd8-b6ef">
+      <characteristics>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 4+ invulnerable save</characteristic>
+      </characteristics>
+      <comment>5+ Single model</comment>
     </profile>
   </sharedProfiles>
   <sharedSelectionEntryGroups>
