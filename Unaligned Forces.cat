@@ -2206,7 +2206,7 @@ Designer’s Note: Place two Borewyrm Infestation tokens next to this model, re
         </profile>
         <profile name="No...Not yet." typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="66d5-0c29-d687-ba5d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit successfully EVACs, it will be available in your next mission as a Veteran Pilot.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit successfully EVACs or survives until the end of the batle, it will be available in your next mission as a Veteran Pilot.</characteristic>
           </characteristics>
         </profile>
         <profile name="Invulnerable Save (5+)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dfff-0733-216e-286e">
@@ -2287,7 +2287,7 @@ Designer’s Note: Place two Borewyrm Infestation tokens next to this model, re
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Veteran Pilot" hidden="false" id="99e9-c939-3852-eaef">
       <profiles>
-        <profile name="Pilot" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="2ba6-91ee-fb86-fd6b">
+        <profile name="Veteran Pilot" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="2ba6-91ee-fb86-fd6b">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
@@ -2315,7 +2315,7 @@ The Veteran Pilot may shoot, charge, and attack immediately after using this abi
         </profile>
         <profile name="Monarch" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="299f-fd42-32d6-31a2">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit cannot be added to your army like other units.  A Veteran Pilot may only added to your army if a standard Pilot EVACs from a mission.  You may have multiple Veteran Pilots if you EVACed several Pilots; for every Pilot EVACed, you may add one Veteran Pilot to your army for 50 points.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit cannot be added to your army like other units.  A Veteran Pilot may only added to your army if a standard Pilot EVACs from a mission, or if they survive until the end of the battle.  You may have multiple Veteran Pilots if you EVACed several Pilots; for every Pilot who either EVACed or survived, you may add one Veteran Pilot to your army for 50 points.</characteristic>
           </characteristics>
         </profile>
         <profile name="A Broken Throne" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="67a9-cc82-b510-1c96">
