@@ -2498,11 +2498,6 @@ The Veteran Pilot may shoot, charge, and attack immediately after using this abi
         <cost name="pts" typeId="51b2-306e-1021-d207" value="50"/>
       </costs>
     </entryLink>
-    <entryLink import="true" name="Veteran Pilot" hidden="false" id="9f78-bc0c-cd9a-97d7" targetId="99e9-c939-3852-eaef" type="selectionEntry">
-      <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="50"/>
-      </costs>
-    </entryLink>
     <entryLink import="true" name="EVAC Ship" hidden="false" id="2b39-e930-e130-715c" type="selectionEntry" targetId="017f-b1c3-19c1-1c6d">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="force" shared="true" id="460e-c15b-78a1-b50d" includeChildSelections="false"/>
