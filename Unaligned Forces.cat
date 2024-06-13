@@ -2191,7 +2191,7 @@ Designer’s Note: Place two Borewyrm Infestation tokens next to this model, re
         </profile>
         <profile name="Whoever Wins Is The Best Pilot" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d423-dfd4-cdb7-65cd">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit cannot be selected like other units.  A pilot is automatically added to your army whenever you add a unit with the Aircraft tag, and this can happen multiple times.  They cannot be deployed onto the field and must be placed in reserves.  They are only deployed when Emergency Disembarkation is triggered.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit cannot be added to your army like other units.  A pilot is automatically added to your army whenever you add a unit with the Aircraft tag, and this can happen multiple times.  They cannot be deployed onto the field and must be placed in reserves.  They are only deployed when Emergency Disembarkation is triggered.</characteristic>
           </characteristics>
         </profile>
         <profile name="A Golden Throne" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="67c7-2e8c-fd08-e92c">
@@ -2206,7 +2206,7 @@ Designer’s Note: Place two Borewyrm Infestation tokens next to this model, re
         </profile>
         <profile name="No...Not yet." typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="66d5-0c29-d687-ba5d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit has EVACed, in its next mission it becomes a Veteran Pilot.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit successfully EVACs, it will be available in your next mission as a Veteran Pilot.</characteristic>
           </characteristics>
         </profile>
         <profile name="Invulnerable Save (5+)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dfff-0733-216e-286e">
@@ -2217,7 +2217,7 @@ Designer’s Note: Place two Borewyrm Infestation tokens next to this model, re
         </profile>
         <profile name="Self Destruct" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9ae9-e06c-e6e9-37bb">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may destroy the vehicle it&apos;s in at any time and trigger its Deadly Demise roll.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may destroy the vehicle it&apos;s in at any time (during any phase) and trigger its Deadly Demise roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2305,7 +2305,7 @@ The Veteran Pilot may shoot, charge, and attack immediately after using this abi
         </profile>
         <profile name="Kill Me And See What Happens" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6f8e-081d-c2b9-2415">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit automatically succeeds all Men Of The Hour rolls.  If take any damage (but survives the attack,) Men Of The Hour is triggered on this unit, and they gain +1 permanent wound.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit automatically succeeds all Men Of The Hour rolls.  If they take any damage (but survives the attack), Men Of The Hour is triggered on this unit, and they gain +1 permanent wound.</characteristic>
           </characteristics>
         </profile>
         <profile name="No Borders, Only Kings" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="030d-0e1a-22dd-c2da">
@@ -2315,7 +2315,7 @@ The Veteran Pilot may shoot, charge, and attack immediately after using this abi
         </profile>
         <profile name="Monarch" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="299f-fd42-32d6-31a2">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit cannot be selected like other units.  A Veteran Pilot may only added to your army if a standard Pilot EVACs from a mission.  You may have multiple Veteran Pilots if you EVACed several Pilots; for every Pilot EVACed, you may add one Veteran Pilot to your army for 50 points.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit cannot be added to your army like other units.  A Veteran Pilot may only added to your army if a standard Pilot EVACs from a mission.  You may have multiple Veteran Pilots if you EVACed several Pilots; for every Pilot EVACed, you may add one Veteran Pilot to your army for 50 points.</characteristic>
           </characteristics>
         </profile>
         <profile name="A Broken Throne" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="67a9-cc82-b510-1c96">
@@ -2414,6 +2414,58 @@ The Veteran Pilot may shoot, charge, and attack immediately after using this abi
         <infoLink name="Invulnerable Save (4+)" id="d765-1177-5810-9268" hidden="false" type="profile" targetId="4117-1c37-9dd8-b6ef"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="EVAC Ship" hidden="false" id="017f-b1c3-19c1-1c6d">
+      <profiles>
+        <profile name="EVAC Ship" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="8661-8471-eab4-617d">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">20&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">5+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">20</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="No Borders, Only Kings" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bcdf-f2ca-3394-c1ba">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit gets the benefits of your faction as if it had your faction keyword.  It also gets access to your army rule and chosen detatchment rule.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Whoever Wins Is The Best Pilot" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b19c-4f12-2643-8845">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit cannot be added to your army like other units.  EVAC Ship(s) are automatically added to your army.  You may have up to 2 EVAC Ships, with a total pool of 20 wounds between them split evenly.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Saviors From The Skies" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8a6a-be1d-162e-9e83">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In the Declare Battle Formations step, this unit cannot be deployed to the field.  It is only deployed when Call For EVAC is called.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Can&apos;t Back Out Of This Deal" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="62ef-5e56-a639-9c2f">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit is within 6&quot; of the map edge or map center, they may go to ground and be removed from the battlefield during your command phase.  If this happens, this unit (and any embarked within) counts as being EVACed and will be available for deployment in your next mission.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Faction: Any" hidden="false" id="00d9-7998-e5aa-52a0" targetId="ba60-be43-82a0-9d2d" primary="false"/>
+        <categoryLink name="Dedicated Transport" hidden="false" id="f292-705a-d59c-5ead" targetId="ba07-411c-2832-1f79" primary="false"/>
+        <categoryLink name="Vehicle" hidden="false" id="0412-8b4d-b428-422c" targetId="dbd4-63-af05-998" primary="false"/>
+        <categoryLink name="Fly" hidden="false" id="2e11-37a8-92ed-7fc5" targetId="c619-2086-bbcf-69c9" primary="false"/>
+        <categoryLink name="Transport" hidden="false" id="a93a-7898-f79a-4eb1" targetId="75e8-57c4-40e3-1817" primary="false"/>
+        <categoryLink name="Smoke" hidden="false" id="b81b-4069-6480-d79d" targetId="6df-937-16bc-8c1a" primary="false"/>
+        <categoryLink name="Aircraft" hidden="false" id="805e-ddba-aeee-22ee" targetId="63f1-e6e8-f6f6-a4f0" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+      </costs>
+      <modifiers>
+        <modifier type="set-primary" value="ba07-411c-2832-1f79" field="category"/>
+      </modifiers>
+      <infoLinks>
+        <infoLink name="Hover" id="2675-cc42-c6c4-eabd" hidden="false" type="rule" targetId="eec5-5f54-9c03-c305"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
     <entryLink targetId="ee96-bb68-1bf1-99d1" id="540f-c1c0-633c-809d" type="selectionEntry" name="Pilot" hidden="false" import="true">
@@ -2445,6 +2497,17 @@ The Veteran Pilot may shoot, charge, and attack immediately after using this abi
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="50"/>
       </costs>
+    </entryLink>
+    <entryLink import="true" name="Veteran Pilot" hidden="false" id="9f78-bc0c-cd9a-97d7" targetId="99e9-c939-3852-eaef" type="selectionEntry">
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="50"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="EVAC Ship" hidden="false" id="2b39-e930-e130-715c" type="selectionEntry" targetId="017f-b1c3-19c1-1c6d">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="force" shared="true" id="460e-c15b-78a1-b50d" includeChildSelections="false"/>
+        <constraint type="max" value="2" field="selections" scope="force" shared="true" id="7e3c-2e1f-72d7-346e" includeChildSelections="false"/>
+      </constraints>
     </entryLink>
   </entryLinks>
   <categoryEntries>

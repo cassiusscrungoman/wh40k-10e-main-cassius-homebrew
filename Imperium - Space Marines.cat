@@ -6261,7 +6261,7 @@ by 1.</characteristic>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Dreadnought Combat Weapon w/ Storm Bolter" hidden="false" id="94b-7c6c-1d21-ce9e">
               <entryLinks>
-                <entryLink import="true" name="Dreadnought Power Fist" hidden="false" type="selectionEntry" id="4e00-1100-ecb8-733c" targetId="2693-7478-d47c-9699">
+                <entryLink import="true" name="Dreadnought Combat Weapon" hidden="false" type="selectionEntry" id="4e00-1100-ecb8-733c" targetId="2693-7478-d47c-9699">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d63e-3524-23a1-ddb2"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b925-585c-4c85-2cfc"/>
@@ -14534,6 +14534,11 @@ Attacks characteristic of 7.</characteristic>
 ■ Desolation Squad
 ■ Intercessor Squad
 ■ Tactical Squad</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="A Golden Throne" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b70a-cd82-1a43-f9ed">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In the Declare Battle Formations step, if you assign this unit to a transport, they don&apos;t take up any transport space.</characteristic>
           </characteristics>
         </profile>
       </profiles>
