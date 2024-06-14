@@ -2284,6 +2284,83 @@ Designer’s Note: Place two Borewyrm Infestation tokens next to this model, re
       <infoLinks>
         <infoLink name="Lone Operative" id="34d6-4eb6-e7c6-2ff0" hidden="false" type="rule" targetId="a8a0-8fe7-898-e0f3"/>
       </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Emergency Weapon Choice" id="6579-a442-034d-2fc8" hidden="false" defaultSelectionEntryId="26b7-e7cf-33d8-9abe">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Scout DMR" hidden="false" id="f15a-a7af-c32a-e8c3">
+              <infoLinks>
+                <infoLink name="Precision" id="81a2-f08b-6bc1-7690" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
+                <infoLink name="Lethal Hits" id="f719-7b94-d148-1919" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
+              </infoLinks>
+              <profiles>
+                <profile name="Scout DMR" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="a98f-d85e-8c8b-d40b">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Precision, Lethal Hits, Conversion</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule name="Conversion" id="d66a-82aa-f757-1d4d" hidden="false">
+                  <description>Each time an attack is made with this weapon, if the target is more than 12&quot; from the bearer, an unmodified successful Hit roll of 4+ scores a Critical Hit.</description>
+                  <comment>12&quot; variant</comment>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Alternator SMG" hidden="false" id="1ef2-a9c5-391b-13ea">
+              <profiles>
+                <profile name="Alternator SMG" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="0e17-a3d1-09f7-c258">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">20&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked, Pistol, Rapid Fire 4, Sustained Hits 1, Assault</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Assault" id="1622-471a-545a-77ee" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
+                <infoLink name="Sustained Hits" id="a4b7-cc53-941b-bf06" hidden="false" type="rule" targetId="1897-c22c-9597-12b1"/>
+                <infoLink name="Pistol" id="2faa-37b4-b280-eeca" hidden="false" type="rule" targetId="8bf7-8812-923d-29e4"/>
+                <infoLink name="Rapid Fire" id="59a4-63d0-9aa5-db9a" hidden="false" type="rule" targetId="c5c8-8b58-b8b6-7786"/>
+                <infoLink name="Psychic" id="bc6c-5c03-9d7e-1395" hidden="false" type="rule" targetId="e9c4-2bb8-12ee-cd1b"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Softball Grenade Launcher" hidden="false" id="87e5-ed53-7e4a-f362">
+              <profiles>
+                <profile name="Softball Grenade Launcher" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="b405-8c40-dcfc-fdd9">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Vehicle 3+, Devastating Wounds, Rapid Fire 2</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Anti-" id="1723-0ebc-35fd-1a82" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
+                <infoLink name="Devastating Wounds" id="6614-680d-f27c-86c2" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
+                <infoLink name="Rapid Fire" id="4186-c092-a086-b5c9" hidden="false" type="rule" targetId="c5c8-8b58-b8b6-7786"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="daa7-0989-12de-f86f"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f73e-b380-afa1-cab2"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Veteran Pilot" hidden="false" id="99e9-c939-3852-eaef">
       <profiles>
@@ -2343,6 +2420,11 @@ The Veteran Pilot may shoot, charge, and attack immediately after using this abi
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit destroys a vehicle with its Data Knife, that vehicle does not roll for Deadly Demise, nor is it&apos;s model removed from the battlefield.  That vehicle becomes an immovable Terrain Feature for the remainder of the battle.</characteristic>
           </characteristics>
         </profile>
+        <profile name="Switching To Your Pistol Is Always Faster Than Reloading!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6215-278c-bb86-6437">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may use weapons with the pistol tag as well as other weapons in the same shooting phase.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink name="Character" hidden="false" id="a000-8975-2bf8-1c23" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
@@ -2364,11 +2446,11 @@ The Veteran Pilot may shoot, charge, and attack immediately after using this abi
             <profile name="Smart Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="6203-8c93-93d4-3e88">
               <characteristics>
                 <characteristic name="Range" typeId="9896-9419-16a1-92fc">16&quot;</characteristic>
-                <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
                 <characteristic name="BS" typeId="94d-8a98-cf90-183e">N/A</characteristic>
                 <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
                 <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
                 <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Assault, Ignores Cover, Torrent, Precision</characteristic>
               </characteristics>
             </profile>
@@ -2392,7 +2474,7 @@ The Veteran Pilot may shoot, charge, and attack immediately after using this abi
                 <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                 <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
                 <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
-                <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
                 <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
                 <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds, Anti-Vehicle 4+</characteristic>
@@ -2413,6 +2495,101 @@ The Veteran Pilot may shoot, charge, and attack immediately after using this abi
         <infoLink name="Lone Operative" id="41da-4f65-bfbe-0be1" hidden="false" type="rule" targetId="a8a0-8fe7-898-e0f3"/>
         <infoLink name="Invulnerable Save (4+)" id="d765-1177-5810-9268" hidden="false" type="profile" targetId="4117-1c37-9dd8-b6ef"/>
       </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Pilot&apos;s Primary Weapon Choice" id="6ab0-51ba-0bba-7f36" hidden="false" defaultSelectionEntryId="26b7-e7cf-33d8-9abe">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Kraber" hidden="false" id="d694-909e-b7f1-71af">
+              <infoLinks>
+                <infoLink name="Precision" id="6d4b-2b78-abc3-94ef" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
+                <infoLink name="Anti-" id="7290-895a-73fd-2855" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
+                <infoLink name="Devastating Wounds" id="4bc3-5c8b-0a2c-4ca7" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
+                <infoLink name="Lethal Hits" id="2f25-64ce-1624-775f" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
+              </infoLinks>
+              <profiles>
+                <profile name="Kraber Armor Penetrating .50-cal Sniper Rifle" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="c196-3811-56a5-dab2">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">20</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">8</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Precision, Lethal Hits, Conversion, Anti-Infantry 3+, Devastating Wounds</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Been Hittin&apos; The Range Since Before You Were Born" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d418-3adf-7c86-2839">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this pilot selects the Kraber as their primary weapon choice, if they Remain Stationary, their weapon cannot miss.  This does not apply to overwatch.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule name="Conversion" id="f764-faf9-dd23-43c8" hidden="false">
+                  <description>Each time an attack is made with this weapon, if the target is more than 12&quot; from the bearer, an unmodified successful Hit roll of 4+ scores a Critical Hit.</description>
+                  <comment>12&quot; variant</comment>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Charge Rifle" hidden="false" id="5d5f-f448-88cf-3915">
+              <profiles>
+                <profile name="Charge Rifle" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="ce5f-f159-d35e-efb4">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked, Lethal Hits, Devastating Wounds, Anti-Vehicle 3+</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Charge Rifle" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8a16-8c6e-00d5-5df2">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this pilot selects the Charge Rifle as their primary weapon choice, if they target a Vehicle, add 1 to the attacks of their weapon.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Anti-" id="7c32-42ec-9998-3a2f" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
+                <infoLink name="Devastating Wounds" id="32f4-e629-cd3e-9d61" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
+                <infoLink name="Lethal Hits" id="5c21-f4f8-6ba8-06f7" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
+                <infoLink name="Twin-linked" id="a521-4908-7834-e10c" hidden="false" type="rule" targetId="cf93-ad4d-2f08-a79d"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Peacekeeper" hidden="false" id="5fd8-6d92-526e-c732">
+              <profiles>
+                <profile name="Peacekeeper" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="2884-19f6-52d8-7f0c">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">6&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">4</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Assault, Lance, Melta 2, Twin-linked, Precision</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Seein&apos; Red" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f23a-3d49-48e7-6d65">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this pilot selects the Peacekeeper as their primary weapon choice, when they make an Advance roll, add 6&quot; to their movement.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Assault" id="2eff-3f56-565d-ec9c" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
+                <infoLink name="Lance" id="a5c9-b91f-43cb-75f0" hidden="false" type="rule" targetId="2ebc-abdf-8129-6c57"/>
+                <infoLink name="Melta" id="747b-092a-dd08-0118" hidden="false" type="rule" targetId="7cdb-fb99-44a9-8849"/>
+                <infoLink name="Melta" id="8d8a-8d03-747c-3098" hidden="false" type="rule" targetId="7cdb-fb99-44a9-8849"/>
+                <infoLink name="Precision" id="a9aa-2b0e-852a-f9f2" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="de8a-736c-d640-6481"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9015-e0a4-4941-3b0c"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="EVAC Ship" hidden="false" id="017f-b1c3-19c1-1c6d">
       <profiles>
