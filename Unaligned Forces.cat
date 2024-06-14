@@ -2362,7 +2362,7 @@ Designer’s Note: Place two Borewyrm Infestation tokens next to this model, re
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Veteran Pilot" hidden="false" id="99e9-c939-3852-eaef">
+    <selectionEntry type="model" import="true" name="G1 Pilot" hidden="false" id="99e9-c939-3852-eaef">
       <profiles>
         <profile name="Veteran Pilot" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="2ba6-91ee-fb86-fd6b">
           <characteristics>
