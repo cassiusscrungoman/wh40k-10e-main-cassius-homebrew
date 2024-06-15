@@ -2624,11 +2624,11 @@ Additionally, as a rule clarification, Melta works if the target is within half 
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9015-e0a4-4941-3b0c"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Pilot&apos;s Secondary Weapon Choice" id="6fc7-2136-29d7-bda9" hidden="false">
+        <selectionEntryGroup name="Pilot&apos;s Primary Weapon Choice" id="1616-7181-db9c-add4" hidden="false" defaultSelectionEntryId="26b7-e7cf-33d8-9abe">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Smart Pistol" hidden="false" id="4db5-f00b-0363-ffd4">
+            <selectionEntry type="upgrade" import="true" name="Smart Pistol" hidden="false" id="509b-4b25-143c-0eca">
               <profiles>
-                <profile name="Smart Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="d6ab-63cf-62eb-6c35">
+                <profile name="Smart Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="ad8b-de46-2ec1-fb78">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
@@ -2641,20 +2641,20 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                 </profile>
               </profiles>
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ec62-0aad-6b11-8362"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2a5f-5f1e-7d43-a5b3"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b15f-d892-1ea4-50ae"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fc93-a106-642e-ec07"/>
               </constraints>
               <infoLinks>
-                <infoLink name="Pistol" id="4515-057d-f346-a216" hidden="false" type="rule" targetId="8bf7-8812-923d-29e4"/>
-                <infoLink name="Assault" id="c717-50e5-0fa9-abe0" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
-                <infoLink name="Torrent" id="3401-b94a-de0d-88a7" hidden="false" type="rule" targetId="5edf-d619-23e0-9b56"/>
-                <infoLink name="Ignores Cover" id="92e0-cafe-afea-6cf5" hidden="false" type="rule" targetId="4640-43e7-30b-215a"/>
-                <infoLink name="Precision" id="3f5d-5b7c-88c0-d1b4" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
+                <infoLink name="Pistol" id="8c91-edf7-3973-2077" hidden="false" type="rule" targetId="8bf7-8812-923d-29e4"/>
+                <infoLink name="Assault" id="c82a-7666-74df-815d" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
+                <infoLink name="Torrent" id="c495-f76e-cdae-2f79" hidden="false" type="rule" targetId="5edf-d619-23e0-9b56"/>
+                <infoLink name="Ignores Cover" id="f6f0-0e4c-118b-24bf" hidden="false" type="rule" targetId="4640-43e7-30b-215a"/>
+                <infoLink name="Precision" id="894c-470e-26d5-a6d3" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Wingman Elite" hidden="false" id="58e2-a489-9f27-3424">
+            <selectionEntry type="upgrade" import="true" name="Wingman Elite" hidden="false" id="b39b-ff35-ff82-ecf5">
               <profiles>
-                <profile name="Wingman Elite" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="0edb-3eba-a5bb-49dc">
+                <profile name="Wingman Elite" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="6d44-73ce-4909-04d3">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">20&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
@@ -2667,19 +2667,19 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                 </profile>
               </profiles>
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="25d4-b64f-2246-23da"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6635-fc16-62c4-024f"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c4be-e6d2-adaf-c86d"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d6a-8dcc-f5ba-ae80"/>
               </constraints>
               <infoLinks>
-                <infoLink name="Pistol" id="7039-19d2-3401-1f34" hidden="false" type="rule" targetId="8bf7-8812-923d-29e4"/>
-                <infoLink name="Assault" id="bcbc-4fbc-ba2c-fe62" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
-                <infoLink name="Precision" id="3d74-4236-098d-2d35" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
+                <infoLink name="Pistol" id="5432-ac27-db58-3b19" hidden="false" type="rule" targetId="8bf7-8812-923d-29e4"/>
+                <infoLink name="Assault" id="9b01-84bb-a349-98bb" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
+                <infoLink name="Precision" id="5fcd-fcc9-ead9-6d2c" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="db2f-e1e4-8d14-e0c4" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cdae-3acc-81cb-6ff3" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="921d-7830-9642-4fe6"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="20cb-6627-df72-03dd"/>
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
