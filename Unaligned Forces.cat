@@ -2451,64 +2451,6 @@ The G1 Pilot may shoot, charge, and attack immediately after using this ability.
         <modifier type="set-primary" value="9cfd-1c32-585f-7d5c" field="category"/>
       </modifiers>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Pilot&apos;s Secondary Weapon Choice" hidden="false" id="d765-f85d-dd3d-f687" sortIndex="1">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3528-fa6f-d345-a94a"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cff2-12fe-2f15-a826"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Smart Pistol" hidden="false" id="404f-63d8-52f8-9787">
-              <profiles>
-                <profile name="Smart Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="728d-eefa-263b-1b20">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">N/A</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Assault, Ignores Cover, Torrent, Precision</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="baed-4d55-af9f-7c91"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="11b6-71ba-db92-80a2"/>
-              </constraints>
-              <infoLinks>
-                <infoLink name="Pistol" id="b7a2-0488-1b35-e87d" hidden="false" type="rule" targetId="8bf7-8812-923d-29e4"/>
-                <infoLink name="Assault" id="c0de-ae85-a869-d6e7" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
-                <infoLink name="Torrent" id="674f-3c9a-6a1a-c606" hidden="false" type="rule" targetId="5edf-d619-23e0-9b56"/>
-                <infoLink name="Ignores Cover" id="6ccb-1d6c-81da-10f5" hidden="false" type="rule" targetId="4640-43e7-30b-215a"/>
-                <infoLink name="Precision" id="843a-157c-78df-2982" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Wingman Elite" hidden="false" id="fd96-c50e-4144-15ad">
-              <profiles>
-                <profile name="Wingman Elite" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="9ba2-208b-5546-d115">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">20&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Assault, Precision</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="10ff-db96-f168-7cdc"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4fc2-5e47-0c48-5e44"/>
-              </constraints>
-              <infoLinks>
-                <infoLink name="Pistol" id="1808-e148-d0ad-0944" hidden="false" type="rule" targetId="8bf7-8812-923d-29e4"/>
-                <infoLink name="Assault" id="13d3-2865-bc8a-70e6" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
-                <infoLink name="Precision" id="2e92-05b7-4efd-b746" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Pilot Melee" hidden="false" id="9017-3fe2-f35c-f704" sortIndex="2">
           <profiles>
             <profile name="Pilot Kick" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="6b58-0972-c32f-4863">
@@ -2550,7 +2492,7 @@ The G1 Pilot may shoot, charge, and attack immediately after using this ability.
         <infoLink name="Lone Operative" id="41da-4f65-bfbe-0be1" hidden="false" type="rule" targetId="a8a0-8fe7-898-e0f3"/>
         <infoLink name="Invulnerable Save (4+)" id="d765-1177-5810-9268" hidden="false" type="profile" targetId="4117-1c37-9dd8-b6ef"/>
         <infoLink name="Scouts 7&quot;" id="b396-8863-8b8d-c005" hidden="false" type="rule" targetId="ada6-bac1-ffe0-d6f7"/>
-        <infoLink name="Lone Operative" id="c615-796c-1e14-18fc" hidden="false" type="rule" targetId="a8a0-8fe7-898-e0f3"/>
+        <infoLink name="Stealth" id="c615-796c-1e14-18fc" hidden="false" type="rule" targetId="bec5-4288-34a6-ccfa"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Pilot&apos;s Primary Weapon Choice" id="6ab0-51ba-0bba-7f36" hidden="false" defaultSelectionEntryId="26b7-e7cf-33d8-9abe">
@@ -2618,7 +2560,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                 </rule>
               </rules>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Peacekeeper" hidden="false" id="5fd8-6d92-526e-c732">
+            <selectionEntry type="upgrade" import="true" name="Peacekeeper Shotgun" hidden="false" id="5fd8-6d92-526e-c732">
               <profiles>
                 <profile name="Peacekeeper" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="2884-19f6-52d8-7f0c">
                   <characteristics>
@@ -2681,6 +2623,60 @@ Additionally, as a rule clarification, Melta works if the target is within half 
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="de8a-736c-d640-6481"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9015-e0a4-4941-3b0c"/>
           </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Pilot&apos;s Secondary Weapon Choice" id="6fc7-2136-29d7-bda9" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Smart Pistol" hidden="false" id="4db5-f00b-0363-ffd4">
+              <profiles>
+                <profile name="Smart Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="d6ab-63cf-62eb-6c35">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">N/A</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Assault, Ignores Cover, Torrent, Precision</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ec62-0aad-6b11-8362"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2a5f-5f1e-7d43-a5b3"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Pistol" id="4515-057d-f346-a216" hidden="false" type="rule" targetId="8bf7-8812-923d-29e4"/>
+                <infoLink name="Assault" id="c717-50e5-0fa9-abe0" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
+                <infoLink name="Torrent" id="3401-b94a-de0d-88a7" hidden="false" type="rule" targetId="5edf-d619-23e0-9b56"/>
+                <infoLink name="Ignores Cover" id="92e0-cafe-afea-6cf5" hidden="false" type="rule" targetId="4640-43e7-30b-215a"/>
+                <infoLink name="Precision" id="3f5d-5b7c-88c0-d1b4" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Wingman Elite" hidden="false" id="58e2-a489-9f27-3424">
+              <profiles>
+                <profile name="Wingman Elite" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="0edb-3eba-a5bb-49dc">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">20&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Assault, Precision</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="25d4-b64f-2246-23da"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6635-fc16-62c4-024f"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Pistol" id="7039-19d2-3401-1f34" hidden="false" type="rule" targetId="8bf7-8812-923d-29e4"/>
+                <infoLink name="Assault" id="bcbc-4fbc-ba2c-fe62" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
+                <infoLink name="Precision" id="3d74-4236-098d-2d35" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
