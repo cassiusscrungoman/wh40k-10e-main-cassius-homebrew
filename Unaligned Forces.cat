@@ -2425,6 +2425,11 @@ The G1 Pilot may shoot, charge, and attack immediately after using this ability.
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may use weapons with the pistol tag as well as other weapons in the same shooting phase.</characteristic>
           </characteristics>
         </profile>
+        <profile name="Scouts 7&quot;" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d174-56b0-011e-a31b">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If every model in a unit has this ability, then at the start of the first battle round, before the first turn begins, it can make a Normal move of up to 7&quot; as if it were your Movement phase – as can any DEDICATED TRANSPORT model such a unit starts the battle embarked within (provided only models with this ability are embarked within that DEDICATED TRANSPORT model). A unit that moves using this ability must end that move more than 9\&quot; horizontally away from all enemy models.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink name="Character" hidden="false" id="a000-8975-2bf8-1c23" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
