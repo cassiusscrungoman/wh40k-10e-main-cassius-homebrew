@@ -2608,7 +2608,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                   </infoLinks>
                   <rules>
                     <rule name="Linked Fire" id="eb8d-f422-4d57-2ec3" hidden="false">
-                      <description>When selecting targets for this weapon, you can measure range and determine visibility from another friendly FIRE PRISM model that is visible to the bearer.</description>
+                      <description>When selecting targets for this weapon, you can measure range and determine visibility from another friendly infantry or character model that is visible to the bearer.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
