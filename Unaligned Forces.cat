@@ -2565,7 +2565,7 @@ The G1 Pilot may shoot, charge, and attack immediately after using this ability.
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">20</characteristic>
                         <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">5</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Precision, Lethal Hits, Conversion, Anti-Infantry 3+, Devastating Wounds</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Precision, Lethal Hits, Conversion, Anti-Infantry 3+, Devastating Wounds, Intervention</characteristic>
                       </characteristics>
                     </profile>
                     <profile name="Intervention" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6e5f-358d-ae0c-eef3">
@@ -2591,10 +2591,10 @@ The G1 Pilot may shoot, charge, and attack immediately after using this ability.
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">15</characteristic>
                         <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">4</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds, Anti-Vehicle 3+, Linked Fire, Melta 2</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds, Anti-Vehicle 3+, Linked Fire, Melta 2, Fox 3!</characteristic>
                       </characteristics>
                     </profile>
-                    <profile name="Good Tone, Good Tone, Fox 3!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c70a-5f01-5d56-93a5">
+                    <profile name="Fox 3!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c70a-5f01-5d56-93a5">
                       <characteristics>
                         <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this pilot selects the Archer Heavy Lock-on Rocket Launcher as their primary weapon choice, if they target a Vehicle with the Archer, the attack has Torrent and cannot miss.
 Additionally, as a rule clarification, Melta works if the target is within half of the range from the model who the G1 Pilot selects as their spotter for Linked Fire.</characteristic>
@@ -2622,7 +2622,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
                         <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Assault, Melta 2, Twin-linked, Precision</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Assault, Melta 2, Twin-linked, Precision, Seein&apos; Red</characteristic>
                       </characteristics>
                     </profile>
                     <profile name="Seein&apos; Red" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ce76-4b29-45df-905d">
@@ -2638,7 +2638,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
                         <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">4</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked, Precision</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked, Precision, Seein&apos; Red</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2653,13 +2653,18 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                   <profiles>
                     <profile name="R-99 Submachine Gun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="5d59-95e6-c0ea-6f58">
                       <characteristics>
-                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">20&quot;</characteristic>
                         <characteristic name="A" typeId="3bb-c35f-f54-fb08">8</characteristic>
                         <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
                         <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 6, Sustained Hits 2, Assault, Pistol</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 6, Sustained Hits 2, Assault, Pistol, Volume of Fire</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Volume of Fire" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b222-c47d-d34c-b7cd">
+                      <characteristics>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this pilot selects the R-99 as their primary weapon choice, when they attack with it, they may choose one of their attacks to turn into an unmodified 6.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
