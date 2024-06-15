@@ -2497,7 +2497,7 @@ The G1 Pilot may shoot, charge, and attack immediately after using this ability.
       <selectionEntryGroups>
         <selectionEntryGroup name="Customizable Pilot Weaponry" id="4218-945f-cdcd-0ac6" hidden="false">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Pilot&apos;s Secondary Weapon Choice" id="56ab-bbf2-0da9-57eb" hidden="false" defaultSelectionEntryId="26b7-e7cf-33d8-9abe">
+            <selectionEntryGroup name="Pilot&apos;s Secondary Weapon Choice" id="56ab-bbf2-0da9-57eb" hidden="false" defaultSelectionEntryId="26b7-e7cf-33d8-9abe" sortIndex="1">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Smart Pistol" hidden="false" id="478a-b418-b9d5-1a84">
                   <profiles>
@@ -2513,10 +2513,6 @@ The G1 Pilot may shoot, charge, and attack immediately after using this ability.
                       </characteristics>
                     </profile>
                   </profiles>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c27b-ee74-4f4b-9b69"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="92ab-ee38-f98e-6652"/>
-                  </constraints>
                   <infoLinks>
                     <infoLink name="Pistol" id="2ba7-08ef-fab0-98f1" hidden="false" type="rule" targetId="8bf7-8812-923d-29e4"/>
                     <infoLink name="Assault" id="b77a-a14e-da36-ecd4" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
@@ -2539,10 +2535,6 @@ The G1 Pilot may shoot, charge, and attack immediately after using this ability.
                       </characteristics>
                     </profile>
                   </profiles>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="24b0-9b67-6f39-16dc"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9332-5fd9-6acf-168f"/>
-                  </constraints>
                   <infoLinks>
                     <infoLink name="Pistol" id="dd50-26e9-6ed4-fe9e" hidden="false" type="rule" targetId="8bf7-8812-923d-29e4"/>
                     <infoLink name="Assault" id="b6c3-db2e-dba3-502b" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
