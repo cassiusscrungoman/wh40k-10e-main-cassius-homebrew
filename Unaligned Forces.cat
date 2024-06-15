@@ -2420,7 +2420,7 @@ The G1 Pilot may shoot, charge, and attack immediately after using this ability.
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit destroys a vehicle with its Data Knife, that vehicle does not roll for Deadly Demise, nor is it&apos;s model removed from the battlefield.  That vehicle becomes an immovable Terrain Feature for the remainder of the battle.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Switching To Your Pistol Is Always Faster Than Reloading!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6215-278c-bb86-6437">
+        <profile name="Shock, Drop, &amp; Rock" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6215-278c-bb86-6437">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may use weapons with the pistol tag as well as other weapons in the same shooting phase.</characteristic>
           </characteristics>
@@ -2494,6 +2494,7 @@ The G1 Pilot may shoot, charge, and attack immediately after using this ability.
       <infoLinks>
         <infoLink name="Lone Operative" id="41da-4f65-bfbe-0be1" hidden="false" type="rule" targetId="a8a0-8fe7-898-e0f3"/>
         <infoLink name="Invulnerable Save (4+)" id="d765-1177-5810-9268" hidden="false" type="profile" targetId="4117-1c37-9dd8-b6ef"/>
+        <infoLink name="Scouts 7&quot;" id="b396-8863-8b8d-c005" hidden="false" type="rule" targetId="ada6-bac1-ffe0-d6f7"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Pilot&apos;s Primary Weapon Choice" id="6ab0-51ba-0bba-7f36" hidden="false" defaultSelectionEntryId="26b7-e7cf-33d8-9abe">
