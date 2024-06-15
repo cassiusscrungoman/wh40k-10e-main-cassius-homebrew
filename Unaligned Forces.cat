@@ -2451,7 +2451,7 @@ The G1 Pilot may shoot, charge, and attack immediately after using this ability.
         <modifier type="set-primary" value="9cfd-1c32-585f-7d5c" field="category"/>
       </modifiers>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Pilot Melee" hidden="false" id="9017-3fe2-f35c-f704" sortIndex="2">
+        <selectionEntry type="upgrade" import="true" name="Pilot Melee" hidden="false" id="9017-3fe2-f35c-f704" sortIndex="3">
           <profiles>
             <profile name="Pilot Kick" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="6b58-0972-c32f-4863">
               <characteristics>
@@ -2495,7 +2495,7 @@ The G1 Pilot may shoot, charge, and attack immediately after using this ability.
         <infoLink name="Stealth" id="c615-796c-1e14-18fc" hidden="false" type="rule" targetId="bec5-4288-34a6-ccfa"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Pilot&apos;s Primary Weapon Choice" id="6ab0-51ba-0bba-7f36" hidden="false" defaultSelectionEntryId="26b7-e7cf-33d8-9abe">
+        <selectionEntryGroup name="Pilot&apos;s Primary Weapon Choice" id="6ab0-51ba-0bba-7f36" hidden="false" defaultSelectionEntryId="26b7-e7cf-33d8-9abe" sortIndex="1">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Kraber Penetrating .500-cal Sniper Rifle" hidden="false" id="d694-909e-b7f1-71af">
               <infoLinks>
@@ -2624,7 +2624,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9015-e0a4-4941-3b0c"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Pilot&apos;s Primary Weapon Choice" id="1616-7181-db9c-add4" hidden="false" defaultSelectionEntryId="26b7-e7cf-33d8-9abe">
+        <selectionEntryGroup name="Pilot&apos;s Secondary Weapon Choice" id="1616-7181-db9c-add4" hidden="false" defaultSelectionEntryId="26b7-e7cf-33d8-9abe" sortIndex="2">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Smart Pistol" hidden="false" id="509b-4b25-143c-0eca">
               <profiles>
