@@ -2495,9 +2495,9 @@ The G1 Pilot may shoot, charge, and attack immediately after using this ability.
         <infoLink name="Stealth" id="c615-796c-1e14-18fc" hidden="false" type="rule" targetId="bec5-4288-34a6-ccfa"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Customizable Pilot Weaponry" id="4218-945f-cdcd-0ac6" hidden="false">
+        <selectionEntryGroup name="Pilot Armory" id="4218-945f-cdcd-0ac6" hidden="false">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Pilot&apos;s Secondary Weapon Choice" id="56ab-bbf2-0da9-57eb" hidden="false" defaultSelectionEntryId="26b7-e7cf-33d8-9abe" sortIndex="1">
+            <selectionEntryGroup name="Pilot&apos;s Secondary Weapon Choice" id="56ab-bbf2-0da9-57eb" hidden="false" defaultSelectionEntryId="26b7-e7cf-33d8-9abe" sortIndex="2">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Smart Pistol" hidden="false" id="478a-b418-b9d5-1a84">
                   <profiles>
@@ -2547,7 +2547,7 @@ The G1 Pilot may shoot, charge, and attack immediately after using this ability.
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b7e7-a4df-bc35-8283"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Pilot&apos;s Primary Weapon Choice" id="b920-5790-1a12-6a7c" hidden="false" defaultSelectionEntryId="26b7-e7cf-33d8-9abe">
+            <selectionEntryGroup name="Pilot&apos;s Primary Weapon Choice" id="b920-5790-1a12-6a7c" hidden="false" defaultSelectionEntryId="26b7-e7cf-33d8-9abe" sortIndex="1">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Kraber Penetrating .500-cal Sniper Rifle" hidden="false" id="9e36-d6f7-1be4-71aa">
                   <infoLinks>
