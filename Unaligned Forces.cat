@@ -2319,7 +2319,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
               <profiles>
                 <profile name="Alternator SMG" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="0e17-a3d1-09f7-c258">
                   <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">20&quot;</characteristic>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">16&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
                     <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
@@ -2653,7 +2653,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                   <profiles>
                     <profile name="R-99 Submachine Gun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="5d59-95e6-c0ea-6f58">
                       <characteristics>
-                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">20&quot;</characteristic>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">16&quot;</characteristic>
                         <characteristic name="A" typeId="3bb-c35f-f54-fb08">8</characteristic>
                         <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
@@ -2736,6 +2736,199 @@ Additionally, as a rule clarification, Melta works if the target is within half 
       <infoLinks>
         <infoLink name="Hover" id="2675-cc42-c6c4-eabd" hidden="false" type="rule" targetId="eec5-5f54-9c03-c305"/>
       </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Grunt" hidden="false" id="da6a-7737-fe1d-8d2d">
+      <profiles>
+        <profile name="Grunt" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="6b60-65b5-687c-2030">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Leading From The Front" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="97af-ee56-4617-bad9">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model may be attached to any infantry unit.  It remains in Unit Coherency up to 12&quot; away from the squad.  If unit coherency is broken, this model must be selected to be destroyed.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Forward Scout" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="09ac-9564-c97c-62f1">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When the unit this model is assigned to Hunkers Down, they do not lose their next shooting phase, and instead may shoot at a -1 to the hit roll.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="No Borders, Only Kings" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3cb8-307b-29fc-3572">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit gets the benefits of your faction as if it had your faction keyword.  It also gets access to your army rule and chosen detatchment rule.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="A Golden Throne" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1166-ed9d-bc15-825a">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit doesn&apos;t take up any transport space.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Can&apos;t Back Out Of This Deal" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0f22-fc51-a64b-5c9f">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit is within 6&quot; of the map edge, they may go to ground and be removed from the battlefield during your command phase.  If this happens, this unit counts as being EVACed and will be available for deployment in your next mission.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Experienced In The Field" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c77b-5223-cc12-ed98">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit successfully EVACs or survives until the end of the battle, it will be available in your next mission as a G1 Pilot.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Invulnerable Save (5+)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0ab5-893a-2b08-cfb4">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save</characteristic>
+          </characteristics>
+          <comment>5+ Single model</comment>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Character" hidden="false" id="a465-dbfc-0804-e0a1" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
+        <categoryLink name="Grenades" hidden="false" id="ebaf-705f-2b59-69c8" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
+        <categoryLink name="Infantry" hidden="false" id="2f69-38bb-6bc0-e949" targetId="cf47-a0d7-7207-29dc" primary="false"/>
+        <categoryLink name="Faction: Any" hidden="false" id="0748-df81-1544-ab43" targetId="ba60-be43-82a0-9d2d" primary="false"/>
+        <categoryLink name="Pilot" hidden="false" id="1947-4445-c4f6-6f4f" targetId="8824-eb56-e4b8-3644" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+      </costs>
+      <modifiers>
+        <modifier type="set-primary" value="9cfd-1c32-585f-7d5c" field="category"/>
+      </modifiers>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Emergency Sidearm" hidden="false" id="5553-0fd2-0e33-b509" sortIndex="1">
+          <profiles>
+            <profile name="P2020 Sidearm" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="dfcd-d630-e100-038d">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Assault, Rapid Fire 2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c8bb-d17c-aaea-ee97"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b720-5dbf-a7ee-fe46"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Pistol" id="f4be-a9b1-ac1f-4823" hidden="false" type="rule" targetId="8bf7-8812-923d-29e4"/>
+            <infoLink name="Assault" id="7cff-cf16-fa53-401c" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
+            <infoLink name="Rapid Fire" id="46ce-3d91-1b43-d66d" hidden="false" type="rule" targetId="c5c8-8b58-b8b6-7786"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Emergency Combat Knife" hidden="false" id="77e3-d3ed-7584-2df0" sortIndex="2">
+          <profiles>
+            <profile name="Emergency Combat Knife" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="62de-7ab5-fc3c-4f90">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Twin-linked</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2d76-a42a-845d-d34e"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a27a-593c-9476-aa39"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Twin-linked" id="68d5-f8af-5673-5b4d" hidden="false" type="rule" targetId="cf93-ad4d-2f08-a79d"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Lone Operative" id="a40a-860e-b941-01be" hidden="false" type="rule" targetId="a8a0-8fe7-898-e0f3"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Emergency Weapon Choice" id="b2f3-0b3d-3ec2-fa27" hidden="false" defaultSelectionEntryId="26b7-e7cf-33d8-9abe">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Scout DMR" hidden="false" id="6a0b-4e9c-149d-5a83">
+              <infoLinks>
+                <infoLink name="Precision" id="f1ab-743a-c7bf-2a77" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
+                <infoLink name="Heavy" id="77e2-480e-e47b-88cb" hidden="false" type="rule" targetId="1202-10a8-78e9-4c67"/>
+                <infoLink name="Lethal Hits" id="10f7-e272-2765-8d88" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
+              </infoLinks>
+              <profiles>
+                <profile name="Scout DMR" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="fa59-de42-c30f-e81d">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">28&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">5</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Precision, Lethal Hits, Heavy</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule name="Conversion" id="475f-7d23-48c2-1cfa" hidden="false">
+                  <description>Each time an attack is made with this weapon, if the target is more than 12&quot; from the bearer, an unmodified successful Hit roll of 4+ scores a Critical Hit.</description>
+                  <comment>12&quot; variant</comment>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Alternator SMG" hidden="false" id="7de2-ba5a-48a5-b97d">
+              <profiles>
+                <profile name="Alternator SMG" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="7db9-8719-5561-a9c1">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">16&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked, Pistol, Rapid Fire 4, Sustained Hits 1, Assault</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Assault" id="0db3-72f3-8be3-0b9c" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
+                <infoLink name="Sustained Hits" id="b6dc-68eb-26dc-48c9" hidden="false" type="rule" targetId="1897-c22c-9597-12b1"/>
+                <infoLink name="Pistol" id="9141-3961-4722-aa78" hidden="false" type="rule" targetId="8bf7-8812-923d-29e4"/>
+                <infoLink name="Rapid Fire" id="2aa2-0466-1254-dcf6" hidden="false" type="rule" targetId="c5c8-8b58-b8b6-7786"/>
+                <infoLink name="Psychic" id="29e2-0ca9-2959-9cb2" hidden="false" type="rule" targetId="e9c4-2bb8-12ee-cd1b"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Softball Grenade Launcher" hidden="false" id="eae1-92c7-76ba-5454">
+              <profiles>
+                <profile name="Softball Grenade Launcher" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="7a8f-fad7-8bc4-1da2">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Vehicle 3+, Devastating Wounds, Rapid Fire 2, Blast</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Anti-" id="5477-f775-af8e-1d4a" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
+                <infoLink name="Rapid Fire" id="9da2-63d9-6fc9-682c" hidden="false" type="rule" targetId="c5c8-8b58-b8b6-7786"/>
+                <infoLink name="Blast" id="0e79-dd25-bb34-8efb" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
+                <infoLink name="Devastating Wounds" id="c8c3-ded7-b602-79e7" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1527-886d-8079-317a"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cd4f-242e-a728-6e98"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
