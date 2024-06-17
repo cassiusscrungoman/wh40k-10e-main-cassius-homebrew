@@ -2487,6 +2487,11 @@ The G1 Pilot may shoot, charge, and attack immediately after using this ability.
             <infoLink name="Precision" id="562d-a0fa-bd69-4f27" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
           </infoLinks>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="New Pilot Certification" hidden="false" id="8060-f733-b48d-64a3">
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <infoLinks>
         <infoLink name="Lone Operative" id="41da-4f65-bfbe-0be1" hidden="false" type="rule" targetId="a8a0-8fe7-898-e0f3"/>
@@ -2967,6 +2972,11 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         <constraint type="min" value="1" field="selections" scope="force" shared="true" id="460e-c15b-78a1-b50d" includeChildSelections="false"/>
         <constraint type="max" value="2" field="selections" scope="force" shared="true" id="7e3c-2e1f-72d7-346e" includeChildSelections="false"/>
       </constraints>
+    </entryLink>
+    <entryLink import="true" name="Grunt" hidden="false" id="5c7f-43da-f45d-e0ac" type="selectionEntry" targetId="da6a-7737-fe1d-8d2d">
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="40"/>
+      </costs>
     </entryLink>
   </entryLinks>
   <categoryEntries>
