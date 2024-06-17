@@ -2491,6 +2491,16 @@ The G1 Pilot may shoot, charge, and attack immediately after using this ability.
           <costs>
             <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
           </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="94fd-525a-15a9-d39f" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="New Pilot Certification" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e2f4-1bd3-f544-05cb">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">You may requisition a new pilot without prior experience with them before, but it&apos;s going to cost you.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
