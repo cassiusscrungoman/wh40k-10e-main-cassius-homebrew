@@ -2606,7 +2606,7 @@ The G1 Pilot may shoot, charge, and attack immediately after using this ability.
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">15</characteristic>
                         <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">4</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds, Anti-Vehicle 3+, Linked Fire, Melta 2, Fox 3!</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds, Anti-Vehicle 3+, Linked Fire, Melta 2, Indirect Fire, Fox 3!</characteristic>
                       </characteristics>
                     </profile>
                     <profile name="Fox 3!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c70a-5f01-5d56-93a5">
@@ -2620,6 +2620,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                     <infoLink name="Anti-" id="15c3-5834-e37a-33d4" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
                     <infoLink name="Devastating Wounds" id="6bab-2102-0b31-9516" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
                     <infoLink name="Melta" id="a8e9-d735-4675-3e55" hidden="false" type="rule" targetId="7cdb-fb99-44a9-8849"/>
+                    <infoLink name="Indirect Fire" id="0e48-2d4c-1543-7001" hidden="false" type="rule" targetId="4ddd-4e29-acdd-5e6d"/>
                   </infoLinks>
                   <rules>
                     <rule name="Linked Fire" id="eb8d-f422-4d57-2ec3" hidden="false">
@@ -2823,7 +2824,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                 <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
                 <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
                 <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
-                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
                 <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
                 <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Assault, Rapid Fire 2</characteristic>
               </characteristics>
@@ -2839,15 +2840,15 @@ Additionally, as a rule clarification, Melta works if the target is within half 
             <infoLink name="Rapid Fire" id="46ce-3d91-1b43-d66d" hidden="false" type="rule" targetId="c5c8-8b58-b8b6-7786"/>
           </infoLinks>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Emergency Combat Knife" hidden="false" id="77e3-d3ed-7584-2df0" sortIndex="2">
+        <selectionEntry type="upgrade" import="true" name="Combat Knife" hidden="false" id="77e3-d3ed-7584-2df0" sortIndex="2">
           <profiles>
-            <profile name="Emergency Combat Knife" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="62de-7ab5-fc3c-4f90">
+            <profile name="Combat Knife" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="62de-7ab5-fc3c-4f90">
               <characteristics>
                 <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                 <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
                 <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-                <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
-                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                 <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
                 <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Twin-linked</characteristic>
               </characteristics>
@@ -2863,10 +2864,10 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
-        <infoLink name="Lone Operative" id="a40a-860e-b941-01be" hidden="false" type="rule" targetId="a8a0-8fe7-898-e0f3"/>
+        <infoLink name="Leader" id="a40a-860e-b941-01be" hidden="false" type="rule" targetId="b4dd-3e1f-41cb-218f"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Emergency Weapon Choice" id="b2f3-0b3d-3ec2-fa27" hidden="false" defaultSelectionEntryId="26b7-e7cf-33d8-9abe">
+        <selectionEntryGroup name="Grunt Weapon Choice" id="b2f3-0b3d-3ec2-fa27" hidden="false" defaultSelectionEntryId="26b7-e7cf-33d8-9abe">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Scout DMR" hidden="false" id="6a0b-4e9c-149d-5a83">
               <infoLinks>
