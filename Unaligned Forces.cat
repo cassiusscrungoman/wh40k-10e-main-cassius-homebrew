@@ -2975,7 +2975,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="45ef-82d7-25ec-572c"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Spectre" hidden="false" id="1820-a01e-5607-5010" defaultAmount="">
+    <selectionEntry type="unit" import="true" name="Spectre" hidden="false" id="1820-a01e-5607-5010" defaultAmount="">
       <profiles>
         <profile name="Leading From The Front" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a1b5-8eac-12a2-be0b">
           <characteristics>
