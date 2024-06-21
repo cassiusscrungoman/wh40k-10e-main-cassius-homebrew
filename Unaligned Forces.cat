@@ -3376,6 +3376,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
       </costs>
     </entryLink>
     <entryLink import="true" name="Flakpanzer Gepard" hidden="false" id="4811-7df7-4cd6-a097" type="selectionEntry" targetId="27fc-38df-ea13-36d4"/>
+    <entryLink import="true" name="Spectre Fighting Vehicle" hidden="false" id="79e6-be36-372b-2df4" type="selectionEntry" targetId="c4a6-53a2-61c6-f6ee"/>
   </entryLinks>
   <categoryEntries>
     <categoryEntry name="Faction: Unaligned Forces" hidden="false" id="e1ff-c0fa-2ca7-3466">
