@@ -2701,6 +2701,9 @@ Additionally, as a rule clarification, Melta works if the target is within half 
           </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="24cc-4337-dd06-d67f" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="EVAC Ship" hidden="false" id="017f-b1c3-19c1-1c6d">
       <profiles>
@@ -2946,6 +2949,9 @@ Additionally, as a rule clarification, Melta works if the target is within half 
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <constraints>
+        <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="45ef-82d7-25ec-572c"/>
+      </constraints>
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
@@ -3110,9 +3116,24 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         <selectionEntry type="upgrade" import="true" name="Outer Heaven" hidden="false" id="dd95-f931-9bb4-fe82">
           <rules>
             <rule name="No Borders" id="3616-d9b2-0897-25b3" hidden="false">
-              <description>This army may ignore the standard restrictions on how many Pilots and Grunts they&apos;re allowed to have in their army.</description>
+              <description>This army may ignore the standard restrictions on how many Pilots and Grunts they&apos;re allowed to have in their army.  They become Battleline units.</description>
             </rule>
           </rules>
+          <entryLinks>
+            <entryLink import="true" name="G1 Pilot" hidden="false" id="2855-7311-61e8-6702" type="selectionEntry" targetId="99e9-c939-3852-eaef">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden"/>
+              </modifiers>
+              <constraints>
+                <constraint type="min" value="99" field="selections" scope="parent" shared="true" id="819e-ba2e-7a43-af86"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Grunt" hidden="false" id="af5f-3169-90b8-cbea" type="selectionEntry" targetId="da6a-7737-fe1d-8d2d">
+              <constraints>
+                <constraint type="min" value="99" field="selections" scope="parent" shared="true" id="c8e4-f816-60e4-4778"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
         </selectionEntry>
       </selectionEntries>
       <constraints>
