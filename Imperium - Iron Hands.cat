@@ -917,7 +917,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         </profile>
         <profile name="Glorified Missile" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2a99-db4c-5516-839e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit always fails its Deadly Demise roll, however, the Pilot inside is not harmed.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit always rolls a 6 on its Deadly Demise roll, however, the Pilot inside is not harmed.</characteristic>
           </characteristics>
         </profile>
         <profile name="Tactical Insertion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fd3d-7bdd-9a80-6eb3">
@@ -959,6 +959,9 @@ Additionally, as a rule clarification, Melta works if the target is within half 
       <modifiers>
         <modifier type="set-primary" value="dbd4-63-af05-998" field="category"/>
       </modifiers>
+      <rules>
+        <rule name="Deadly Demise 1" id="8492-255f-377e-9e8c" hidden="false"/>
+      </rules>
     </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
