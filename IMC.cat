@@ -951,7 +951,14 @@ Additionally, as a rule clarification, Melta works if the target is within half 
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <categoryEntries>
-    <categoryEntry name="Faction: IMC" id="a57d-8e0c-54c8-8a1d" hidden="false"/>
+    <categoryEntry name="Faction: IMC" id="a57d-8e0c-54c8-8a1d" hidden="false">
+      <constraints>
+        <constraint type="max" value="1000" field="51b2-306e-1021-d207" scope="roster" shared="false" id="b639-1b68-f773-3d1c" includeChildForces="false" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
     <categoryEntry name="Pilot" id="f999-453c-66fc-4fb6" hidden="false"/>
   </categoryEntries>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Unaligned Forces" id="38ab-4dfb-5ff9-5ffa" importRootEntries="true" targetId="581a-46b9-5b86-44b7"/>
+  </catalogueLinks>
 </catalogue>
