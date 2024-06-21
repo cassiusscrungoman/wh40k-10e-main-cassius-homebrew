@@ -948,7 +948,6 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink name="Smoke" hidden="false" id="20c9-4aad-a120-eac8" targetId="6df-937-16bc-8c1a" primary="false"/>
         <categoryLink name="Vehicle" hidden="false" id="f556-417c-de79-d7be" targetId="dbd4-63-af05-998" primary="false"/>
         <categoryLink name="Faction: IMC" hidden="false" id="f6da-23dd-7aad-cf87" targetId="a195-5a3e-4355-8d18" primary="false"/>
         <categoryLink name="Fly" hidden="false" id="f967-043d-9ed6-3659" targetId="c619-2086-bbcf-69c9" primary="false"/>
