@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="d81a-61dd-6d27-a3ce" name="Xenos - T&apos;au Empire" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="38" battleScribeVersion="2.03" authorContact="Dunamis55 &amp; AbonShell" authorName="BSData Developers" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="d81a-61dd-6d27-a3ce" name="Xenos - T&apos;au Empire" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="39" battleScribeVersion="2.03" authorContact="Dunamis55 &amp; AbonShell" authorName="BSData Developers" type="catalogue">
   <rules>
     <rule name="For The Greater Good" hidden="false" id="eeb6-c42-48f7-cc21">
       <description>If your Army Faction is T’AU EMPIRE, then in your Shooting phase units from your army can work in pairs to help each other target specific enemy units. When they do this, one unit is the Observer unit and the other is their Guided unit. The enemy they are targeting is called their Spotted unit.
@@ -1559,7 +1559,7 @@ Until the end of the phase:
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="140"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="155"/>
       </costs>
       <infoLinks>
         <infoLink name="Deadly Demise" hidden="false" type="rule" id="c9c4-9de7-febb-3a37" targetId="b68a-5ded-65ac-98c">
@@ -1954,7 +1954,7 @@ Designer’s Note: Place a Support Turret token next to this unit to remind you.
         <constraint type="max" value="6" field="selections" scope="roster" shared="true" id="322b-fe61-59fb-141c"/>
       </constraints>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="80"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="75"/>
       </costs>
       <infoLinks>
         <infoLink name="For The Greater Good" hidden="false" type="rule" id="4f5c-a782-73b1-531c" targetId="eeb6-c42-48f7-cc21"/>
@@ -4586,7 +4586,7 @@ Designer’s Note: Place two Stealth Drone tokens next to the unit, removing one
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="130"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="145"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Sky Ray Gunship" hidden="false" id="bfe0-2e9f-6f57-b48f">
@@ -8842,11 +8842,6 @@ Designer’s Note: Place two Blacklight Marker Drone tokens next to this model, 
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in this unit makes a ranged attack that targets a MONSTER or VEHICLE unit, you can re-roll the Wound roll and you can re-roll the Damage roll.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Invulnerable Save (4+)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a892-303e-34b8-116a">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit has a 4+ Invulnerable Save</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Crisis Sunforge Shas’vre" hidden="false" id="c366-4de0-f97-bbe" collective="false">
@@ -8900,7 +8895,7 @@ Designer’s Note: Place two Blacklight Marker Drone tokens next to this model, 
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="8f5d-412f-d058-6c5b"/>
       </constraints>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="170"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="150"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Crisis Fireknife Battlesuits" hidden="false" id="9373-d0b3-94c9-e47">
@@ -8927,6 +8922,11 @@ Designer’s Note: Place two Blacklight Marker Drone tokens next to this model, 
         <profile name="Fireknife" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f3d6-87dc-9a02-a9eb">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in this unit makes a ranged attack, re-roll a Hit roll of 1. If that attack targets a unit that is at its Starting Strength, you can re-roll the Hit roll instead.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Invulnerable Save (4+)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7ffb-8230-2653-13bd">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit has a 4+ Invulnerable Save</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9027,7 +9027,7 @@ Designer’s Note: Place two Blacklight Marker Drone tokens next to this model, 
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="c702-650f-c2fa-7292"/>
       </constraints>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="150"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="130"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Crisis Starscythe Battlesuits" hidden="false" id="fb32-c683-b38f-d339">
@@ -9054,6 +9054,11 @@ Designer’s Note: Place two Blacklight Marker Drone tokens next to this model, 
         <profile name="Starscythe" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="36a5-3ecd-bc4d-79f">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in this unit makes a ranged attack (excluding attacks that target MONSTERS and VEHICLES), improve the Armour Penetration characteristic of that attack by 1.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Invulnerable Save (4+)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3c2c-ab82-f7e0-7069">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit has a 4+ Invulnerable Save</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9154,7 +9159,7 @@ Designer’s Note: Place two Blacklight Marker Drone tokens next to this model, 
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="b967-43cf-d7c7-ac3e"/>
       </constraints>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="130"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="110"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Kroot Trail Shaper" hidden="false" id="2ebe-a524-656d-7f0e">
