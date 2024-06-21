@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="f27e-18c0-b73e-748e" name="The IMC" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="6" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="f27e-18c0-b73e-748e" name="The IMC" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="6" battleScribeVersion="2.03" type="catalogue" authorName="cassius">
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="G1 Pilot" hidden="false" id="3a31-10a4-b92b-99c7">
       <profiles>
