@@ -3127,23 +3127,6 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2bbb-720d-a2f4-bc7a"/>
                 <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="4e50-2e93-7aa1-efb6"/>
               </constraints>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Spectre Melee" hidden="false" id="06bb-d076-802e-d081">
-                  <profiles>
-                    <profile name="Spectre Claw" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="80e7-d6e7-cda7-d456">
-                      <characteristics>
-                        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                        <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
-                        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-                        <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
-                        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-                        <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds, Anti-Infantry 4+</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-              </selectionEntries>
               <selectionEntryGroups>
                 <selectionEntryGroup name="Spectre Weapon Choice" id="bc92-0cb9-47e8-2a75" hidden="false" defaultSelectionEntryId="26b7-e7cf-33d8-9abe">
                   <selectionEntries>
@@ -3214,7 +3197,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                   </selectionEntries>
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="020a-79f2-e1a4-34c9"/>
-                    <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="e35c-1123-9418-8934"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e35c-1123-9418-8934"/>
                   </constraints>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -3229,13 +3212,20 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                     <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
                   </characteristics>
                 </profile>
+                <profile name="Spectre Claw" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="80e7-d6e7-cda7-d456">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds, Anti-Infantry 4+</characteristic>
+                  </characteristics>
+                </profile>
               </profiles>
             </selectionEntry>
           </selectionEntries>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0230-fa68-f669-bea6"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a096-3a38-739e-e040"/>
-          </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
