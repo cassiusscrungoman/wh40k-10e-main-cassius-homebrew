@@ -561,7 +561,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Flakpanzer Gepard" hidden="false" id="cdef-201f-aefc-729c" defaultAmount="">
+    <selectionEntry type="model" import="true" name="Flakpanzer Gepard" hidden="false" id="cdef-201f-aefc-729c" defaultAmount="">
       <profiles>
         <profile name="Electric Smoke" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="75bf-5e44-1dd8-0f15">
           <characteristics>
@@ -864,7 +864,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Spectre Fighting Vehicle" hidden="false" id="a07d-f882-618e-8817" defaultAmount="">
+    <selectionEntry type="model" import="true" name="Spectre Fighting Vehicle" hidden="false" id="a07d-f882-618e-8817" defaultAmount="">
       <profiles>
         <profile name="Electric Smoke" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4768-a103-d0f0-7556">
           <characteristics>
@@ -943,7 +943,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         <rule name="Wounded 1-6" id="4535-b672-0b7d-aec3" hidden="false"/>
       </rules>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Disposable Infiltration Fighter" hidden="false" id="087b-38b4-94cd-286b" defaultAmount="">
+    <selectionEntry type="model" import="true" name="Disposable Infiltration Fighter" hidden="false" id="087b-38b4-94cd-286b" defaultAmount="">
       <profiles>
         <profile name="Manual Control" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3d3c-7061-88ca-3374">
           <characteristics>
