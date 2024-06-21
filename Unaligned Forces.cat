@@ -2975,7 +2975,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="45ef-82d7-25ec-572c"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Spectre" hidden="false" id="1820-a01e-5607-5010" defaultAmount="">
+    <selectionEntry type="model" import="true" name="Spectre" hidden="false" id="1820-a01e-5607-5010" defaultAmount="">
       <profiles>
         <profile name="Leading From The Front" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a1b5-8eac-12a2-be0b">
           <characteristics>
@@ -3023,12 +3023,13 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         <categoryLink name="Allied Units" hidden="false" id="73a7-ddf5-d66d-84ec" targetId="887b-ab87-92a2-20f5" primary="false"/>
         <categoryLink name="Drone" hidden="false" id="bc93-e698-4904-ae69" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
         <categoryLink name="Smoke" hidden="false" id="4096-5820-55e6-0f9e" targetId="6df-937-16bc-8c1a" primary="false"/>
+        <categoryLink name="Battleline" hidden="false" id="941c-84f8-02f6-da93" targetId="e338-111e-d0c6-b687" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
       </costs>
       <modifiers>
-        <modifier type="set-primary" value="cf47-a0d7-7207-29dc" field="category"/>
+        <modifier type="set-primary" value="e338-111e-d0c6-b687" field="category"/>
       </modifiers>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Emergency Sidearm" hidden="false" id="3ec5-5adc-dfb0-4622" sortIndex="1">
@@ -3296,6 +3297,11 @@ Additionally, as a rule clarification, Melta works if the target is within half 
       </costs>
     </entryLink>
     <entryLink import="true" name="Detachment" hidden="false" id="0d83-b187-fc92-6ec1" type="selectionEntryGroup" targetId="2f59-e4ce-246a-4b5d"/>
+    <entryLink import="true" name="Spectre" hidden="false" id="67d9-07a7-3325-60c7" type="selectionEntry" targetId="1820-a01e-5607-5010">
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
+      </costs>
+    </entryLink>
   </entryLinks>
   <categoryEntries>
     <categoryEntry name="Faction: Unaligned Forces" hidden="false" id="e1ff-c0fa-2ca7-3466">
@@ -3415,7 +3421,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         <selectionEntry type="upgrade" import="true" name="Outer Heaven" hidden="false" id="dd95-f931-9bb4-fe82">
           <rules>
             <rule name="No Borders" id="3616-d9b2-0897-25b3" hidden="false">
-              <description>This army may ignore the standard restrictions on how many Pilots and Grunts they&apos;re allowed to have in their army.  They become Battleline units.</description>
+              <description>This army may ignore the standard restrictions on how many Pilots and Grunts they&apos;re allowed to have in their army, but they cost 1.5x as much.  They become Battleline units.</description>
             </rule>
           </rules>
         </selectionEntry>
