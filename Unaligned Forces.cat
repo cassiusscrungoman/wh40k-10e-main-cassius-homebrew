@@ -3080,78 +3080,6 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Spectre Weapon Choice" id="bc92-0cb9-47e8-2a75" hidden="false" defaultSelectionEntryId="26b7-e7cf-33d8-9abe">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Scout DMR" hidden="false" id="abf1-8eee-6482-99ea">
-              <infoLinks>
-                <infoLink name="Precision" id="c752-3102-45c5-af8f" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
-                <infoLink name="Heavy" id="c6c6-3379-4489-c927" hidden="false" type="rule" targetId="1202-10a8-78e9-4c67"/>
-                <infoLink name="Lethal Hits" id="0344-f3aa-eeac-4819" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
-              </infoLinks>
-              <profiles>
-                <profile name="Scout DMR" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="c9e7-0c36-b957-c2d5">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">28&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Precision, Lethal Hits, Heavy</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules>
-                <rule name="Conversion" id="dcf6-9cc7-60ee-c1a8" hidden="false">
-                  <description>Each time an attack is made with this weapon, if the target is more than 12&quot; from the bearer, an unmodified successful Hit roll of 4+ scores a Critical Hit.</description>
-                  <comment>12&quot; variant</comment>
-                </rule>
-              </rules>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="R-301 Carbine" hidden="false" id="9d88-a700-4718-c6cc">
-              <profiles>
-                <profile name="R-301 Carbine" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="5dca-d17f-224a-92a7">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 2, Sustained Hits 1,</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink name="Sustained Hits" id="1a10-9c37-59a2-58fc" hidden="false" type="rule" targetId="1897-c22c-9597-12b1"/>
-                <infoLink name="Rapid Fire" id="c35f-5cf4-bb3f-3791" hidden="false" type="rule" targetId="c5c8-8b58-b8b6-7786"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Mastiff Combat Shotgun" hidden="false" id="fa51-c63c-e6b1-62ec">
-              <profiles>
-                <profile name="EVA-8 Automatic Shotgun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="a034-9a47-a526-e708">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">10&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds, Assault</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink name="Assault" id="de18-6b95-735d-915c" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
-                <infoLink name="Devastating Wounds" id="f8fa-5118-4eb5-03af" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="020a-79f2-e1a4-34c9"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e35c-1123-9418-8934"/>
-          </constraints>
-        </selectionEntryGroup>
         <selectionEntryGroup name="Spectre &amp; Stalker" id="e6ec-36ac-8b8e-ba51" hidden="false">
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Stalker" hidden="false" id="4698-25e0-05d3-a042">
@@ -3159,38 +3087,6 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e9f5-4004-0020-74eb"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b081-fadf-e93a-2a0c"/>
               </constraints>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Stalker Weapon" hidden="false" id="5f1d-adcd-7bcd-8296">
-                  <profiles>
-                    <profile name="L-STAR" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="69ea-1339-e7c0-cf92">
-                      <characteristics>
-                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
-                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
-                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                        <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
-                        <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 2, Sustained Hits 1,</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Spectre Melee" hidden="false" id="e24f-f2df-ce5b-0fab">
-                  <profiles>
-                    <profile name="Stalker Claw" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="b041-a8b1-3b28-0422">
-                      <characteristics>
-                        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                        <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
-                        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
-                        <characteristic name="S" typeId="ab33-d393-96ce-ccba">7</characteristic>
-                        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
-                        <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds, Anti-Infantry 4+</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                </selectionEntry>
-              </selectionEntries>
               <profiles>
                 <profile name="Stalker" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="df5a-3dd6-ff06-6110">
                   <characteristics>
@@ -3202,11 +3098,33 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                     <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
                   </characteristics>
                 </profile>
+                <profile name="Stalker Claw" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="b041-a8b1-3b28-0422">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">7</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds, Anti-Infantry 4+</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="L-STAR" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="69ea-1339-e7c0-cf92">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 2, Sustained Hits 1,</characteristic>
+                  </characteristics>
+                </profile>
               </profiles>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Spectre" hidden="false" id="2f8c-a4f9-47cf-0f54">
               <constraints>
-                <constraint type="min" value="9" field="selections" scope="parent" shared="true" id="2bbb-720d-a2f4-bc7a"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2bbb-720d-a2f4-bc7a"/>
                 <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="4e50-2e93-7aa1-efb6"/>
               </constraints>
               <selectionEntries>
@@ -3226,9 +3144,80 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                   </profiles>
                 </selectionEntry>
               </selectionEntries>
-              <entryLinks>
-                <entryLink import="true" name="Stalker Weapon Choice" hidden="false" id="1ea3-8b59-80ff-2b89" type="selectionEntryGroup" targetId="bc92-0cb9-47e8-2a75"/>
-              </entryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Spectre Weapon Choice" id="bc92-0cb9-47e8-2a75" hidden="false" defaultSelectionEntryId="26b7-e7cf-33d8-9abe">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Scout DMR" hidden="false" id="abf1-8eee-6482-99ea">
+                      <infoLinks>
+                        <infoLink name="Precision" id="c752-3102-45c5-af8f" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
+                        <infoLink name="Heavy" id="c6c6-3379-4489-c927" hidden="false" type="rule" targetId="1202-10a8-78e9-4c67"/>
+                        <infoLink name="Lethal Hits" id="0344-f3aa-eeac-4819" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
+                      </infoLinks>
+                      <profiles>
+                        <profile name="Scout DMR" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="c9e7-0c36-b957-c2d5">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">28&quot;</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                            <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+                            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Precision, Lethal Hits, Heavy</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules>
+                        <rule name="Conversion" id="dcf6-9cc7-60ee-c1a8" hidden="false">
+                          <description>Each time an attack is made with this weapon, if the target is more than 12&quot; from the bearer, an unmodified successful Hit roll of 4+ scores a Critical Hit.</description>
+                          <comment>12&quot; variant</comment>
+                        </rule>
+                      </rules>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="R-301 Carbine" hidden="false" id="9d88-a700-4718-c6cc">
+                      <profiles>
+                        <profile name="R-301 Carbine" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="5dca-d17f-224a-92a7">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                            <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 2, Sustained Hits 1,</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink name="Sustained Hits" id="1a10-9c37-59a2-58fc" hidden="false" type="rule" targetId="1897-c22c-9597-12b1"/>
+                        <infoLink name="Rapid Fire" id="c35f-5cf4-bb3f-3791" hidden="false" type="rule" targetId="c5c8-8b58-b8b6-7786"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Mastiff Combat Shotgun" hidden="false" id="fa51-c63c-e6b1-62ec">
+                      <profiles>
+                        <profile name="EVA-8 Automatic Shotgun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="a034-9a47-a526-e708">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">10&quot;</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                            <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
+                            <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds, Assault</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink name="Assault" id="de18-6b95-735d-915c" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
+                        <infoLink name="Devastating Wounds" id="f8fa-5118-4eb5-03af" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="020a-79f2-e1a4-34c9"/>
+                    <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="e35c-1123-9418-8934"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <profiles>
                 <profile name="Spectre" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="fc23-439b-44e2-383e">
                   <characteristics>
@@ -3249,9 +3238,6 @@ Additionally, as a rule clarification, Melta works if the target is within half 
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <constraints>
-        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="a7d4-cc67-2634-fc5e"/>
-      </constraints>
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
