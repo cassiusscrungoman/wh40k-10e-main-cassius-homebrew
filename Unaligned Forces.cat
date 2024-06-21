@@ -2977,9 +2977,9 @@ Additionally, as a rule clarification, Melta works if the target is within half 
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Spectre" hidden="false" id="1820-a01e-5607-5010" defaultAmount="">
       <profiles>
-        <profile name="Leading From The Front" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a1b5-8eac-12a2-be0b">
+        <profile name="Expendable Mechanized Infantry" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a1b5-8eac-12a2-be0b">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model may be attached to any infantry unit.  It remains in Unit Coherency up to 12&quot; away from the squad.  If unit coherency is broken, this model must be selected to be destroyed.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may not make Men of The Hour rolls.</characteristic>
           </characteristics>
         </profile>
         <profile name="Forward Scout" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7929-89b0-b825-3026">
@@ -2992,19 +2992,14 @@ Additionally, as a rule clarification, Melta works if the target is within half 
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit uses Smoke, it deploys Electric Smoke.  Non-mechanical units in the smoke (e.g. ones without the Vehicle keyword or similar like Drone) take 1d3 mortal wounds when the smoke is initially deployed, and 2d3 mortal wounds at the start of their command phase.</characteristic>
           </characteristics>
         </profile>
-        <profile name="A Golden Throne" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cfb8-85e3-09cc-4311">
+        <profile name="Anti-Vehicle Swarm" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cfb8-85e3-09cc-4311">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit doesn&apos;t take up any transport space.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit charges a unit with the Vehicle tag, they get a +1 to their charge and may reroll it.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Can&apos;t Back Out Of This Deal" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3dd2-c25b-31b6-9056">
+        <profile name="Self-Destruct Protocol" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3dd2-c25b-31b6-9056">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit is within 6&quot; of the map edge, they may go to ground and be removed from the battlefield during your command phase.  If this happens, this unit counts as being EVACed and will be available for deployment in your next mission.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Experienced In The Field" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f147-15d8-779d-d935">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit successfully EVACs or survives until the end of the battle, it will be available in your next mission as a G1 Pilot.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this model is within engagement range of 1 or more enemy units, it may self destruct.  For each model you choose to use this ability with, they deal 1 mortal wound to all enemies in engagement range.</characteristic>
           </characteristics>
         </profile>
         <profile name="Invulnerable Save (5+)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8025-3159-c183-b79d">
@@ -3032,29 +3027,30 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         <modifier type="set-primary" value="e338-111e-d0c6-b687" field="category"/>
       </modifiers>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Emergency Sidearm" hidden="false" id="3ec5-5adc-dfb0-4622" sortIndex="1">
+        <selectionEntry type="upgrade" import="true" name="IMC Drop Pod" hidden="false" id="e2c6-3cb2-bf3c-39ca">
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="30"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="11b4-eca2-7bdc-423f" includeChildSelections="false"/>
+          </constraints>
           <profiles>
-            <profile name="P2020 Sidearm" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="9351-6a92-4203-ef1c">
+            <profile name="IMC Drop Pod" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="3694-036c-195a-1b9a">
               <characteristics>
-                <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
-                <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
-                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
-                <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Assault, Rapid Fire 2</characteristic>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">-</characteristic>
+                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">8</characteristic>
+                <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">8</characteristic>
+                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">-</characteristic>
+                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Shock Troops" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f147-15d8-779d-d935">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may be deployed via IMC Drop Pods.  They deploy as if from Deep Strike.  If any spectre units are within 6&quot; of the drop pod, they heal 1d3 models at the start of their command phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="66dd-bb1f-4c94-2732"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a876-bcd5-174c-4b70"/>
-          </constraints>
-          <infoLinks>
-            <infoLink name="Pistol" id="98c8-ed03-dc2f-3cdc" hidden="false" type="rule" targetId="8bf7-8812-923d-29e4"/>
-            <infoLink name="Assault" id="5a8f-7d8a-64c6-ac35" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
-            <infoLink name="Rapid Fire" id="9d3e-8b65-412b-76af" hidden="false" type="rule" targetId="c5c8-8b58-b8b6-7786"/>
-          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -3096,6 +3092,17 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
                     <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 2, Sustained Hits 1,</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="P2020 Sidearm" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="36ce-afad-0d16-e5cf">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Assault, Rapid Fire 2</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3201,11 +3208,25 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                     <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds, Anti-Infantry 4+</characteristic>
                   </characteristics>
                 </profile>
+                <profile name="P2020 Sidearm" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="9351-6a92-4203-ef1c">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Assault, Rapid Fire 2</characteristic>
+                  </characteristics>
+                </profile>
               </profiles>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <rules>
+        <rule name="Deep Strike" id="adea-d708-7c4f-a932" hidden="false"/>
+      </rules>
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
