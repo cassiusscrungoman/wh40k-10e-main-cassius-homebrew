@@ -67,7 +67,7 @@ The IMC Pilot may shoot, charge, and attack immediately after using this ability
         </profile>
         <profile name="Drop Pod Beacon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="53dd-7eea-e225-a797">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If there are Spectres with an IMC Drop Pod in strategic reserves, once per game, the Pilot may throw a Drop Pod Beacon within 8&quot;.  The Drop Pod instantly arrives on the field as if deployed from Deep Strike.  This can happen on Round 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If there are Spectres with an IMC Drop Pod in strategic reserves, once per game during the movement phase, the Pilot may throw a Drop Pod Beacon within 8&quot;.  The Drop Pod instantly arrives on the field as if deployed from Deep Strike.  This can happen on Round 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -378,7 +378,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         </profile>
         <profile name="Experienced In The Field" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0104-7ec1-3716-2d62">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit successfully EVACs or survives until the end of the battle, it will be available in your next mission as a G1 Pilot.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit successfully EVACs or survives until the end of the battle, it will be available in your next mission as an IMC Pilot.</characteristic>
           </characteristics>
         </profile>
         <profile name="Invulnerable Save (5+)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4164-6468-2fc3-f0da">
@@ -396,7 +396,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         <categoryLink name="Pilot" hidden="false" id="77dc-c038-b260-f1d4" targetId="ce1d-9b06-141b-b224" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="50"/>
       </costs>
       <modifiers>
         <modifier type="set-primary" value="9cfd-1c32-585f-7d5c" field="category"/>
