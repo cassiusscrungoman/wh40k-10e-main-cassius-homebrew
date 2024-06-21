@@ -3125,12 +3125,12 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                 <modifier type="set" value="true" field="hidden"/>
               </modifiers>
               <constraints>
-                <constraint type="min" value="99" field="selections" scope="parent" shared="true" id="819e-ba2e-7a43-af86"/>
+                <constraint type="max" value="99" field="selections" scope="parent" shared="true" id="819e-ba2e-7a43-af86"/>
               </constraints>
             </entryLink>
             <entryLink import="true" name="Grunt" hidden="false" id="af5f-3169-90b8-cbea" type="selectionEntry" targetId="da6a-7737-fe1d-8d2d">
               <constraints>
-                <constraint type="min" value="99" field="selections" scope="parent" shared="true" id="c8e4-f816-60e4-4778"/>
+                <constraint type="max" value="99" field="selections" scope="parent" shared="true" id="c8e4-f816-60e4-4778"/>
               </constraints>
             </entryLink>
           </entryLinks>
