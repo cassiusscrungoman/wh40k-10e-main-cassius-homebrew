@@ -589,16 +589,6 @@ Additionally, as a rule clarification, Melta works if the target is within half 
             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 5, Lethal Hits, Anti-Fly 3+</characteristic>
           </characteristics>
         </profile>
-        <profile name="Flakpanzer Gepard" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="53d1-ef44-5e6f-09c3">
-          <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">7</characteristic>
-            <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">8</characteristic>
-            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">4</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink name="Allied Units" hidden="false" id="ca35-41b0-134a-327b" targetId="887b-ab87-92a2-20f5" primary="false"/>
@@ -612,6 +602,22 @@ Additionally, as a rule clarification, Melta works if the target is within half 
       <modifiers>
         <modifier type="set-primary" value="dbd4-63-af05-998" field="category"/>
       </modifiers>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Flakpanzer Gepard" hidden="false" id="95f5-c9d2-6aed-2141">
+          <profiles>
+            <profile name="Flakpanzer Gepard" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="53d1-ef44-5e6f-09c3">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
+                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">7</characteristic>
+                <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">8</characteristic>
+                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">4</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Spectre" hidden="false" id="4303-c8af-547d-7073" defaultAmount="">
       <profiles>
@@ -653,7 +659,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         <modifier type="set-primary" value="e338-111e-d0c6-b687" field="category"/>
       </modifiers>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="IMC Drop Pod" hidden="false" id="3faf-e512-d794-a881">
+        <selectionEntry type="model" import="true" name="IMC Drop Pod" hidden="false" id="3faf-e512-d794-a881">
           <costs>
             <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
           </costs>
@@ -888,16 +894,6 @@ Additionally, as a rule clarification, Melta works if the target is within half 
             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 4, Sustained Hits 1</characteristic>
           </characteristics>
         </profile>
-        <profile name="Spectre Fighting Vehicle" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="4a5a-94ab-54c5-2e5c">
-          <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
-            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">15</characteristic>
-            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink name="Allied Units" hidden="false" id="866d-8869-c67c-fa5d" targetId="887b-ab87-92a2-20f5" primary="false"/>
@@ -911,6 +907,22 @@ Additionally, as a rule clarification, Melta works if the target is within half 
       <modifiers>
         <modifier type="set-primary" value="dbd4-63-af05-998" field="category"/>
       </modifiers>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Spectre Fighting Vehicle" hidden="false" id="66d2-80b9-941f-e5d5">
+          <profiles>
+            <profile name="Spectre Fighting Vehicle" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="4a5a-94ab-54c5-2e5c">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
+                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
+                <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">15</characteristic>
+                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
       <rules>
         <rule name="Wounded 1-6" id="4535-b672-0b7d-aec3" hidden="false"/>
       </rules>
@@ -943,16 +955,6 @@ Additionally, as a rule clarification, Melta works if the target is within half 
             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">One Shot</characteristic>
           </characteristics>
         </profile>
-        <profile name="Disposable Infiltration Fighter" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="bb74-68d2-1d6b-3c62">
-          <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">20+&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
-            <characteristic name="SV" typeId="450-a17e-9d5e-29da">6+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
-            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink name="Vehicle" hidden="false" id="f556-417c-de79-d7be" targetId="dbd4-63-af05-998" primary="false"/>
@@ -966,6 +968,22 @@ Additionally, as a rule clarification, Melta works if the target is within half 
       <modifiers>
         <modifier type="set-primary" value="dbd4-63-af05-998" field="category"/>
       </modifiers>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Disposable Infiltration Fighter" hidden="false" id="0906-1f2d-f15d-fe99">
+          <profiles>
+            <profile name="Disposable Infiltration Fighter" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="bb74-68d2-1d6b-3c62">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">20+&quot;</characteristic>
+                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+                <characteristic name="SV" typeId="450-a17e-9d5e-29da">6+</characteristic>
+                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
+                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
       <rules>
         <rule name="Deadly Demise 1" id="8492-255f-377e-9e8c" hidden="false"/>
       </rules>
