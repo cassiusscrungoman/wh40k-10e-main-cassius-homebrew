@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="f27e-18c0-b73e-748e" name="The IMC" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="6" battleScribeVersion="2.03" type="catalogue" authorName="cassius">
   <sharedSelectionEntries>
-    <selectionEntry type="model" import="true" name="G1 Pilot" hidden="false" id="3a31-10a4-b92b-99c7">
+    <selectionEntry type="model" import="true" name="IMC Pilot" hidden="false" id="3a31-10a4-b92b-99c7">
       <profiles>
-        <profile name="G1 Pilot" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="acc2-294c-4093-d91e">
+        <profile name="IMC Pilot" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="acc2-294c-4093-d91e">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
@@ -17,7 +17,7 @@
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If the unit with the Aircraft or Hover tags which this pilot is assigned to are killed, you may choose the result of the Deadly Demise roll. If the result of that roll is a 5 or less, this Pilot ejects from the aircraft.  If thte result of that roll is a 6, the pilot loses half of their wounds.  
 Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be deployed anywhere within 6&quot; of that line.  If you choose an area off the map, this unit counts as EVACed and will be available for deployment in your next mission.
-The G1 Pilot may shoot, charge, and attack immediately after using this ability.</characteristic>
+The IMC Pilot may shoot, charge, and attack immediately after using this ability.</characteristic>
           </characteristics>
         </profile>
         <profile name="Kill Me And See What Happens" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cd2e-6f5c-8439-e472">
@@ -25,14 +25,9 @@ The G1 Pilot may shoot, charge, and attack immediately after using this ability.
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit automatically succeeds all Men Of The Hour rolls.  If they take any damage but survive to the end of the phase, Men Of The Hour is triggered on this unit, and they gain +1 permanent wound, but only heal half of their total hp (after the hp increase, always round up).</characteristic>
           </characteristics>
         </profile>
-        <profile name="No Borders, Only Kings" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="eef2-b19b-6507-ac2f">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit gets the benefits of your faction as if it had your faction keyword.  It also gets access to your army rule and chosen detatchment rule.</characteristic>
-          </characteristics>
-        </profile>
         <profile name="Monarch" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d8db-b253-8d72-4e5e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit cannot be added to your army like other units.  A G1 Pilot may only added to your army if a standard Pilot EVACs from a mission, or if they survive until the end of the battle.  You may have multiple G1 Pilots if you EVACed several Pilots; for every Pilot who either EVACed or survived, you may add one G1 Pilot to your army for 50 points.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit cannot be added to your army like other units.  An IMC Pilot may only added to your army if a standard Pilot EVACs from a mission, or if they survive until the end of the battle.  You may have multiple IMC Pilots if you EVACed several Pilots; for every Pilot who either EVACed or survived, you may add one IMC Pilot to your army for 100 points.</characteristic>
           </characteristics>
         </profile>
         <profile name="A Broken Throne" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ad5b-2924-6f76-8601">
@@ -70,6 +65,11 @@ The G1 Pilot may shoot, charge, and attack immediately after using this ability.
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If every model in a unit has this ability, then at the start of the first battle round, before the first turn begins, it can make a Normal move of up to 7&quot; as if it were your Movement phase – as can any DEDICATED TRANSPORT model such a unit starts the battle embarked within (provided only models with this ability are embarked within that DEDICATED TRANSPORT model). A unit that moves using this ability must end that move more than 9\&quot; horizontally away from all enemy models.</characteristic>
           </characteristics>
         </profile>
+        <profile name="Drop Pod Beacon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="53dd-7eea-e225-a797">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If there are Spectres with an IMC Drop Pod in strategic reserves, once per game, the Pilot may throw a Drop Pod Beacon within 8&quot;.  The Drop Pod instantly arrives on the field as if deployed from Deep Strike.  This can happen on Round 1.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink name="Character" hidden="false" id="0240-f57f-d04f-fca9" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
@@ -80,7 +80,7 @@ The G1 Pilot may shoot, charge, and attack immediately after using this ability.
         <categoryLink name="Pilot" hidden="false" id="7238-becd-51db-dd82" targetId="ce1d-9b06-141b-b224" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="50"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
       </costs>
       <modifiers>
         <modifier type="set-primary" value="9cfd-1c32-585f-7d5c" field="category"/>
