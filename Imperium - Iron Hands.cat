@@ -578,15 +578,14 @@ Additionally, as a rule clarification, Melta works if the target is within half 
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit attacks a unit of Infantry with its AA Cannon, that unit must pass a battle-shock test.  If they fail, they must move 2&quot; away from the Flakpanzer Gepard.</characteristic>
           </characteristics>
         </profile>
-        <profile name="AA Cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="d927-73a2-6c3c-63cc">
+        <profile name="Flakpanzer Gepard" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="53d1-ef44-5e6f-09c3">
           <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">60&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">10</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4&quot;</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 5, Lethal Hits, Anti-Fly 3+</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">7</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">8</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">4</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -603,19 +602,24 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         <modifier type="set-primary" value="dbd4-63-af05-998" field="category"/>
       </modifiers>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Flakpanzer Gepard" hidden="false" id="95f5-c9d2-6aed-2141">
+        <selectionEntry type="upgrade" import="true" name="Flakpanzer Gepard Main Gun" hidden="false" id="3c37-82d4-1398-521c">
           <profiles>
-            <profile name="Flakpanzer Gepard" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="53d1-ef44-5e6f-09c3">
+            <profile name="AA Cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="d927-73a2-6c3c-63cc">
               <characteristics>
-                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
-                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">7</characteristic>
-                <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
-                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">8</characteristic>
-                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
-                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">4</characteristic>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">60&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">10</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">4&quot;</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 5, Lethal Hits, Anti-Fly 3+</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="47bc-57de-6311-d0b1"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1246-4eeb-4270-d33f"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -872,26 +876,14 @@ Additionally, as a rule clarification, Melta works if the target is within half 
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may give up its shooting phase to return 1d3 models to all Spectre units within 6&quot;.  If they have the Replaceable Shock Troops detatchment rule, return 2d3 models.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Anti-Material Cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="1e4d-47ca-90ac-4e73">
+        <profile name="Spectre Fighting Vehicle" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="4a5a-94ab-54c5-2e5c">
           <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">4</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy, Blast</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Mounted L-STAR" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="b8b3-5a52-4a6b-3201">
-          <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 4, Sustained Hits 1</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">15</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -908,19 +900,43 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         <modifier type="set-primary" value="dbd4-63-af05-998" field="category"/>
       </modifiers>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Spectre Fighting Vehicle" hidden="false" id="66d2-80b9-941f-e5d5">
+        <selectionEntry type="upgrade" import="true" name="Spectre Fighting Vehicle Main Gun" hidden="false" id="66d2-80b9-941f-e5d5">
           <profiles>
-            <profile name="Spectre Fighting Vehicle" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="4a5a-94ab-54c5-2e5c">
+            <profile name="Anti-Material Cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="1e4d-47ca-90ac-4e73">
               <characteristics>
-                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
-                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
-                <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">15</characteristic>
-                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
-                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">4</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy, Blast</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="41b8-5a5a-41d6-f868"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4047-df6a-ee62-2fba"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Spectre Fighting Vehicle MG" hidden="false" id="962c-177e-356d-2371">
+          <profiles>
+            <profile name="Mounted L-STAR" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="b8b3-5a52-4a6b-3201">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 4, Sustained Hits 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="de09-a55a-c33f-1014"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2ffc-5973-bdd9-0e92"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <rules>
@@ -944,15 +960,14 @@ Additionally, as a rule clarification, Melta works if the target is within half 
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may be deployed on Round 1 anywhere within your deployment zone.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Literally One Missile" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="afcb-69a4-4843-35c6">
+        <profile name="Disposable Infiltration Fighter" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="bb74-68d2-1d6b-3c62">
           <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4&quot;</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">One Shot</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">20+&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">6+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -969,19 +984,24 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         <modifier type="set-primary" value="dbd4-63-af05-998" field="category"/>
       </modifiers>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Disposable Infiltration Fighter" hidden="false" id="0906-1f2d-f15d-fe99">
+        <selectionEntry type="upgrade" import="true" name="Disposable Missile" hidden="false" id="0906-1f2d-f15d-fe99">
           <profiles>
-            <profile name="Disposable Infiltration Fighter" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="bb74-68d2-1d6b-3c62">
+            <profile name="Literally One Missile" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="afcb-69a4-4843-35c6">
               <characteristics>
-                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">20+&quot;</characteristic>
-                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
-                <characteristic name="SV" typeId="450-a17e-9d5e-29da">6+</characteristic>
-                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
-                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
-                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0</characteristic>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">4&quot;</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">One Shot</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9632-a45b-24e0-e950"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2698-b442-81b5-058d"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <rules>
