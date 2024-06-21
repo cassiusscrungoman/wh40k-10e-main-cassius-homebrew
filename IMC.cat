@@ -67,10 +67,10 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink type="category" name="Faction: Unaligned Forces" hidden="false" id="8bcf-0343-488a-f923" targetId="e1ff-c0fa-2ca7-3466" primary="false"/>
         <categoryLink name="Allied Units" hidden="false" id="0efe-2726-5310-ecb3" targetId="887b-ab87-92a2-20f5" primary="false"/>
         <categoryLink name="Smoke" hidden="false" id="2f0b-4fbb-9320-3e1b" targetId="6df-937-16bc-8c1a" primary="false"/>
         <categoryLink name="Vehicle" hidden="false" id="b6a2-4947-801b-d227" targetId="dbd4-63-af05-998" primary="false"/>
+        <categoryLink name="Faction: IMC" hidden="false" id="0379-f72c-874e-5d8d" targetId="a57d-8e0c-54c8-8a1d" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="150"/>
@@ -106,11 +106,11 @@
         <categoryLink name="Grenades" hidden="false" id="e73a-2e83-585f-6b09" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
         <categoryLink name="Infantry" hidden="false" id="4210-0916-024d-38a4" targetId="cf47-a0d7-7207-29dc" primary="false"/>
         <categoryLink name="Fly" hidden="false" id="b15f-5c9e-830f-c7fd" targetId="c619-2086-bbcf-69c9" primary="false"/>
-        <categoryLink type="category" name="Faction: Unaligned Forces" hidden="false" id="8885-f947-dd24-8a2b" targetId="e1ff-c0fa-2ca7-3466" primary="false"/>
         <categoryLink name="Allied Units" hidden="false" id="cd59-9102-72d9-3880" targetId="887b-ab87-92a2-20f5" primary="false"/>
         <categoryLink name="Drone" hidden="false" id="5ead-468a-2581-40ed" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
         <categoryLink name="Smoke" hidden="false" id="118b-6bb7-4114-f16b" targetId="6df-937-16bc-8c1a" primary="false"/>
         <categoryLink name="Battleline" hidden="false" id="88da-bbc0-f5b7-8f38" targetId="e338-111e-d0c6-b687" primary="false"/>
+        <categoryLink name="Faction: IMC" hidden="false" id="bf96-1122-56e5-a39a" targetId="a57d-8e0c-54c8-8a1d" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
@@ -360,10 +360,10 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink type="category" name="Faction: Unaligned Forces" hidden="false" id="8fa9-5496-0cde-59a2" targetId="e1ff-c0fa-2ca7-3466" primary="false"/>
         <categoryLink name="Allied Units" hidden="false" id="eeb1-7a16-c884-e286" targetId="887b-ab87-92a2-20f5" primary="false"/>
         <categoryLink name="Smoke" hidden="false" id="dd42-978d-b229-258f" targetId="6df-937-16bc-8c1a" primary="false"/>
         <categoryLink name="Vehicle" hidden="false" id="434e-3fb9-a34c-1ecc" targetId="dbd4-63-af05-998" primary="false"/>
+        <categoryLink name="Faction: IMC" hidden="false" id="0cc9-4eca-553f-8bef" targetId="a57d-8e0c-54c8-8a1d" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="75"/>
@@ -446,9 +446,9 @@ The G1 Pilot may shoot, charge, and attack immediately after using this ability.
         <categoryLink name="Character" hidden="false" id="8281-898c-9058-44eb" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
         <categoryLink name="Grenades" hidden="false" id="c8f8-1c43-3713-de4f" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
         <categoryLink name="Infantry" hidden="false" id="5a73-6d32-57dd-8671" targetId="cf47-a0d7-7207-29dc" primary="false"/>
-        <categoryLink type="category" name="Faction: Any" hidden="false" id="8ebc-b1d6-3bd1-4237" targetId="ba60-be43-82a0-9d2d" primary="false"/>
-        <categoryLink type="category" name="Pilot" hidden="false" id="a938-1a64-587c-8e30" targetId="8824-eb56-e4b8-3644" primary="false"/>
         <categoryLink name="Fly" hidden="false" id="2655-3377-9ee6-f626" targetId="c619-2086-bbcf-69c9" primary="false"/>
+        <categoryLink name="Faction: IMC" hidden="false" id="574e-02ca-2ed4-c953" targetId="a57d-8e0c-54c8-8a1d" primary="false"/>
+        <categoryLink name="Pilot" hidden="false" id="8c88-85d2-39a0-1b85" targetId="f999-453c-66fc-4fb6" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="50"/>
@@ -511,7 +511,6 @@ The G1 Pilot may shoot, charge, and attack immediately after using this ability.
       </selectionEntries>
       <infoLinks>
         <infoLink name="Lone Operative" id="d51c-65da-6566-1767" hidden="false" type="rule" targetId="a8a0-8fe7-898-e0f3"/>
-        <infoLink name="Invulnerable Save (4+)" id="13ad-ecb7-94eb-61a2" hidden="false" type="profile" targetId="4117-1c37-9dd8-b6ef"/>
         <infoLink name="Scouts" id="9c34-3566-7748-3dda" hidden="false" type="rule" targetId="ada6-bac1-ffe0-d6f7"/>
         <infoLink name="Stealth" id="c667-fa6a-2748-c77c" hidden="false" type="rule" targetId="bec5-4288-34a6-ccfa"/>
       </infoLinks>
@@ -707,6 +706,9 @@ Additionally, as a rule clarification, Melta works if the target is within half 
           </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <rules>
+        <rule name="Invuln Save 4+" id="3794-12ff-9c64-1c05" hidden="false"/>
+      </rules>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Grunt" hidden="false" id="bfcf-b6d7-cd44-0616">
       <profiles>
@@ -761,8 +763,8 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         <categoryLink name="Character" hidden="false" id="22ec-7a86-ee7e-19a3" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
         <categoryLink name="Grenades" hidden="false" id="ec51-9fa1-1e3a-2459" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
         <categoryLink name="Infantry" hidden="false" id="fb86-849f-dc2d-1475" targetId="cf47-a0d7-7207-29dc" primary="false"/>
-        <categoryLink type="category" name="Faction: Any" hidden="false" id="7ee1-f183-15c7-de9e" targetId="ba60-be43-82a0-9d2d" primary="false"/>
-        <categoryLink type="category" name="Pilot" hidden="false" id="1565-1424-21db-4b05" targetId="8824-eb56-e4b8-3644" primary="false"/>
+        <categoryLink name="Faction: IMC" hidden="false" id="49cf-b0d5-d2c7-da89" targetId="a57d-8e0c-54c8-8a1d" primary="false"/>
+        <categoryLink name="Pilot" hidden="false" id="533d-897f-88fb-05ee" targetId="f999-453c-66fc-4fb6" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
@@ -948,4 +950,8 @@ Additionally, as a rule clarification, Melta works if the target is within half 
       </constraints>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <categoryEntries>
+    <categoryEntry name="Faction: IMC" id="a57d-8e0c-54c8-8a1d" hidden="false"/>
+    <categoryEntry name="Pilot" id="f999-453c-66fc-4fb6" hidden="false"/>
+  </categoryEntries>
 </catalogue>
