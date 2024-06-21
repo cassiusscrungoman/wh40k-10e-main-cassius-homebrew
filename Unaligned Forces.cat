@@ -2702,7 +2702,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         </selectionEntryGroup>
       </selectionEntryGroups>
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="24cc-4337-dd06-d67f" includeChildSelections="false"/>
+        <constraint type="max" value="2" field="selections" scope="force" shared="true" id="24cc-4337-dd06-d67f" includeChildSelections="false"/>
       </constraints>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="EVAC Ship" hidden="false" id="017f-b1c3-19c1-1c6d">
@@ -2950,7 +2950,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         </selectionEntryGroup>
       </selectionEntryGroups>
       <constraints>
-        <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="45ef-82d7-25ec-572c"/>
+        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="45ef-82d7-25ec-572c"/>
       </constraints>
     </selectionEntry>
   </sharedSelectionEntries>
