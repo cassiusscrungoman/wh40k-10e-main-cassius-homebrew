@@ -2982,11 +2982,6 @@ Additionally, as a rule clarification, Melta works if the target is within half 
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may not make Men of The Hour rolls.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Forward Scout" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7929-89b0-b825-3026">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When the unit this model is assigned to Hunkers Down, they do not lose their next shooting phase, and instead may shoot at a -1 to the hit roll.</characteristic>
-          </characteristics>
-        </profile>
         <profile name="Electric Smoke" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0114-3fea-116c-196b">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit uses Smoke, it deploys Electric Smoke.  Non-mechanical units in the smoke (e.g. ones without the Vehicle keyword or similar like Drone) take 1d3 mortal wounds when the smoke is initially deployed, and 2d3 mortal wounds at the start of their command phase.</characteristic>
@@ -2999,14 +2994,8 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         </profile>
         <profile name="Self-Destruct Protocol" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3dd2-c25b-31b6-9056">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this model is within engagement range of 1 or more enemy units, it may self destruct.  For each model you choose to use this ability with, they deal 1 mortal wound to all enemies in engagement range.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this model is within engagement range of 1 or more enemy units at the beginning of its movement phase, it may self destruct.  For each model you choose to use this ability with, they deal 1 mortal wound to all enemies in engagement range.</characteristic>
           </characteristics>
-        </profile>
-        <profile name="Invulnerable Save (5+)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8025-3159-c183-b79d">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save</characteristic>
-          </characteristics>
-          <comment>5+ Single model</comment>
         </profile>
       </profiles>
       <categoryLinks>
@@ -3045,12 +3034,15 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                 <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0</characteristic>
               </characteristics>
             </profile>
-            <profile name="Shock Troops" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f147-15d8-779d-d935">
+            <profile name="Replaceable Shock Troops" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f147-15d8-779d-d935">
               <characteristics>
                 <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may be deployed via IMC Drop Pods.  They deploy as if from Deep Strike.  If any spectre units are within 6&quot; of the drop pod, they heal 1d3 models at the start of their command phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <rules>
+            <rule name="Deep Strike" id="adea-d708-7c4f-a932" hidden="false"/>
+          </rules>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -3224,9 +3216,6 @@ Additionally, as a rule clarification, Melta works if the target is within half 
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <rules>
-        <rule name="Deep Strike" id="adea-d708-7c4f-a932" hidden="false"/>
-      </rules>
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
