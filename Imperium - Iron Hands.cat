@@ -338,6 +338,13 @@ Additionally, as a rule clarification, Melta works if the target is within half 
       <rules>
         <rule name="Invuln Save 4+" id="442e-a3b6-0a26-15dc" hidden="false"/>
       </rules>
+      <entryLinks>
+        <entryLink import="true" name="Warlord" hidden="false" id="5e97-155d-17fa-c6bc" collective="false" targetId="00b6-c7ac-a0c7-5021" type="selectionEntry">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e354-7173-c362-33c2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Grunt" hidden="false" id="a446-01ba-6fe7-7ffc">
       <profiles>
@@ -962,6 +969,18 @@ Additionally, as a rule clarification, Melta works if the target is within half 
       <rules>
         <rule name="Deadly Demise 1" id="8492-255f-377e-9e8c" hidden="false"/>
       </rules>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="00b6-c7ac-a0c7-5021" collective="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f0ab-c727-e292-3a12" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+      </constraints>
+      <costs>
+        <cost name="pl" typeId="c5fb-5b9b-89f6-86c" value="0"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Warlord" hidden="false" id="9981-4193-bdaa-78e4" targetId="5c0e-4c31-d51b-e470" primary="false"/>
+      </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
