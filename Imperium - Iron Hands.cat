@@ -561,7 +561,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Flakpanzer Gepard" hidden="false" id="cdef-201f-aefc-729c" defaultAmount="">
+    <selectionEntry type="model" import="true" name="Guntank" hidden="false" id="cdef-201f-aefc-729c" defaultAmount="">
       <profiles>
         <profile name="Electric Smoke" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="75bf-5e44-1dd8-0f15">
           <characteristics>
@@ -575,10 +575,10 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         </profile>
         <profile name="Terrifying Presence" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9b36-8685-e6f0-bd6b">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit attacks a unit of Infantry with its AA Cannon, that unit must pass a battle-shock test.  If they fail, they must move 2&quot; away from the Flakpanzer Gepard.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit attacks a unit of Infantry with its AA Cannon, that unit must pass a battle-shock test.  If they fail, they must move 2&quot; away from the Guntank.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Flakpanzer Gepard" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="53d1-ef44-5e6f-09c3">
+        <profile name="Guntank" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="53d1-ef44-5e6f-09c3">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">7</characteristic>
@@ -602,7 +602,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         <modifier type="set-primary" value="dbd4-63-af05-998" field="category"/>
       </modifiers>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Flakpanzer Gepard Main Gun" hidden="false" id="3c37-82d4-1398-521c">
+        <selectionEntry type="upgrade" import="true" name="Guntank Main Gun" hidden="false" id="3c37-82d4-1398-521c">
           <profiles>
             <profile name="AA Cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="d927-73a2-6c3c-63cc">
               <characteristics>
