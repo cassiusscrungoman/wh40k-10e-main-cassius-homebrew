@@ -3277,7 +3277,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         </profile>
         <profile name="Combat Reinforcements" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7870-2354-e57a-a7b6">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may give up its shooting phase to return 1d3 models to all Spectre units within 6&quot;.  If they have the Expendable, Deployed En-masse detatchment rule, return 2d3 models.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may give up its shooting phase to return 1d3 models to all Spectre units within 6&quot;.  If they have the Replaceable Shock Troops detatchment rule, return 2d3 models.</characteristic>
           </characteristics>
         </profile>
         <profile name="Anti-Material Cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="45e7-a541-d64d-bc0d">
@@ -3380,18 +3380,6 @@ Additionally, as a rule clarification, Melta works if the target is within half 
   </entryLinks>
   <categoryEntries>
     <categoryEntry name="Faction: Unaligned Forces" hidden="false" id="e1ff-c0fa-2ca7-3466">
-      <modifiers>
-        <modifier type="set" value="250" field="223b-e22c-21da-9aee">
-          <conditions>
-            <condition type="greaterThan" value="0" field="selections" scope="force" childId="d62d-db22-4893-4bc0" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" value="500" field="223b-e22c-21da-9aee">
-          <conditions>
-            <condition type="greaterThan" value="0" field="selections" scope="force" childId="baf8-997f-e323-a090" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <constraints>
         <constraint type="max" value="1000" field="51b2-306e-1021-d207" scope="roster" shared="true" id="223b-e22c-21da-9aee" includeChildForces="true" includeChildSelections="true"/>
       </constraints>
