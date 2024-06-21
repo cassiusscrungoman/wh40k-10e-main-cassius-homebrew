@@ -907,11 +907,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
     </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
-    <categoryEntry name="Faction: IMC" id="a195-5a3e-4355-8d18" hidden="false">
-      <constraints>
-        <constraint type="max" value="1000" field="51b2-306e-1021-d207" scope="roster" shared="false" id="20e9-a3bf-1ca4-467a" includeChildForces="false" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
+    <categoryEntry name="Faction: IMC" id="a195-5a3e-4355-8d18" hidden="false"/>
     <categoryEntry name="Pilot" id="ce1d-9b06-141b-b224" hidden="false"/>
   </categoryEntries>
   <entryLinks>
