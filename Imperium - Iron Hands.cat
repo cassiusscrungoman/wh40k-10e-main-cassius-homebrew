@@ -948,10 +948,11 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink name="Allied Units" hidden="false" id="5dfd-4f71-a786-3bd3" targetId="887b-ab87-92a2-20f5" primary="false"/>
         <categoryLink name="Smoke" hidden="false" id="20c9-4aad-a120-eac8" targetId="6df-937-16bc-8c1a" primary="false"/>
         <categoryLink name="Vehicle" hidden="false" id="f556-417c-de79-d7be" targetId="dbd4-63-af05-998" primary="false"/>
         <categoryLink name="Faction: IMC" hidden="false" id="f6da-23dd-7aad-cf87" targetId="a195-5a3e-4355-8d18" primary="false"/>
+        <categoryLink name="Fly" hidden="false" id="f967-043d-9ed6-3659" targetId="c619-2086-bbcf-69c9" primary="false"/>
+        <categoryLink name="Aircraft" hidden="false" id="10bd-de83-c5b0-9ad5" targetId="63f1-e6e8-f6f6-a4f0" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
@@ -972,6 +973,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
     <entryLink import="true" name="Spectre" hidden="false" id="1dae-f04d-9e13-6c6e" type="selectionEntry" targetId="4303-c8af-547d-7073"/>
     <entryLink import="true" name="Spectre Fighting Vehicle" hidden="false" id="8530-de0c-bcd5-8fc3" type="selectionEntry" targetId="a07d-f882-618e-8817"/>
     <entryLink import="true" name="Detachment" hidden="false" id="460d-4d21-0556-df12" type="selectionEntryGroup" targetId="e2c1-bdbc-ebea-6795"/>
+    <entryLink import="true" name="Disposable Infiltration Fighter" hidden="false" id="7449-a0e0-0a4a-04c0" type="selectionEntry" targetId="087b-38b4-94cd-286b"/>
   </entryLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Detachment" id="e2c1-bdbc-ebea-6795" hidden="false">
