@@ -2990,6 +2990,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         <cost name="pts" typeId="51b2-306e-1021-d207" value="40"/>
       </costs>
     </entryLink>
+    <entryLink import="true" name="Detachment" hidden="false" id="0d83-b187-fc92-6ec1" type="selectionEntryGroup" targetId="2f59-e4ce-246a-4b5d"/>
   </entryLinks>
   <categoryEntries>
     <categoryEntry name="Faction: Unaligned Forces" hidden="false" id="e1ff-c0fa-2ca7-3466">
@@ -3103,6 +3104,21 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         <entryLink targetId="72e7-16-6f4c-ecbd" id="70ad-3faf-fbcc-61a1" type="selectionEntry" name="Icarus lascannon" hidden="false"/>
         <entryLink targetId="4985-9124-1e83-10f0" id="6444-c1d6-c8db-1ba0" type="selectionEntry" name="Comms antenna" hidden="false"/>
       </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Detachment" id="2f59-e4ce-246a-4b5d" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Outer Heaven" hidden="false" id="dd95-f931-9bb4-fe82">
+          <rules>
+            <rule name="No Borders" id="3616-d9b2-0897-25b3" hidden="false">
+              <description>This army may ignore the standard restrictions on how many Pilots and Grunts they&apos;re allowed to have in their army.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fa45-1e79-a0d1-97e5" includeChildSelections="false"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f0a7-6b25-3ac5-e19a"/>
+      </constraints>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
 </catalogue>
