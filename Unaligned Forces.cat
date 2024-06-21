@@ -3056,28 +3056,6 @@ Additionally, as a rule clarification, Melta works if the target is within half 
             <infoLink name="Rapid Fire" id="9d3e-8b65-412b-76af" hidden="false" type="rule" targetId="c5c8-8b58-b8b6-7786"/>
           </infoLinks>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Combat Knife" hidden="false" id="923b-33c4-d8dc-f1f4" sortIndex="2">
-          <profiles>
-            <profile name="Combat Knife" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="91da-8145-4004-4512">
-              <characteristics>
-                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
-                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-                <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
-                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
-                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Twin-linked</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fa10-458a-cfb7-ee7d"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fa1e-9866-5ea8-d6d5"/>
-          </constraints>
-          <infoLinks>
-            <infoLink name="Twin-linked" id="304f-961f-6472-5b3c" hidden="false" type="rule" targetId="cf93-ad4d-2f08-a79d"/>
-          </infoLinks>
-        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup name="Spectre &amp; Stalker" id="e6ec-36ac-8b8e-ba51" hidden="false">
@@ -3124,7 +3102,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Spectre" hidden="false" id="2f8c-a4f9-47cf-0f54">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2bbb-720d-a2f4-bc7a"/>
+                <constraint type="min" value="9" field="selections" scope="parent" shared="true" id="2bbb-720d-a2f4-bc7a"/>
                 <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="4e50-2e93-7aa1-efb6"/>
               </constraints>
               <selectionEntryGroups>
