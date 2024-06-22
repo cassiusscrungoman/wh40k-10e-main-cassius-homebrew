@@ -22,7 +22,7 @@ The IMC Pilot may shoot, charge, and attack immediately after using this ability
         </profile>
         <profile name="Kill Me And See What Happens" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cd2e-6f5c-8439-e472">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit automatically succeeds all Men Of The Hour rolls.  If they take any damage but survive to the end of the phase, Men Of The Hour is triggered on this unit, and they gain +1 permanent wound, but only heal half of their total hp (after the hp increase, always round up).</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per game, if this model is reduced to 0HP, once the attacking unit has finished its attacks, reduce it to 1HP instead.  </characteristic>
           </characteristics>
         </profile>
         <profile name="Monarch" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d8db-b253-8d72-4e5e">
@@ -37,7 +37,7 @@ The IMC Pilot may shoot, charge, and attack immediately after using this ability
         </profile>
         <profile name="Can&apos;t Back Out Of This Deal" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4814-eced-13c2-2624">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit is within 6&quot; of the map edge, they may go to ground and be removed from the battlefield during your command phase.  If this happens, this unit counts as being EVACed and will be available for deployment in your next mission.  Any permanent wound increases from Kill Me And See What Happens are kept between missions.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit is within 6&quot; of the map edge, they may go to ground and be removed from the battlefield during your command phase.  If this happens, this unit counts as being EVACed and will be available for deployment in your next mission.  For every mission they survive, a pilot&apos;s wounds increase by 1.  Any permanent wound increases are kept between missions.</characteristic>
           </characteristics>
         </profile>
         <profile name="Remember Me" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4871-7387-6331-cf6d">
@@ -52,7 +52,7 @@ The IMC Pilot may shoot, charge, and attack immediately after using this ability
         </profile>
         <profile name="Trojan Injection" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b003-8e32-0dd1-f516">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit destroys a vehicle with its Data Knife, that vehicle does not roll for Deadly Demise, nor is it&apos;s model removed from the battlefield.  That vehicle becomes an immovable Terrain Feature for the remainder of the battle.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit destroys a vehicle with its Data Knife, that vehicle does not roll for Deadly Demise, nor is it&apos;s model removed from the battlefield.  That vehicle becomes an immovable Terrain Feature for the remainder of the battle that blocks line of sight.</characteristic>
           </characteristics>
         </profile>
         <profile name="Drop, Shock, &amp; Rock" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="19ac-e9fc-54f7-e722">
@@ -682,6 +682,44 @@ Additionally, as a rule clarification, Melta works if the target is within half 
           <rules>
             <rule name="Deep Strike" id="ae1c-e246-dc0d-7d69" hidden="false"/>
           </rules>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Replacement Spectre" hidden="false" id="d664-94bb-cf29-50a2">
+              <profiles>
+                <profile name="Replacement Spectre" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="640f-7b75-b51b-b3e4">
+                  <characteristics>
+                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
+                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">1</characteristic>
+                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="VK-47 Flatline" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="c609-84bb-8ea0-1528">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1,</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Spectre Claw" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="75a8-e101-0150-6edf">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds, Anti-Infantry 4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -865,7 +903,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         </profile>
         <profile name="Combat Reinforcements" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e9ec-6299-25d5-4c12">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of this unit&apos;s command phase, add 1d3 spectre models to any nearby spectre units.  If they have the Replaceable Shock Troops detatchment rule, add 2d3 models.  This does NOT stack with the detatchment rule.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of this unit&apos;s command phase, add 1d3 spectre models to any nearby spectre units.  If they have the Replaceable Shock Troops detatchment rule, add 3 models.  This does stack with the detatchment rule.</characteristic>
           </characteristics>
         </profile>
         <profile name="Spectre Fighting Vehicle" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="4a5a-94ab-54c5-2e5c">
