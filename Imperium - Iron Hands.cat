@@ -214,7 +214,7 @@ The IMC Pilot may shoot, charge, and attack immediately after using this ability
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">20</characteristic>
                         <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">5</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Precision, Lethal Hits, Conversion, Anti-Infantry 3+, Devastating Wounds, Intervention</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Precision, Lethal Hits, Anti-Infantry 3+, Devastating Wounds, Intervention</characteristic>
                       </characteristics>
                     </profile>
                     <profile name="Intervention" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2648-dddc-87e1-04dc">
@@ -223,12 +223,6 @@ The IMC Pilot may shoot, charge, and attack immediately after using this ability
                       </characteristics>
                     </profile>
                   </profiles>
-                  <rules>
-                    <rule name="Conversion" id="0224-36c5-7ec7-b376" hidden="false">
-                      <description>Each time an attack is made with this weapon, if the target is more than 12&quot; from the bearer, an unmodified successful Hit roll of 4+ scores a Critical Hit.</description>
-                      <comment>12&quot; variant</comment>
-                    </rule>
-                  </rules>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Archer Heavy Lock-on Rocket Launcher" hidden="false" id="adf3-b7d3-1d97-82d7">
                   <profiles>
@@ -246,7 +240,7 @@ The IMC Pilot may shoot, charge, and attack immediately after using this ability
                     <profile name="Fox 3!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5e1f-2205-1604-d7a4">
                       <characteristics>
                         <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this pilot selects the Archer Heavy Lock-on Rocket Launcher as their primary weapon choice, if they target a Vehicle with the Archer, the attack gains a +1 to hit.
-Additionally, as a rule clarification, Melta works if the target is within half of the range from the model who the G1 Pilot selects as their spotter for Linked Fire.</characteristic>
+Additionally, as a rule clarification, Melta works if the target is within half of the range from the model who the IMC Pilot selects as their spotter for Linked Fire.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -271,14 +265,14 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                         <characteristic name="A" typeId="3bb-c35f-f54-fb08">5</characteristic>
                         <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
-                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
                         <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Assault, Melta 2, Twin-linked, Precision, Seein&apos; Red</characteristic>
                       </characteristics>
                     </profile>
                     <profile name="Seein&apos; Red" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="29ab-c5e7-1c7e-b530">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this pilot selects the Peacekeeper as their primary weapon choice, when they make an Advance roll, add 6&quot; to their movement.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this pilot selects the Peacekeeper as their primary weapon choice, when they make an Advance roll, add 6&quot; to their movement.  If they can walk adjacent to a wall, add 12&quot; to their movement.</characteristic>
                       </characteristics>
                     </profile>
                     <profile name="Peacekeeper - Choke" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="d30f-7b91-2baf-e06e">
@@ -287,7 +281,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                         <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
                         <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
-                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">4</characteristic>
                         <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked, Precision, Seein&apos; Red</characteristic>
                       </characteristics>
@@ -300,30 +294,28 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                     <infoLink name="Precision" id="d6dd-aca8-e885-46c4" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
                   </infoLinks>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="R-99 Submachine Gun" hidden="false" id="61a7-a0bf-4704-4762">
+                <selectionEntry type="upgrade" import="true" name="Anti-Titan Sidewinder Micro Rocket Launcher (AT-SMR)" hidden="false" id="61a7-a0bf-4704-4762">
                   <profiles>
-                    <profile name="R-99 Submachine Gun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="8a0c-9cf4-93ed-77db">
+                    <profile name="SMR" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="8a0c-9cf4-93ed-77db">
                       <characteristics>
-                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">16&quot;</characteristic>
-                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
-                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                        <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
-                        <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 2, Sustained Hits 2, Assault, Pistol, Volume of Fire</characteristic>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">15&quot;</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Vehicle 4+, Devastating Wounds, Volume of Fire</characteristic>
                       </characteristics>
                     </profile>
                     <profile name="Volume of Fire" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4a71-bdb5-2101-f71e">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this pilot selects the R-99 as their primary weapon choice, when they attack with it, they may choose one of their attacks to turn into an unmodified 6.  If they&apos;re within Rapid Fire range, they may choose two attacks.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this pilot selects the SMR as their primary weapon choice, when they attack with it, they may attack all Vehicles within range.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink name="Assault" id="dd19-96fe-161c-d33b" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
-                    <infoLink name="Sustained Hits" id="b0f5-7229-8218-aa51" hidden="false" type="rule" targetId="1897-c22c-9597-12b1"/>
-                    <infoLink name="Pistol" id="6134-3f43-c783-2552" hidden="false" type="rule" targetId="8bf7-8812-923d-29e4"/>
-                    <infoLink name="Rapid Fire" id="9c67-f6c4-88d5-5085" hidden="false" type="rule" targetId="c5c8-8b58-b8b6-7786"/>
+                    <infoLink name="Anti-" id="dd19-96fe-161c-d33b" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
+                    <infoLink name="Devastating Wounds" id="b0f5-7229-8218-aa51" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
                   </infoLinks>
                 </selectionEntry>
               </selectionEntries>
@@ -683,7 +675,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
             </profile>
             <profile name="Replaceable Shock Troops" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6131-be26-d2a0-2cc6">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may be deployed via IMC Drop Pods.  They deploy as if from Deep Strike.  If any spectre units are within 6&quot; of the drop pod, they heal 1d3 models at the start of their command phase.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may be deployed via IMC Drop Pods.  They deploy as if from Deep Strike.  If any spectre units are within 6&quot; of the drop pod, they gain 1d3 models at the end of their command phase.  If there are no spectres around the drop pod, 1d3 spectres disembark from the pod at the end of the command phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -725,12 +717,12 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                 <profile name="L-STAR" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="a9a4-3a11-16af-2e76">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
                     <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 2, Sustained Hits 1,</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 4, Sustained Hits 1,</characteristic>
                   </characteristics>
                 </profile>
                 <profile name="P2020 Sidearm" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="cac5-ca7a-62f2-71a7">
@@ -807,7 +799,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                             <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
                             <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
                             <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
-                            <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
                             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds, Assault</characteristic>
                           </characteristics>
@@ -873,7 +865,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         </profile>
         <profile name="Combat Reinforcements" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e9ec-6299-25d5-4c12">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may give up its shooting phase to return 1d3 models to all Spectre units within 6&quot;.  If they have the Replaceable Shock Troops detatchment rule, return 2d3 models.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of this unit&apos;s command phase, add 1d3 spectre models to any nearby spectre units.  If they have the Replaceable Shock Troops detatchment rule, add 2d3 models.  This does NOT stack with the detatchment rule.</characteristic>
           </characteristics>
         </profile>
         <profile name="Spectre Fighting Vehicle" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="4a5a-94ab-54c5-2e5c">
@@ -1047,7 +1039,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         <selectionEntry type="upgrade" import="true" name="Replaceable Shock Troops" hidden="false" id="21fd-8029-8896-03a9">
           <rules>
             <rule name="Expendable, Deployed En-masse" id="1319-1106-fbaf-5fe1" hidden="false">
-              <description>If any spectre units are within 6&quot; of a unit with the VEHICLE tag, they heal 1d3 models at the start of their command phase.</description>
+              <description>If any spectre units are within 6&quot; of a unit with the VEHICLE tag, they gain 1d3 models at the end of their command phase.  If a Vehicle has no spectre units around it, it produces 1d3 spectre models at the end of its command phase which disembark from it.</description>
             </rule>
           </rules>
         </selectionEntry>
