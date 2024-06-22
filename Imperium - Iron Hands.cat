@@ -180,7 +180,7 @@ The IMC Pilot may shoot, charge, and attack immediately after using this ability
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
                         <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Assault, Precision</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Assault, Twin-linked, Precision</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -188,6 +188,7 @@ The IMC Pilot may shoot, charge, and attack immediately after using this ability
                     <infoLink name="Pistol" id="e959-7a60-adfd-7c4e" hidden="false" type="rule" targetId="8bf7-8812-923d-29e4"/>
                     <infoLink name="Assault" id="01dd-fcd0-d14f-9a0c" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
                     <infoLink name="Precision" id="14e6-a4c9-363e-449b" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
+                    <infoLink name="Twin-linked" id="2e4f-bab2-7fd9-1678" hidden="false" type="rule" targetId="cf93-ad4d-2f08-a79d"/>
                   </infoLinks>
                 </selectionEntry>
               </selectionEntries>
@@ -265,14 +266,14 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                         <characteristic name="A" typeId="3bb-c35f-f54-fb08">5</characteristic>
                         <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
-                        <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
                         <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Assault, Melta 2, Twin-linked, Precision, Seein&apos; Red</characteristic>
                       </characteristics>
                     </profile>
                     <profile name="Seein&apos; Red" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="29ab-c5e7-1c7e-b530">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this pilot selects the Peacekeeper as their primary weapon choice, when they make an Advance roll, add 6&quot; to their movement.  If they can walk adjacent to a wall, add 12&quot; to their movement.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this pilot selects the Peacekeeper as their primary weapon choice, when they make an Advance roll, add 6&quot; to their movement.</characteristic>
                       </characteristics>
                     </profile>
                     <profile name="Peacekeeper - Choke" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="d30f-7b91-2baf-e06e">
@@ -316,6 +317,30 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                   <infoLinks>
                     <infoLink name="Anti-" id="dd19-96fe-161c-d33b" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
                     <infoLink name="Devastating Wounds" id="b0f5-7229-8218-aa51" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Volt SMG" hidden="false" id="b74e-4e35-d366-018f">
+                  <profiles>
+                    <profile name="Volt SMG" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="83fb-0168-84c6-2077">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">20&quot;</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Assault, Rapid Fire 3, Shoot n&apos; Scoot</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Shoot n&apos; Scoot" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f752-e546-05ec-dcab">
+                      <characteristics>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this pilot selects the Volt SMG as their primary weapon choice, when they perform an action, they may still shoot.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Assault" id="38bf-b3da-de4e-7527" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
+                    <infoLink name="Rapid Fire" id="9d14-06bd-660a-fab9" hidden="false" type="rule" targetId="c5c8-8b58-b8b6-7786"/>
                   </infoLinks>
                 </selectionEntry>
               </selectionEntries>
@@ -718,6 +743,10 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                   </characteristics>
                 </profile>
               </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="270c-4f29-cfbc-9337" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b4a8-26ab-f933-e88e"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
         </selectionEntry>
@@ -794,12 +823,12 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                         <profile name="Scout DMR" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="389d-d08f-74bc-0ce5">
                           <characteristics>
                             <characteristic name="Range" typeId="9896-9419-16a1-92fc">28&quot;</characteristic>
-                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
                             <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                             <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
                             <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Precision, Lethal Hits, Heavy</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Precision, Lethal Hits, Heavy, Conversion (Lethal on 4+)</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -815,28 +844,27 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                         <profile name="R-301 Carbine" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="9a3c-5a81-40fb-638d">
                           <characteristics>
                             <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
-                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">5</characteristic>
                             <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                             <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
                             <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
                             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 2, Sustained Hits 1,</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1,</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <infoLinks>
                         <infoLink name="Sustained Hits" id="08af-dce4-44b9-9a09" hidden="false" type="rule" targetId="1897-c22c-9597-12b1"/>
-                        <infoLink name="Rapid Fire" id="4ce7-de8c-36f5-fc83" hidden="false" type="rule" targetId="c5c8-8b58-b8b6-7786"/>
                       </infoLinks>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Mastiff Combat Shotgun" hidden="false" id="c163-4130-4fdb-0469">
                       <profiles>
-                        <profile name="EVA-8 Automatic Shotgun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="9103-d4d5-ce53-8a21">
+                        <profile name="Mastiff Combat Shotgun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="9103-d4d5-ce53-8a21">
                           <characteristics>
                             <characteristic name="Range" typeId="9896-9419-16a1-92fc">10&quot;</characteristic>
                             <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
                             <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                            <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
+                            <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
                             <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
                             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds, Assault</characteristic>
