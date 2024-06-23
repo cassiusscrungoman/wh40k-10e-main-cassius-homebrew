@@ -1357,7 +1357,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         </profile>
         <profile name="Critical Infrastructure" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9f6a-7b83-cf83-c57e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If you bring the Harvester with you, it frees up 200 points for other units, but is a major objective.  If destroyed, the opponent gains 10 VP.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If you bring the Harvester with you, it frees up 150/300/600 (game size) points for other units, but is a major objective.  If destroyed, the opponent gains 10 VP.</characteristic>
           </characteristics>
         </profile>
         <profile name="Harvester" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="46c7-faac-ce83-7002">
@@ -1384,7 +1384,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         <categoryLink name="Objective" hidden="false" id="0fe7-53f0-0f2f-358d" targetId="ab1a-c85f-adc2-e16f" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="-200"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="-150"/>
       </costs>
       <modifiers>
         <modifier type="set-primary" value="dbd4-63-af05-998" field="category"/>
@@ -1392,6 +1392,25 @@ Additionally, as a rule clarification, Melta works if the target is within half 
       <infoLinks>
         <infoLink name="Feel No Pain 6" id="1d08-0819-5827-b775" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
       </infoLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <conditionGroups>
+            <conditionGroup type="or"/>
+          </conditionGroups>
+          <modifiers>
+            <modifier type="set" value="-300" field="51b2-306e-1021-d207">
+              <conditions>
+                <condition type="greaterThan" value="1100" field="51b2-306e-1021-d207" scope="force" childId="any" shared="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="-600" field="51b2-306e-1021-d207">
+              <conditions>
+                <condition type="greaterThan" value="2100" field="51b2-306e-1021-d207" scope="force" childId="any" shared="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
