@@ -1610,48 +1610,40 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                 <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="7f16-0e78-b8d7-7a64"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Mortar Spectre Weapon Choice" hidden="false" id="7758-cff1-124e-2797">
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Archer Heavy Lock-on Rocket Launcher" hidden="false" id="4cb7-1110-7560-1b7c">
-                      <profiles>
-                        <profile name="Archer Heavy Lock-on Rocket Launcher" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="2368-db13-83ed-b598">
-                          <characteristics>
-                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">20&quot;</characteristic>
-                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+</characteristic>
-                            <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
-                            <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Vehicle 4+, Linked Fire, Indirect Fire, Heavy, Fox 3!</characteristic>
-                          </characteristics>
-                        </profile>
-                        <profile name="Fox 3!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5fbf-5245-c33e-9712">
-                          <characteristics>
-                            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this pilot selects the Archer Heavy Lock-on Rocket Launcher as their primary weapon choice, if they target a Vehicle with the Archer, the attack gains a +1 to hit.
-</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <infoLinks>
-                        <infoLink name="Anti-" id="a1c7-527e-3590-02c6" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
-                        <infoLink name="Indirect Fire" id="0786-47b4-7eb2-f565" hidden="false" type="rule" targetId="4ddd-4e29-acdd-5e6d"/>
-                        <infoLink name="Heavy" id="a5d6-7d46-44da-1744" hidden="false" type="rule" targetId="1202-10a8-78e9-4c67"/>
-                      </infoLinks>
-                      <rules>
-                        <rule name="Linked Fire" id="d02f-870a-b6bf-c412" hidden="false">
-                          <description>When selecting targets for this weapon, you can measure range and determine visibility from another friendly infantry or character model that is visible to the bearer.</description>
-                        </rule>
-                      </rules>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="87a7-2625-4278-f37f"/>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="47ec-861b-bc5d-68f3"/>
-                      </constraints>
-                    </selectionEntry>
-                  </selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Mortar Spectre Weapon" hidden="false" id="7758-cff1-124e-2797">
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0825-5227-3cb6-69ff"/>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="50b0-b3ad-55ea-30bb"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="87a7-2625-4278-f37f"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="47ec-861b-bc5d-68f3"/>
                   </constraints>
+                  <rules>
+                    <rule name="Linked Fire" id="d02f-870a-b6bf-c412" hidden="false">
+                      <description>When selecting targets for this weapon, you can measure range and determine visibility from another friendly infantry or character model that is visible to the bearer.</description>
+                    </rule>
+                  </rules>
+                  <profiles>
+                    <profile name="Fox 3!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5fbf-5245-c33e-9712">
+                      <characteristics>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this pilot selects the Archer Heavy Lock-on Rocket Launcher as their primary weapon choice, if they target a Vehicle with the Archer, the attack gains a +1 to hit.
+</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Archer Heavy Lock-on Rocket Launcher" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="2368-db13-83ed-b598">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">20&quot;</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Vehicle 4+, Linked Fire, Indirect Fire, Heavy, Fox 3!</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Anti-" id="a1c7-527e-3590-02c6" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
+                    <infoLink name="Heavy" id="a5d6-7d46-44da-1744" hidden="false" type="rule" targetId="1202-10a8-78e9-4c67"/>
+                    <infoLink name="Indirect Fire" id="0786-47b4-7eb2-f565" hidden="false" type="rule" targetId="4ddd-4e29-acdd-5e6d"/>
+                  </infoLinks>
                 </selectionEntry>
               </selectionEntries>
               <profiles>
