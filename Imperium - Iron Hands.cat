@@ -589,7 +589,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         </selectionEntryGroup>
         <selectionEntryGroup name="Grunt Specialization" id="6942-341a-8950-4403" hidden="false" defaultSelectionEntryId="26b7-e7cf-33d8-9abe">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Fights First" hidden="false" id="273f-899c-d2cd-01ce" sortIndex="2">
+            <selectionEntry type="model" import="true" name="Fights First" hidden="false" id="273f-899c-d2cd-01ce" sortIndex="2">
               <infoLinks>
                 <infoLink name="Fights First" id="e646-70f6-e693-23a4" hidden="false" type="rule" targetId="24-c886-e8ba-5a89"/>
               </infoLinks>
@@ -609,7 +609,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Scouts 7&quot;" hidden="false" id="83d3-2fe5-a52d-3134" sortIndex="4">
+            <selectionEntry type="model" import="true" name="Scouts 7&quot;" hidden="false" id="83d3-2fe5-a52d-3134" sortIndex="4">
               <profiles>
                 <profile name="Pathfinder Grunt" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="607a-0f95-3fba-0fdf">
                   <characteristics>
@@ -629,7 +629,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Heavy" hidden="false" id="b856-f17b-cdd2-6cad" sortIndex="5">
+            <selectionEntry type="model" import="true" name="Heavy" hidden="false" id="b856-f17b-cdd2-6cad" sortIndex="5">
               <profiles>
                 <profile name="Marksman Grunt" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="a450-2d8f-4e0a-69ef">
                   <characteristics>
@@ -649,7 +649,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Infiltrators" hidden="false" id="919d-1e46-49c4-a141" sortIndex="3">
+            <selectionEntry type="model" import="true" name="Infiltrators" hidden="false" id="919d-1e46-49c4-a141" sortIndex="3">
               <profiles>
                 <profile name="Infiltration Grunt" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="d3e7-581c-6934-9a4c">
                   <characteristics>
@@ -669,7 +669,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="No Specialization" hidden="false" id="cb35-068e-d21b-f625" sortIndex="6">
+            <selectionEntry type="model" import="true" name="No Specialization" hidden="false" id="cb35-068e-d21b-f625" sortIndex="6">
               <profiles>
                 <profile name="Grunt" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="ed97-3a38-23ed-3c5a">
                   <characteristics>
@@ -683,7 +683,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Shield Captain" hidden="false" id="df95-c7bd-5b8b-bde3" sortIndex="1">
+            <selectionEntry type="model" import="true" name="Shield Captain" hidden="false" id="df95-c7bd-5b8b-bde3" sortIndex="1">
               <infoLinks>
                 <infoLink name="Feel No Pain 6+" id="c865-d11e-9fb6-3b64" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
               </infoLinks>
@@ -702,6 +702,9 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
               </costs>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c606-153c-84b3-d00c"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -812,7 +815,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <modifier type="set-primary" value="e338-111e-d0c6-b687" field="category"/>
       </modifiers>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="IMC Drop Pod" hidden="false" id="3faf-e512-d794-a881">
+        <selectionEntry type="unit" import="true" name="IMC Drop Pod" hidden="false" id="3faf-e512-d794-a881" subType="unit-group">
           <costs>
             <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
           </costs>
@@ -832,7 +835,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
             </profile>
             <profile name="On-Site Fabrication" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6131-be26-d2a0-2cc6">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may be deployed via IMC Drop Pods.  They deploy as if from Deep Strike.  If any spectre units are within 6&quot; of the drop pod, they gain 1d3 models at the end of their command phase.  If there are no spectres around the drop pod, 1d3 spectres disembark from the pod at the end of the command phase.  If they have the Replaceable Shock Troops detatchment rule, both of these triggers gain +2 models.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may be deployed via IMC Drop Pods.  They deploy as if from Deep Strike.  If any spectre units are within 6&quot; of the drop pod, they gain 1d3 models at the end of their command phase.  If there are no spectres around the drop pod, 1d3 spectres disembark from the pod at the end of the command phase.  If they have the Replaceable Shock Troops detatchment rule, both of these triggers gain +2 models.  This does NOT stack with the detatchment rule.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1738,7 +1741,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
             </profile>
             <profile name="On-Site Fabrication" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a18b-a647-a482-4915">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may be deployed via IMC Drop Pods.  They deploy as if from Deep Strike.  If any spectre units are within 6&quot; of the drop pod, they gain 1d3 models at the end of their command phase.  If there are no spectres around the drop pod, 1d3 spectres disembark from the pod at the end of the command phase.  If they have the Replaceable Shock Troops detatchment rule, both of these triggers gain +2 models.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may be deployed via IMC Drop Pods.  They deploy as if from Deep Strike.  If any spectre units are within 6&quot; of the drop pod, they gain 1d3 models at the end of their command phase.  If there are no spectres around the drop pod, 1d3 spectres disembark from the pod at the end of the command phase.  If they have the Replaceable Shock Troops detatchment rule, both of these triggers gain +2 models.  This does NOT stack with the detatchment rule.</characteristic>
               </characteristics>
             </profile>
           </profiles>
