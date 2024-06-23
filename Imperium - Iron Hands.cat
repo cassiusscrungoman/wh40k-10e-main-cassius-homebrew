@@ -1147,9 +1147,9 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         <modifier type="set-primary" value="dbd4-63-af05-998" field="category"/>
       </modifiers>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="New Entry" hidden="false" id="a496-9e0f-d69e-c85c">
+        <selectionEntry type="upgrade" import="true" name="Neural Link" hidden="false" id="a496-9e0f-d69e-c85c">
           <profiles>
-            <profile name="Neural Link" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0043-265d-8d9b-ca28">
+            <profile name="Emergency Embarkation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0043-265d-8d9b-ca28">
               <characteristics>
                 <characteristic name="Description" typeId="9b8f-694b-e5e-b573">An IMC Pilot may embark within this Titan during their movement phase.  If they do, use the stats marked in () on this Titan&apos;s statblock until the Pilot disembarks.</characteristic>
               </characteristics>
@@ -1324,4 +1324,9 @@ Additionally, as a rule clarification, Melta works if the target is within half 
       </constraints>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <rules>
+    <rule name="Titan" id="af1a-df6e-3ae4-6413" hidden="false">
+      <description>Titans may be embarked in by Pilots during their movement phase.</description>
+    </rule>
+  </rules>
 </catalogue>
