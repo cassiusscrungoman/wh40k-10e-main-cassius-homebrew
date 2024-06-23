@@ -1609,8 +1609,8 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                 <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="25ef-5988-b7af-a322"/>
                 <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="7f16-0e78-b8d7-7a64"/>
               </constraints>
-              <selectionEntryGroups>
-                <selectionEntryGroup name="Mortar Spectre Weapon Choice" id="c186-90cb-a323-02ef" hidden="false" defaultSelectionEntryId="26b7-e7cf-33d8-9abe">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Mortar Spectre Weapon Choice" hidden="false" id="7758-cff1-124e-2797">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Archer Heavy Lock-on Rocket Launcher" hidden="false" id="4cb7-1110-7560-1b7c">
                       <profiles>
@@ -1645,11 +1645,11 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0998-39e0-1e90-434f"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5259-b4f3-4680-2e82"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="87a7-2625-4278-f37f"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="47ec-861b-bc5d-68f3"/>
                   </constraints>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+                </selectionEntry>
+              </selectionEntries>
               <profiles>
                 <profile name="Mortar Spectre" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="366b-7c23-c6fa-47d4">
                   <characteristics>
