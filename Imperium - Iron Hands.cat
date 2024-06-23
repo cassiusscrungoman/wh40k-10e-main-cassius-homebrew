@@ -407,16 +407,6 @@ Additionally, as a rule clarification, Melta works if the target is within half 
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Grunt" hidden="false" id="a446-01ba-6fe7-7ffc">
       <profiles>
-        <profile name="Grunt" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="72d5-30e7-9367-a11e">
-          <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
-            <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
-            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
-          </characteristics>
-        </profile>
         <profile name="Training Over Programming" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dd27-fddf-25ed-4acb">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model&apos;s specialization applies to the unit it is leading.</characteristic>
@@ -607,11 +597,35 @@ Additionally, as a rule clarification, Melta works if the target is within half 
               <infoLinks>
                 <infoLink name="Fights First" id="e646-70f6-e693-23a4" hidden="false" type="rule" targetId="24-c886-e8ba-5a89"/>
               </infoLinks>
+              <profiles>
+                <profile name="CQB Grunt" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="72d5-30e7-9367-a11e">
+                  <characteristics>
+                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
+                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
               </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Scouts 7&quot;" hidden="false" id="83d3-2fe5-a52d-3134">
+              <profiles>
+                <profile name="Pathfinder Grunt" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="607a-0f95-3fba-0fdf">
+                  <characteristics>
+                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
+                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <infoLinks>
                 <infoLink name="Scouts 7&quot;" id="71da-caf5-4794-16c8" hidden="false" type="rule" targetId="ada6-bac1-ffe0-d6f7"/>
               </infoLinks>
@@ -620,6 +634,18 @@ Additionally, as a rule clarification, Melta works if the target is within half 
               </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Heavy" hidden="false" id="b856-f17b-cdd2-6cad">
+              <profiles>
+                <profile name="Marksman Grunt" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="a450-2d8f-4e0a-69ef">
+                  <characteristics>
+                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
+                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <infoLinks>
                 <infoLink name="Heavy" id="c185-9d9e-9e25-0d35" hidden="false" type="rule" targetId="1202-10a8-78e9-4c67"/>
               </infoLinks>
@@ -628,6 +654,18 @@ Additionally, as a rule clarification, Melta works if the target is within half 
               </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Infiltrators" hidden="false" id="919d-1e46-49c4-a141">
+              <profiles>
+                <profile name="Infiltration Grunt" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="d3e7-581c-6934-9a4c">
+                  <characteristics>
+                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
+                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <infoLinks>
                 <infoLink name="Infiltrators" id="24b0-0dae-d45c-cfcb" hidden="false" type="rule" targetId="c05d-f4c3-f091-4938"/>
               </infoLinks>
@@ -635,9 +673,24 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
               </costs>
             </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="No Specialization" hidden="false" id="cb35-068e-d21b-f625">
+              <profiles>
+                <profile name="Grunt" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="ed97-3a38-23ed-3c5a">
+                  <characteristics>
+                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
+                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
           </selectionEntries>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4133-2216-7788-001d"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5bfa-33b0-28cb-7780"/>
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
