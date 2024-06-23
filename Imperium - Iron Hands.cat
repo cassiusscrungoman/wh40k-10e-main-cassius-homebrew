@@ -1165,6 +1165,10 @@ Additionally, as a rule clarification, Melta works if the target is within half 
               </characteristics>
             </profile>
           </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c19-6877-de15-ecff"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8218-290c-5cbb-f261"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
