@@ -1401,7 +1401,11 @@ Additionally, as a rule clarification, Melta works if the target is within half 
             <modifier type="set" value="-300" field="51b2-306e-1021-d207">
               <conditions>
                 <condition type="greaterThan" value="1100" field="51b2-306e-1021-d207" scope="force" childId="any" shared="true" includeChildForces="true"/>
+                <condition type="lessThan" value="2001" field="51b2-306e-1021-d207" scope="force" childId="any" shared="true" includeChildForces="true"/>
               </conditions>
+              <conditionGroups>
+                <conditionGroup type="and"/>
+              </conditionGroups>
             </modifier>
             <modifier type="set" value="-600" field="51b2-306e-1021-d207">
               <conditions>
