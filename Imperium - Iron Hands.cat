@@ -390,6 +390,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
           </selectionEntries>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="63c3-8960-9796-269f"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e07b-7af7-2159-3b72" includeChildSelections="false"/>
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
