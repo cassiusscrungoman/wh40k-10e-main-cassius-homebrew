@@ -1868,6 +1868,9 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <categoryLink name="Battleline" hidden="false" id="0dfa-b17a-bb94-1ca6" targetId="e338-111e-d0c6-b687" primary="false"/>
         <categoryLink name="Faction: IMC" hidden="false" id="60d1-db16-ea3d-8689" targetId="a195-5a3e-4355-8d18" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set-primary" value="e338-111e-d0c6-b687" field="category"/>
+      </modifiers>
     </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
