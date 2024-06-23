@@ -1382,7 +1382,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         <cost name="pts" typeId="51b2-306e-1021-d207" value="-200"/>
       </costs>
       <modifiers>
-        <modifier type="set-primary" value="ab1a-c85f-adc2-e16f" field="category"/>
+        <modifier type="set-primary" value="dbd4-63-af05-998" field="category"/>
       </modifiers>
     </selectionEntry>
   </sharedSelectionEntries>
