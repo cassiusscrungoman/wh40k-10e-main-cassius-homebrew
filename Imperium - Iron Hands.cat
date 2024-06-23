@@ -1347,7 +1347,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
       <profiles>
         <profile name="Shield Can&apos;t Hold Forever" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="475f-6fb8-ecd0-5b86">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">After the harvester is reduced to half of its starting strength, its save decreases by 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">After the harvester is reduced to half of its starting strength, its save decreases by 1 and is no longer invuln.  It also loses Feel No Pain 6.</characteristic>
           </characteristics>
         </profile>
         <profile name="Rich Vein" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3537-67d1-d04e-1753">
@@ -1364,7 +1364,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">-</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
-            <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+ (5+)</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">Invuln 4+ (5+)</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">20</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">-</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0</characteristic>
@@ -1384,6 +1384,12 @@ Additionally, as a rule clarification, Melta works if the target is within half 
       <modifiers>
         <modifier type="set-primary" value="dbd4-63-af05-998" field="category"/>
       </modifiers>
+      <infoLinks>
+        <infoLink name="Feel No Pain 6" id="1d08-0819-5827-b775" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
+      </infoLinks>
+      <rules>
+        <rule name="Invuln Save 4+" id="4ec1-0533-f5a5-2831" hidden="false"/>
+      </rules>
     </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
