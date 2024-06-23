@@ -1855,10 +1855,6 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
           </characteristics>
         </profile>
       </profiles>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="270c-4f29-cfbc-9337" includeChildSelections="false"/>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b4a8-26ab-f933-e88e"/>
-      </constraints>
       <categoryLinks>
         <categoryLink name="Grenades" hidden="false" id="28ac-943a-3403-1157" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
         <categoryLink name="Infantry" hidden="false" id="b781-f2c9-6269-245e" targetId="cf47-a0d7-7207-29dc" primary="false"/>
