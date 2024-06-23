@@ -1146,6 +1146,27 @@ Additionally, as a rule clarification, Melta works if the target is within half 
       <modifiers>
         <modifier type="set-primary" value="dbd4-63-af05-998" field="category"/>
       </modifiers>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="New Entry" hidden="false" id="a496-9e0f-d69e-c85c">
+          <profiles>
+            <profile name="Neural Link" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0043-265d-8d9b-ca28">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">An IMC Pilot may embark within this Titan during their movement phase.  If they do, use the stats marked in () on this Titan&apos;s statblock until the Pilot disembarks.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Nuclear Eject" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="47b9-35ee-6c69-c750">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this Titan is destroyed, eject any embarked pilots 20&quot; in any direction and deal 3 mortal wounds to all within 6&quot;.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Orbital Insertion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9e39-0636-e94a-4a09">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When using Deep Strike, telegraph where this unit will deploy 1 turn in advance, at the start of your movement phase.  This cannot be ontop of control points.  It will deploy there regardless of how close enemy units are.  If anyone is within 2&quot; of the selected spot, they die.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup name="Titan Chasis" id="42b6-3625-3de8-fb1d" hidden="false">
           <selectionEntries>
@@ -1193,7 +1214,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                 <infoLink name="Feel No Pain" id="525f-32c6-fd99-a1b5" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
               </infoLinks>
               <entryLinks>
-                <entryLink import="true" name="Base Titan Abilities" hidden="false" id="373b-76e5-6e73-111e" type="selectionEntryGroup" targetId="7e3a-9c1d-611b-3e61"/>
+                <entryLink import="true" name="New Entry" hidden="false" id="373b-76e5-6e73-111e" type="selectionEntry" targetId="a496-9e0f-d69e-c85c"/>
               </entryLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Ronin" hidden="false" id="8669-12bc-ec86-2895">
@@ -1248,7 +1269,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                 </profile>
               </profiles>
               <entryLinks>
-                <entryLink import="true" name="Base Titan Abilities" hidden="false" id="9901-731f-4a04-af93" type="selectionEntryGroup" targetId="7e3a-9c1d-611b-3e61"/>
+                <entryLink import="true" name="New Entry" hidden="false" id="9901-731f-4a04-af93" type="selectionEntry" targetId="a496-9e0f-d69e-c85c"/>
               </entryLinks>
             </selectionEntry>
           </selectionEntries>
@@ -1256,25 +1277,6 @@ Additionally, as a rule clarification, Melta works if the target is within half 
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a874-88f9-137e-8965"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0693-1844-8cde-8844"/>
           </constraints>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Base Titan Abilities" id="7e3a-9c1d-611b-3e61" hidden="false">
-          <profiles>
-            <profile name="Neural Link" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0043-265d-8d9b-ca28">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">An IMC Pilot may embark within this Titan during their movement phase.  If they do, use the stats marked in () on this Titan&apos;s statblock until the Pilot disembarks.</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Nuclear Eject" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="47b9-35ee-6c69-c750">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this Titan is destroyed, eject any embarked pilots 20&quot; in any direction and deal 3 mortal wounds to all within 6&quot;.</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Orbital Insertion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9e39-0636-e94a-4a09">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When using Deep Strike, telegraph where this unit will deploy 1 turn in advance, at the start of your movement phase.  This cannot be ontop of control points.  It will deploy there regardless of how close enemy units are.  If anyone is within 2&quot; of the selected spot, they die.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
