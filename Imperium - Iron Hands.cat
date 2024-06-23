@@ -1407,7 +1407,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="3k" hidden="false" id="7795-d649-9ab8-6277">
               <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="-450"/>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="-600"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
