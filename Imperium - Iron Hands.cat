@@ -1753,7 +1753,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Ordnance Spectres" id="f3e3-7ea1-1fc9-b695" hidden="false">
+        <selectionEntryGroup name="Ordnance Spectres" id="f3e3-7ea1-1fc9-b695" hidden="false" sortIndex="1">
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Ordnance Spectre" hidden="false" id="5c21-e856-6bf1-73be">
               <constraints>
@@ -1833,7 +1833,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <profiles>
-                <profile name="Mortar Spectre" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="d1bf-5d1a-7ff4-56cc">
+                <profile name="Ordnance Spectre" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="d1bf-5d1a-7ff4-56cc">
                   <characteristics>
                     <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
                     <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
