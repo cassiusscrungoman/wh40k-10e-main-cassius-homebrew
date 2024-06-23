@@ -1134,11 +1134,6 @@ Additionally, as a rule clarification, Melta works if the target is within half 
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Titan" hidden="false" id="124f-0260-bc99-3b2c" defaultAmount="">
       <profiles>
-        <profile name="Electric Smoke" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c294-143c-86c2-5f0f">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit uses Smoke, it deploys Electric Smoke.  Non-mechanical units in the smoke (e.g. ones without the Vehicle keyword or similar like Drone) take 1d3 mortal wounds when the smoke is initially deployed, and 2d3 mortal wounds at the start of their command phase.</characteristic>
-          </characteristics>
-        </profile>
         <profile name="Neural Link" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0043-265d-8d9b-ca28">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">An IMC Pilot may embark within this Titan during their movement phase.  If they do, use the stats marked in () on this Titan&apos;s statblock until the Pilot disembarks.</characteristic>
