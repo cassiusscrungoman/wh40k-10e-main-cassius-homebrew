@@ -1388,21 +1388,15 @@ Additionally, as a rule clarification, Melta works if the target is within half 
       </costs>
       <modifiers>
         <modifier type="set-primary" value="dbd4-63-af05-998" field="category"/>
+        <modifier type="set" value="-300" field="51b2-306e-1021-d207">
+          <conditions>
+            <condition type="atLeast" value="1050" field="51b2-306e-1021-d207" scope="force" childId="any" shared="true" includeChildForces="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <infoLinks>
         <infoLink name="Feel No Pain 6" id="1d08-0819-5827-b775" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
       </infoLinks>
-      <modifierGroups>
-        <modifierGroup type="and">
-          <modifiers>
-            <modifier type="set" value="-300" field="51b2-306e-1021-d207">
-              <conditions>
-                <condition type="greaterThan" value="1100" field="51b2-306e-1021-d207" scope="force" childId="any" shared="true" includeChildForces="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </modifierGroup>
-      </modifierGroups>
     </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
