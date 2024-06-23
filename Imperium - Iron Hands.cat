@@ -1388,15 +1388,19 @@ Additionally, as a rule clarification, Melta works if the target is within half 
       </costs>
       <modifiers>
         <modifier type="set-primary" value="dbd4-63-af05-998" field="category"/>
-        <modifier type="set" value="-300" field="51b2-306e-1021-d207">
-          <conditions>
-            <condition type="atLeast" value="1050" field="51b2-306e-1021-d207" scope="force" childId="any" shared="true" includeChildForces="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
       </modifiers>
       <infoLinks>
-        <infoLink name="Feel No Pain 6" id="1d08-0819-5827-b775" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
+        <infoLink name="Feel No Pain" id="1d08-0819-5827-b775" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
       </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="New Group" id="b54f-b785-24cb-a440" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="1k" hidden="false" id="b54c-7394-59e0-31ef"/>
+            <selectionEntry type="upgrade" import="true" name="2k" hidden="false" id="18b1-7532-b652-7bef"/>
+            <selectionEntry type="upgrade" import="true" name="3k" hidden="false" id="7795-d649-9ab8-6277"/>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
@@ -1414,7 +1418,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
     <entryLink import="true" name="Detachment" hidden="false" id="460d-4d21-0556-df12" type="selectionEntryGroup" targetId="e2c1-bdbc-ebea-6795"/>
     <entryLink import="true" name="Disposable Infiltration Fighter" hidden="false" id="7449-a0e0-0a4a-04c0" type="selectionEntry" targetId="087b-38b4-94cd-286b"/>
     <entryLink import="true" name="Titan" hidden="false" id="fb62-e953-97a8-0274" type="selectionEntry" targetId="124f-0260-bc99-3b2c"/>
-    <entryLink import="true" name="Harvester" hidden="false" id="357a-78a0-8378-5aee" type="selectionEntry" targetId="07cd-d4a0-2195-0564"/>
+    <entryLink import="true" name="Harvester" hidden="false" id="7a48-1a3d-8634-244a" type="selectionEntry" targetId="07cd-d4a0-2195-0564"/>
   </entryLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Detachment" id="e2c1-bdbc-ebea-6795" hidden="false">
