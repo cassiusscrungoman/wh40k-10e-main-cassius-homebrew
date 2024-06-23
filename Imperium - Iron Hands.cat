@@ -1378,7 +1378,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         <categoryLink name="Faction: IMC" hidden="false" id="d787-7f50-9333-bb50" targetId="a195-5a3e-4355-8d18" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="-200"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
       </costs>
       <modifiers>
         <modifier type="set-primary" value="dbd4-63-af05-998" field="category"/>
