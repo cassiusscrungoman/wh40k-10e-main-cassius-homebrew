@@ -1147,7 +1147,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         <modifier type="set-primary" value="dbd4-63-af05-998" field="category"/>
       </modifiers>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Neural Link" hidden="false" id="a496-9e0f-d69e-c85c">
+        <selectionEntry type="upgrade" import="true" name="Neural Link" hidden="true" id="a496-9e0f-d69e-c85c" collective="false">
           <profiles>
             <profile name="Emergency Embarkation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0043-265d-8d9b-ca28">
               <characteristics>
@@ -1218,7 +1218,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                 <infoLink name="Feel No Pain" id="525f-32c6-fd99-a1b5" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
               </infoLinks>
               <entryLinks>
-                <entryLink import="true" name="New Entry" hidden="true" id="373b-76e5-6e73-111e" type="selectionEntry" targetId="a496-9e0f-d69e-c85c"/>
+                <entryLink import="true" name="New Entry" hidden="false" id="373b-76e5-6e73-111e" type="selectionEntry" targetId="a496-9e0f-d69e-c85c"/>
               </entryLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Ronin" hidden="false" id="8669-12bc-ec86-2895">
@@ -1273,7 +1273,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                 </profile>
               </profiles>
               <entryLinks>
-                <entryLink import="true" name="New Entry" hidden="true" id="9901-731f-4a04-af93" type="selectionEntry" targetId="a496-9e0f-d69e-c85c"/>
+                <entryLink import="true" name="New Entry" hidden="false" id="9901-731f-4a04-af93" type="selectionEntry" targetId="a496-9e0f-d69e-c85c"/>
               </entryLinks>
             </selectionEntry>
           </selectionEntries>
