@@ -1245,12 +1245,12 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
               <profiles>
                 <profile name="Scorch" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="400d-b91f-6130-ce84">
                   <characteristics>
-                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot; (8&quot;)</characteristic>
-                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">13 (16)</characteristic>
-                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+ (Invuln 4+)</characteristic>
+                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">14</characteristic>
+                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
                     <characteristic name="W" typeId="750a-a2ec-90d3-21fe">20</characteristic>
                     <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
-                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0 (6)</characteristic>
+                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
                   </characteristics>
                 </profile>
                 <profile name="T-203 Thermite Launcher" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="81c2-74e9-1c5c-7b12">
@@ -1281,9 +1281,6 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink name="Feel No Pain" id="525f-32c6-fd99-a1b5" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
-              </infoLinks>
               <entryLinks>
                 <entryLink import="true" name="Neural Link" hidden="false" id="373b-76e5-6e73-111e" type="selectionEntry" targetId="a496-9e0f-d69e-c85c" flatten="false"/>
               </entryLinks>
@@ -1293,16 +1290,16 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                 <profile name="Ronin" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="e34c-dfcc-9827-11b1">
                   <characteristics>
                     <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">15&quot;</characteristic>
-                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">7 (9)</characteristic>
-                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">5+ (Invuln 5+)</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">8</characteristic>
+                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">5+</characteristic>
                     <characteristic name="W" typeId="750a-a2ec-90d3-21fe">12</characteristic>
                     <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
-                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0 (6)</characteristic>
+                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
                   </characteristics>
                 </profile>
                 <profile name="Sword Block" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ce8b-4463-47f4-1e43">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit didn&apos;t attack with its Leadwall Shotgun during its turn, subtract 1 from wound and hit rolls against this unit until the end of the fight phase.  If a Pilot is embarked within, gain Feel No Pain 5+ as well.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit didn&apos;t attack with its Leadwall Shotgun during its turn, subtract 1 from wound and hit rolls against this unit until the end of the fight phase.  If a Pilot is embarked within, gain Feel No Pain 4+ as well.</characteristic>
                   </characteristics>
                 </profile>
                 <profile name="Leadwall Shotgun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="ffdd-b3f5-643a-a4e0">
@@ -1342,6 +1339,9 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
               <entryLinks>
                 <entryLink import="true" name="Neural Link" hidden="false" id="9901-731f-4a04-af93" type="selectionEntry" targetId="a496-9e0f-d69e-c85c" flatten="false"/>
               </entryLinks>
+              <infoLinks>
+                <infoLink name="Feel No Pain 5" id="525f-32c6-fd99-a1b5" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
+              </infoLinks>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -1355,7 +1355,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
       <profiles>
         <profile name="Emergency Embarkation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0043-265d-8d9b-ca28">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">An IMC Pilot may embark within this Titan at any point during their movement phase, regardless of what they&apos;ve done (advancing, falling back, disembarking, etc).  If they do, use the stats marked in () on this Titan&apos;s statblock until the Pilot disembarks.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">An IMC Pilot may embark within this Titan at any point during their movement phase, regardless of what they&apos;ve done (advancing, falling back, disembarking, etc).  If they do, use the stats marked in () on this Titan&apos;s statblock until the Pilot disembarks.  The Titan&apos;s save becomes invulnerable when a pilot is embarked within.</characteristic>
           </characteristics>
         </profile>
         <profile name="Nuclear Eject" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="47b9-35ee-6c69-c750">
