@@ -143,45 +143,6 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Consciousness" hidden="false" id="c59e-ace4-9889-ca44" sortIndex="3">
-          <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-          </costs>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="63c3-8960-9796-269f"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Simulacra Upload" hidden="false" id="23fd-6ad2-7f27-24b5">
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-              </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="37a3-47e0-d25f-b6d1" includeChildSelections="false"/>
-              </constraints>
-              <profiles>
-                <profile name="Simulacra Upload" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a7c9-0c6c-e446-dd35">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once an IMC pilot has experienced combat and lived to tell the tale, you can make them a Simulacra.  They trade Lone Operative for Feel No Pain 5+.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink name="Feel No Pain 5+" id="cb22-473f-9e67-78fe" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Human Pilot" hidden="false" id="71fe-f9b5-a3c5-4112">
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
-              </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1776-3770-d838-08f5" includeChildSelections="false"/>
-              </constraints>
-              <infoLinks>
-                <infoLink name="Lone Operative" id="bfef-643a-bb53-175d" hidden="false" type="rule" targetId="a8a0-8fe7-898-e0f3"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntry>
       </selectionEntries>
       <infoLinks>
         <infoLink name="Scouts" id="98ed-e1ee-1001-ad9a" hidden="false" type="rule" targetId="ada6-bac1-ffe0-d6f7"/>
@@ -394,6 +355,42 @@ Additionally, as a rule clarification, Melta works if the target is within half 
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Consciousness" id="53fc-9557-f0ab-a2bf" hidden="false" sortIndex="3">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Human Pilot" hidden="false" id="71fe-f9b5-a3c5-4112">
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1776-3770-d838-08f5" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Lone Operative" id="bfef-643a-bb53-175d" hidden="false" type="rule" targetId="a8a0-8fe7-898-e0f3"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Simulacra Upload" hidden="false" id="23fd-6ad2-7f27-24b5">
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="37a3-47e0-d25f-b6d1" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Simulacra Upload" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a7c9-0c6c-e446-dd35">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once an IMC pilot has experienced combat and lived to tell the tale, you can make them a Simulacra.  They trade Lone Operative for Feel No Pain 5+.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Feel No Pain" id="cb22-473f-9e67-78fe" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="63c3-8960-9796-269f"/>
+          </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <rules>
