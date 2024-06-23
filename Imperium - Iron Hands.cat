@@ -839,57 +839,6 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
           <rules>
             <rule name="Deep Strike" id="ae1c-e246-dc0d-7d69" hidden="false"/>
           </rules>
-          <selectionEntries>
-            <selectionEntry type="model" import="true" name="Replacement Spectre" hidden="false" id="d664-94bb-cf29-50a2">
-              <profiles>
-                <profile name="Replacement Spectre" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="640f-7b75-b51b-b3e4">
-                  <characteristics>
-                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
-                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
-                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
-                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">1</characteristic>
-                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
-                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="VK-47 Flatline" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="c609-84bb-8ea0-1528">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1,</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Spectre Claw" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="75a8-e101-0150-6edf">
-                  <characteristics>
-                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                    <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
-                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
-                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds, Anti-Infantry 4+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="270c-4f29-cfbc-9337" includeChildSelections="false"/>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b4a8-26ab-f933-e88e"/>
-              </constraints>
-              <categoryLinks>
-                <categoryLink name="Grenades" hidden="false" id="28ac-943a-3403-1157" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
-                <categoryLink name="Infantry" hidden="false" id="b781-f2c9-6269-245e" targetId="cf47-a0d7-7207-29dc" primary="false"/>
-                <categoryLink name="Fly" hidden="false" id="b5f4-7457-f6d4-9104" targetId="c619-2086-bbcf-69c9" primary="false"/>
-                <categoryLink name="Drone" hidden="false" id="794e-b1ff-968e-10c6" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
-                <categoryLink name="Smoke" hidden="false" id="3de6-f2ba-1a71-3db2" targetId="6df-937-16bc-8c1a" primary="false"/>
-                <categoryLink name="Battleline" hidden="false" id="0dfa-b17a-bb94-1ca6" targetId="e338-111e-d0c6-b687" primary="false"/>
-                <categoryLink name="Faction: IMC" hidden="false" id="60d1-db16-ea3d-8689" targetId="a195-5a3e-4355-8d18" primary="false"/>
-              </categoryLinks>
-            </selectionEntry>
-          </selectionEntries>
           <categoryLinks>
             <categoryLink name="Mechanized" hidden="false" id="b968-44fa-dd7c-8d70" targetId="894a-9a38-c09f-c9dc" primary="false"/>
             <categoryLink name="Dedicated Transport" hidden="false" id="facb-6662-f847-edba" targetId="ba07-411c-2832-1f79" primary="false"/>
@@ -1870,6 +1819,55 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Replacement Spectre" hidden="false" id="d664-94bb-cf29-50a2">
+      <profiles>
+        <profile name="Replacement Spectre" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="640f-7b75-b51b-b3e4">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">1</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="VK-47 Flatline" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="c609-84bb-8ea0-1528">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1,</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Spectre Claw" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="75a8-e101-0150-6edf">
+          <characteristics>
+            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
+            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+            <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds, Anti-Infantry 4+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="270c-4f29-cfbc-9337" includeChildSelections="false"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b4a8-26ab-f933-e88e"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Grenades" hidden="false" id="28ac-943a-3403-1157" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
+        <categoryLink name="Infantry" hidden="false" id="b781-f2c9-6269-245e" targetId="cf47-a0d7-7207-29dc" primary="false"/>
+        <categoryLink name="Fly" hidden="false" id="b5f4-7457-f6d4-9104" targetId="c619-2086-bbcf-69c9" primary="false"/>
+        <categoryLink name="Drone" hidden="false" id="794e-b1ff-968e-10c6" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
+        <categoryLink name="Smoke" hidden="false" id="3de6-f2ba-1a71-3db2" targetId="6df-937-16bc-8c1a" primary="false"/>
+        <categoryLink name="Battleline" hidden="false" id="0dfa-b17a-bb94-1ca6" targetId="e338-111e-d0c6-b687" primary="false"/>
+        <categoryLink name="Faction: IMC" hidden="false" id="60d1-db16-ea3d-8689" targetId="a195-5a3e-4355-8d18" primary="false"/>
+      </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
