@@ -812,7 +812,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <modifier type="set-primary" value="e338-111e-d0c6-b687" field="category"/>
       </modifiers>
       <selectionEntries>
-        <selectionEntry type="unit" import="true" name="IMC Drop Pod" hidden="false" id="3faf-e512-d794-a881">
+        <selectionEntry type="model" import="true" name="IMC Drop Pod" hidden="false" id="3faf-e512-d794-a881">
           <costs>
             <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
           </costs>
@@ -840,7 +840,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
             <rule name="Deep Strike" id="ae1c-e246-dc0d-7d69" hidden="false"/>
           </rules>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Replacement Spectre" hidden="false" id="d664-94bb-cf29-50a2">
+            <selectionEntry type="model" import="true" name="Replacement Spectre" hidden="false" id="d664-94bb-cf29-50a2">
               <profiles>
                 <profile name="Replacement Spectre" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="640f-7b75-b51b-b3e4">
                   <characteristics>
