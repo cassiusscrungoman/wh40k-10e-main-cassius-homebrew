@@ -815,7 +815,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <modifier type="set-primary" value="e338-111e-d0c6-b687" field="category"/>
       </modifiers>
       <selectionEntries>
-        <selectionEntry type="unit" import="true" name="IMC Drop Pod" hidden="false" id="3faf-e512-d794-a881" subType="unit-group">
+        <selectionEntry type="unit" import="true" name="IMC Drop Pod" hidden="false" id="3faf-e512-d794-a881">
           <costs>
             <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
           </costs>
