@@ -1384,7 +1384,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         <categoryLink name="Objective" hidden="false" id="0fe7-53f0-0f2f-358d" targetId="ab1a-c85f-adc2-e16f" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="-150"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
       </costs>
       <modifiers>
         <modifier type="set-primary" value="dbd4-63-af05-998" field="category"/>
@@ -1395,15 +1395,19 @@ Additionally, as a rule clarification, Melta works if the target is within half 
       <selectionEntryGroups>
         <selectionEntryGroup name="Game Size" id="b54f-b785-24cb-a440" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="1k" hidden="false" id="b54c-7394-59e0-31ef"/>
-            <selectionEntry type="upgrade" import="true" name="2k" hidden="false" id="18b1-7532-b652-7bef">
+            <selectionEntry type="upgrade" import="true" name="1k" hidden="false" id="b54c-7394-59e0-31ef">
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="-150"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="3k" hidden="false" id="7795-d649-9ab8-6277">
+            <selectionEntry type="upgrade" import="true" name="2k" hidden="false" id="18b1-7532-b652-7bef">
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="-300"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="3k" hidden="false" id="7795-d649-9ab8-6277">
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="-450"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1413,6 +1417,9 @@ Additionally, as a rule clarification, Melta works if the target is within half 
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="1251-acc4-8309-832e"/>
+      </constraints>
     </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
