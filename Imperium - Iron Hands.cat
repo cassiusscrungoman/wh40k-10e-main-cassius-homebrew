@@ -1610,7 +1610,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                 <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="7f16-0e78-b8d7-7a64"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Mortar Spectre Weapon" hidden="false" id="7758-cff1-124e-2797">
+                <selectionEntry type="upgrade" import="true" name="Archer Heavy Lock-on Rocket Launcher" hidden="false" id="7758-cff1-124e-2797">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="87a7-2625-4278-f37f"/>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="47ec-861b-bc5d-68f3"/>
@@ -1745,48 +1745,11 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
           <rules>
             <rule name="Deep Strike" id="13dd-8b22-3fbf-d26e" hidden="false"/>
           </rules>
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Replacement Spectre" hidden="false" id="ae8e-f6ae-c50f-8858">
-              <profiles>
-                <profile name="Replacement Spectre" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="db86-e4fb-e27d-7c8f">
-                  <characteristics>
-                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
-                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
-                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
-                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">1</characteristic>
-                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
-                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="VK-47 Flatline" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="ca16-f803-f7a6-3943">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1,</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Spectre Claw" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="951a-ba80-062f-4bde">
-                  <characteristics>
-                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                    <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
-                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
-                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds, Anti-Infantry 4+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9dd4-7647-0962-84d3" includeChildSelections="false"/>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bcb1-e3d4-88be-ecad"/>
-              </constraints>
-            </selectionEntry>
-          </selectionEntries>
+          <categoryLinks>
+            <categoryLink name="Mechanized" hidden="false" id="a9eb-6845-c2cf-f26f" targetId="894a-9a38-c09f-c9dc" primary="false"/>
+            <categoryLink name="Faction: IMC" hidden="false" id="5140-97d4-1a3b-652a" targetId="a195-5a3e-4355-8d18" primary="false"/>
+            <categoryLink name="Dedicated Transport" hidden="false" id="63c3-b512-5e50-f8fc" targetId="ba07-411c-2832-1f79" primary="false"/>
+          </categoryLinks>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
