@@ -1648,6 +1648,10 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                       </constraints>
                     </selectionEntry>
                   </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0825-5227-3cb6-69ff"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="50b0-b3ad-55ea-30bb"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
               <profiles>
