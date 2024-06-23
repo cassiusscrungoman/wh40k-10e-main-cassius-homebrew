@@ -81,7 +81,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <modifier type="set-primary" value="9cfd-1c32-585f-7d5c" field="category"/>
       </modifiers>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Pilot Melee" hidden="false" id="6337-5562-ce6b-1f98" sortIndex="3">
+        <selectionEntry type="upgrade" import="true" name="Pilot Melee" hidden="false" id="6337-5562-ce6b-1f98" sortIndex="5">
           <profiles>
             <profile name="Pilot Kick" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="3d7b-7757-0401-5370">
               <characteristics>
@@ -105,6 +105,17 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                 <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds, Anti-Vehicle 4+</characteristic>
               </characteristics>
             </profile>
+            <profile name="Right Motherfucking Hook" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="4f98-f8d9-f4ec-6522">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Extra Attacks,</characteristic>
+              </characteristics>
+            </profile>
           </profiles>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5b3e-5fc5-a447-0438"/>
@@ -117,7 +128,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
             <infoLink name="Precision" id="e30d-82b7-2ba6-f36a" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
           </infoLinks>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="New Pilot Certification" hidden="false" id="d01c-1037-7338-74b9">
+        <selectionEntry type="upgrade" import="true" name="New Pilot Certification" hidden="false" id="d01c-1037-7338-74b9" sortIndex="2">
           <costs>
             <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
           </costs>
@@ -132,7 +143,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Simulacra Upload" hidden="false" id="c59e-ace4-9889-ca44">
+        <selectionEntry type="upgrade" import="true" name="Consciousness" hidden="false" id="c59e-ace4-9889-ca44" sortIndex="3">
           <costs>
             <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
           </costs>
@@ -178,7 +189,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <infoLink name="Stealth" id="7594-b807-6720-d32a" hidden="false" type="rule" targetId="bec5-4288-34a6-ccfa"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Pilot Armory" id="e729-fc77-8eed-765c" hidden="false">
+        <selectionEntryGroup name="Pilot Armory" id="e729-fc77-8eed-765c" hidden="false" sortIndex="4">
           <selectionEntryGroups>
             <selectionEntryGroup name="Pilot&apos;s Secondary Weapon Choice" id="06e9-b9de-af3b-b1fb" hidden="false" defaultSelectionEntryId="26b7-e7cf-33d8-9abe" sortIndex="2">
               <selectionEntries>
@@ -390,7 +401,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         <rule name="Invuln Save 4+" id="442e-a3b6-0a26-15dc" hidden="false"/>
       </rules>
       <entryLinks>
-        <entryLink import="true" name="Warlord" hidden="false" id="5e97-155d-17fa-c6bc" collective="false" targetId="00b6-c7ac-a0c7-5021" type="selectionEntry">
+        <entryLink import="true" name="Warlord" hidden="false" id="5e97-155d-17fa-c6bc" collective="false" targetId="00b6-c7ac-a0c7-5021" type="selectionEntry" sortIndex="1">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e354-7173-c362-33c2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
@@ -1263,7 +1274,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
       <profiles>
         <profile name="Emergency Embarkation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0043-265d-8d9b-ca28">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">An IMC Pilot may embark within this Titan during their movement phase.  If they do, use the stats marked in () on this Titan&apos;s statblock until the Pilot disembarks.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">An IMC Pilot may embark within this Titan at any point during their movement phase, regardless of what they&apos;ve done (advancing, falling back, disembarking, etc).  If they do, use the stats marked in () on this Titan&apos;s statblock until the Pilot disembarks.</characteristic>
           </characteristics>
         </profile>
         <profile name="Nuclear Eject" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="47b9-35ee-6c69-c750">
