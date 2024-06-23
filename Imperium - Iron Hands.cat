@@ -589,7 +589,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         </selectionEntryGroup>
         <selectionEntryGroup name="Grunt Specialization" id="6942-341a-8950-4403" hidden="false" defaultSelectionEntryId="26b7-e7cf-33d8-9abe">
           <selectionEntries>
-            <selectionEntry type="model" import="true" name="Fights First" hidden="false" id="273f-899c-d2cd-01ce" sortIndex="2">
+            <selectionEntry type="model" import="true" name="CQB Grunt" hidden="false" id="273f-899c-d2cd-01ce" sortIndex="2">
               <infoLinks>
                 <infoLink name="Fights First" id="e646-70f6-e693-23a4" hidden="false" type="rule" targetId="24-c886-e8ba-5a89"/>
               </infoLinks>
@@ -609,7 +609,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Scouts 7&quot;" hidden="false" id="83d3-2fe5-a52d-3134" sortIndex="4">
+            <selectionEntry type="model" import="true" name="Pathfinder Grunt" hidden="false" id="83d3-2fe5-a52d-3134" sortIndex="4">
               <profiles>
                 <profile name="Pathfinder Grunt" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="607a-0f95-3fba-0fdf">
                   <characteristics>
@@ -629,7 +629,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Heavy" hidden="false" id="b856-f17b-cdd2-6cad" sortIndex="5">
+            <selectionEntry type="model" import="true" name="Marksman Grunt" hidden="false" id="b856-f17b-cdd2-6cad" sortIndex="5">
               <profiles>
                 <profile name="Marksman Grunt" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="a450-2d8f-4e0a-69ef">
                   <characteristics>
@@ -649,7 +649,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Infiltrators" hidden="false" id="919d-1e46-49c4-a141" sortIndex="3">
+            <selectionEntry type="model" import="true" name="Infiltration Grunt" hidden="false" id="919d-1e46-49c4-a141" sortIndex="3">
               <profiles>
                 <profile name="Infiltration Grunt" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="d3e7-581c-6934-9a4c">
                   <characteristics>
@@ -669,7 +669,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="No Specialization" hidden="false" id="cb35-068e-d21b-f625" sortIndex="6">
+            <selectionEntry type="model" import="true" name="Grunt" hidden="false" id="cb35-068e-d21b-f625" sortIndex="6">
               <profiles>
                 <profile name="Grunt" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="ed97-3a38-23ed-3c5a">
                   <characteristics>
@@ -1222,7 +1222,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <categoryLink name="Warlord" hidden="false" id="9981-4193-bdaa-78e4" targetId="5c0e-4c31-d51b-e470" primary="false"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Titan" hidden="false" id="124f-0260-bc99-3b2c" defaultAmount="">
+    <selectionEntry type="unit" import="true" name="Titan" hidden="false" id="124f-0260-bc99-3b2c" defaultAmount="">
       <categoryLinks>
         <categoryLink name="Vehicle" hidden="false" id="0ea0-b811-14d9-88db" targetId="dbd4-63-af05-998" primary="false"/>
         <categoryLink name="Faction: IMC" hidden="false" id="e53f-36a4-928c-4fb5" targetId="a195-5a3e-4355-8d18" primary="false"/>
@@ -1241,7 +1241,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
       <selectionEntryGroups>
         <selectionEntryGroup name="Titan Chasis" id="42b6-3625-3de8-fb1d" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Scorch" hidden="false" id="968a-a7d6-76db-e959">
+            <selectionEntry type="model" import="true" name="Scorch" hidden="false" id="968a-a7d6-76db-e959">
               <profiles>
                 <profile name="Scorch" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="400d-b91f-6130-ce84">
                   <characteristics>
@@ -1288,7 +1288,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                 <entryLink import="true" name="Neural Link" hidden="false" id="373b-76e5-6e73-111e" type="selectionEntry" targetId="a496-9e0f-d69e-c85c" flatten="false"/>
               </entryLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ronin" hidden="false" id="8669-12bc-ec86-2895">
+            <selectionEntry type="model" import="true" name="Ronin" hidden="false" id="8669-12bc-ec86-2895">
               <profiles>
                 <profile name="Ronin" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="e34c-dfcc-9827-11b1">
                   <characteristics>
