@@ -1894,6 +1894,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
     <entryLink import="true" name="Reaper" hidden="false" id="201d-ee36-afff-2905" type="selectionEntry" targetId="9580-b01a-7f1b-f2b7"/>
     <entryLink import="true" name="Mortar Team" hidden="false" id="6b1a-5c32-4c9f-5a13" type="selectionEntry" targetId="83ae-7b76-3722-6ad7"/>
     <entryLink import="true" name="Ordnance Team" hidden="false" id="83cd-278f-1531-32f9" type="selectionEntry" targetId="b824-3dcd-07f9-eb7c"/>
+    <entryLink import="true" name="Replacement Spectre" hidden="false" id="b564-5c50-d901-feb0" type="selectionEntry" targetId="d664-94bb-cf29-50a2"/>
   </entryLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Detachment" id="e2c1-bdbc-ebea-6795" hidden="false">
