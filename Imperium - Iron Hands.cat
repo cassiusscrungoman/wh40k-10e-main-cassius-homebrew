@@ -702,9 +702,6 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
               </costs>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c606-153c-84b3-d00c"/>
-              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
