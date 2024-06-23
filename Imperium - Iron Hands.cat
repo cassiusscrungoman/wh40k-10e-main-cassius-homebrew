@@ -1215,7 +1215,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                 <profile name="Scorch" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="400d-b91f-6130-ce84">
                   <characteristics>
                     <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot; (8&quot;)</characteristic>
-                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">12 (15)</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">13 (16)</characteristic>
                     <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+ (Invuln 4+)</characteristic>
                     <characteristic name="W" typeId="750a-a2ec-90d3-21fe">20</characteristic>
                     <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
@@ -1262,7 +1262,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                 <profile name="Ronin" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="e34c-dfcc-9827-11b1">
                   <characteristics>
                     <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">15&quot;</characteristic>
-                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9 (12)</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">7 (9)</characteristic>
                     <characteristic name="SV" typeId="450-a17e-9d5e-29da">5+ (Invuln 5+)</characteristic>
                     <characteristic name="W" typeId="750a-a2ec-90d3-21fe">12</characteristic>
                     <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
