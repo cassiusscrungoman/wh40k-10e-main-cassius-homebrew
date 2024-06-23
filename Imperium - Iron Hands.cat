@@ -1393,12 +1393,24 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         <infoLink name="Feel No Pain" id="1d08-0819-5827-b775" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="New Group" id="b54f-b785-24cb-a440" hidden="false">
+        <selectionEntryGroup name="Game Size" id="b54f-b785-24cb-a440" hidden="false">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="1k" hidden="false" id="b54c-7394-59e0-31ef"/>
-            <selectionEntry type="upgrade" import="true" name="2k" hidden="false" id="18b1-7532-b652-7bef"/>
-            <selectionEntry type="upgrade" import="true" name="3k" hidden="false" id="7795-d649-9ab8-6277"/>
+            <selectionEntry type="upgrade" import="true" name="2k" hidden="false" id="18b1-7532-b652-7bef">
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="-150"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="3k" hidden="false" id="7795-d649-9ab8-6277">
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="-300"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="24c9-7f64-32eb-f9c5"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9a9e-8f7d-d8bf-70c4"/>
+          </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
