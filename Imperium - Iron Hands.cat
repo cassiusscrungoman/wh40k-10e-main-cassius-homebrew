@@ -17,7 +17,7 @@
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If the unit with the Aircraft or Hover tags which this pilot is assigned to are killed, you may choose the result of the Deadly Demise roll. If the result of that roll is a 5 or less, this Pilot ejects from the aircraft.  If thte result of that roll is a 6, the pilot loses half of their wounds.  
 Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be deployed anywhere within 6&quot; of that line.  If you choose an area off the map, this unit counts as EVACed and will be available for deployment in your next mission.
-The IMC Pilot may shoot, charge, and attack immediately after using this ability.</characteristic>
+</characteristic>
           </characteristics>
         </profile>
         <profile name="Kill Me And See What Happens" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cd2e-6f5c-8439-e472">
@@ -52,17 +52,12 @@ The IMC Pilot may shoot, charge, and attack immediately after using this ability
         </profile>
         <profile name="Trojan Injection" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b003-8e32-0dd1-f516">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit destroys a vehicle with its Data Knife, that vehicle does not roll for Deadly Demise, nor is it&apos;s model removed from the battlefield.  That vehicle becomes an immovable Terrain Feature for the remainder of the battle that blocks line of sight.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit destroys a vehicle with its Data Knife, that vehicle does not roll for Deadly Demise, nor is it&apos;s model removed from the battlefield.  That vehicle becomes an immovable Terrain Feature for the remainder of the battle that blocks line of sight.  If a Pilot succesfully wounds an enemy unit of Spectres, they swap to this pilot&apos;s team.</characteristic>
           </characteristics>
         </profile>
         <profile name="Drop, Shock, &amp; Rock" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="19ac-e9fc-54f7-e722">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may use weapons with the pistol tag as well as other weapons in the same shooting phase.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Scouts 7&quot;" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e95b-5ede-5b37-7200">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If every model in a unit has this ability, then at the start of the first battle round, before the first turn begins, it can make a Normal move of up to 7&quot; as if it were your Movement phase – as can any DEDICATED TRANSPORT model such a unit starts the battle embarked within (provided only models with this ability are embarked within that DEDICATED TRANSPORT model). A unit that moves using this ability must end that move more than 9\&quot; horizontally away from all enemy models.</characteristic>
           </characteristics>
         </profile>
         <profile name="Drop Pod Beacon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="53dd-7eea-e225-a797">
@@ -137,9 +132,48 @@ The IMC Pilot may shoot, charge, and attack immediately after using this ability
             </profile>
           </profiles>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Simulacra Upload" hidden="false" id="c59e-ace4-9889-ca44">
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="37a3-47e0-d25f-b6d1" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="63c3-8960-9796-269f"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Simulacra Upload" hidden="false" id="23fd-6ad2-7f27-24b5">
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="71ca-8d75-0059-767b" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Simulacra Upload" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a7c9-0c6c-e446-dd35">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once an IMC pilot has experienced combat and lived to tell the tale, you can make them a Simulacra.  They trade Lone Operative for Feel No Pain 5+.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Feel No Pain 5+" id="cb22-473f-9e67-78fe" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Human Pilot" hidden="false" id="71fe-f9b5-a3c5-4112">
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a02d-8386-2838-e67f" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Lone Operative" id="bfef-643a-bb53-175d" hidden="false" type="rule" targetId="a8a0-8fe7-898-e0f3"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
       </selectionEntries>
       <infoLinks>
-        <infoLink name="Lone Operative" id="bfef-643a-bb53-175d" hidden="false" type="rule" targetId="a8a0-8fe7-898-e0f3"/>
         <infoLink name="Scouts" id="98ed-e1ee-1001-ad9a" hidden="false" type="rule" targetId="ada6-bac1-ffe0-d6f7"/>
         <infoLink name="Stealth" id="7594-b807-6720-d32a" hidden="false" type="rule" targetId="bec5-4288-34a6-ccfa"/>
       </infoLinks>
@@ -305,7 +339,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
                         <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Vehicle 4+, Devastating Wounds, Volume of Fire</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Vehicle 5+, Devastating Wounds, Volume of Fire</characteristic>
                       </characteristics>
                     </profile>
                     <profile name="Volume of Fire" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4a71-bdb5-2101-f71e">
@@ -375,24 +409,9 @@ Additionally, as a rule clarification, Melta works if the target is within half 
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
           </characteristics>
         </profile>
-        <profile name="Leading From The Front" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f6d9-0c64-2075-64b9">
+        <profile name="Training Over Programming" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dd27-fddf-25ed-4acb">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model may be attached to any infantry unit.  It remains in Unit Coherency up to 12&quot; away from the squad.  If unit coherency is broken, this model must be selected to be destroyed.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Forward Scout" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="07c6-6c32-5e98-3a93">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When the unit this model is assigned to Hunkers Down, they do not lose their next shooting phase, and instead may shoot at a -1 to the hit roll.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="No Borders, Only Kings" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="48fb-fa3c-dda6-63ad">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit gets the benefits of your faction as if it had your faction keyword.  It also gets access to your army rule and chosen detatchment rule.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="A Golden Throne" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dd27-fddf-25ed-4acb">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit doesn&apos;t take up any transport space.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model&apos;s specialization applies to the unit it is leading.</characteristic>
           </characteristics>
         </profile>
         <profile name="Can&apos;t Back Out Of This Deal" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2a17-d4a8-4895-fc52">
@@ -410,6 +429,11 @@ Additionally, as a rule clarification, Melta works if the target is within half 
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 5+ invulnerable save</characteristic>
           </characteristics>
           <comment>5+ Single model</comment>
+        </profile>
+        <profile name="A Golden Throne" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1cce-0eab-4688-1b69">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit doesn&apos;t take up any transport space.</characteristic>
+          </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
@@ -474,36 +498,29 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
-        <infoLink name="Leader" id="7cea-01f4-80f7-d5ce" hidden="false" type="rule" targetId="b4dd-3e1f-41cb-218f"/>
+        <infoLink name="Leader (Spectres)" id="7cea-01f4-80f7-d5ce" hidden="false" type="rule" targetId="b4dd-3e1f-41cb-218f"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Grunt Weapon Choice" id="ab6f-cade-c17c-1f7a" hidden="false" defaultSelectionEntryId="26b7-e7cf-33d8-9abe">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Scout DMR" hidden="false" id="f49b-22bf-1ee3-57c7">
+            <selectionEntry type="upgrade" import="true" name="Longbow DMR" hidden="false" id="f49b-22bf-1ee3-57c7">
               <infoLinks>
                 <infoLink name="Precision" id="e084-d518-fa96-1ba1" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
-                <infoLink name="Heavy" id="aa64-cdd9-d386-161d" hidden="false" type="rule" targetId="1202-10a8-78e9-4c67"/>
                 <infoLink name="Lethal Hits" id="e7fc-5fe7-9eb9-1855" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
               </infoLinks>
               <profiles>
-                <profile name="Scout DMR" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="e6bb-4afd-06f5-9777">
+                <profile name="Longbow DMR" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="e6bb-4afd-06f5-9777">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">28&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
                     <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Precision, Lethal Hits, Heavy</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Precision, Lethal Hits,</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
-              <rules>
-                <rule name="Conversion" id="a827-2c35-c23b-c39a" hidden="false">
-                  <description>Each time an attack is made with this weapon, if the target is more than 12&quot; from the bearer, an unmodified successful Hit roll of 4+ scores a Critical Hit.</description>
-                  <comment>12&quot; variant</comment>
-                </rule>
-              </rules>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Alternator SMG" hidden="false" id="f734-3e93-1361-1323">
               <profiles>
@@ -537,7 +554,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Vehicle 3+, Devastating Wounds, Rapid Fire 2, Blast</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Vehicle 5+, Devastating Wounds, Rapid Fire 2, Blast</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -574,6 +591,45 @@ Additionally, as a rule clarification, Melta works if the target is within half 
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4831-1d12-4828-80cc"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eb54-a8f8-7ad3-e12c"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Grunt Specialization" id="6942-341a-8950-4403" hidden="false" defaultSelectionEntryId="26b7-e7cf-33d8-9abe">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Fights First" hidden="false" id="273f-899c-d2cd-01ce">
+              <infoLinks>
+                <infoLink name="Fights First" id="e646-70f6-e693-23a4" hidden="false" type="rule" targetId="24-c886-e8ba-5a89"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Scouts 7&quot;" hidden="false" id="83d3-2fe5-a52d-3134">
+              <infoLinks>
+                <infoLink name="Scouts 7&quot;" id="71da-caf5-4794-16c8" hidden="false" type="rule" targetId="ada6-bac1-ffe0-d6f7"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Heavy" hidden="false" id="b856-f17b-cdd2-6cad">
+              <infoLinks>
+                <infoLink name="Heavy" id="c185-9d9e-9e25-0d35" hidden="false" type="rule" targetId="1202-10a8-78e9-4c67"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Infiltrators" hidden="false" id="919d-1e46-49c4-a141">
+              <infoLinks>
+                <infoLink name="Infiltrators" id="24b0-0dae-d45c-cfcb" hidden="false" type="rule" targetId="c05d-f4c3-f091-4938"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4133-2216-7788-001d"/>
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -698,9 +754,9 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                 <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0</characteristic>
               </characteristics>
             </profile>
-            <profile name="Replaceable Shock Troops" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6131-be26-d2a0-2cc6">
+            <profile name="On-Site Fabrication" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6131-be26-d2a0-2cc6">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may be deployed via IMC Drop Pods.  They deploy as if from Deep Strike.  If any spectre units are within 6&quot; of the drop pod, they gain 1d3 models at the end of their command phase.  If there are no spectres around the drop pod, 1d3 spectres disembark from the pod at the end of the command phase.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may be deployed via IMC Drop Pods.  They deploy as if from Deep Strike.  If any spectre units are within 6&quot; of the drop pod, they gain 1d3 models at the end of their command phase.  If there are no spectres around the drop pod, 1d3 spectres disembark from the pod at the end of the command phase.  If they have the Replaceable Shock Troops detatchment rule, both of these triggers gain +2 models.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -815,8 +871,6 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Scout DMR" hidden="false" id="0ee0-010d-9702-f4a8">
                       <infoLinks>
-                        <infoLink name="Precision" id="26c5-23cd-dba7-d7cb" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
-                        <infoLink name="Heavy" id="658e-dc92-6cf1-414b" hidden="false" type="rule" targetId="1202-10a8-78e9-4c67"/>
                         <infoLink name="Lethal Hits" id="8872-4491-ad9a-ed9c" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
                       </infoLinks>
                       <profiles>
@@ -828,7 +882,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
                             <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
                             <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Precision, Lethal Hits, Heavy, Conversion (Lethal on 4+)</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits, Conversion (Lethal on 4+)</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -926,12 +980,12 @@ Additionally, as a rule clarification, Melta works if the target is within half 
       <profiles>
         <profile name="Electric Smoke" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4768-a103-d0f0-7556">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit uses Smoke, it deploys Electric Smoke.  Non-mechanical units in the smoke (e.g. ones without the Vehicle keyword or similar like Drone) take 1d3 mortal wounds when the smoke is initially deployed, and 2d3 mortal wounds at the start of their command phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit uses Smoke, it deploys Electric Smoke.  Non-mechanical units in the smoke (e.g. ones without the Vehicle keyword or similar like Drone) take 1d3 mortal wounds when the smoke is initially deployed, and 2d3 mortal wounds at the beginning of their next shooting phase.</characteristic>
           </characteristics>
         </profile>
         <profile name="Combat Reinforcements" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e9ec-6299-25d5-4c12">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of this unit&apos;s command phase, add 1d3 spectre models to any nearby spectre units.  If they have the Replaceable Shock Troops detatchment rule, add 3 models.  This does stack with the detatchment rule.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of this unit&apos;s command phase, add 1d3 spectre models to any nearby spectre units.  If they have the Replaceable Shock Troops detatchment rule, add an additional 2 models.  This does not stack with the detatchment rule.</characteristic>
           </characteristics>
         </profile>
         <profile name="Spectre Fighting Vehicle" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="4a5a-94ab-54c5-2e5c">
@@ -1078,10 +1132,150 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         <categoryLink name="Warlord" hidden="false" id="9981-4193-bdaa-78e4" targetId="5c0e-4c31-d51b-e470" primary="false"/>
       </categoryLinks>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Titan" hidden="false" id="124f-0260-bc99-3b2c" defaultAmount="">
+      <profiles>
+        <profile name="Electric Smoke" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c294-143c-86c2-5f0f">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit uses Smoke, it deploys Electric Smoke.  Non-mechanical units in the smoke (e.g. ones without the Vehicle keyword or similar like Drone) take 1d3 mortal wounds when the smoke is initially deployed, and 2d3 mortal wounds at the start of their command phase.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Orbital Insertion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9e39-0636-e94a-4a09">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When using Deep Strike, telegraph where this unit will deploy 1 turn in advance, at the start of your movement phase.  This cannot be ontop of control points.  It will deploy there regardless of how close enemy units are.  If anyone is within 2&quot; of the selected spot, they die.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Neural Link" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0043-265d-8d9b-ca28">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">An IMC Pilot may embark within this Titan during their movement phase.  If they do, use the stats marked in () on this Titan&apos;s statblock until the Pilot disembarks.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Nuclear Eject" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="47b9-35ee-6c69-c750">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this Titan is destroyed, eject any embarked pilots 20&quot; in any direction and deal 3 mortal wounds to all within 6&quot;.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Vehicle" hidden="false" id="0ea0-b811-14d9-88db" targetId="dbd4-63-af05-998" primary="false"/>
+        <categoryLink name="Faction: IMC" hidden="false" id="e53f-36a4-928c-4fb5" targetId="a195-5a3e-4355-8d18" primary="false"/>
+        <categoryLink name="Titanic" hidden="false" id="a543-84ea-3699-9a19" targetId="5929-ad51-d006-e008" primary="false"/>
+        <categoryLink name="Walker" hidden="false" id="02b7-3f45-979a-aeb8" targetId="6dda-e157-334d-e93a" primary="false"/>
+        <categoryLink name="Titan" hidden="false" id="8e48-52b4-10e2-20c8" targetId="f570-c9ed-a23a-15a7" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
+      </costs>
+      <modifiers>
+        <modifier type="set-primary" value="5929-ad51-d006-e008" field="category"/>
+      </modifiers>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Titan Chasis" id="42b6-3625-3de8-fb1d" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Scorch" hidden="false" id="968a-a7d6-76db-e959">
+              <profiles>
+                <profile name="Scorch" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="400d-b91f-6130-ce84">
+                  <characteristics>
+                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot; (8&quot;)</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">12 (15)</characteristic>
+                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+ (Invuln 4+)</characteristic>
+                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">20</characteristic>
+                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0 (6)</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="T-203 Thermite Launcher" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="81c2-74e9-1c5c-7b12">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">20&quot; (30&quot;)</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2 (3)</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+ (2+)</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">12 (15)</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2 (-4)</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">(Twin-linked) (Melta 2)</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Thermite Shield" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="a7e9-7161-ab08-7140">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">10</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">NA</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">10</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Torrent</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="WHY ARE YOU RUNNING" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a69d-9d89-1a30-b948">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a Pilot is embarked within this Titan, it can reroll charge rolls, and gets a +2 to them.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Feel No Pain 5+" id="525f-32c6-fd99-a1b5" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ronin" hidden="false" id="8669-12bc-ec86-2895">
+              <profiles>
+                <profile name="Ronin" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="e34c-dfcc-9827-11b1">
+                  <characteristics>
+                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">15&quot;</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9 (12)</characteristic>
+                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">5+ (Invuln 5+)</characteristic>
+                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">12</characteristic>
+                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0 (6)</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Sword Block" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ce8b-4463-47f4-1e43">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit didn&apos;t attack with its Leadwall Shotgun during its turn, subtract 1 from wound and hit rolls against this unit until the end of the fight phase.  If a Pilot is embarked within, gain Feel No Pain 5+ as well.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Leadwall Shotgun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="ffdd-b3f5-643a-a4e0">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">10&quot; (15&quot;)</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">3 (4)</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+ (2+)</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">7 (10)</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1 (-3)</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Assault, Melta 2, (Twin-linked)</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Ronin&apos;s Broadsword" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="cec0-c8b7-41ed-f37d">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">3 (6)</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+ (2+)</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">12</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1 (-3)</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+                <profile name="Arc Wave" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="1e58-b074-177e-ab84">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">10&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1+</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+ (3+)</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">6 (9)</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Melta 2, Psychic, Intervention</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
     <categoryEntry name="Faction: IMC" id="a195-5a3e-4355-8d18" hidden="false"/>
     <categoryEntry name="Pilot" id="ce1d-9b06-141b-b224" hidden="false"/>
+    <categoryEntry name="Titan" id="f570-c9ed-a23a-15a7" hidden="false"/>
   </categoryEntries>
   <entryLinks>
     <entryLink import="true" name="G1 Pilot" hidden="false" id="4ad6-4f62-537b-fad5" type="selectionEntry" targetId="3a31-10a4-b92b-99c7"/>
@@ -1091,6 +1285,7 @@ Additionally, as a rule clarification, Melta works if the target is within half 
     <entryLink import="true" name="Spectre Fighting Vehicle" hidden="false" id="8530-de0c-bcd5-8fc3" type="selectionEntry" targetId="a07d-f882-618e-8817"/>
     <entryLink import="true" name="Detachment" hidden="false" id="460d-4d21-0556-df12" type="selectionEntryGroup" targetId="e2c1-bdbc-ebea-6795"/>
     <entryLink import="true" name="Disposable Infiltration Fighter" hidden="false" id="7449-a0e0-0a4a-04c0" type="selectionEntry" targetId="087b-38b4-94cd-286b"/>
+    <entryLink import="true" name="Titan" hidden="false" id="fb62-e953-97a8-0274" type="selectionEntry" targetId="124f-0260-bc99-3b2c"/>
   </entryLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Detachment" id="e2c1-bdbc-ebea-6795" hidden="false">
