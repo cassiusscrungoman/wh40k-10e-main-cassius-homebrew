@@ -1139,11 +1139,6 @@ Additionally, as a rule clarification, Melta works if the target is within half 
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit uses Smoke, it deploys Electric Smoke.  Non-mechanical units in the smoke (e.g. ones without the Vehicle keyword or similar like Drone) take 1d3 mortal wounds when the smoke is initially deployed, and 2d3 mortal wounds at the start of their command phase.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Orbital Insertion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9e39-0636-e94a-4a09">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When using Deep Strike, telegraph where this unit will deploy 1 turn in advance, at the start of your movement phase.  This cannot be ontop of control points.  It will deploy there regardless of how close enemy units are.  If anyone is within 2&quot; of the selected spot, they die.</characteristic>
-          </characteristics>
-        </profile>
         <profile name="Neural Link" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0043-265d-8d9b-ca28">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">An IMC Pilot may embark within this Titan during their movement phase.  If they do, use the stats marked in () on this Titan&apos;s statblock until the Pilot disembarks.</characteristic>
@@ -1152,6 +1147,11 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         <profile name="Nuclear Eject" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="47b9-35ee-6c69-c750">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this Titan is destroyed, eject any embarked pilots 20&quot; in any direction and deal 3 mortal wounds to all within 6&quot;.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Orbital Insertion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9e39-0636-e94a-4a09">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When using Deep Strike, telegraph where this unit will deploy 1 turn in advance, at the start of your movement phase.  This cannot be ontop of control points.  It will deploy there regardless of how close enemy units are.  If anyone is within 2&quot; of the selected spot, they die.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1268,6 +1268,10 @@ Additionally, as a rule clarification, Melta works if the target is within half 
               </profiles>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a874-88f9-137e-8965"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0693-1844-8cde-8844"/>
+          </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
