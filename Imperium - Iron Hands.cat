@@ -1642,12 +1642,12 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                           <description>When selecting targets for this weapon, you can measure range and determine visibility from another friendly infantry or character model that is visible to the bearer.</description>
                         </rule>
                       </rules>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="87a7-2625-4278-f37f"/>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="47ec-861b-bc5d-68f3"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="87a7-2625-4278-f37f"/>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="47ec-861b-bc5d-68f3"/>
-                  </constraints>
                 </selectionEntry>
               </selectionEntries>
               <profiles>
