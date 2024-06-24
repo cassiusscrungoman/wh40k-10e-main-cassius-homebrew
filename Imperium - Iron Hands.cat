@@ -619,12 +619,12 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink name="Scouts 7&quot;" id="71da-caf5-4794-16c8" hidden="false" type="rule" targetId="ada6-bac1-ffe0-d6f7"/>
-              </infoLinks>
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
               </costs>
+              <rules>
+                <rule name="Scouts 7&quot;" id="2a5f-6d9f-8b0c-7208" hidden="false"/>
+              </rules>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Marksman Grunt" hidden="false" id="b856-f17b-cdd2-6cad" sortIndex="5">
               <profiles>
