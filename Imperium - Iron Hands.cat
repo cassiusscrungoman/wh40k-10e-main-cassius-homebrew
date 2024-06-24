@@ -445,7 +445,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
             <profile name="P2020 Sidearm" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="207f-bdd2-f2e1-5c78">
               <characteristics>
                 <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
-                <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
                 <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
                 <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
                 <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
@@ -782,7 +782,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         </profile>
         <profile name="Self-Destruct Protocol" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="89cc-c0c8-0224-0b28">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this model is within engagement range of 1 or more enemy units at the beginning of its movement phase, it may self destruct.  For each model you choose to use this ability with, they deal 1 mortal wound to all enemies in engagement range.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this model is within engagement range of 1 or more enemy units at the beginning of its movement phase, it may self destruct.  For each Spectre and Replacement Spectre model you choose to use this ability with, they deal 1 mortal wound to all enemies in engagement range.  Stalkers deal 2 mortal wounds.</characteristic>
           </characteristics>
         </profile>
         <profile name="Expendable Mechanized Infantry" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9393-95d3-a4bf-e02a">
@@ -832,7 +832,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
             </profile>
             <profile name="On-Site Fabrication" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6131-be26-d2a0-2cc6">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may be deployed via IMC Drop Pods.  They deploy as if from Deep Strike.  If any spectre units are within 6&quot; of the drop pod, they gain 1d3 models at the end of their command phase.  If there are no spectres around the drop pod, 1d3 spectres disembark from the pod at the end of the command phase.  If they have the Replaceable Shock Troops detatchment rule, both of these triggers gain +2 models.  This does NOT stack with the detatchment rule.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may be deployed via IMC Drop Pods.  They deploy as if from Deep Strike.  If any spectre units are within 6&quot; of the drop pod, they gain 1d3 Replacement Spectre models at the end of their command phase.  If there are no spectre units around the drop pod, 1d3 Replacement Spectre disembark from the pod at the end of the command phase.  If they have the Replaceable Shock Troops detatchment rule, both of these triggers gain +2 models.  This does NOT stack with the detatchment rule.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -890,7 +890,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                 <profile name="P2020 Sidearm" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="cac5-ca7a-62f2-71a7">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
                     <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
@@ -1001,7 +1001,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                 <profile name="P2020 Sidearm" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="6cf7-4616-7d06-8dd2">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
                     <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
@@ -1024,7 +1024,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         </profile>
         <profile name="Combat Reinforcements" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e9ec-6299-25d5-4c12">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of this unit&apos;s command phase, add 1d3 spectre models to any nearby spectre units.  If they have the Replaceable Shock Troops detatchment rule, add an additional 2 models.  This does not stack with the detatchment rule.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of this unit&apos;s command phase, add 1d3 Replacement Spectre models to any nearby spectre units.  If they have the Replaceable Shock Troops detatchment rule, add an additional 2 models.  This does not stack with the detatchment rule.</characteristic>
           </characteristics>
         </profile>
         <profile name="Spectre Fighting Vehicle" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="4a5a-94ab-54c5-2e5c">
@@ -1515,24 +1515,14 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Mortar Team" hidden="false" id="83ae-7b76-3722-6ad7" defaultAmount="">
       <profiles>
-        <profile name="Electric Smoke" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e604-961a-22b4-9878">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit uses Smoke, it deploys Electric Smoke.  Non-mechanical units in the smoke (e.g. ones without the Vehicle keyword or similar like Drone) take 1d3 mortal wounds when the smoke is initially deployed, and 2d3 mortal wounds at the start of their command phase.</characteristic>
-          </characteristics>
-        </profile>
         <profile name="Hard Cover" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c2f9-3f49-e80f-0cee">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit Remains Stationary on its turn, subtract 1 from hit rolls and wound rolls made against this unit.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Expendable Mechanized Infantry" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="275b-f26c-332e-7180">
+        <profile name="Lock-On Missiles" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2f2e-3686-ca2e-7e3b">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may not make Men of The Hour rolls.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Extremely Irregular Munitions" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2f2e-3686-ca2e-7e3b">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit gets reinforced by a nearby vehicle, it may only gain a maximum of 1 model per battle round.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit remained stationary on its turn, it may reroll one hit roll or wound roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1540,8 +1530,6 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <categoryLink name="Grenades" hidden="false" id="8bd2-cb4d-ff5e-b969" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
         <categoryLink name="Infantry" hidden="false" id="9d7c-a86e-8848-9c4c" targetId="cf47-a0d7-7207-29dc" primary="false"/>
         <categoryLink name="Fly" hidden="false" id="fc79-6677-e12c-3f5a" targetId="c619-2086-bbcf-69c9" primary="false"/>
-        <categoryLink name="Drone" hidden="false" id="eac5-e0bc-204b-c83c" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
-        <categoryLink name="Smoke" hidden="false" id="ffb8-4179-a4f9-d503" targetId="6df-937-16bc-8c1a" primary="false"/>
         <categoryLink name="Faction: IMC" hidden="false" id="e2c9-4a13-94a0-bef3" targetId="a195-5a3e-4355-8d18" primary="false"/>
       </categoryLinks>
       <costs>
@@ -1550,105 +1538,143 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
       <modifiers>
         <modifier type="set-primary" value="cf47-a0d7-7207-29dc" field="category"/>
       </modifiers>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Mortar Spectres" id="d9b8-999e-bf7e-e8ce" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="MRVN Auxiliary" hidden="false" id="3df5-781a-f60e-082a" sortIndex="1">
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+          </costs>
+          <profiles>
+            <profile name="Happy Robot :3" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e604-961a-22b4-9878">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Though this model is a character, it does not count for assassination.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="MRVN Auxiliary" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="66be-3fa2-bebc-f0dd">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
+                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
+                <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">2</characteristic>
+                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">4</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="MRVN Blowtorch" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="5cf1-30fb-4b36-8d34">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">NA</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Torrent</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="MRVN Engineer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="df0c-ebe8-c35c-68f1">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit has a MRVN Engineer attached to it which can heal any vehicles or mechanized units within 6&quot; for 2 wounds at the end of the command phase.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="High Five?" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bb82-0b18-d6e4-6696">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">The unit this character is attached to may reroll leadership saves and they get a +1 to Men of The Hour rolls.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink name="Drone" hidden="false" id="82ba-90f1-e7f9-27d9" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
+            <categoryLink name="Character" hidden="false" id="bf13-64ea-87dd-6f49" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Mortar Team" hidden="false" id="253a-1720-537a-1bca">
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="25ef-5988-b7af-a322"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="7f16-0e78-b8d7-7a64"/>
+          </constraints>
           <selectionEntries>
-            <selectionEntry type="model" import="true" name="Spectre" hidden="false" id="253a-1720-537a-1bca">
+            <selectionEntry type="upgrade" import="true" name="Archer Heavy Lock-on Rocket Launcher" hidden="false" id="7758-cff1-124e-2797">
               <constraints>
-                <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="25ef-5988-b7af-a322"/>
-                <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="7f16-0e78-b8d7-7a64"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="87a7-2625-4278-f37f"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="47ec-861b-bc5d-68f3"/>
               </constraints>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Archer Heavy Lock-on Rocket Launcher" hidden="false" id="7758-cff1-124e-2797">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="87a7-2625-4278-f37f"/>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="47ec-861b-bc5d-68f3"/>
-                  </constraints>
-                  <rules>
-                    <rule name="Linked Fire" id="d02f-870a-b6bf-c412" hidden="false">
-                      <description>When selecting targets for this weapon, you can measure range and determine visibility from another friendly infantry or character model that is visible to the bearer.</description>
-                    </rule>
-                  </rules>
-                  <profiles>
-                    <profile name="Fox 3!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5fbf-5245-c33e-9712">
-                      <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this pilot selects the Archer Heavy Lock-on Rocket Launcher as their primary weapon choice, if they target a Vehicle with the Archer, the attack gains a +1 to hit.
-</characteristic>
-                      </characteristics>
-                    </profile>
-                    <profile name="Archer Heavy Lock-on Rocket Launcher" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="2368-db13-83ed-b598">
-                      <characteristics>
-                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">20&quot;</characteristic>
-                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+</characteristic>
-                        <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
-                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Vehicle 4+, Linked Fire, Indirect Fire, Heavy, Fox 3!</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink name="Anti-" id="a1c7-527e-3590-02c6" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
-                    <infoLink name="Heavy" id="a5d6-7d46-44da-1744" hidden="false" type="rule" targetId="1202-10a8-78e9-4c67"/>
-                    <infoLink name="Indirect Fire" id="0786-47b4-7eb2-f565" hidden="false" type="rule" targetId="4ddd-4e29-acdd-5e6d"/>
-                  </infoLinks>
-                </selectionEntry>
-              </selectionEntries>
+              <rules>
+                <rule name="Linked Fire" id="d02f-870a-b6bf-c412" hidden="false">
+                  <description>When selecting targets for this weapon, you can measure range and determine visibility from another friendly infantry or character model that is visible to the bearer.</description>
+                </rule>
+              </rules>
               <profiles>
-                <profile name="Mortar Spectre" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="366b-7c23-c6fa-47d4">
+                <profile name="Fox 3!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5fbf-5245-c33e-9712">
                   <characteristics>
-                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
-                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
-                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
-                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">2</characteristic>
-                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
-                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this pilot selects the Archer Heavy Lock-on Rocket Launcher as their primary weapon choice, if they target a Vehicle with the Archer, the attack gains a +1 to hit.
+</characteristic>
                   </characteristics>
                 </profile>
-                <profile name="Spectre Claw" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="816c-a3ca-0e9f-1463">
+                <profile name="Archer Heavy Lock-on Rocket Launcher" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="2368-db13-83ed-b598">
                   <characteristics>
-                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                    <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
-                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
-                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds, Anti-Infantry 4+</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="P2020 Sidearm" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="767e-98cb-b8e7-f86f">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Assault, Rapid Fire 2</characteristic>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">20&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Vehicle 4+, Linked Fire, Indirect Fire, Heavy, Fox 3!</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink name="Anti-" id="a1c7-527e-3590-02c6" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
+                <infoLink name="Heavy" id="a5d6-7d46-44da-1744" hidden="false" type="rule" targetId="1202-10a8-78e9-4c67"/>
+                <infoLink name="Indirect Fire" id="0786-47b4-7eb2-f565" hidden="false" type="rule" targetId="4ddd-4e29-acdd-5e6d"/>
+              </infoLinks>
             </selectionEntry>
           </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+          <profiles>
+            <profile name="Mortar Team" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="366b-7c23-c6fa-47d4">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
+                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+                <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">2</characteristic>
+                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="P2020 Sidearm" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="767e-98cb-b8e7-f86f">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Assault, Rapid Fire 2</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Combat Knife" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="346b-98a8-1eb7-8744">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Infantry 4+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Ordnance Team" hidden="false" id="b824-3dcd-07f9-eb7c" defaultAmount="">
       <profiles>
-        <profile name="Electric Smoke" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b2c1-640a-e5e8-fa89">
+        <profile name="Shock Defenses" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b2c1-640a-e5e8-fa89">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit uses Smoke, it deploys Electric Smoke.  Non-mechanical units in the smoke (e.g. ones without the Vehicle keyword or similar like Drone) take 1d3 mortal wounds when the smoke is initially deployed, and 2d3 mortal wounds at the start of their command phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit takes damage from Electric Smoke, it only takes 1 mortal wound.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Expendable Mechanized Infantry" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5a0a-53f8-4101-85d7">
+        <profile name="Hazardous Munitions" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="578e-7640-ec3f-fb97">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may not make Men of The Hour rolls.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Irregular Munitions" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="578e-7640-ec3f-fb97">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit gets reinforced by a nearby vehicle, it may only gain a maximum of 2 models per battle round.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per turn, if this unit attacks, make one Hazardous save.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1656,8 +1682,6 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <categoryLink name="Grenades" hidden="false" id="f3a3-d46b-c8c5-182d" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
         <categoryLink name="Infantry" hidden="false" id="bb34-90e7-035c-f24a" targetId="cf47-a0d7-7207-29dc" primary="false"/>
         <categoryLink name="Fly" hidden="false" id="07c1-a0eb-2b21-7fce" targetId="c619-2086-bbcf-69c9" primary="false"/>
-        <categoryLink name="Drone" hidden="false" id="d331-9e28-1ab7-b53f" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
-        <categoryLink name="Smoke" hidden="false" id="17dc-d47d-ac08-43aa" targetId="6df-937-16bc-8c1a" primary="false"/>
         <categoryLink name="Faction: IMC" hidden="false" id="45f4-612e-eb03-86a1" targetId="a195-5a3e-4355-8d18" primary="false"/>
       </categoryLinks>
       <costs>
@@ -1667,7 +1691,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <modifier type="set-primary" value="cf47-a0d7-7207-29dc" field="category"/>
       </modifiers>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="IMC Drop Pod" hidden="false" id="bec7-8001-e774-3ec4">
+        <selectionEntry type="model" import="true" name="IMC Drop Pod" hidden="false" id="bec7-8001-e774-3ec4" sortIndex="1">
           <costs>
             <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
           </costs>
@@ -1687,7 +1711,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
             </profile>
             <profile name="On-Site Fabrication" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a18b-a647-a482-4915">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may be deployed via IMC Drop Pods.  They deploy as if from Deep Strike.  If any spectre units are within 6&quot; of the drop pod, they gain 1d3 models at the end of their command phase.  If there are no spectres around the drop pod, 1d3 spectres disembark from the pod at the end of the command phase.  If they have the Replaceable Shock Troops detatchment rule, both of these triggers gain +2 models.  This does NOT stack with the detatchment rule.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may be deployed via IMC Drop Pods. They deploy as if from Deep Strike. If any spectre units are within 6&quot; of the drop pod, they gain 1d3 Replacement Spectre models at the end of their command phase. If there are no spectre units around the drop pod, 1d3 Replacement Spectre disembark from the pod at the end of the command phase. If they have the Replaceable Shock Troops detatchment rule, both of these triggers gain +2 models. This does NOT stack with the detatchment rule.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1700,17 +1724,64 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
             <categoryLink name="Dedicated Transport" hidden="false" id="63c3-b512-5e50-f8fc" targetId="ba07-411c-2832-1f79" primary="false"/>
           </categoryLinks>
         </selectionEntry>
+        <selectionEntry type="model" import="true" name="MRVN Auxiliary" hidden="false" id="d874-30f5-4637-ebf7" sortIndex="2">
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+          </costs>
+          <profiles>
+            <profile name="Happy Robot :3" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5361-a024-17c3-3ee8">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Though this model is a character, it does not count for assassination.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="MRVN Auxiliary" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="54e3-503d-4050-22d1">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
+                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
+                <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">2</characteristic>
+                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">4</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="MRVN Blowtorch" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="1bba-f15a-fbe2-68eb">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">NA</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Torrent</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="MRVN Engineer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0999-82e3-4929-d280">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit has a MRVN Engineer attached to it which can heal any vehicles or mechanized units within 6&quot; for 2 wounds at the end of the command phase.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="High Five?" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5433-70c9-14e2-ee57">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">The unit this character is attached to may reroll leadership saves and they get a +1 to Men of The Hour rolls.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink name="Drone" hidden="false" id="50e5-bddc-5396-8616" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
+            <categoryLink name="Character" hidden="false" id="d388-989f-8224-4796" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Ordnance Spectres" id="f3e3-7ea1-1fc9-b695" hidden="false" sortIndex="1">
+        <selectionEntryGroup name="Ordnance Team" id="f3e3-7ea1-1fc9-b695" hidden="false" sortIndex="3">
           <selectionEntries>
-            <selectionEntry type="model" import="true" name="Ordnance Spectre" hidden="false" id="5c21-e856-6bf1-73be">
+            <selectionEntry type="model" import="true" name="Ordnance Team" hidden="false" id="5c21-e856-6bf1-73be">
               <constraints>
                 <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="8045-34c3-998a-f6d2"/>
                 <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="a6da-ac65-a976-f997"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Ordnance Spectre Weapon Choice" id="04e7-e081-c8c4-66d3" hidden="false" defaultSelectionEntryId="26b7-e7cf-33d8-9abe">
+                <selectionEntryGroup name="Ordnance Team Weapon Choice" id="04e7-e081-c8c4-66d3" hidden="false" defaultSelectionEntryId="26b7-e7cf-33d8-9abe">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="EPG" hidden="false" id="fcd5-d904-9832-8ec4">
                       <infoLinks>
@@ -1782,7 +1853,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <profiles>
-                <profile name="Ordnance Spectre" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="d1bf-5d1a-7ff4-56cc">
+                <profile name="Ordnance Team" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="d1bf-5d1a-7ff4-56cc">
                   <characteristics>
                     <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
                     <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
@@ -1792,26 +1863,26 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                     <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
                   </characteristics>
                 </profile>
-                <profile name="Spectre Claw" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="7353-7a26-c00c-6aad">
-                  <characteristics>
-                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                    <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
-                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
-                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds, Anti-Infantry 4+</characteristic>
-                  </characteristics>
-                </profile>
                 <profile name="P2020 Sidearm" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="fe5f-6f95-f6f5-2e00">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
                     <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
                     <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Assault, Rapid Fire 2</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Combat Knife" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="7cda-b300-0414-23af">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Infantry 4+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1905,7 +1976,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <selectionEntry type="upgrade" import="true" name="Replaceable Shock Troops" hidden="false" id="21fd-8029-8896-03a9">
           <rules>
             <rule name="Expendable, Deployed En-masse" id="1319-1106-fbaf-5fe1" hidden="false">
-              <description>If any spectre units are within 6&quot; of a unit with the MECHANIZED tag, they gain 1d3 models at the end of their command phase.  If a Mechanized unit has no spectre units around it, it produces 1d3 spectre models at the end of its command phase which disembark from it.</description>
+              <description>If any spectre units are within 6&quot; of a unit with the MECHANIZED tag, they gain 1d3 Replacement Spectre models at the end of their command phase.  If a Mechanized unit has no spectre units around it, it produces 1d3 Replacement Spectre models at the end of its command phase which disembark from it.</description>
             </rule>
           </rules>
         </selectionEntry>
