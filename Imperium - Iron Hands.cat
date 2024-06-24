@@ -589,17 +589,14 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         </selectionEntryGroup>
         <selectionEntryGroup name="Grunt Specialization" id="6942-341a-8950-4403" hidden="false" defaultSelectionEntryId="26b7-e7cf-33d8-9abe">
           <selectionEntries>
-            <selectionEntry type="model" import="true" name="CQB Grunt" hidden="false" id="273f-899c-d2cd-01ce" sortIndex="2">
-              <infoLinks>
-                <infoLink name="Fights First" id="e646-70f6-e693-23a4" hidden="false" type="rule" targetId="24-c886-e8ba-5a89"/>
-              </infoLinks>
+            <selectionEntry type="model" import="true" name="Grunt" hidden="false" id="273f-899c-d2cd-01ce" sortIndex="1">
               <profiles>
-                <profile name="CQB Grunt" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="72d5-30e7-9367-a11e">
+                <profile name="Grunt" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="ed97-3a38-23ed-3c5a">
                   <characteristics>
                     <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
-                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
                     <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
-                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">5</characteristic>
+                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
                     <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
                     <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
                   </characteristics>
@@ -669,21 +666,24 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Grunt" hidden="false" id="cb35-068e-d21b-f625" sortIndex="6">
+            <selectionEntry type="model" import="true" name="CQB Grunt" hidden="false" id="cb35-068e-d21b-f625" sortIndex="6">
               <profiles>
-                <profile name="Grunt" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="ed97-3a38-23ed-3c5a">
+                <profile name="CQB Grunt" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="72d5-30e7-9367-a11e">
                   <characteristics>
                     <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
-                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
                     <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
-                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
+                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">5</characteristic>
                     <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
                     <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink name="Fights First" id="e646-70f6-e693-23a4" hidden="false" type="rule" targetId="24-c886-e8ba-5a89"/>
+              </infoLinks>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Shield Captain" hidden="false" id="df95-c7bd-5b8b-bde3" sortIndex="1">
+            <selectionEntry type="model" import="true" name="Shield Captain" hidden="false" id="df95-c7bd-5b8b-bde3" sortIndex="2">
               <infoLinks>
                 <infoLink name="Feel No Pain 6+" id="c865-d11e-9fb6-3b64" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
               </infoLinks>
