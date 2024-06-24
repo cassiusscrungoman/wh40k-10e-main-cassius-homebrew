@@ -603,7 +603,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                 </profile>
               </profiles>
               <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Pathfinder Grunt" hidden="false" id="83d3-2fe5-a52d-3134" sortIndex="4">
@@ -682,11 +682,11 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
               <infoLinks>
                 <infoLink name="Fights First" id="e646-70f6-e693-23a4" hidden="false" type="rule" targetId="24-c886-e8ba-5a89"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+              </costs>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Shield Captain" hidden="false" id="df95-c7bd-5b8b-bde3" sortIndex="2">
-              <infoLinks>
-                <infoLink name="Feel No Pain 6+" id="c865-d11e-9fb6-3b64" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
-              </infoLinks>
               <profiles>
                 <profile name="Shield Captain Grunt" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="e599-cc92-7a37-86af">
                   <characteristics>
@@ -699,6 +699,9 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                   </characteristics>
                 </profile>
               </profiles>
+              <rules>
+                <rule name="Feel No Pain 6+" id="b34b-299f-92b3-2365" hidden="false"/>
+              </rules>
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
               </costs>
