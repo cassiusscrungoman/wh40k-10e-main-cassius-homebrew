@@ -1585,11 +1585,15 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
             <categoryLink name="Drone" hidden="false" id="82ba-90f1-e7f9-27d9" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
             <categoryLink name="Character" hidden="false" id="bf13-64ea-87dd-6f49" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
           </categoryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="abcf-3cd0-2713-1a37"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f34f-3dac-eb1e-d501"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Mortar Team" hidden="false" id="253a-1720-537a-1bca">
           <constraints>
-            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="25ef-5988-b7af-a322"/>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="7f16-0e78-b8d7-7a64"/>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="7f16-0e78-b8d7-7a64-min"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="7f16-0e78-b8d7-7a64-max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Archer Heavy Lock-on Rocket Launcher" hidden="false" id="7758-cff1-124e-2797">
@@ -1770,6 +1774,10 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
             <categoryLink name="Drone" hidden="false" id="50e5-bddc-5396-8616" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
             <categoryLink name="Character" hidden="false" id="d388-989f-8224-4796" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
           </categoryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8d66-352a-dc4c-dfec"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9636-66b4-5390-441c"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
