@@ -1018,19 +1018,19 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Spectre Fighting Vehicle" hidden="false" id="a07d-f882-618e-8817" defaultAmount="">
+    <selectionEntry type="model" import="true" name="Paladin Tank" hidden="false" id="a07d-f882-618e-8817" defaultAmount="">
       <profiles>
         <profile name="Electric Smoke" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4768-a103-d0f0-7556">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit uses Smoke, it deploys Electric Smoke.  Non-mechanical units in the smoke (e.g. ones without the Vehicle keyword or similar like Drone) take 1d3 mortal wounds when the smoke is initially deployed, and 2d3 mortal wounds at the beginning of their next shooting phase.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Combat Reinforcements" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e9ec-6299-25d5-4c12">
+        <profile name="Spectre Fighting Vehicle" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e9ec-6299-25d5-4c12">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of this unit&apos;s command phase, add 1d3 Replacement Spectre models to any nearby spectre units.  If they have the Replaceable Shock Troops detatchment rule, add an additional 2 models.  This does not stack with the detatchment rule.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Spectre Fighting Vehicle" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="4a5a-94ab-54c5-2e5c">
+        <profile name="Paladin Tank" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="4a5a-94ab-54c5-2e5c">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
@@ -1048,7 +1048,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <categoryLink name="Mechanized" hidden="false" id="279c-123d-073b-7b93" targetId="894a-9a38-c09f-c9dc" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="150"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="200"/>
       </costs>
       <modifiers>
         <modifier type="set-primary" value="dbd4-63-af05-998" field="category"/>
@@ -1056,7 +1056,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Spectre Fighting Vehicle Main Gun" hidden="false" id="66d2-80b9-941f-e5d5">
           <profiles>
-            <profile name="Anti-Material Cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="1e4d-47ca-90ac-4e73">
+            <profile name="Paladin Anti-Material Cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="1e4d-47ca-90ac-4e73">
               <characteristics>
                 <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
                 <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
@@ -1064,7 +1064,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                 <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
                 <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
                 <characteristic name="D" typeId="a354-c1c8-a745-f9e3">4</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy, Blast</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy, Blast, Twin-linked</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1075,7 +1075,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Spectre Fighting Vehicle MG" hidden="false" id="962c-177e-356d-2371">
           <profiles>
-            <profile name="Mounted L-STAR" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="b8b3-5a52-4a6b-3201">
+            <profile name="Paladin Mounted L-STAR" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="b8b3-5a52-4a6b-3201">
               <characteristics>
                 <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
                 <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
