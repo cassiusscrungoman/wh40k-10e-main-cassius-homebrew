@@ -1587,7 +1587,6 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
           </categoryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="abcf-3cd0-2713-1a37"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f34f-3dac-eb1e-d501"/>
           </constraints>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Mortar Team" hidden="false" id="253a-1720-537a-1bca">
@@ -1776,7 +1775,6 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
           </categoryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8d66-352a-dc4c-dfec"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9636-66b4-5390-441c"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
