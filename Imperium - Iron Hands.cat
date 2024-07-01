@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="f27e-18c0-b73e-748e" name="The IMC" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="6" battleScribeVersion="2.03" type="catalogue" authorName="cassius">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="f27e-18c0-b73e-748e" name="The IMC" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="8" battleScribeVersion="2.03" type="catalogue" authorName="cassius">
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="IMC Pilot" hidden="false" id="3a31-10a4-b92b-99c7">
       <profiles>
@@ -1549,7 +1549,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
           <profiles>
             <profile name="Happy Robot :3" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e604-961a-22b4-9878">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Though this model is a character, it does not count for assassination.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Though this model is a character, it does not count for assassination. :&gt;</characteristic>
               </characteristics>
             </profile>
             <profile name="MRVN Auxiliary" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="66be-3fa2-bebc-f0dd">
@@ -1947,6 +1947,74 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
       <modifiers>
         <modifier type="set-primary" value="e338-111e-d0c6-b687" field="category"/>
       </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Goblin Aerial Transport" hidden="false" id="f4b1-c472-38f4-b40c" defaultAmount="">
+      <profiles>
+        <profile name="Manual Control" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="08aa-d2bb-0ae6-8412">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This Vehicle *must* have an IMC Pilot assigned to it.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Jump Drive" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3fb5-444f-ddeb-4751">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may EVAC during its command phase regardless of its position on the board.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Tactical Insertion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="264c-ce4e-e8ee-607f">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may be deployed on Round 1 anywhere within your deployment zone.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Goblin Aerial Transport" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="053f-4d7f-101e-0741">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">20+&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">6+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Vehicle" hidden="false" id="8f07-44f0-d91a-3285" targetId="dbd4-63-af05-998" primary="false"/>
+        <categoryLink name="Faction: IMC" hidden="false" id="7473-a3aa-e24b-47a8" targetId="a195-5a3e-4355-8d18" primary="false"/>
+        <categoryLink name="Fly" hidden="false" id="bd05-1c85-f37e-7cf3" targetId="c619-2086-bbcf-69c9" primary="false"/>
+        <categoryLink name="Aircraft" hidden="false" id="0bda-c38b-c55f-6766" targetId="63f1-e6e8-f6f6-a4f0" primary="false"/>
+        <categoryLink name="Dedicated Transport" hidden="false" id="e9c0-0633-5823-53fe" targetId="ba07-411c-2832-1f79" primary="false"/>
+        <categoryLink name="Transport" hidden="false" id="bc3e-2f67-b376-c254" targetId="75e8-57c4-40e3-1817" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+      </costs>
+      <modifiers>
+        <modifier type="set-primary" value="ba07-411c-2832-1f79" field="category"/>
+      </modifiers>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Disposable Missile" hidden="false" id="0d97-33a3-50dc-1b73">
+          <profiles>
+            <profile name="Literally One Missile" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="abe6-5be8-9993-8a90">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">4&quot;</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">One Shot</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="baf1-5f61-5da4-e0c1"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c202-81fb-8cd7-f7da"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <rules>
+        <rule name="Deadly Demise 1d6" id="9521-9df6-fd55-d049" hidden="false"/>
+        <rule name="Firing Deck 12" id="8a3a-13fa-b2fa-bd9e" hidden="false"/>
+      </rules>
     </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
