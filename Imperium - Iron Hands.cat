@@ -2105,6 +2105,9 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
           <costs>
             <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
           </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b3ea-75fe-8a59-5966"/>
+          </constraints>
         </entryLink>
       </entryLinks>
     </selectionEntry>
@@ -2130,7 +2133,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <modifier type="set-primary" value="cf47-a0d7-7207-29dc" field="category"/>
       </modifiers>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
       </costs>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Tick" hidden="false" id="6f0d-3a27-2699-5efe">
@@ -2147,8 +2150,8 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
             </profile>
           </profiles>
           <constraints>
-            <constraint type="min" value="6" field="selections" scope="parent" shared="true" id="bbaa-0018-e228-1fbb"/>
-            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="f3b7-6db9-fb9c-7957"/>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="bbaa-0018-e228-1fbb"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="f3b7-6db9-fb9c-7957"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
