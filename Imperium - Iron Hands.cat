@@ -1215,9 +1215,6 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
           </constraints>
         </selectionEntry>
       </selectionEntries>
-      <modifiers>
-        <modifier type="set-primary" value="5591-0d87-3447-748c" field="category"/>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Harvester" hidden="false" id="07cd-d4a0-2195-0564">
       <profiles>
@@ -2116,6 +2113,9 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
       </costs>
+      <modifiers>
+        <modifier type="set-primary" value="5591-0d87-3447-748c" field="category"/>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Legion" hidden="false" id="ee1a-aa43-2f49-da68">
       <profiles>
@@ -2198,6 +2198,9 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
       </costs>
+      <modifiers>
+        <modifier type="set-primary" value="5591-0d87-3447-748c" field="category"/>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Monarch" hidden="false" id="5556-3aa0-5474-e29d">
       <profiles>
@@ -2274,6 +2277,9 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
       </costs>
+      <modifiers>
+        <modifier type="set-primary" value="5591-0d87-3447-748c" field="category"/>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Northstar" hidden="false" id="9899-d5c8-d7ce-8d37">
       <profiles>
@@ -2340,6 +2346,9 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
       </costs>
+      <modifiers>
+        <modifier type="set-primary" value="5591-0d87-3447-748c" field="category"/>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Ronin" hidden="false" id="8669-12bc-ec86-2895">
       <profiles>
@@ -2407,6 +2416,9 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
       </costs>
+      <modifiers>
+        <modifier type="set-primary" value="5591-0d87-3447-748c" field="category"/>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Scorch" hidden="false" id="968a-a7d6-76db-e959">
       <profiles>
@@ -2457,6 +2469,9 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
       </costs>
+      <modifiers>
+        <modifier type="set-primary" value="5591-0d87-3447-748c" field="category"/>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Tone" hidden="false" id="349c-1bdd-e95c-3e88">
       <profiles>
@@ -2517,6 +2532,9 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
       </costs>
+      <modifiers>
+        <modifier type="set-primary" value="5591-0d87-3447-748c" field="category"/>
+      </modifiers>
     </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
