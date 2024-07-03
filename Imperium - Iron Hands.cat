@@ -2584,7 +2584,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
     </rule>
   </rules>
   <forceEntries>
-    <forceEntry name="Army Roster" id="0ef4-5fe2-88be-c342" hidden="false">
+    <forceEntry name="IMC Categories" id="0ef4-5fe2-88be-c342" hidden="false">
       <categoryLinks>
         <categoryLink name="Titan" hidden="false" id="23c6-f6f1-744e-deb5" targetId="f570-c9ed-a23a-15a7" type="category"/>
         <categoryLink name="Mechanized" hidden="false" id="ded1-66cf-4d80-c623" targetId="894a-9a38-c09f-c9dc" type="category"/>

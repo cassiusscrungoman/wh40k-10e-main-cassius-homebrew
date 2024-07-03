@@ -353,10 +353,6 @@
         <categoryLink id="9198-c35d-71cd-eea3" name="Fortification" hidden="false" targetId="19d7-9c74-2140-5851" primary="false"/>
         <categoryLink id="a41a-6330-4718-d8d2" name="Unit" hidden="false" targetId="1160-70ae-a862-b1a8" primary="false"/>
         <categoryLink name="Allied Units" hidden="false" id="8d39-1cfc-6e44-2dae" targetId="887b-ab87-92a2-20f5"/>
-        <categoryLink type="category" name="Objective" hidden="false" id="61ea-6845-88cf-71af" targetId="ab1a-c85f-adc2-e16f"/>
-        <categoryLink type="category" name="Titan" hidden="false" id="05eb-3fd2-110a-2fa3" targetId="f570-c9ed-a23a-15a7"/>
-        <categoryLink type="category" name="Mechanized" hidden="false" id="73ff-f592-b252-ef78" targetId="894a-9a38-c09f-c9dc"/>
-        <categoryLink name="Aircraft" hidden="false" id="6c7a-acac-67f1-dcee" targetId="63f1-e6e8-f6f6-a4f0"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry name="Boarding Action" hidden="false" id="1d6e-2579-8e7f-1ed4">
