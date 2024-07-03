@@ -1199,7 +1199,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                     <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
                     <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">14</characteristic>
                     <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
-                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">20</characteristic>
+                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">18</characteristic>
                     <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
                     <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
                   </characteristics>
@@ -1293,6 +1293,75 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
               <infoLinks>
                 <infoLink name="Feel No Pain" id="525f-32c6-fd99-a1b5" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
               </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Northstar" hidden="false" id="9899-d5c8-d7ce-8d37">
+              <profiles>
+                <profile name="Northstar" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="0a05-8d2c-bdae-e4d2">
+                  <characteristics>
+                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">15&quot;</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">8</characteristic>
+                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">5+</characteristic>
+                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">12</characteristic>
+                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Immobilization" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9082-894a-40df-73e0">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit successfully wounds a unit with their Tether Trap, it becomes immobilized and cannot move during its next movement phase.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Charged PR-01 Plasma Railgun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="5816-de3c-dbe2-1431">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">40&quot; (70&quot;)</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+ (2+)</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">15</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-3, (-4)</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">6</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked, Heavy,</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Titan Punch" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="a647-dc6f-c4f6-d902">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">2 (3)</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+ (2+)</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">10</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0 (-1)</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">(Anti-Infantry 2+), (Devastating Wounds)</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Tether Trap" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="827b-dfc9-c8a1-7c30">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">10&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">NA</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">0</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Torrent, Immobilization</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="PR-01 Plasma Railgun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="00ea-bd42-8abc-7545">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">40&quot; (70&quot;)</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">3 (5)</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+ (3+)</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1 (-2)</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked, (Heavy)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <entryLinks>
+                <entryLink import="true" name="Neural Link" hidden="false" id="8e29-033c-8f3c-d4b7" type="selectionEntry" targetId="a496-9e0f-d69e-c85c" flatten="false"/>
+              </entryLinks>
+              <categoryLinks>
+                <categoryLink name="Fly" hidden="false" id="acc3-af10-edfd-5f7d" targetId="c619-2086-bbcf-69c9" primary="false"/>
+              </categoryLinks>
             </selectionEntry>
           </selectionEntries>
           <constraints>
