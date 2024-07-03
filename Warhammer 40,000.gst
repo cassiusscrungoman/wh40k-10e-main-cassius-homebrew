@@ -318,6 +318,10 @@
     <categoryEntry name="Acastus" hidden="false" id="f76f-29c1-de9-74c2"/>
     <categoryEntry name="Cerastus" hidden="false" id="481c-3b2e-5c99-c248"/>
     <categoryEntry name="Artillery" hidden="false" id="8cab-448d-37b7-32bc"/>
+    <categoryEntry name="Titan" id="5591-0d87-3447-748c" hidden="false"/>
+    <categoryEntry name="Objective" id="94f7-6eac-40b6-37ca" hidden="false"/>
+    <categoryEntry name="Mechanized" id="6f14-7e4d-2380-6087" hidden="false"/>
+    <categoryEntry name="Pilot" id="05d3-e3dd-2694-38b5" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="bb9d-299a-ed60-2d8a" name="Army Roster" hidden="false">
@@ -353,6 +357,10 @@
         <categoryLink id="9198-c35d-71cd-eea3" name="Fortification" hidden="false" targetId="19d7-9c74-2140-5851" primary="false"/>
         <categoryLink id="a41a-6330-4718-d8d2" name="Unit" hidden="false" targetId="1160-70ae-a862-b1a8" primary="false"/>
         <categoryLink name="Allied Units" hidden="false" id="8d39-1cfc-6e44-2dae" targetId="887b-ab87-92a2-20f5"/>
+        <categoryLink name="Titan" hidden="false" id="5d4b-e66e-b4cb-9091" targetId="5591-0d87-3447-748c" type="category"/>
+        <categoryLink name="Mechanized" hidden="false" id="7ed0-55ff-e5b1-ba88" targetId="6f14-7e4d-2380-6087" type="category"/>
+        <categoryLink name="Objective" hidden="false" id="12a6-4bbc-ad8d-22d9" targetId="94f7-6eac-40b6-37ca" type="category"/>
+        <categoryLink name="Pilot" hidden="false" id="0d98-37a2-7c9e-19e0" targetId="05d3-e3dd-2694-38b5" type="category"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry name="Boarding Action" hidden="false" id="1d6e-2579-8e7f-1ed4">

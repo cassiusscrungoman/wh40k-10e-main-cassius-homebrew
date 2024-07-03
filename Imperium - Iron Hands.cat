@@ -71,7 +71,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <categoryLink name="Infantry" hidden="false" id="f1e6-aab0-ebf1-0f64" targetId="cf47-a0d7-7207-29dc" primary="false"/>
         <categoryLink name="Fly" hidden="false" id="79f1-0cd5-1b13-f980" targetId="c619-2086-bbcf-69c9" primary="false"/>
         <categoryLink name="Faction: IMC" hidden="false" id="753b-511b-a5b3-28c9" targetId="a195-5a3e-4355-8d18" primary="false"/>
-        <categoryLink name="Pilot" hidden="false" id="7238-becd-51db-dd82" targetId="ce1d-9b06-141b-b224" primary="false"/>
+        <categoryLink name="Pilot" hidden="false" id="a519-a289-2af8-4b0a" targetId="05d3-e3dd-2694-38b5" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
@@ -430,7 +430,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <categoryLink name="Grenades" hidden="false" id="7b24-520f-5f55-08f4" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
         <categoryLink name="Infantry" hidden="false" id="1457-d844-efd5-40cd" targetId="cf47-a0d7-7207-29dc" primary="false"/>
         <categoryLink name="Faction: IMC" hidden="false" id="0258-e28a-c55b-bc75" targetId="a195-5a3e-4355-8d18" primary="false"/>
-        <categoryLink name="Pilot" hidden="false" id="77dc-c038-b260-f1d4" targetId="ce1d-9b06-141b-b224" primary="false"/>
+        <categoryLink name="Pilot" hidden="false" id="479c-bd60-6bcc-eb6f" targetId="05d3-e3dd-2694-38b5" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="50"/>
@@ -841,9 +841,9 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
             <rule name="Deep Strike" id="ae1c-e246-dc0d-7d69" hidden="false"/>
           </rules>
           <categoryLinks>
-            <categoryLink name="Mechanized" hidden="false" id="b968-44fa-dd7c-8d70" targetId="894a-9a38-c09f-c9dc" primary="false"/>
             <categoryLink name="Dedicated Transport" hidden="false" id="facb-6662-f847-edba" targetId="ba07-411c-2832-1f79" primary="false"/>
             <categoryLink name="Faction: IMC" hidden="false" id="45ff-c336-787e-873f" targetId="a195-5a3e-4355-8d18" primary="false"/>
+            <categoryLink name="Mechanized" hidden="false" id="5a83-1a95-63e7-2129" targetId="6f14-7e4d-2380-6087" primary="false"/>
           </categoryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -1043,7 +1043,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <categoryLink name="Smoke" hidden="false" id="9ef2-5beb-40b7-c006" targetId="6df-937-16bc-8c1a" primary="false"/>
         <categoryLink name="Vehicle" hidden="false" id="66cc-2cb4-aedc-7c8e" targetId="dbd4-63-af05-998" primary="false"/>
         <categoryLink name="Faction: IMC" hidden="false" id="66b6-8b84-56f3-e9a2" targetId="a195-5a3e-4355-8d18" primary="false"/>
-        <categoryLink name="Mechanized" hidden="false" id="279c-123d-073b-7b93" targetId="894a-9a38-c09f-c9dc" primary="false"/>
+        <categoryLink name="Mechanized" hidden="false" id="daf7-f9e6-c480-4619" targetId="6f14-7e4d-2380-6087" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="200"/>
@@ -1178,8 +1178,8 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <categoryLink name="Faction: IMC" hidden="false" id="e53f-36a4-928c-4fb5" targetId="a195-5a3e-4355-8d18" primary="false"/>
         <categoryLink name="Titanic" hidden="false" id="a543-84ea-3699-9a19" targetId="5929-ad51-d006-e008" primary="false"/>
         <categoryLink name="Walker" hidden="false" id="02b7-3f45-979a-aeb8" targetId="6dda-e157-334d-e93a" primary="false"/>
-        <categoryLink name="Titan" hidden="false" id="8e48-52b4-10e2-20c8" targetId="f570-c9ed-a23a-15a7" primary="false"/>
         <categoryLink name="Drone" hidden="false" id="a30c-129b-71e6-5cb3" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
+        <categoryLink name="Titan" hidden="false" id="318e-9995-64e4-eb26" targetId="5591-0d87-3447-748c" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
@@ -1718,8 +1718,8 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
       <categoryLinks>
         <categoryLink name="Vehicle" hidden="false" id="2ef7-7c1b-3956-0cca" targetId="dbd4-63-af05-998" primary="false"/>
         <categoryLink name="Faction: IMC" hidden="false" id="d787-7f50-9333-bb50" targetId="a195-5a3e-4355-8d18" primary="false"/>
-        <categoryLink name="Objective" hidden="false" id="0fe7-53f0-0f2f-358d" targetId="ab1a-c85f-adc2-e16f" primary="false"/>
-        <categoryLink name="Mechanized" hidden="false" id="0259-aceb-4658-4109" targetId="894a-9a38-c09f-c9dc" primary="false"/>
+        <categoryLink name="Objective" hidden="false" id="4cef-cd14-38c0-1da7" targetId="94f7-6eac-40b6-37ca" primary="false"/>
+        <categoryLink name="Mechanized" hidden="false" id="12a1-57f4-dc4a-c2b4" targetId="6f14-7e4d-2380-6087" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
@@ -2080,9 +2080,9 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
             <rule name="Deep Strike" id="13dd-8b22-3fbf-d26e" hidden="false"/>
           </rules>
           <categoryLinks>
-            <categoryLink name="Mechanized" hidden="false" id="a9eb-6845-c2cf-f26f" targetId="894a-9a38-c09f-c9dc" primary="false"/>
             <categoryLink name="Faction: IMC" hidden="false" id="5140-97d4-1a3b-652a" targetId="a195-5a3e-4355-8d18" primary="false"/>
             <categoryLink name="Dedicated Transport" hidden="false" id="63c3-b512-5e50-f8fc" targetId="ba07-411c-2832-1f79" primary="false"/>
+            <categoryLink name="Mechanized" hidden="false" id="fa51-1c07-3134-4b0d" targetId="6f14-7e4d-2380-6087" primary="false"/>
           </categoryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="MRVN Auxiliary" hidden="false" id="d874-30f5-4637-ebf7" sortIndex="2">
@@ -2343,7 +2343,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <categoryLink name="Aircraft" hidden="false" id="0bda-c38b-c55f-6766" targetId="63f1-e6e8-f6f6-a4f0" primary="false"/>
         <categoryLink name="Dedicated Transport" hidden="false" id="e9c0-0633-5823-53fe" targetId="ba07-411c-2832-1f79" primary="false"/>
         <categoryLink name="Transport" hidden="false" id="bc3e-2f67-b376-c254" targetId="75e8-57c4-40e3-1817" primary="false"/>
-        <categoryLink name="Mechanized" hidden="false" id="8b1b-4fa9-bc29-e4c1" targetId="894a-9a38-c09f-c9dc" primary="false"/>
+        <categoryLink name="Mechanized" hidden="false" id="3eb9-7774-3e9b-e8ee" targetId="6f14-7e4d-2380-6087" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="125"/>
@@ -2412,7 +2412,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <categoryLink name="Faction: IMC" hidden="false" id="4bc4-cd59-4fa6-2665" targetId="a195-5a3e-4355-8d18" primary="false"/>
         <categoryLink name="Fly" hidden="false" id="b26c-6742-92d4-108b" targetId="c619-2086-bbcf-69c9" primary="false"/>
         <categoryLink name="Drone" hidden="false" id="5120-68d7-e5e7-68f9" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
-        <categoryLink name="Mechanized" hidden="false" id="155f-278a-d2be-9854" targetId="894a-9a38-c09f-c9dc" primary="false"/>
+        <categoryLink name="Mechanized" hidden="false" id="421c-0420-30cd-a398" targetId="6f14-7e4d-2380-6087" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
@@ -2523,10 +2523,6 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
   </sharedSelectionEntries>
   <categoryEntries>
     <categoryEntry name="Faction: IMC" id="a195-5a3e-4355-8d18" hidden="false"/>
-    <categoryEntry name="Pilot" id="ce1d-9b06-141b-b224" hidden="false"/>
-    <categoryEntry name="Titan" id="f570-c9ed-a23a-15a7" hidden="false"/>
-    <categoryEntry name="Objective" id="ab1a-c85f-adc2-e16f" hidden="false"/>
-    <categoryEntry name="Mechanized" id="894a-9a38-c09f-c9dc" hidden="false"/>
   </categoryEntries>
   <entryLinks>
     <entryLink import="true" name="IMC Pilot" hidden="false" id="4ad6-4f62-537b-fad5" type="selectionEntry" targetId="3a31-10a4-b92b-99c7"/>
@@ -2583,45 +2579,4 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
       <description>Titans may be embarked in by Pilots during their movement phase.</description>
     </rule>
   </rules>
-  <forceEntries>
-    <forceEntry name="IMC Categories" id="0ef4-5fe2-88be-c342" hidden="false">
-      <categoryLinks>
-        <categoryLink name="Titan" hidden="false" id="23c6-f6f1-744e-deb5" targetId="f570-c9ed-a23a-15a7" type="category"/>
-        <categoryLink name="Mechanized" hidden="false" id="ded1-66cf-4d80-c623" targetId="894a-9a38-c09f-c9dc" type="category"/>
-        <categoryLink name="Aircraft" hidden="false" id="3879-4cd3-1f1f-bd3c" targetId="63f1-e6e8-f6f6-a4f0" type="category"/>
-        <categoryLink name="Objective" hidden="false" id="52e7-7a64-5674-6d3a" targetId="ab1a-c85f-adc2-e16f" type="category"/>
-        <categoryLink name="Configuration" hidden="false" id="5d24-59b8-de90-c4ee" targetId="4ac9-fd30-1e3d-b249" primary="false"/>
-        <categoryLink name="Epic Hero" hidden="false" id="c5b7-0032-d778-94cf" targetId="4f3a-f0f7-6647-348d" primary="false"/>
-        <categoryLink name="Character" hidden="false" id="8322-c734-0d7e-2cd9" targetId="9cfd-1c32-585f-7d5c" primary="false">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="05b4-1a95-5c29-ba48" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-          <modifiers>
-            <modifier type="set" value="0" field="05b4-1a95-5c29-ba48">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="bdc0-c0d-72d7-87e2" shared="true" id="7e2a-47ae-b1dc-534e"/>
-                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="880c-c7e-4a43-a0c1" shared="true" id="d318-802c-7015-22e8"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-        </categoryLink>
-        <categoryLink name="Battleline" hidden="false" id="fc9c-ccd1-cf8d-e701" targetId="e338-111e-d0c6-b687" primary="false"/>
-        <categoryLink name="Infantry" hidden="false" id="bddb-c675-ed5e-ed5b" targetId="cf47-a0d7-7207-29dc" primary="false"/>
-        <categoryLink name="Swarm" hidden="false" id="336e-0f22-557f-7d27" targetId="b00b-5bae-444f-964e" primary="false"/>
-        <categoryLink name="Mounted" hidden="false" id="8726-5e60-ae6f-2c0b" targetId="14a0-40c9-2748-ae6e" primary="false"/>
-        <categoryLink name="Beast" hidden="false" id="7cec-ba8f-a0f3-29ce" targetId="4c3e-9310-a516-3590" primary="false"/>
-        <categoryLink name="Monster" hidden="false" id="f442-fa34-0c76-dc8e" targetId="9693-cf84-fe69-37a9" primary="false"/>
-        <categoryLink name="Vehicle" hidden="false" id="0dcd-a931-5be3-9d89" targetId="dbd4-63-af05-998" primary="false"/>
-        <categoryLink name="Drone" hidden="false" id="4a14-0f0c-2892-51f4" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
-        <categoryLink name="Dedicated Transport" hidden="false" id="04e4-8227-a5f6-e16e" targetId="ba07-411c-2832-1f79" primary="false"/>
-        <categoryLink name="Fortification" hidden="false" id="1a5e-753f-806d-c664" targetId="19d7-9c74-2140-5851" primary="false"/>
-        <categoryLink name="Unit" hidden="false" id="f127-bb7e-d5db-2f3c" targetId="1160-70ae-a862-b1a8" primary="false"/>
-        <categoryLink name="Allied Units" hidden="false" id="c67d-937f-e385-e862" targetId="887b-ab87-92a2-20f5"/>
-      </categoryLinks>
-    </forceEntry>
-  </forceEntries>
 </catalogue>
