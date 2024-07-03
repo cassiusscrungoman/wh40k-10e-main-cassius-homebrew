@@ -2101,7 +2101,11 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <rule name="Deep Strike" id="111a-f6a8-3486-3856" hidden="false"/>
       </rules>
       <entryLinks>
-        <entryLink import="true" name="Ticks" hidden="false" id="37e5-9072-be83-8c1a" type="selectionEntry" targetId="f95d-f525-f5cd-c60f"/>
+        <entryLink import="true" name="Ticks" hidden="false" id="37e5-9072-be83-8c1a" type="selectionEntry" targetId="f95d-f525-f5cd-c60f">
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+          </costs>
+        </entryLink>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Ticks" hidden="false" id="f95d-f525-f5cd-c60f">
