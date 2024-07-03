@@ -1181,7 +1181,6 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <categoryLink name="Walker" hidden="false" id="02b7-3f45-979a-aeb8" targetId="6dda-e157-334d-e93a" primary="false"/>
         <categoryLink name="Titan" hidden="false" id="8e48-52b4-10e2-20c8" targetId="f570-c9ed-a23a-15a7" primary="false"/>
         <categoryLink name="Drone" hidden="false" id="a30c-129b-71e6-5cb3" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
-        <categoryLink name="Mechanized" hidden="false" id="3cd0-8fde-0df0-f6fe" targetId="894a-9a38-c09f-c9dc" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
@@ -1313,7 +1312,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                 </profile>
                 <profile name="Charged PR-01 Plasma Railgun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="5816-de3c-dbe2-1431">
                   <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">40&quot; (70&quot;)</characteristic>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">40&quot; (60&quot;)</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
                     <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+ (2+)</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">15</characteristic>
@@ -1346,7 +1345,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                 </profile>
                 <profile name="PR-01 Plasma Railgun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="00ea-bd42-8abc-7545">
                   <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">40&quot; (70&quot;)</characteristic>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">20&quot; (40&quot;)</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">3 (5)</characteristic>
                     <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+ (4+)</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
