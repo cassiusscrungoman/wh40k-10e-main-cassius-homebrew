@@ -2594,6 +2594,9 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1d8c-a507-45c1-beb2" includeChildSelections="false"/>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0dc0-f43b-d989-5f30"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink name="Configuration" hidden="false" id="bd2c-2dc8-4db3-2898" targetId="4ac9-fd30-1e3d-b249" primary="true"/>
+      </categoryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <rules>
