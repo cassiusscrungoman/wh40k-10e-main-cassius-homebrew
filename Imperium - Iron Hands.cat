@@ -1932,6 +1932,11 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
             <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds, Anti-Infantry 4+</characteristic>
           </characteristics>
         </profile>
+        <profile name="Combat Reinforcements" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ddc1-84d4-a80f-cf00">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model may join any Spectre units within 2&quot;.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink name="Grenades" hidden="false" id="28ac-943a-3403-1157" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
@@ -1960,7 +1965,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         </profile>
         <profile name="Tactical Insertion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="264c-ce4e-e8ee-607f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may be deployed on Round 1 anywhere within your deployment zone.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit creates 1d3 spectres from the Expendable, Deployed En-masse detatchment rule, they may start embarked within the transport or be immediately disembarked up to 8&quot; away.</characteristic>
           </characteristics>
         </profile>
         <profile name="Goblin Aerial Transport" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="053f-4d7f-101e-0741">
@@ -1981,9 +1986,10 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <categoryLink name="Aircraft" hidden="false" id="0bda-c38b-c55f-6766" targetId="63f1-e6e8-f6f6-a4f0" primary="false"/>
         <categoryLink name="Dedicated Transport" hidden="false" id="e9c0-0633-5823-53fe" targetId="ba07-411c-2832-1f79" primary="false"/>
         <categoryLink name="Transport" hidden="false" id="bc3e-2f67-b376-c254" targetId="75e8-57c4-40e3-1817" primary="false"/>
+        <categoryLink name="Mechanized" hidden="false" id="8b1b-4fa9-bc29-e4c1" targetId="894a-9a38-c09f-c9dc" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="125"/>
       </costs>
       <modifiers>
         <modifier type="set-primary" value="ba07-411c-2832-1f79" field="category"/>
