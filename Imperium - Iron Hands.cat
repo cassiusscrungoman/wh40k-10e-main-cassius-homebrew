@@ -16,13 +16,12 @@
         <profile name="Eject, Eject, Eject!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bc93-3856-402b-0061">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If the unit with the Aircraft or Hover tags which this pilot is assigned to are killed, you may choose the result of the Deadly Demise roll. If the result of that roll is a 5 or less, this Pilot ejects from the aircraft.  If thte result of that roll is a 6, the pilot loses half of their wounds.  
-Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be deployed anywhere within 6&quot; of that line.  If you choose an area off the map, this unit counts as EVACed and will be available for deployment in your next mission.
-</characteristic>
+Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be deployed anywhere within 6&quot; of that line.  If you choose an area off the map, this unit counts as EVACed and will be available for deployment in your next mission.</characteristic>
           </characteristics>
         </profile>
         <profile name="Kill Me And See What Happens" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cd2e-6f5c-8439-e472">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per game, if this model is reduced to 0HP, once the attacking unit has finished its attacks, reduce it to 1HP instead.  </characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per game, if this model is reduced to 0HP, once the attacking unit has finished its attacks, reduce it to 1HP instead.</characteristic>
           </characteristics>
         </profile>
         <profile name="Monarch" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d8db-b253-8d72-4e5e">
@@ -488,7 +487,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
-        <infoLink name="Leader (Spectres)" id="7cea-01f4-80f7-d5ce" hidden="false" type="rule" targetId="b4dd-3e1f-41cb-218f"/>
+        <infoLink name="Leader" id="7cea-01f4-80f7-d5ce" hidden="false" type="rule" targetId="b4dd-3e1f-41cb-218f"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Grunt Weapon Choice" id="ab6f-cade-c17c-1f7a" hidden="false" defaultSelectionEntryId="26b7-e7cf-33d8-9abe">
@@ -714,7 +713,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Guntank" hidden="false" id="cdef-201f-aefc-729c" defaultAmount="">
+    <selectionEntry type="model" import="true" name="Guntank" hidden="false" id="cdef-201f-aefc-729c">
       <profiles>
         <profile name="Electric Smoke" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="75bf-5e44-1dd8-0f15">
           <characteristics>
@@ -776,7 +775,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Spectre" hidden="false" id="4303-c8af-547d-7073" defaultAmount="">
+    <selectionEntry type="unit" import="true" name="Spectre" hidden="false" id="4303-c8af-547d-7073">
       <profiles>
         <profile name="Electric Smoke" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="568e-96c9-541b-f892">
           <characteristics>
@@ -1018,7 +1017,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Paladin Tank" hidden="false" id="a07d-f882-618e-8817" defaultAmount="">
+    <selectionEntry type="model" import="true" name="Paladin Tank" hidden="false" id="a07d-f882-618e-8817">
       <profiles>
         <profile name="Electric Smoke" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4768-a103-d0f0-7556">
           <characteristics>
@@ -1097,7 +1096,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <rule name="Wounded 1-6" id="4535-b672-0b7d-aec3" hidden="false"/>
       </rules>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Disposable Infiltration Fighter" hidden="false" id="087b-38b4-94cd-286b" defaultAmount="">
+    <selectionEntry type="model" import="true" name="Disposable Infiltration Fighter" hidden="false" id="087b-38b4-94cd-286b">
       <profiles>
         <profile name="Manual Control" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3d3c-7061-88ca-3374">
           <characteristics>
@@ -1144,7 +1143,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
               <characteristics>
                 <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
                 <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-                <characteristic name="BS" typeId="94d-8a98-cf90-183e">4&quot;</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                 <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
                 <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                 <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
@@ -1174,7 +1173,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <categoryLink name="Warlord" hidden="false" id="9981-4193-bdaa-78e4" targetId="5c0e-4c31-d51b-e470" primary="false"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Titan" hidden="false" id="124f-0260-bc99-3b2c" defaultAmount="">
+    <selectionEntry type="unit" import="true" name="Titan" hidden="false" id="124f-0260-bc99-3b2c">
       <categoryLinks>
         <categoryLink name="Vehicle" hidden="false" id="0ea0-b811-14d9-88db" targetId="dbd4-63-af05-998" primary="false"/>
         <categoryLink name="Faction: IMC" hidden="false" id="e53f-36a4-928c-4fb5" targetId="a195-5a3e-4355-8d18" primary="false"/>
@@ -1292,7 +1291,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                 <entryLink import="true" name="Neural Link" hidden="false" id="9901-731f-4a04-af93" type="selectionEntry" targetId="a496-9e0f-d69e-c85c" flatten="false"/>
               </entryLinks>
               <infoLinks>
-                <infoLink name="Feel No Pain 5" id="525f-32c6-fd99-a1b5" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
+                <infoLink name="Feel No Pain" id="525f-32c6-fd99-a1b5" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
@@ -1326,7 +1325,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8218-290c-5cbb-f261"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Harvester" hidden="false" id="07cd-d4a0-2195-0564" defaultAmount="">
+    <selectionEntry type="model" import="true" name="Harvester" hidden="false" id="07cd-d4a0-2195-0564">
       <profiles>
         <profile name="Shield Can&apos;t Hold Forever" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="475f-6fb8-ecd0-5b86">
           <characteristics>
@@ -1436,7 +1435,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <modifier type="set-primary" value="cf47-a0d7-7207-29dc" field="category"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Reaper" hidden="false" id="9580-b01a-7f1b-f2b7" defaultAmount="">
+    <selectionEntry type="model" import="true" name="Reaper" hidden="false" id="9580-b01a-7f1b-f2b7">
       <profiles>
         <profile name="Electric Smoke" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="42c9-c5d1-453b-c514">
           <characteristics>
@@ -1448,7 +1447,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">8</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">7</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">5</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
           </characteristics>
@@ -1467,7 +1466,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <categoryLink name="Drone" hidden="false" id="8873-4bc4-c94c-93ce" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="75"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="50"/>
       </costs>
       <modifiers>
         <modifier type="set-primary" value="dbd4-63-af05-998" field="category"/>
@@ -1481,9 +1480,9 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                 <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
                 <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                 <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
-                <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 4, Twin-linked, Melta 1</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 2, Twin-linked, Melta 1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1516,7 +1515,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <rule name="Deep Strike" id="31cf-d5c3-d320-3f9f" hidden="false"/>
       </rules>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Mortar Team" hidden="false" id="83ae-7b76-3722-6ad7" defaultAmount="">
+    <selectionEntry type="unit" import="true" name="Mortar Team" hidden="false" id="83ae-7b76-3722-6ad7">
       <profiles>
         <profile name="Hard Cover" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c2f9-3f49-e80f-0cee">
           <characteristics>
@@ -1611,8 +1610,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
               <profiles>
                 <profile name="Fox 3!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5fbf-5245-c33e-9712">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this pilot selects the Archer Heavy Lock-on Rocket Launcher as their primary weapon choice, if they target a Vehicle with the Archer, the attack gains a +1 to hit.
-</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this pilot selects the Archer Heavy Lock-on Rocket Launcher as their primary weapon choice, if they target a Vehicle with the Archer, the attack gains a +1 to hit.</characteristic>
                   </characteristics>
                 </profile>
                 <profile name="Archer Heavy Lock-on Rocket Launcher" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="2368-db13-83ed-b598">
@@ -1671,7 +1669,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Ordnance Team" hidden="false" id="b824-3dcd-07f9-eb7c" defaultAmount="">
+    <selectionEntry type="unit" import="true" name="Ordnance Team" hidden="false" id="b824-3dcd-07f9-eb7c">
       <profiles>
         <profile name="Shock Defenses" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b2c1-640a-e5e8-fa89">
           <characteristics>
@@ -1948,11 +1946,11 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <modifier type="set-primary" value="e338-111e-d0c6-b687" field="category"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Goblin Aerial Transport" hidden="false" id="f4b1-c472-38f4-b40c" defaultAmount="">
+    <selectionEntry type="model" import="true" name="Goblin Aerial Transport" hidden="false" id="f4b1-c472-38f4-b40c">
       <profiles>
-        <profile name="Manual Control" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="08aa-d2bb-0ae6-8412">
+        <profile name="Zipline Deployment" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="08aa-d2bb-0ae6-8412">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This Vehicle *must* have an IMC Pilot assigned to it.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Units inside this transport may disembark up to 8&quot; away.</characteristic>
           </characteristics>
         </profile>
         <profile name="Jump Drive" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3fb5-444f-ddeb-4751">
@@ -1968,9 +1966,9 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <profile name="Goblin Aerial Transport" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="053f-4d7f-101e-0741">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">20+&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
-            <characteristic name="SV" typeId="450-a17e-9d5e-29da">6+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">7</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">15</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0</characteristic>
           </characteristics>
@@ -1985,23 +1983,23 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <categoryLink name="Transport" hidden="false" id="bc3e-2f67-b376-c254" targetId="75e8-57c4-40e3-1817" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
       </costs>
       <modifiers>
         <modifier type="set-primary" value="ba07-411c-2832-1f79" field="category"/>
       </modifiers>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Disposable Missile" hidden="false" id="0d97-33a3-50dc-1b73">
+        <selectionEntry type="upgrade" import="true" name="XO-16 Chaingun" hidden="false" id="0d97-33a3-50dc-1b73">
           <profiles>
-            <profile name="Literally One Missile" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="abe6-5be8-9993-8a90">
+            <profile name="XO-16 Chaingun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="abe6-5be8-9993-8a90">
               <characteristics>
                 <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
-                <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-                <characteristic name="BS" typeId="94d-8a98-cf90-183e">4&quot;</characteristic>
-                <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
-                <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">One Shot</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">10</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 10,</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2012,9 +2010,144 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         </selectionEntry>
       </selectionEntries>
       <rules>
-        <rule name="Deadly Demise 1d6" id="9521-9df6-fd55-d049" hidden="false"/>
+        <rule name="Deadly Demise 2d6" id="9521-9df6-fd55-d049" hidden="false"/>
         <rule name="Firing Deck 12" id="8a3a-13fa-b2fa-bd9e" hidden="false"/>
+        <rule name="Hover" id="528a-a2e1-3cbc-1144" hidden="false"/>
       </rules>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Factory Reaper" hidden="false" id="3714-2007-bfc5-375e">
+      <profiles>
+        <profile name="Electric Smoke" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ec98-b0c8-3641-4a0e">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit uses Smoke, it deploys Electric Smoke.  Non-mechanical units in the smoke (e.g. ones without the Vehicle keyword or similar like Drone) take 1d3 mortal wounds when the smoke is initially deployed, and 2d3 mortal wounds at the beginning of their next shooting phase.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Factory Reaper" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="eecf-d0a8-62ba-9ab4">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">8</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">5</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Orbital Insertion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="27a5-0dec-f47e-55e8">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When using Deep Strike, telegraph where this unit will deploy 1 turn in advance, at the start of your movement phase.  This cannot be ontop of control points.  It will deploy there regardless of how close enemy units are.  If anyone is within 2&quot; of the selected spot, they die.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Tick Launch" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="40bf-2fc4-9c4d-826e">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of the command phase, this unit may deploy 4 Tick models up to 3&quot; away from it. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Smoke" hidden="false" id="7bf7-864b-4cd2-5faf" targetId="6df-937-16bc-8c1a" primary="false"/>
+        <categoryLink name="Vehicle" hidden="false" id="ec33-b393-54bd-bf9d" targetId="dbd4-63-af05-998" primary="false"/>
+        <categoryLink name="Faction: IMC" hidden="false" id="4bc4-cd59-4fa6-2665" targetId="a195-5a3e-4355-8d18" primary="false"/>
+        <categoryLink name="Fly" hidden="false" id="b26c-6742-92d4-108b" targetId="c619-2086-bbcf-69c9" primary="false"/>
+        <categoryLink name="Drone" hidden="false" id="5120-68d7-e5e7-68f9" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
+        <categoryLink name="Mechanized" hidden="false" id="155f-278a-d2be-9854" targetId="894a-9a38-c09f-c9dc" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
+      </costs>
+      <modifiers>
+        <modifier type="set-primary" value="dbd4-63-af05-998" field="category"/>
+      </modifiers>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Reaper Rockets" hidden="false" id="786d-8297-c61b-02ba">
+          <profiles>
+            <profile name="Reaper Rockets" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="cb84-c42a-ec75-b9a9">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 2, Twin-linked, Melta 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fb04-cb6e-6ed7-ef4f"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="19bb-0488-45d3-67d8"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Reaper Claw" hidden="false" id="d535-4f24-4d1e-53a3">
+          <profiles>
+            <profile name="Reaper Claw" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="3ff3-a411-2f99-d363">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">12</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dd42-099b-8a1d-fa01"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1bdf-910e-f02b-a5e9"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <rules>
+        <rule name="Deep Strike" id="111a-f6a8-3486-3856" hidden="false"/>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Ticks" hidden="false" id="37e5-9072-be83-8c1a" type="selectionEntry" targetId="f95d-f525-f5cd-c60f"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Ticks" hidden="false" id="f95d-f525-f5cd-c60f">
+      <profiles>
+        <profile name="Seek and Destroy" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ed97-1131-a503-04d6">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Unit coherency is never checked for this unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Walking IED" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8800-981b-11e9-53b5">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the beginning of the fight phase, any number of models in this unit may destroy itself to deal 2 mortal wounds to any units within 2&quot; of the model.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Fly" hidden="false" id="9e96-365e-02de-de9f" targetId="c619-2086-bbcf-69c9" primary="false"/>
+        <categoryLink name="Drone" hidden="false" id="5575-2b63-6d09-1661" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
+        <categoryLink name="Faction: IMC" hidden="false" id="d899-3fcb-4edd-f893" targetId="a195-5a3e-4355-8d18" primary="false"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set-primary" value="cf47-a0d7-7207-29dc" field="category"/>
+      </modifiers>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Tick" hidden="false" id="6f0d-3a27-2699-5efe">
+          <profiles>
+            <profile name="Tick" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="03a1-f81b-c5f0-9199">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
+                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">2</characteristic>
+                <characteristic name="SV" typeId="450-a17e-9d5e-29da">6+</characteristic>
+                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">1</characteristic>
+                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="6" field="selections" scope="parent" shared="true" id="bbaa-0018-e228-1fbb"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="f3b7-6db9-fb9c-7957"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
@@ -2025,11 +2158,11 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
     <categoryEntry name="Mechanized" id="894a-9a38-c09f-c9dc" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink import="true" name="G1 Pilot" hidden="false" id="4ad6-4f62-537b-fad5" type="selectionEntry" targetId="3a31-10a4-b92b-99c7"/>
+    <entryLink import="true" name="IMC Pilot" hidden="false" id="4ad6-4f62-537b-fad5" type="selectionEntry" targetId="3a31-10a4-b92b-99c7"/>
     <entryLink import="true" name="Grunt" hidden="false" id="2663-913e-f103-998d" type="selectionEntry" targetId="a446-01ba-6fe7-7ffc"/>
-    <entryLink import="true" name="Flakpanzer Gepard" hidden="false" id="66ab-f1a3-1641-c8cb" type="selectionEntry" targetId="cdef-201f-aefc-729c"/>
+    <entryLink import="true" name="Guntank" hidden="false" id="66ab-f1a3-1641-c8cb" type="selectionEntry" targetId="cdef-201f-aefc-729c"/>
     <entryLink import="true" name="Spectre" hidden="false" id="1dae-f04d-9e13-6c6e" type="selectionEntry" targetId="4303-c8af-547d-7073"/>
-    <entryLink import="true" name="Spectre Fighting Vehicle" hidden="false" id="8530-de0c-bcd5-8fc3" type="selectionEntry" targetId="a07d-f882-618e-8817"/>
+    <entryLink import="true" name="Paladin Tank" hidden="false" id="8530-de0c-bcd5-8fc3" type="selectionEntry" targetId="a07d-f882-618e-8817"/>
     <entryLink import="true" name="Detachment" hidden="false" id="460d-4d21-0556-df12" type="selectionEntryGroup" targetId="e2c1-bdbc-ebea-6795"/>
     <entryLink import="true" name="Disposable Infiltration Fighter" hidden="false" id="7449-a0e0-0a4a-04c0" type="selectionEntry" targetId="087b-38b4-94cd-286b"/>
     <entryLink import="true" name="Titan" hidden="false" id="fb62-e953-97a8-0274" type="selectionEntry" targetId="124f-0260-bc99-3b2c"/>
