@@ -2590,6 +2590,37 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <categoryLink name="Mechanized" hidden="false" id="ded1-66cf-4d80-c623" targetId="894a-9a38-c09f-c9dc" type="category"/>
         <categoryLink name="Aircraft" hidden="false" id="3879-4cd3-1f1f-bd3c" targetId="63f1-e6e8-f6f6-a4f0" type="category"/>
         <categoryLink name="Objective" hidden="false" id="52e7-7a64-5674-6d3a" targetId="ab1a-c85f-adc2-e16f" type="category"/>
+        <categoryLink name="Configuration" hidden="false" id="5d24-59b8-de90-c4ee" targetId="4ac9-fd30-1e3d-b249" primary="false"/>
+        <categoryLink name="Epic Hero" hidden="false" id="c5b7-0032-d778-94cf" targetId="4f3a-f0f7-6647-348d" primary="false"/>
+        <categoryLink name="Character" hidden="false" id="8322-c734-0d7e-2cd9" targetId="9cfd-1c32-585f-7d5c" primary="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="05b4-1a95-5c29-ba48" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="0" field="05b4-1a95-5c29-ba48">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="bdc0-c0d-72d7-87e2" shared="true" id="7e2a-47ae-b1dc-534e"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="880c-c7e-4a43-a0c1" shared="true" id="d318-802c-7015-22e8"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+        <categoryLink name="Battleline" hidden="false" id="fc9c-ccd1-cf8d-e701" targetId="e338-111e-d0c6-b687" primary="false"/>
+        <categoryLink name="Infantry" hidden="false" id="bddb-c675-ed5e-ed5b" targetId="cf47-a0d7-7207-29dc" primary="false"/>
+        <categoryLink name="Swarm" hidden="false" id="336e-0f22-557f-7d27" targetId="b00b-5bae-444f-964e" primary="false"/>
+        <categoryLink name="Mounted" hidden="false" id="8726-5e60-ae6f-2c0b" targetId="14a0-40c9-2748-ae6e" primary="false"/>
+        <categoryLink name="Beast" hidden="false" id="7cec-ba8f-a0f3-29ce" targetId="4c3e-9310-a516-3590" primary="false"/>
+        <categoryLink name="Monster" hidden="false" id="f442-fa34-0c76-dc8e" targetId="9693-cf84-fe69-37a9" primary="false"/>
+        <categoryLink name="Vehicle" hidden="false" id="0dcd-a931-5be3-9d89" targetId="dbd4-63-af05-998" primary="false"/>
+        <categoryLink name="Drone" hidden="false" id="4a14-0f0c-2892-51f4" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
+        <categoryLink name="Dedicated Transport" hidden="false" id="04e4-8227-a5f6-e16e" targetId="ba07-411c-2832-1f79" primary="false"/>
+        <categoryLink name="Fortification" hidden="false" id="1a5e-753f-806d-c664" targetId="19d7-9c74-2140-5851" primary="false"/>
+        <categoryLink name="Unit" hidden="false" id="f127-bb7e-d5db-2f3c" targetId="1160-70ae-a862-b1a8" primary="false"/>
+        <categoryLink name="Allied Units" hidden="false" id="c67d-937f-e385-e862" targetId="887b-ab87-92a2-20f5"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
