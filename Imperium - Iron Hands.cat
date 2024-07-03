@@ -1202,8 +1202,8 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         </profile>
       </profiles>
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c19-6877-de15-ecff"/>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8218-290c-5cbb-f261"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3c19-6877-de15-ecff-min"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c19-6877-de15-ecff-max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Blisk&apos;s Detatchment Rule Cost Reduction" hidden="false" id="19ef-bfbf-5471-e19d">
