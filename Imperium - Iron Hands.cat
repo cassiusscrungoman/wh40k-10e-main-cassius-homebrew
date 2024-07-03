@@ -1049,7 +1049,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <cost name="pts" typeId="51b2-306e-1021-d207" value="200"/>
       </costs>
       <modifiers>
-        <modifier type="set-primary" value="894a-9a38-c09f-c9dc" field="category"/>
+        <modifier type="set-primary" value="6f14-7e4d-2380-6087" field="category"/>
       </modifiers>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Spectre Fighting Vehicle Main Gun" hidden="false" id="66d2-80b9-941f-e5d5">
@@ -1185,7 +1185,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
       </costs>
       <modifiers>
-        <modifier type="set-primary" value="f570-c9ed-a23a-15a7" field="category"/>
+        <modifier type="set-primary" value="5591-0d87-3447-748c" field="category"/>
       </modifiers>
       <selectionEntryGroups>
         <selectionEntryGroup name="Titan Chasis" id="42b6-3625-3de8-fb1d" hidden="false">
@@ -1725,7 +1725,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
       </costs>
       <modifiers>
-        <modifier type="set-primary" value="ab1a-c85f-adc2-e16f" field="category"/>
+        <modifier type="set-primary" value="94f7-6eac-40b6-37ca" field="category"/>
       </modifiers>
       <infoLinks>
         <infoLink name="Feel No Pain" id="1d08-0819-5827-b775" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
@@ -2418,7 +2418,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
       </costs>
       <modifiers>
-        <modifier type="set-primary" value="894a-9a38-c09f-c9dc" field="category"/>
+        <modifier type="set-primary" value="6f14-7e4d-2380-6087" field="category"/>
       </modifiers>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Reaper Rockets" hidden="false" id="786d-8297-c61b-02ba">
