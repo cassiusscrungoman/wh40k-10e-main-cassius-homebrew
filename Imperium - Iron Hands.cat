@@ -1172,482 +1172,6 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <categoryLink name="Warlord" hidden="false" id="9981-4193-bdaa-78e4" targetId="5c0e-4c31-d51b-e470" primary="false"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Titan" hidden="false" id="124f-0260-bc99-3b2c">
-      <categoryLinks>
-        <categoryLink name="Vehicle" hidden="false" id="0ea0-b811-14d9-88db" targetId="dbd4-63-af05-998" primary="false"/>
-        <categoryLink name="Faction: IMC" hidden="false" id="e53f-36a4-928c-4fb5" targetId="a195-5a3e-4355-8d18" primary="false"/>
-        <categoryLink name="Titanic" hidden="false" id="a543-84ea-3699-9a19" targetId="5929-ad51-d006-e008" primary="false"/>
-        <categoryLink name="Walker" hidden="false" id="02b7-3f45-979a-aeb8" targetId="6dda-e157-334d-e93a" primary="false"/>
-        <categoryLink name="Drone" hidden="false" id="a30c-129b-71e6-5cb3" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
-        <categoryLink name="Titan" hidden="false" id="318e-9995-64e4-eb26" targetId="5591-0d87-3447-748c" primary="false"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
-      </costs>
-      <modifiers>
-        <modifier type="set-primary" value="5591-0d87-3447-748c" field="category"/>
-      </modifiers>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Titan Chasis" id="42b6-3625-3de8-fb1d" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="model" import="true" name="Scorch" hidden="false" id="968a-a7d6-76db-e959">
-              <profiles>
-                <profile name="Scorch" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="400d-b91f-6130-ce84">
-                  <characteristics>
-                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
-                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">13</characteristic>
-                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">20</characteristic>
-                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
-                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="T-203 Thermite Launcher" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="81c2-74e9-1c5c-7b12">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">20&quot; (30&quot;)</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+ (2+)</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2 (-4)</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">(Twin-linked), (Melta 2), (Ignores Cover), (Indirect Fire)</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Thermite Shield" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="a7e9-7161-ab08-7140">
-                  <characteristics>
-                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                    <characteristic name="A" typeId="2337-daa1-6682-b110">10</characteristic>
-                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">NA</characteristic>
-                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">10</characteristic>
-                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-                    <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Torrent, Hazardous</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="(WHY ARE YOU RUNNING)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a69d-9d89-1a30-b948">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a Pilot is embarked within this Titan, it can reroll charge rolls, and gets a +2 to them.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <entryLinks>
-                <entryLink import="true" name="Neural Link" hidden="false" id="373b-76e5-6e73-111e" type="selectionEntry" targetId="a496-9e0f-d69e-c85c" flatten="false"/>
-              </entryLinks>
-              <infoLinks>
-                <infoLink name="Fights First" id="ba7c-c660-4d96-abe5" hidden="false" type="rule" targetId="24-c886-e8ba-5a89"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="model" import="true" name="Ronin" hidden="false" id="8669-12bc-ec86-2895">
-              <profiles>
-                <profile name="Ronin" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="e34c-dfcc-9827-11b1">
-                  <characteristics>
-                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
-                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">7</characteristic>
-                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">5+</characteristic>
-                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">12</characteristic>
-                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
-                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Sword Block(+)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ce8b-4463-47f4-1e43">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit didn&apos;t attack with its Leadwall Shotgun during its turn, subtract 1 from wound and hit rolls against this unit until the start of its next shooting phase.  If a Pilot is embarked within, gain Feel No Pain 4+ as well.</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Leadwall Shotgun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="ffdd-b3f5-643a-a4e0">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">10&quot; (15&quot;)</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+ (2+)</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1 (-3)</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Assault, Melta 1, (Twin-linked)</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Ronin&apos;s Broadsword" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="cec0-c8b7-41ed-f37d">
-                  <characteristics>
-                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                    <characteristic name="A" typeId="2337-daa1-6682-b110">4 (6)</characteristic>
-                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+ (3+)</characteristic>
-                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">14</characteristic>
-                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1 (-2)</characteristic>
-                    <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lance</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Arc Wave" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="1e58-b074-177e-ab84">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">10&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1+</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+ (3+)</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Melta 2, Psychic, Intervention</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Intervention" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f411-958a-c86a-2264">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this Titan attacks with its Arc Wave, draw a line from the Titan out 10&quot; through their target model of choice.  If that line intersects with other models, they must make attacks against all of the targets along that line, friend or foe.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <entryLinks>
-                <entryLink import="true" name="Neural Link" hidden="false" id="9901-731f-4a04-af93" type="selectionEntry" targetId="a496-9e0f-d69e-c85c" flatten="false"/>
-              </entryLinks>
-              <infoLinks>
-                <infoLink name="Feel No Pain" id="525f-32c6-fd99-a1b5" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
-                <infoLink name="Fights First" id="68f1-5181-76aa-8261" hidden="false" type="rule" targetId="24-c886-e8ba-5a89"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="model" import="true" name="Northstar" hidden="false" id="9899-d5c8-d7ce-8d37">
-              <profiles>
-                <profile name="Northstar" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="0a05-8d2c-bdae-e4d2">
-                  <characteristics>
-                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
-                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">7</characteristic>
-                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">5+</characteristic>
-                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">12</characteristic>
-                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
-                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Immobilization" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9082-894a-40df-73e0">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit successfully wounds a unit with their Deployable Tether, it becomes immobilized and cannot move during its next movement phase.</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="(Charged PR-01 Plasma Railgun)" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="5816-de3c-dbe2-1431">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">50&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">13</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">4</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked, Heavy, Melta 3,</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Deployable Tether" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="827b-dfc9-c8a1-7c30">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">10&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">NA</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">0</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Torrent, Immobilization</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="PR-01 Plasma Railgun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="00ea-bd42-8abc-7545">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">20&quot; (40&quot;)</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+ (3+)</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1 (-2)</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked, (Heavy),</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Flight" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="08f8-62bc-3275-04eb">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit has the Fly tag.  It can move directly up and stay hovering in the air.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <entryLinks>
-                <entryLink import="true" name="Neural Link" hidden="false" id="8e29-033c-8f3c-d4b7" type="selectionEntry" targetId="a496-9e0f-d69e-c85c" flatten="false"/>
-              </entryLinks>
-              <categoryLinks>
-                <categoryLink name="Fly" hidden="false" id="acc3-af10-edfd-5f7d" targetId="c619-2086-bbcf-69c9" primary="false"/>
-              </categoryLinks>
-            </selectionEntry>
-            <selectionEntry type="model" import="true" name="Ion" hidden="false" id="cc4b-1152-6588-e7eb">
-              <profiles>
-                <profile name="Ion" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="1213-e338-2147-cc85">
-                  <characteristics>
-                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
-                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
-                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
-                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">15</characteristic>
-                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
-                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Laser Shot" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="537c-92a8-5010-0377">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">40&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+ (2+)</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Precision</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Splitter Rifle" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="6038-9253-6680-48eb">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">5</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+ (3+)</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 5, Melta 1, (Sustained Hits 1)</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Vortex Shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="51ac-c0fd-2c6d-0501">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit is attacked, if an attack misses, the attacker must make that attack against themselves.</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="(Vortex Shield Optimizaion)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5a2c-c31f-33f8-cd0f">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When a pilot is embarked, subtract 1 from hit rolls made against this unit.</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="(Stand Behind Me)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b846-c4aa-c6bc-8487">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When a pilot is embarked, if an attack misses an allied unit within 2&quot; of this Titan, the attacker must make that attack against themselves.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <entryLinks>
-                <entryLink import="true" name="Neural Link" hidden="false" id="1c46-8d39-ed6c-2f4f" type="selectionEntry" targetId="a496-9e0f-d69e-c85c" flatten="false"/>
-              </entryLinks>
-              <categoryLinks>
-                <categoryLink name="Fly" hidden="false" id="10f4-0b20-ce96-bfc2" targetId="c619-2086-bbcf-69c9" primary="false"/>
-              </categoryLinks>
-            </selectionEntry>
-            <selectionEntry type="model" import="true" name="Legion" hidden="false" id="ee1a-aa43-2f49-da68">
-              <profiles>
-                <profile name="Legion" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="1f28-d857-7815-f57d">
-                  <characteristics>
-                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
-                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">13</characteristic>
-                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">20</characteristic>
-                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
-                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Predator Cannon - Long Range" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="c496-cdf5-0e93-9dd2">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">25&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">5</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+ (3+)</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits, (Twin-linked),</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Gun Shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="96a3-fcf8-573c-1baa">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle, when this unit is attacked by a ranged attack, you may activate the Legion&apos;s Gun Shield to subtract 1 from the enemy&apos;s hit and wound rolls until the end of the phase.</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Predator Cannon - Short Range" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="f213-b8b9-ac70-a74d">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">15&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">10</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+ (2+)</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits, (Twin-linked),</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Power Shot - Short Range" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="f549-c499-495a-d42d">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">15&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+ (2+)</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">4</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Melta 4</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Power Shot - Long Range" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="9d23-ff4b-98ff-e655">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">25&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+ (3+)</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Mode Switch" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6fe5-ea7d-9f56-e0f5">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may only attack with either its two Long Range or Short Range weapons per battle round.</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="(Multi-Target Lock)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="45b9-d0eb-abaa-e647">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When a pilot is embarked, this unit may choose different targets for every single one of its weapons&apos; ranged attacks.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <entryLinks>
-                <entryLink import="true" name="Neural Link" hidden="false" id="0b7a-0a11-5bca-b94a" type="selectionEntry" targetId="a496-9e0f-d69e-c85c" flatten="false"/>
-              </entryLinks>
-              <infoLinks>
-                <infoLink name="Fights First" id="8408-12ca-da0f-50c5" hidden="false" type="rule" targetId="24-c886-e8ba-5a89"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="model" import="true" name="Monarch" hidden="false" id="5556-3aa0-5474-e29d">
-              <profiles>
-                <profile name="Monarch" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="0081-8b92-9311-b03d">
-                  <characteristics>
-                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
-                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
-                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
-                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">15</characteristic>
-                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
-                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Siphon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6edc-3908-3703-c706">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit successfully hits a unit with their Energy Laser, the Monarch gains 1 wound.</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Rocket Salvo" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="e64f-8ca4-6991-1d99">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">15&quot; (25&quot;)</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">5</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+ (2+)</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1, (-2)</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked, Precision</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Energy Laser" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="5883-b5c6-b0b2-2bcd">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+ (2+)</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">3</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Siphon</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="XO-16A2 Chaingun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="252b-1f59-a7fb-6da6">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">5</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+ (3+)</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1 (-2)</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 5, (Sustained Hits 1)</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="(Battery Thief)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0d50-8bc3-f94a-c8ec">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When a pilot is embarked, if this unit destroys an enemy vehicle model with a melee attack, it gains 3 wounds.</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="(Multi-Target Lock)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="52a1-1493-fcae-0eee">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When a pilot is embarked, this unit may choose different targets for every single one of its weapons&apos; ranged attacks.</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Vinson Dynamics Electric Shields" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2ab2-e6a7-6618-f1d5">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit heals wounds, it can go over its maximum wounds of 15, to a cap of 20.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <entryLinks>
-                <entryLink import="true" name="Neural Link" hidden="false" id="1693-1b33-091b-874c" type="selectionEntry" targetId="a496-9e0f-d69e-c85c" flatten="false"/>
-              </entryLinks>
-              <categoryLinks>
-                <categoryLink name="Fly" hidden="false" id="4803-b389-9de6-5c86" targetId="c619-2086-bbcf-69c9" primary="false"/>
-              </categoryLinks>
-            </selectionEntry>
-            <selectionEntry type="model" import="true" name="Tone" hidden="false" id="349c-1bdd-e95c-3e88">
-              <profiles>
-                <profile name="Ion" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="561f-3f14-afc0-a290">
-                  <characteristics>
-                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
-                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
-                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
-                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">15</characteristic>
-                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
-                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Tracking Rockets" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="4022-60a6-507e-1bc0">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">40&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+, (NA)</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Precision, Tracking Lock, Ignores Cover, Indirect Fire, (Torrent)</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="77mm Tracker Cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="882e-7923-0513-c192">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">5</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+ (2+)</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Tracking Lock</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Tracking Lock" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a2c8-229d-f7fd-c07f">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Every time this unit hits an enemy unit with its 77mm Tracker Cannon, it can attack with its Tracking Rockets against that target once.  This stacks.</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Sonar Lock" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6dec-19b9-8d16-9efd">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Select a location within 20&quot; that this unit has line of sight to.  This unit may attack every unit within 3&quot; of that location with its Tracking Rockets.</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="(Stand Behind Me)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8a14-a8db-4a80-5767">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When a pilot is embarked, if an attack misses an allied unit within 2&quot; of this Titan, the attacker must make that attack against themselves.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <entryLinks>
-                <entryLink import="true" name="Neural Link" hidden="false" id="3a18-67e3-7e73-b663" type="selectionEntry" targetId="a496-9e0f-d69e-c85c" flatten="false"/>
-              </entryLinks>
-              <categoryLinks>
-                <categoryLink name="Fly" hidden="false" id="79d2-52ce-aed9-0928" targetId="c619-2086-bbcf-69c9" primary="false"/>
-              </categoryLinks>
-            </selectionEntry>
-          </selectionEntries>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a874-88f9-137e-8965"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0693-1844-8cde-8844"/>
-          </constraints>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Blisk&apos;s Detatchment Rule Cost Reduction" hidden="false" id="19ef-bfbf-5471-e19d">
-          <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="-50"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1aa0-a6ed-9bc6-21ad"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
-    </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Neural Link" hidden="false" id="a496-9e0f-d69e-c85c" collective="false">
       <profiles>
         <profile name="Emergency Embarkation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0043-265d-8d9b-ca28">
@@ -1681,6 +1205,16 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c19-6877-de15-ecff"/>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8218-290c-5cbb-f261"/>
       </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Blisk&apos;s Detatchment Rule Cost Reduction" hidden="false" id="19ef-bfbf-5471-e19d">
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="-50"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1aa0-a6ed-9bc6-21ad"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Harvester" hidden="false" id="07cd-d4a0-2195-0564">
       <profiles>
@@ -2520,6 +2054,488 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Ion" hidden="false" id="cc4b-1152-6588-e7eb">
+      <profiles>
+        <profile name="Ion" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="1213-e338-2147-cc85">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">15</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Laser Shot" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="537c-92a8-5010-0377">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">40&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+ (2+)</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Precision</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Splitter Rifle" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="6038-9253-6680-48eb">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">5</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+ (3+)</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 5, Melta 1, (Sustained Hits 1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Vortex Shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="51ac-c0fd-2c6d-0501">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit is attacked, if an attack misses, the attacker must make that attack against themselves.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="(Vortex Shield Optimizaion)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5a2c-c31f-33f8-cd0f">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When a pilot is embarked, subtract 1 from hit rolls made against this unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="(Stand Behind Me)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b846-c4aa-c6bc-8487">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When a pilot is embarked, if an attack misses an allied unit within 2&quot; of this Titan, the attacker must make that attack against themselves.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Neural Link" hidden="false" id="1c46-8d39-ed6c-2f4f" type="selectionEntry" targetId="a496-9e0f-d69e-c85c" flatten="false"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Fly" hidden="false" id="10f4-0b20-ce96-bfc2" targetId="c619-2086-bbcf-69c9" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
+      </costs>
+      <modifiers>
+        <modifier type="add" value="5591-0d87-3447-748c" field="category"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Legion" hidden="false" id="ee1a-aa43-2f49-da68">
+      <profiles>
+        <profile name="Legion" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="1f28-d857-7815-f57d">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">13</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">20</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Predator Cannon - Long Range" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="c496-cdf5-0e93-9dd2">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">25&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">5</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+ (3+)</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits, (Twin-linked),</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Gun Shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="96a3-fcf8-573c-1baa">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle, when this unit is attacked by a ranged attack, you may activate the Legion&apos;s Gun Shield to subtract 1 from the enemy&apos;s hit and wound rolls until the end of the phase.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Predator Cannon - Short Range" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="f213-b8b9-ac70-a74d">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">15&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">10</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+ (2+)</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits, (Twin-linked),</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Power Shot - Short Range" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="f549-c499-495a-d42d">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">15&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+ (2+)</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">4</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Melta 4</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Power Shot - Long Range" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="9d23-ff4b-98ff-e655">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">25&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+ (3+)</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Mode Switch" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6fe5-ea7d-9f56-e0f5">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may only attack with either its two Long Range or Short Range weapons per battle round.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="(Multi-Target Lock)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="45b9-d0eb-abaa-e647">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When a pilot is embarked, this unit may choose different targets for every single one of its weapons&apos; ranged attacks.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Neural Link" hidden="false" id="0b7a-0a11-5bca-b94a" type="selectionEntry" targetId="a496-9e0f-d69e-c85c" flatten="false"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Fights First" id="8408-12ca-da0f-50c5" hidden="false" type="rule" targetId="24-c886-e8ba-5a89"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
+      </costs>
+      <modifiers>
+        <modifier type="add" value="5591-0d87-3447-748c" field="category"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Monarch" hidden="false" id="5556-3aa0-5474-e29d">
+      <profiles>
+        <profile name="Monarch" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="0081-8b92-9311-b03d">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">15</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Siphon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6edc-3908-3703-c706">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit successfully hits a unit with their Energy Laser, the Monarch gains 1 wound.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Rocket Salvo" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="e64f-8ca4-6991-1d99">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">15&quot; (25&quot;)</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">5</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+ (2+)</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1, (-2)</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked, Precision</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Energy Laser" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="5883-b5c6-b0b2-2bcd">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+ (2+)</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">3</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Siphon</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="XO-16A2 Chaingun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="252b-1f59-a7fb-6da6">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">5</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+ (3+)</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1 (-2)</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 5, (Sustained Hits 1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="(Battery Thief)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0d50-8bc3-f94a-c8ec">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When a pilot is embarked, if this unit destroys an enemy vehicle model with a melee attack, it gains 3 wounds.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="(Multi-Target Lock)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="52a1-1493-fcae-0eee">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When a pilot is embarked, this unit may choose different targets for every single one of its weapons&apos; ranged attacks.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Vinson Dynamics Electric Shields" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2ab2-e6a7-6618-f1d5">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit heals wounds, it can go over its maximum wounds of 15, to a cap of 20.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Neural Link" hidden="false" id="1693-1b33-091b-874c" type="selectionEntry" targetId="a496-9e0f-d69e-c85c" flatten="false"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Fly" hidden="false" id="4803-b389-9de6-5c86" targetId="c619-2086-bbcf-69c9" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
+      </costs>
+      <modifiers>
+        <modifier type="add" value="5591-0d87-3447-748c" field="category"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Northstar" hidden="false" id="9899-d5c8-d7ce-8d37">
+      <profiles>
+        <profile name="Northstar" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="0a05-8d2c-bdae-e4d2">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">7</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">5+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">12</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Immobilization" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9082-894a-40df-73e0">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit successfully wounds a unit with their Deployable Tether, it becomes immobilized and cannot move during its next movement phase.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="(Charged PR-01 Plasma Railgun)" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="5816-de3c-dbe2-1431">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">50&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">13</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">4</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked, Heavy, Melta 3,</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Deployable Tether" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="827b-dfc9-c8a1-7c30">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">10&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">NA</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">0</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Torrent, Immobilization</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="PR-01 Plasma Railgun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="00ea-bd42-8abc-7545">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">20&quot; (40&quot;)</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+ (3+)</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1 (-2)</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked, (Heavy),</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Flight" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="08f8-62bc-3275-04eb">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit has the Fly tag.  It can move directly up and stay hovering in the air.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Neural Link" hidden="false" id="8e29-033c-8f3c-d4b7" type="selectionEntry" targetId="a496-9e0f-d69e-c85c" flatten="false"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Fly" hidden="false" id="acc3-af10-edfd-5f7d" targetId="c619-2086-bbcf-69c9" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
+      </costs>
+      <modifiers>
+        <modifier type="add" value="5591-0d87-3447-748c" field="category"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Ronin" hidden="false" id="8669-12bc-ec86-2895">
+      <profiles>
+        <profile name="Ronin" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="e34c-dfcc-9827-11b1">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">7</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">5+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">12</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Sword Block(+)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ce8b-4463-47f4-1e43">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit didn&apos;t attack with its Leadwall Shotgun during its turn, subtract 1 from wound and hit rolls against this unit until the start of its next shooting phase.  If a Pilot is embarked within, gain Feel No Pain 4+ as well.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Leadwall Shotgun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="ffdd-b3f5-643a-a4e0">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">10&quot; (15&quot;)</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+ (2+)</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1 (-3)</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Assault, Melta 1, (Twin-linked)</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Ronin&apos;s Broadsword" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="cec0-c8b7-41ed-f37d">
+          <characteristics>
+            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">4 (6)</characteristic>
+            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+ (3+)</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">14</characteristic>
+            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1 (-2)</characteristic>
+            <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lance</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Arc Wave" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="1e58-b074-177e-ab84">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">10&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1+</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+ (3+)</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Melta 2, Psychic, Intervention</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Intervention" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f411-958a-c86a-2264">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this Titan attacks with its Arc Wave, draw a line from the Titan out 10&quot; through their target model of choice.  If that line intersects with other models, they must make attacks against all of the targets along that line, friend or foe.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Neural Link" hidden="false" id="9901-731f-4a04-af93" type="selectionEntry" targetId="a496-9e0f-d69e-c85c" flatten="false"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Feel No Pain" id="525f-32c6-fd99-a1b5" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
+        <infoLink name="Fights First" id="68f1-5181-76aa-8261" hidden="false" type="rule" targetId="24-c886-e8ba-5a89"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
+      </costs>
+      <modifiers>
+        <modifier type="add" value="5591-0d87-3447-748c" field="category"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Scorch" hidden="false" id="968a-a7d6-76db-e959">
+      <profiles>
+        <profile name="Scorch" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="400d-b91f-6130-ce84">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">13</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">20</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="T-203 Thermite Launcher" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="81c2-74e9-1c5c-7b12">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">20&quot; (30&quot;)</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+ (2+)</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-2 (-4)</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">(Twin-linked), (Melta 2), (Ignores Cover), (Indirect Fire)</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Thermite Shield" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="a7e9-7161-ab08-7140">
+          <characteristics>
+            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">10</characteristic>
+            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">NA</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">10</characteristic>
+            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+            <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Torrent, Hazardous</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="(WHY ARE YOU RUNNING)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a69d-9d89-1a30-b948">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a Pilot is embarked within this Titan, it can reroll charge rolls, and gets a +2 to them.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Neural Link" hidden="false" id="373b-76e5-6e73-111e" type="selectionEntry" targetId="a496-9e0f-d69e-c85c" flatten="false"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Fights First" id="ba7c-c660-4d96-abe5" hidden="false" type="rule" targetId="24-c886-e8ba-5a89"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
+      </costs>
+      <modifiers>
+        <modifier type="add" value="5591-0d87-3447-748c" field="category"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Tone" hidden="false" id="349c-1bdd-e95c-3e88">
+      <profiles>
+        <profile name="Ion" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="561f-3f14-afc0-a290">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">15</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Tracking Rockets" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="4022-60a6-507e-1bc0">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">40&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+, (NA)</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Precision, Tracking Lock, Ignores Cover, Indirect Fire, (Torrent)</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="77mm Tracker Cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="882e-7923-0513-c192">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">5</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+ (2+)</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Tracking Lock</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Tracking Lock" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a2c8-229d-f7fd-c07f">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Every time this unit hits an enemy unit with its 77mm Tracker Cannon, it can attack with its Tracking Rockets against that target once.  This stacks.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Sonar Lock" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6dec-19b9-8d16-9efd">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Select a location within 20&quot; that this unit has line of sight to.  This unit may attack every unit within 3&quot; of that location with its Tracking Rockets.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="(Stand Behind Me)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8a14-a8db-4a80-5767">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When a pilot is embarked, if an attack misses an allied unit within 2&quot; of this Titan, the attacker must make that attack against themselves.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Neural Link" hidden="false" id="3a18-67e3-7e73-b663" type="selectionEntry" targetId="a496-9e0f-d69e-c85c" flatten="false"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Fly" hidden="false" id="79d2-52ce-aed9-0928" targetId="c619-2086-bbcf-69c9" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
+      </costs>
+      <modifiers>
+        <modifier type="add" value="5591-0d87-3447-748c" field="category"/>
+      </modifiers>
+    </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
     <categoryEntry name="Faction: IMC" id="a195-5a3e-4355-8d18" hidden="false"/>
@@ -2532,7 +2548,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
     <entryLink import="true" name="Paladin Tank" hidden="false" id="8530-de0c-bcd5-8fc3" type="selectionEntry" targetId="a07d-f882-618e-8817"/>
     <entryLink import="true" name="Detachment" hidden="false" id="460d-4d21-0556-df12" type="selectionEntryGroup" targetId="e2c1-bdbc-ebea-6795"/>
     <entryLink import="true" name="Disposable Infiltration Fighter" hidden="false" id="7449-a0e0-0a4a-04c0" type="selectionEntry" targetId="087b-38b4-94cd-286b"/>
-    <entryLink import="true" name="Titan" hidden="false" id="fb62-e953-97a8-0274" type="selectionEntry" targetId="124f-0260-bc99-3b2c"/>
+    <entryLink import="true" name="Monarch" hidden="false" id="fb62-e953-97a8-0274" type="selectionEntry" targetId="5556-3aa0-5474-e29d"/>
     <entryLink import="true" name="Harvester" hidden="false" id="7a48-1a3d-8634-244a" type="selectionEntry" targetId="07cd-d4a0-2195-0564"/>
     <entryLink import="true" name="Cloak Drone" hidden="false" id="0753-1e2f-5b9f-2ff9" type="selectionEntry" targetId="b530-1393-4643-f185"/>
     <entryLink import="true" name="Reaper" hidden="false" id="201d-ee36-afff-2905" type="selectionEntry" targetId="9580-b01a-7f1b-f2b7"/>
@@ -2542,6 +2558,12 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
     <entryLink import="true" name="Ticks" hidden="false" id="1472-af38-fcc8-ef0b" type="selectionEntry" targetId="f95d-f525-f5cd-c60f"/>
     <entryLink import="true" name="Factory Reaper" hidden="false" id="5592-7d8c-029b-2b55" type="selectionEntry" targetId="3714-2007-bfc5-375e"/>
     <entryLink import="true" name="Goblin Aerial Transport" hidden="false" id="d8d7-7b93-5d43-ed55" type="selectionEntry" targetId="f4b1-c472-38f4-b40c"/>
+    <entryLink import="true" name="Northstar" hidden="false" id="5d65-a9f2-e91e-4942" type="selectionEntry" targetId="9899-d5c8-d7ce-8d37"/>
+    <entryLink import="true" name="Scorch" hidden="false" id="c4a6-fb7e-954c-6966" type="selectionEntry" targetId="968a-a7d6-76db-e959"/>
+    <entryLink import="true" name="Ronin" hidden="false" id="9a38-b49d-54fa-b0be" type="selectionEntry" targetId="8669-12bc-ec86-2895"/>
+    <entryLink import="true" name="Tone" hidden="false" id="6e4b-279e-221e-e832" type="selectionEntry" targetId="349c-1bdd-e95c-3e88"/>
+    <entryLink import="true" name="Legion" hidden="false" id="73a5-e4e2-81ac-d689" type="selectionEntry" targetId="ee1a-aa43-2f49-da68"/>
+    <entryLink import="true" name="Ion" hidden="false" id="fbaf-7643-3291-a1ce" type="selectionEntry" targetId="cc4b-1152-6588-e7eb"/>
   </entryLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Detachment" id="e2c1-bdbc-ebea-6795" hidden="false">
