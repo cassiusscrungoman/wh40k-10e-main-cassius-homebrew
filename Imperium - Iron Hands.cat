@@ -2108,7 +2108,14 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <entryLink import="true" name="Neural Link" hidden="false" id="1c46-8d39-ed6c-2f4f" type="selectionEntry" targetId="a496-9e0f-d69e-c85c" flatten="false"/>
       </entryLinks>
       <categoryLinks>
-        <categoryLink name="Fly" hidden="false" id="10f4-0b20-ce96-bfc2" targetId="c619-2086-bbcf-69c9" primary="false"/>
+        <categoryLink name="Vehicle" hidden="false" id="b0a5-46e1-390d-ad6d" targetId="dbd4-63-af05-998" primary="false"/>
+        <categoryLink name="Titan" hidden="false" id="619d-fedb-f9e6-05de" targetId="5591-0d87-3447-748c" primary="false"/>
+        <categoryLink name="Smoke" hidden="false" id="87c4-4f01-3c7f-db79" targetId="6df-937-16bc-8c1a" primary="false"/>
+        <categoryLink name="Walker" hidden="false" id="310b-2438-134e-b12e" targetId="6dda-e157-334d-e93a" primary="false"/>
+        <categoryLink name="Towering" hidden="false" id="fb90-dd5f-63e4-a3a4" targetId="d666-e2c9-b6cc-5716" primary="false"/>
+        <categoryLink name="Transport" hidden="false" id="5554-25b6-bca8-94dc" targetId="75e8-57c4-40e3-1817" primary="false"/>
+        <categoryLink name="Faction: IMC" hidden="false" id="b809-6f63-82ae-7f2a" targetId="a195-5a3e-4355-8d18" primary="false"/>
+        <categoryLink name="Drone" hidden="false" id="c969-794b-c4b9-4f56" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
@@ -2201,6 +2208,16 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
       <modifiers>
         <modifier type="set-primary" value="5591-0d87-3447-748c" field="category"/>
       </modifiers>
+      <categoryLinks>
+        <categoryLink name="Vehicle" hidden="false" id="4bcb-d136-041f-e626" targetId="dbd4-63-af05-998" primary="false"/>
+        <categoryLink name="Titan" hidden="false" id="e25c-05db-1b85-eca0" targetId="5591-0d87-3447-748c" primary="false"/>
+        <categoryLink name="Smoke" hidden="false" id="6c51-7706-54f5-5134" targetId="6df-937-16bc-8c1a" primary="false"/>
+        <categoryLink name="Walker" hidden="false" id="fa31-d586-a534-aecf" targetId="6dda-e157-334d-e93a" primary="false"/>
+        <categoryLink name="Towering" hidden="false" id="b28f-70ec-36eb-b0b0" targetId="d666-e2c9-b6cc-5716" primary="false"/>
+        <categoryLink name="Transport" hidden="false" id="7450-d819-aa3b-b664" targetId="75e8-57c4-40e3-1817" primary="false"/>
+        <categoryLink name="Faction: IMC" hidden="false" id="7d2d-5be3-ec0e-43df" targetId="a195-5a3e-4355-8d18" primary="false"/>
+        <categoryLink name="Drone" hidden="false" id="5587-8925-da65-7d62" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Monarch" hidden="false" id="5556-3aa0-5474-e29d">
       <profiles>
@@ -2272,7 +2289,14 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <entryLink import="true" name="Neural Link" hidden="false" id="1693-1b33-091b-874c" type="selectionEntry" targetId="a496-9e0f-d69e-c85c" flatten="false"/>
       </entryLinks>
       <categoryLinks>
-        <categoryLink name="Fly" hidden="false" id="4803-b389-9de6-5c86" targetId="c619-2086-bbcf-69c9" primary="false"/>
+        <categoryLink name="Vehicle" hidden="false" id="5b4a-c258-dfcf-fbc9" targetId="dbd4-63-af05-998" primary="false"/>
+        <categoryLink name="Titan" hidden="false" id="d952-b02b-92b3-f11b" targetId="5591-0d87-3447-748c" primary="false"/>
+        <categoryLink name="Smoke" hidden="false" id="4e24-8c7a-1c01-c173" targetId="6df-937-16bc-8c1a" primary="false"/>
+        <categoryLink name="Walker" hidden="false" id="f411-b79e-b732-6b46" targetId="6dda-e157-334d-e93a" primary="false"/>
+        <categoryLink name="Towering" hidden="false" id="64bc-2ed8-e29a-a183" targetId="d666-e2c9-b6cc-5716" primary="false"/>
+        <categoryLink name="Transport" hidden="false" id="3b58-f652-352a-1fc0" targetId="75e8-57c4-40e3-1817" primary="false"/>
+        <categoryLink name="Faction: IMC" hidden="false" id="894d-6c53-f62c-9ae0" targetId="a195-5a3e-4355-8d18" primary="false"/>
+        <categoryLink name="Drone" hidden="false" id="22f6-aa5a-d678-7894" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
@@ -2341,7 +2365,15 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <entryLink import="true" name="Neural Link" hidden="false" id="8e29-033c-8f3c-d4b7" type="selectionEntry" targetId="a496-9e0f-d69e-c85c" flatten="false"/>
       </entryLinks>
       <categoryLinks>
-        <categoryLink name="Fly" hidden="false" id="acc3-af10-edfd-5f7d" targetId="c619-2086-bbcf-69c9" primary="false"/>
+        <categoryLink name="Vehicle" hidden="false" id="ec0b-8095-85de-9b29" targetId="dbd4-63-af05-998" primary="false"/>
+        <categoryLink name="Titan" hidden="false" id="c3bd-14ce-645d-6b59" targetId="5591-0d87-3447-748c" primary="false"/>
+        <categoryLink name="Smoke" hidden="false" id="6781-1404-5226-8188" targetId="6df-937-16bc-8c1a" primary="false"/>
+        <categoryLink name="Walker" hidden="false" id="78e8-aabe-d935-eedf" targetId="6dda-e157-334d-e93a" primary="false"/>
+        <categoryLink name="Towering" hidden="false" id="8a29-918c-1809-47f8" targetId="d666-e2c9-b6cc-5716" primary="false"/>
+        <categoryLink name="Transport" hidden="false" id="497b-7089-8cbc-4540" targetId="75e8-57c4-40e3-1817" primary="false"/>
+        <categoryLink name="Faction: IMC" hidden="false" id="3250-82a3-00cc-c9b6" targetId="a195-5a3e-4355-8d18" primary="false"/>
+        <categoryLink name="Drone" hidden="false" id="ce6d-4320-4532-e7d0" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
+        <categoryLink name="Fly" hidden="false" id="61fa-7ad0-5924-41cd" targetId="c619-2086-bbcf-69c9" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
@@ -2419,6 +2451,16 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
       <modifiers>
         <modifier type="set-primary" value="5591-0d87-3447-748c" field="category"/>
       </modifiers>
+      <categoryLinks>
+        <categoryLink name="Vehicle" hidden="false" id="e869-fd27-cdf6-c5d8" targetId="dbd4-63-af05-998" primary="false"/>
+        <categoryLink name="Titan" hidden="false" id="7625-4320-7a34-b0f4" targetId="5591-0d87-3447-748c" primary="false"/>
+        <categoryLink name="Smoke" hidden="false" id="c0c6-43d5-1408-c980" targetId="6df-937-16bc-8c1a" primary="false"/>
+        <categoryLink name="Walker" hidden="false" id="99a9-575d-7d7d-1188" targetId="6dda-e157-334d-e93a" primary="false"/>
+        <categoryLink name="Towering" hidden="false" id="36c3-43c2-5751-3571" targetId="d666-e2c9-b6cc-5716" primary="false"/>
+        <categoryLink name="Transport" hidden="false" id="cedc-3c3f-415c-dbc5" targetId="75e8-57c4-40e3-1817" primary="false"/>
+        <categoryLink name="Faction: IMC" hidden="false" id="6327-8921-3bca-a9df" targetId="a195-5a3e-4355-8d18" primary="false"/>
+        <categoryLink name="Drone" hidden="false" id="21ed-80b7-b1dd-8d54" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Scorch" hidden="false" id="968a-a7d6-76db-e959">
       <profiles>
@@ -2472,6 +2514,16 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
       <modifiers>
         <modifier type="set-primary" value="5591-0d87-3447-748c" field="category"/>
       </modifiers>
+      <categoryLinks>
+        <categoryLink name="Vehicle" hidden="false" id="ca9e-bb1a-1d4e-a8a9" targetId="dbd4-63-af05-998" primary="false"/>
+        <categoryLink name="Titan" hidden="false" id="9d93-3ab0-7caa-2cfa" targetId="5591-0d87-3447-748c" primary="false"/>
+        <categoryLink name="Smoke" hidden="false" id="01eb-4ab1-013e-6e6c" targetId="6df-937-16bc-8c1a" primary="false"/>
+        <categoryLink name="Walker" hidden="false" id="35b6-c097-0dd0-7346" targetId="6dda-e157-334d-e93a" primary="false"/>
+        <categoryLink name="Towering" hidden="false" id="e32c-dc0c-fe4d-9408" targetId="d666-e2c9-b6cc-5716" primary="false"/>
+        <categoryLink name="Transport" hidden="false" id="6f0b-b0cf-a563-32ac" targetId="75e8-57c4-40e3-1817" primary="false"/>
+        <categoryLink name="Faction: IMC" hidden="false" id="ca30-a1f8-e9e6-d6ed" targetId="a195-5a3e-4355-8d18" primary="false"/>
+        <categoryLink name="Drone" hidden="false" id="9e72-62ed-037d-faed" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Tone" hidden="false" id="349c-1bdd-e95c-3e88">
       <profiles>
@@ -2527,7 +2579,14 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <entryLink import="true" name="Neural Link" hidden="false" id="3a18-67e3-7e73-b663" type="selectionEntry" targetId="a496-9e0f-d69e-c85c" flatten="false"/>
       </entryLinks>
       <categoryLinks>
-        <categoryLink name="Fly" hidden="false" id="79d2-52ce-aed9-0928" targetId="c619-2086-bbcf-69c9" primary="false"/>
+        <categoryLink name="Vehicle" hidden="false" id="6cf8-e824-78da-af93" targetId="dbd4-63-af05-998" primary="false"/>
+        <categoryLink name="Titan" hidden="false" id="3539-8306-8057-fe86" targetId="5591-0d87-3447-748c" primary="false"/>
+        <categoryLink name="Smoke" hidden="false" id="d1d5-8fe2-eeb3-e7ff" targetId="6df-937-16bc-8c1a" primary="false"/>
+        <categoryLink name="Walker" hidden="false" id="fdca-799e-1cf4-43fa" targetId="6dda-e157-334d-e93a" primary="false"/>
+        <categoryLink name="Towering" hidden="false" id="3a41-4979-774a-5af3" targetId="d666-e2c9-b6cc-5716" primary="false"/>
+        <categoryLink name="Transport" hidden="false" id="bc00-63f0-f3ee-4ff9" targetId="75e8-57c4-40e3-1817" primary="false"/>
+        <categoryLink name="Faction: IMC" hidden="false" id="d99f-7680-ba53-ebe8" targetId="a195-5a3e-4355-8d18" primary="false"/>
+        <categoryLink name="Drone" hidden="false" id="7fbe-4dec-cb61-17cd" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
