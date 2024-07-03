@@ -1301,6 +1301,16 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Blisk&apos;s Detatchment Rule Cost Reduction" hidden="false" id="19ef-bfbf-5471-e19d">
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="-50"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1aa0-a6ed-9bc6-21ad"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Neural Link" hidden="false" id="a496-9e0f-d69e-c85c" collective="false">
       <profiles>
@@ -1311,10 +1321,10 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         </profile>
         <profile name="Nuclear Eject" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="47b9-35ee-6c69-c750">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this Titan is destroyed, eject any embarked pilots 20&quot; in any direction and deal 3 mortal wounds to all within 6&quot;.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this Titan is destroyed, if a pilot is embarked, eject any embarked pilots 20&quot; in any direction and deal 3 mortal wounds to all units within 6&quot;.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Orbital Insertion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9e39-0636-e94a-4a09">
+        <profile name="Titanfall" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9e39-0636-e94a-4a09">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When using Deep Strike, telegraph where this unit will deploy 1 turn in advance, at the start of your movement phase.  This cannot be ontop of control points.  It will deploy there regardless of how close enemy units are.  If anyone is within 2&quot; of the selected spot, they die.</characteristic>
           </characteristics>
@@ -2193,17 +2203,24 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Detachment" id="e2c1-bdbc-ebea-6795" hidden="false">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Outer Heaven" hidden="false" id="33fd-2bf5-71f5-a1c9">
+        <selectionEntry type="upgrade" import="true" name="Army Rule - Outer Heaven" hidden="false" id="33fd-2bf5-71f5-a1c9">
           <rules>
             <rule name="No Borders" id="294d-7b63-1468-a7ca" hidden="false">
-              <description>This army may ignore the standard restrictions on how many Pilots they&apos;re allowed to have in their army, but they cost twice as much.  They become Battleline units.</description>
+              <description>This army may ignore the standard restrictions on how many Pilots they&apos;re allowed to have in their army.</description>
             </rule>
           </rules>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Replaceable Shock Troops" hidden="false" id="21fd-8029-8896-03a9">
+        <selectionEntry type="upgrade" import="true" name="Spyglass&apos; Mechanized Doctrine" hidden="false" id="21fd-8029-8896-03a9">
           <rules>
             <rule name="Expendable, Deployed En-masse" id="1319-1106-fbaf-5fe1" hidden="false">
               <description>If any spectre units are within 6&quot; of a unit with the MECHANIZED tag, they gain 1d3 Replacement Spectre models at the end of their command phase.  If a Mechanized unit has no spectre units around it, it produces 1d3 Replacement Spectre models at the end of its command phase which disembark from it.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Blisk&apos;s Titan Doctrine" hidden="false" id="622a-3325-309c-bdb4">
+          <rules>
+            <rule name="Prepare For Titanfall" id="0a6e-a6e1-7cc8-6206" hidden="false">
+              <description>The cost of Titan units are reduced by 50 points, and they become Battleline units.  You can only mark 3 titans for Titanfall in a single battleround.</description>
             </rule>
           </rules>
         </selectionEntry>
