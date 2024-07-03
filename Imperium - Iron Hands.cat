@@ -2220,7 +2220,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <selectionEntry type="upgrade" import="true" name="Blisk&apos;s Titan Doctrine" hidden="false" id="622a-3325-309c-bdb4">
           <rules>
             <rule name="Prepare For Titanfall" id="0a6e-a6e1-7cc8-6206" hidden="false">
-              <description>The cost of Titan units are reduced by 50 points, and they become Battleline units.  You can only mark 3 titans for Titanfall in a single battleround.</description>
+              <description>The cost of Titan units are reduced by 50 points, and they become Battleline units.  You can only mark up to 3 Titans for Titanfall in a single battleround.</description>
             </rule>
           </rules>
         </selectionEntry>
