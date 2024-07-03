@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="581a-46b9-5b86-44b7" name="Unaligned Forces" revision="9" battleScribeVersion="2.03" authorName="WindstormSCR" library="true" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="2" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="581a-46b9-5b86-44b7" name="Unaligned Forces" revision="10" battleScribeVersion="2.03" authorName="WindstormSCR" library="true" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="2" type="catalogue">
   <sharedSelectionEntries>
     <selectionEntry id="e85b-17c7-1ad9-8375" name="Ambull [Legends]" hidden="false" collective="false" import="true" type="model">
       <costs>
@@ -2481,7 +2481,7 @@ The G1 Pilot may shoot, charge, and attack immediately after using this ability.
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5635-5a65-7b83-f4c6"/>
           </constraints>
           <infoLinks>
-            <infoLink name="" id="9891-9cdc-3a91-5d58" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
+            <infoLink id="9891-9cdc-3a91-5d58" hidden="false" type="rule" targetId="4111-82e3-9444-e942" name="Anti-"/>
             <infoLink name="Devastating Wounds" id="3458-aca5-fbba-5c42" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
             <infoLink name="Extra Attacks" id="89c7-c8ac-6702-69e9" hidden="false" type="rule" targetId="115b-79dc-f723-d761"/>
             <infoLink name="Precision" id="562d-a0fa-bd69-4f27" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
@@ -2795,7 +2795,6 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         <constraint type="max" value="2" field="selections" scope="force" shared="true" id="7e3c-2e1f-72d7-346e" includeChildSelections="false"/>
       </constraints>
     </entryLink>
-    <entryLink import="true" name="Detachment" hidden="false" id="0d83-b187-fc92-6ec1" type="selectionEntryGroup" targetId="2f59-e4ce-246a-4b5d"/>
   </entryLinks>
   <categoryEntries>
     <categoryEntry name="Faction: Unaligned Forces" hidden="false" id="e1ff-c0fa-2ca7-3466">
@@ -2897,28 +2896,6 @@ Additionally, as a rule clarification, Melta works if the target is within half 
         <entryLink targetId="72e7-16-6f4c-ecbd" id="70ad-3faf-fbcc-61a1" type="selectionEntry" name="Icarus lascannon" hidden="false"/>
         <entryLink targetId="4985-9124-1e83-10f0" id="6444-c1d6-c8db-1ba0" type="selectionEntry" name="Comms antenna" hidden="false"/>
       </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup name="Detachment" id="2f59-e4ce-246a-4b5d" hidden="false">
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Outer Heaven" hidden="false" id="dd95-f931-9bb4-fe82">
-          <rules>
-            <rule name="No Borders" id="3616-d9b2-0897-25b3" hidden="false">
-              <description>This army may ignore the standard restrictions on how many Pilots and Grunts they&apos;re allowed to have in their army, but they cost 1.5x as much.  They become Battleline units.</description>
-            </rule>
-          </rules>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Replaceable Shock Troops" hidden="false" id="7b34-b564-a3ce-21c2">
-          <rules>
-            <rule name="Expendable, Deployed En-masse" id="c7d7-a4d7-37fe-2852" hidden="false">
-              <description>If any spectre units are within 6&quot; of a unit with the VEHICLE tag, they heal 1d3 models at the start of their command phase.</description>
-            </rule>
-          </rules>
-        </selectionEntry>
-      </selectionEntries>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fa45-1e79-a0d1-97e5" includeChildSelections="false"/>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f0a7-6b25-3ac5-e19a"/>
-      </constraints>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
 </catalogue>
