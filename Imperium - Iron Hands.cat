@@ -2501,11 +2501,6 @@
                 <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
               </characteristics>
             </profile>
-            <profile name="Orbital Insertion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="965b-5135-0f50-03e5">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When using Deep Strike, telegraph where this unit will deploy 1 turn in advance, at the start of your movement phase.  This cannot be ontop of control points.  It will deploy there regardless of how close enemy units are.  If anyone is within 2&quot; of the selected spot, they die.</characteristic>
-              </characteristics>
-            </profile>
           </profiles>
           <categoryLinks>
             <categoryLink name="Smoke" hidden="false" id="fc5d-223f-f78d-3beb" targetId="6df-937-16bc-8c1a" primary="false"/>
@@ -2517,9 +2512,6 @@
           <costs>
             <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
           </costs>
-          <modifiers>
-            <modifier type="set-primary" value="dbd4-63-af05-998" field="category"/>
-          </modifiers>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Reaper Rockets" hidden="false" id="c148-f7bd-30f3-e125">
               <profiles>
@@ -2560,15 +2552,25 @@
               </constraints>
             </selectionEntry>
           </selectionEntries>
-          <rules>
-            <rule name="Deep Strike" id="31cf-d5c3-d320-3f9f" hidden="false"/>
-          </rules>
           <constraints>
             <constraint type="max" value="3" field="selections" scope="unit" shared="true" id="5409-3022-4cbe-d6fc" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
             <constraint type="min" value="1" field="selections" scope="unit" shared="true" id="a291-936c-18ad-f339" includeChildSelections="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
+      <profiles>
+        <profile name="Orbital Insertion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="965b-5135-0f50-03e5">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When using Deep Strike, telegraph where this unit will deploy 1 turn in advance, at the start of your movement phase.  This cannot be ontop of control points.  It will deploy there regardless of how close enemy units are.  If anyone is within 2&quot; of the selected spot, they die.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Deep Strike" id="31cf-d5c3-d320-3f9f" hidden="false"/>
+      </rules>
+      <modifiers>
+        <modifier type="set-primary" value="dbd4-63-af05-998" field="category"/>
+      </modifiers>
     </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
