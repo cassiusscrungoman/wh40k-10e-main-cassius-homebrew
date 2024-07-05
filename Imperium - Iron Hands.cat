@@ -239,7 +239,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                         <characteristic name="S" typeId="2229-f494-25db-c5d3">30</characteristic>
                         <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">4</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Everything 3+, Heavy, Precision, Ramp-Up</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Everything 3+, Heavy, Precision, Counter Strafing</characteristic>
                       </characteristics>
                     </profile>
                     <profile name="Counter Strafing" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5e1f-2205-1604-d7a4">
@@ -1298,7 +1298,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="1251-acc4-8309-832e"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Cloak Drone" hidden="false" id="b530-1393-4643-f185">
+    <selectionEntry type="model" import="true" name="Cloak Drone" hidden="false" id="b530-1393-4643-f185">
       <profiles>
         <profile name="Cloak Drone" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="0d81-aba9-fbc6-6007">
           <characteristics>
