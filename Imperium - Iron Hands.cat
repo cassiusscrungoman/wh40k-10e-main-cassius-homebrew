@@ -2593,7 +2593,7 @@
     <entryLink import="true" name="Monarch" hidden="false" id="fb62-e953-97a8-0274" type="selectionEntry" targetId="5556-3aa0-5474-e29d"/>
     <entryLink import="true" name="Harvester" hidden="false" id="7a48-1a3d-8634-244a" type="selectionEntry" targetId="07cd-d4a0-2195-0564"/>
     <entryLink import="true" name="Cloak Drone" hidden="false" id="0753-1e2f-5b9f-2ff9" type="selectionEntry" targetId="b530-1393-4643-f185"/>
-    <entryLink import="true" name="Reaper" hidden="false" id="201d-ee36-afff-2905" type="selectionEntry" targetId="9580-b01a-7f1b-f2b7"/>
+    <entryLink import="true" name="Reapers" hidden="false" id="201d-ee36-afff-2905" type="selectionEntry" targetId="99ee-4e75-f45e-7897"/>
     <entryLink import="true" name="Mortar Team" hidden="false" id="6b1a-5c32-4c9f-5a13" type="selectionEntry" targetId="83ae-7b76-3722-6ad7"/>
     <entryLink import="true" name="Ordnance Team" hidden="false" id="83cd-278f-1531-32f9" type="selectionEntry" targetId="b824-3dcd-07f9-eb7c"/>
     <entryLink import="true" name="Replacement Spectre" hidden="false" id="b564-5c50-d901-feb0" type="selectionEntry" targetId="d664-94bb-cf29-50a2"/>
