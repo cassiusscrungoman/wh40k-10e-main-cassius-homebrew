@@ -2564,8 +2564,8 @@
             <rule name="Deep Strike" id="31cf-d5c3-d320-3f9f" hidden="false"/>
           </rules>
           <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="5409-3022-4cbe-d6fc" percentValue="false"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a291-936c-18ad-f339"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="5409-3022-4cbe-d6fc" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a291-936c-18ad-f339" includeChildSelections="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
