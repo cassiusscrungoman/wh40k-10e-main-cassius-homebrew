@@ -2569,6 +2569,9 @@
           </constraints>
         </selectionEntry>
       </selectionEntries>
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="fc7a-136a-04a0-9f3a" includeChildSelections="true"/>
+      </constraints>
     </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
