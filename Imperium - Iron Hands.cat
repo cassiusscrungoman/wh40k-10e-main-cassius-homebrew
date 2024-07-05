@@ -1990,17 +1990,17 @@
       <profiles>
         <profile name="Seek and Destroy" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ed97-1131-a503-04d6">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Unit coherency is never checked for this unit.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Unit coherency is never checked for Ticks.</characteristic>
           </characteristics>
         </profile>
         <profile name="Walking IED" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8800-981b-11e9-53b5">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the beginning of the fight phase, any number of models in this unit may destroy itself to deal 2 mortal wounds to any units within 2&quot; of the model.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the beginning of the fight phase, any number of Tick models may destroy themself to deal 2 mortal wounds to any units within 2&quot; of the model.</characteristic>
           </characteristics>
         </profile>
         <profile name="Annoying Piece Of Shit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="aa9d-8003-938d-9d1c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ranged attacks against this model get a -1 to hit.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ranged attacks against Tick models get a -1 to hit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
