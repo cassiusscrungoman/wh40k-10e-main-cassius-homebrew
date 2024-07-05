@@ -13,25 +13,9 @@
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
           </characteristics>
         </profile>
-        <profile name="Eject, Eject, Eject!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bc93-3856-402b-0061">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If the unit with the Aircraft or Hover tags which this pilot is assigned to are killed, you may choose the result of the Deadly Demise roll. If the result of that roll is a 5 or less, this Pilot ejects from the aircraft.  If thte result of that roll is a 6, the pilot loses half of their wounds.  
-Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be deployed anywhere within 6&quot; of that line.  If you choose an area off the map, this unit counts as EVACed and will be available for deployment in your next mission.</characteristic>
-          </characteristics>
-        </profile>
         <profile name="Kill Me And See What Happens" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cd2e-6f5c-8439-e472">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per game, if this model is reduced to 0HP, once the attacking unit has finished its attacks, reduce it to 1HP instead.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Monarch" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d8db-b253-8d72-4e5e">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit cannot be added to your army like other units.  An IMC Pilot may only added to your army if a standard Pilot EVACs from a mission, or if they survive until the end of the battle.  You may have multiple IMC Pilots if you EVACed several Pilots; for every Pilot who either EVACed or survived, you may add one IMC Pilot to your army for 100 points.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="A Broken Throne" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ad5b-2924-6f76-8601">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">In the Declare Battle Formations step, you may assign this unit to an aircraft.  If applicable, they don&apos;t take up any transport space.</characteristic>
           </characteristics>
         </profile>
         <profile name="Can&apos;t Back Out Of This Deal" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4814-eced-13c2-2624">
@@ -39,19 +23,9 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit is within 6&quot; of the map edge, they may go to ground and be removed from the battlefield during your command phase.  If this happens, this unit counts as being EVACed and will be available for deployment in your next mission.  For every mission they survive, a pilot&apos;s wounds increase by 1.  Any permanent wound increases are kept between missions.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Remember Me" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4871-7387-6331-cf6d">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Unlike a standard Pilot, this unit may be deployed like normal units if you choose, though they can also still be assigned to an aircraft like a standard Pilot.  If you choose to deploy them like standard units, they don&apos;t take up any transport space.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Self Destruct" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="651f-d220-558d-5348">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may destroy the vehicle it&apos;s in at any time (during any phase) and trigger its Deadly Demise roll.</characteristic>
-          </characteristics>
-        </profile>
         <profile name="Trojan Injection" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b003-8e32-0dd1-f516">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit destroys a vehicle with its Data Knife, that vehicle does not roll for Deadly Demise, nor is it&apos;s model removed from the battlefield.  That vehicle becomes an immovable Terrain Feature for the remainder of the battle that blocks line of sight.  If a Pilot succesfully wounds an enemy unit of Spectres, they swap to this pilot&apos;s team.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit destroys a vehicle with its Data Knife, that vehicle does not roll for Deadly Demise, nor is it&apos;s model removed from the battlefield.  That vehicle becomes an immovable Terrain Feature for the remainder of the battle that blocks line of sight.  If a Pilot succesfully wounds an enemy unit of Spectres, the entire unit swaps to this pilot&apos;s team.</characteristic>
           </characteristics>
         </profile>
         <profile name="Drop, Shock, &amp; Rock" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="19ac-e9fc-54f7-e722">
@@ -74,7 +48,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <categoryLink name="Pilot" hidden="false" id="a519-a289-2af8-4b0a" targetId="05d3-e3dd-2694-38b5" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="150"/>
       </costs>
       <modifiers>
         <modifier type="set-primary" value="9cfd-1c32-585f-7d5c" field="category"/>
@@ -126,21 +100,6 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
             <infoLink name="Extra Attacks" id="60d5-94d6-a12c-c579" hidden="false" type="rule" targetId="115b-79dc-f723-d761"/>
             <infoLink name="Precision" id="e30d-82b7-2ba6-f36a" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
           </infoLinks>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="New Pilot Certification" hidden="false" id="d01c-1037-7338-74b9" sortIndex="2">
-          <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="361b-c7e6-2480-78e4" includeChildSelections="false"/>
-          </constraints>
-          <profiles>
-            <profile name="New Pilot Certification" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6638-0870-1010-bde4">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">You may requisition a new pilot without prior experience with them before, but it&apos;s going to cost you.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -222,12 +181,12 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                         <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Precision, Lethal Hits, Anti-Infantry 3+, Devastating Wounds, Intervention</characteristic>
                       </characteristics>
                     </profile>
-                    <profile name="Intervention" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2648-dddc-87e1-04dc">
-                      <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this pilot selects the Kraber as their primary weapon choice, when they attack with it, draw a line from the Pilot out 36&quot; through their target model of choice.  If that line intersects with other models, they must make attacks against all of the targets along that line, friend or foe.</characteristic>
-                      </characteristics>
-                    </profile>
                   </profiles>
+                  <rules>
+                    <rule name="Intervention" id="0a05-d848-0bda-89f5" hidden="false">
+                      <description>If this pilot selects the Kraber as their primary weapon choice, when they attack with it, draw a line from the Pilot out 36&quot; through their target model of choice. If that line intersects with other models, they must make attacks against all of the targets along that line, friend or foe.</description>
+                    </rule>
+                  </rules>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Charge Rifle" hidden="false" id="adf3-b7d3-1d97-82d7">
                   <profiles>
@@ -242,17 +201,17 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                         <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Everything 3+, Heavy, Precision, Counter Strafing</characteristic>
                       </characteristics>
                     </profile>
-                    <profile name="Counter Strafing" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5e1f-2205-1604-d7a4">
-                      <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this pilot selects the Charge Rifle as their primary weapon choice, if they Remain Stationary during their turn, they may reroll the hit roll or the wound roll.</characteristic>
-                      </characteristics>
-                    </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink name="Anti-" id="ceab-69a2-2c35-3890" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
                     <infoLink name="Precision" id="1aea-34ec-2fd2-172f" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
                     <infoLink name="Heavy" id="69b8-c2fa-cfb7-93ed" hidden="false" type="rule" targetId="1202-10a8-78e9-4c67"/>
                   </infoLinks>
+                  <rules>
+                    <rule name="Counter Strafing" id="4ade-4d2d-c2dd-268e" hidden="false">
+                      <description>If this pilot selects the Charge Rifle as their primary weapon choice, if they Remain Stationary during their turn, they may reroll the hit roll or the wound roll.</description>
+                    </rule>
+                  </rules>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Peacekeeper Shotgun" hidden="false" id="575c-f90c-96eb-6763">
                   <profiles>
@@ -265,11 +224,6 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                         <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
                         <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Assault, Melta 2, Twin-linked, Precision, Seein&apos; Red</characteristic>
-                      </characteristics>
-                    </profile>
-                    <profile name="Seein&apos; Red" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="29ab-c5e7-1c7e-b530">
-                      <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this pilot selects the Peacekeeper as their primary weapon choice, they are still eligible to attack after performing a Fall Back move.</characteristic>
                       </characteristics>
                     </profile>
                     <profile name="Peacekeeper - Choke" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="d30f-7b91-2baf-e06e">
@@ -290,6 +244,11 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                     <infoLink name="Melta" id="2d19-297f-0d42-1c0a" hidden="false" type="rule" targetId="7cdb-fb99-44a9-8849"/>
                     <infoLink name="Precision" id="d6dd-aca8-e885-46c4" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
                   </infoLinks>
+                  <rules>
+                    <rule name="Seein&apos; Red" id="ecec-3013-4cac-fa08" hidden="false">
+                      <description>If this pilot selects the Peacekeeper as their primary weapon choice, they are still eligible to attack after performing a Fall Back move.</description>
+                    </rule>
+                  </rules>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Anti-Tank Sidewinder Micro Rocket Launcher (AT-SMR)" hidden="false" id="61a7-a0bf-4704-4762">
                   <profiles>
@@ -304,16 +263,16 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                         <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Vehicle 5+, Devastating Wounds, Volume of Fire</characteristic>
                       </characteristics>
                     </profile>
-                    <profile name="Volume of Fire" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4a71-bdb5-2101-f71e">
-                      <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this pilot selects the SMR as their primary weapon choice, when they attack with it, they may attack all Vehicles within range.</characteristic>
-                      </characteristics>
-                    </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink name="Anti-" id="dd19-96fe-161c-d33b" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
                     <infoLink name="Devastating Wounds" id="b0f5-7229-8218-aa51" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
                   </infoLinks>
+                  <rules>
+                    <rule name="Volume of Fire" id="d303-a5e0-2424-62c7" hidden="false">
+                      <description>If this pilot selects the SMR as their primary weapon choice, when they attack with it, they may attack all Vehicles within range.</description>
+                    </rule>
+                  </rules>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Volt SMG" hidden="false" id="b74e-4e35-d366-018f">
                   <profiles>
@@ -328,16 +287,16 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                         <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Assault, Rapid Fire 3, Shoot n&apos; Scoot</characteristic>
                       </characteristics>
                     </profile>
-                    <profile name="Shoot n&apos; Scoot" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f752-e546-05ec-dcab">
-                      <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this pilot selects the Volt SMG as their primary weapon choice, when they perform an action, they may still attack.</characteristic>
-                      </characteristics>
-                    </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink name="Assault" id="38bf-b3da-de4e-7527" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
                     <infoLink name="Rapid Fire" id="9d14-06bd-660a-fab9" hidden="false" type="rule" targetId="c5c8-8b58-b8b6-7786"/>
                   </infoLinks>
+                  <rules>
+                    <rule name="Shoot n&apos; Scoot" id="1f1d-2116-3389-3268" hidden="false">
+                      <description>If this pilot selects the Volt SMG as their primary weapon choice, when they perform an action, they may still attack.</description>
+                    </rule>
+                  </rules>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -370,7 +329,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
               <profiles>
                 <profile name="Simulacra Upload" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a7c9-0c6c-e446-dd35">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once an IMC pilot has experienced combat and lived to tell the tale, you can make them a Simulacra.  They trade Lone Operative for Feel No Pain 5+.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Some IMC Pilots desire more survivability over their organic body.  They trade Lone Operative for Feel No Pain 5+.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -995,7 +954,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                     <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
                     <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds, Anti-Infantry 4+</characteristic>
                   </characteristics>
                 </profile>
@@ -1181,7 +1140,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
       <profiles>
         <profile name="Protocol 2" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0043-265d-8d9b-ca28">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When a pilot is embarked, this Titan gains an invuln save of 5+, add +1 to all hit rolls, and all attacks have 1 more AP.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When a pilot is embarked, this Titan gains an invuln save of 5+, all attacks have 1 more AP, and they may reroll hit rolls of 1.</characteristic>
           </characteristics>
         </profile>
         <profile name="Protocol 3" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="47b9-35ee-6c69-c750">
@@ -1197,12 +1156,12 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <profile name="Titan Punch" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="d528-e1ec-8270-3fff">
           <characteristics>
             <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">2 (3)</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
             <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
             <characteristic name="S" typeId="ab33-d393-96ce-ccba">10</characteristic>
             <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-            <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
-            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">(Anti-Infantry 2+), (Devastating Wounds)</characteristic>
+            <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Termination, (Anti-Infantry 2+), (Devastating Wounds)</characteristic>
           </characteristics>
         </profile>
         <profile name="Neural Link" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="1700-2c09-96d9-4468"/>
@@ -1228,18 +1187,21 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
       </selectionEntries>
       <rules>
         <rule name="(Invuln Save 5+)" id="a6af-7b3e-4eda-ff72" hidden="false"/>
+        <rule name="Termination" id="727d-608b-0d85-5cb1" hidden="false">
+          <description>If this Titan successfully wounds an enemy under half strength with its Titan Punch, that unit is destroyed.</description>
+        </rule>
       </rules>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Harvester" hidden="false" id="07cd-d4a0-2195-0564">
       <profiles>
         <profile name="Shield Can&apos;t Hold Forever" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="475f-6fb8-ecd0-5b86">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">After the harvester is reduced to half of its starting strength, it can no longer save.  It also loses Feel No Pain 6.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">After the harvester is reduced to under half of its starting strength, it loses Feel No Pain 4.</characteristic>
           </characteristics>
         </profile>
         <profile name="Rich Vein" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3537-67d1-d04e-1753">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit cannot be deployed within 9&quot; of the edge of the map, and must be deployed at the start of the game.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit cannot be deployed within 9&quot; of the short vertical edges of the map, and it must be deployed at the start of the game.</characteristic>
           </characteristics>
         </profile>
         <profile name="Critical Infrastructure" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9f6a-7b83-cf83-c57e">
@@ -1250,9 +1212,9 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <profile name="Harvester" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="46c7-faac-ce83-7002">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">-</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
-            <characteristic name="SV" typeId="450-a17e-9d5e-29da">6 (7)</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">20</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">10</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">30</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">-</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0</characteristic>
           </characteristics>
@@ -1275,9 +1237,6 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
       <modifiers>
         <modifier type="set-primary" value="94f7-6eac-40b6-37ca" field="category"/>
       </modifiers>
-      <infoLinks>
-        <infoLink name="Feel No Pain" id="1d08-0819-5827-b775" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
-      </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Game Size" id="b54f-b785-24cb-a440" hidden="false">
           <selectionEntries>
@@ -1306,6 +1265,10 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="1251-acc4-8309-832e"/>
       </constraints>
+      <rules>
+        <rule name="Feel No Pain 4+" id="1b09-feae-d02f-e958" hidden="false"/>
+        <rule name="Deadly Demise 2d6" id="8977-3082-09bc-8dbd" hidden="false"/>
+      </rules>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Cloak Drone" hidden="false" id="b530-1393-4643-f185">
       <profiles>
@@ -1371,7 +1334,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <categoryLink name="Drone" hidden="false" id="8873-4bc4-c94c-93ce" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="50"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="35"/>
       </costs>
       <modifiers>
         <modifier type="set-primary" value="dbd4-63-af05-998" field="category"/>
@@ -1385,7 +1348,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                 <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
                 <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                 <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
-                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
                 <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
                 <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 2, Twin-linked, Melta 1</characteristic>
               </characteristics>
@@ -1833,7 +1796,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
             <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
             <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
             <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-            <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+            <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
             <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds, Anti-Infantry 4+</characteristic>
           </characteristics>
         </profile>
@@ -1950,7 +1913,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         </profile>
         <profile name="Tick Launch" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="40bf-2fc4-9c4d-826e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of the command phase, this unit may deploy 4 Tick models up to 3&quot; away from it. </characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of the command phase, this unit may deploy 6 Tick models up to 3&quot; away from it. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1963,7 +1926,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <categoryLink name="Mechanized" hidden="false" id="421c-0420-30cd-a398" targetId="6f14-7e4d-2380-6087" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="80"/>
       </costs>
       <modifiers>
         <modifier type="set-primary" value="6f14-7e4d-2380-6087" field="category"/>
@@ -2033,6 +1996,11 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <profile name="Walking IED" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8800-981b-11e9-53b5">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the beginning of the fight phase, any number of models in this unit may destroy itself to deal 2 mortal wounds to any units within 2&quot; of the model.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Annoying Piece Of Shit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="aa9d-8003-938d-9d1c">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ranged attacks against this model get a -1 to hit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2333,7 +2301,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
             <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">15</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">4</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">6</characteristic>
             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked, Heavy, Melta 3,</characteristic>
           </characteristics>
         </profile>
@@ -2359,9 +2327,9 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked, (Heavy),</characteristic>
           </characteristics>
         </profile>
-        <profile name="Flight" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="08f8-62bc-3275-04eb">
+        <profile name="Flight(+)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="08f8-62bc-3275-04eb">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit has the Fly tag.  It can move directly up and stay hovering in the air.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit has the Fly tag.  (It can move directly up and stay hovering in the air.  When in the air, it always counts for Heavy.)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2573,6 +2541,11 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">During this unit&apos;s Shooting phase, select a location within 20&quot; that this unit has line of sight to.  This unit may attack every unit within 3&quot; of that location with its Tracking Rockets.</characteristic>
           </characteristics>
         </profile>
+        <profile name="(Simple Geometry)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1c2c-1684-cbf6-5b09">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When a pilot is embarked within this Titan, Tracking Rockets have Torrent.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <entryLinks>
         <entryLink import="true" name="Neural Link" hidden="false" id="3a18-67e3-7e73-b663" type="selectionEntry" targetId="a496-9e0f-d69e-c85c" flatten="false"/>
@@ -2629,7 +2602,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <selectionEntry type="upgrade" import="true" name="Army Rule - Look, A Pilot!" hidden="false" id="33fd-2bf5-71f5-a1c9">
           <rules>
             <rule name="Now The Odds Are In Our Favor" id="294d-7b63-1468-a7ca" hidden="false">
-              <description>Units within 3&quot; of a Pilot (including Pilots embarked within a Titan) may reroll hit rolls of 1.</description>
+              <description>Infantry units within 3&quot; of a Pilot (including Pilots embarked within a Titan) may reroll hit rolls of 1.</description>
             </rule>
           </rules>
         </selectionEntry>
