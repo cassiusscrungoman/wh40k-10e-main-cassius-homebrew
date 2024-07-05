@@ -1303,86 +1303,6 @@
         <modifier type="set-primary" value="cf47-a0d7-7207-29dc" field="category"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Reaper" hidden="false" id="9580-b01a-7f1b-f2b7">
-      <profiles>
-        <profile name="Electric Smoke" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="42c9-c5d1-453b-c514">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit uses Smoke, it deploys Electric Smoke.  Non-mechanical units in the smoke (e.g. ones without the Vehicle keyword or similar like Drone) take 1d3 mortal wounds when the smoke is initially deployed, and 2d3 mortal wounds at the beginning of their next shooting phase.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Reaper" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="a85c-0dc5-5bea-7cb1">
-          <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">8</characteristic>
-            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">5</characteristic>
-            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Orbital Insertion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="965b-5135-0f50-03e5">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When using Deep Strike, telegraph where this unit will deploy 1 turn in advance, at the start of your movement phase.  This cannot be ontop of control points.  It will deploy there regardless of how close enemy units are.  If anyone is within 2&quot; of the selected spot, they die.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <categoryLinks>
-        <categoryLink name="Smoke" hidden="false" id="fc5d-223f-f78d-3beb" targetId="6df-937-16bc-8c1a" primary="false"/>
-        <categoryLink name="Vehicle" hidden="false" id="64e4-d744-0048-a4bc" targetId="dbd4-63-af05-998" primary="false"/>
-        <categoryLink name="Faction: IMC" hidden="false" id="257a-486c-553d-561b" targetId="a195-5a3e-4355-8d18" primary="false"/>
-        <categoryLink name="Fly" hidden="false" id="ab77-bdbc-e6eb-5568" targetId="c619-2086-bbcf-69c9" primary="false"/>
-        <categoryLink name="Drone" hidden="false" id="8873-4bc4-c94c-93ce" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="35"/>
-      </costs>
-      <modifiers>
-        <modifier type="set-primary" value="dbd4-63-af05-998" field="category"/>
-      </modifiers>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Reaper Rockets" hidden="false" id="c148-f7bd-30f3-e125">
-          <profiles>
-            <profile name="Reaper Rockets" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="9891-7917-e24a-274f">
-              <characteristics>
-                <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
-                <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-                <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
-                <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
-                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 2, Twin-linked, Melta 1</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="40b1-0151-3662-cc49"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4290-e301-14ba-4e37"/>
-          </constraints>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Reaper Claw" hidden="false" id="4000-a047-1a17-1c7b">
-          <profiles>
-            <profile name="Reaper Claw" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="84c5-c7b5-0d71-7a68">
-              <characteristics>
-                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
-                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
-                <characteristic name="S" typeId="ab33-d393-96ce-ccba">12</characteristic>
-                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
-                <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="89d4-3b96-9cda-43e2"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6ac2-d195-2603-413e"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
-      <rules>
-        <rule name="Deep Strike" id="31cf-d5c3-d320-3f9f" hidden="false"/>
-      </rules>
-    </selectionEntry>
     <selectionEntry type="unit" import="true" name="Mortar Team" hidden="false" id="83ae-7b76-3722-6ad7">
       <profiles>
         <profile name="Hard Cover" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c2f9-3f49-e80f-0cee">
@@ -2566,6 +2486,89 @@
       <modifiers>
         <modifier type="set-primary" value="5591-0d87-3447-748c" field="category"/>
       </modifiers>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Reaper" hidden="false" id="99ee-4e75-f45e-7897">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Reaper" hidden="false" id="9580-b01a-7f1b-f2b7">
+          <profiles>
+            <profile name="Reaper" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="a85c-0dc5-5bea-7cb1">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
+                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
+                <characteristic name="SV" typeId="450-a17e-9d5e-29da">5+</characteristic>
+                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
+                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Orbital Insertion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="965b-5135-0f50-03e5">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When using Deep Strike, telegraph where this unit will deploy 1 turn in advance, at the start of your movement phase.  This cannot be ontop of control points.  It will deploy there regardless of how close enemy units are.  If anyone is within 2&quot; of the selected spot, they die.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink name="Smoke" hidden="false" id="fc5d-223f-f78d-3beb" targetId="6df-937-16bc-8c1a" primary="false"/>
+            <categoryLink name="Vehicle" hidden="false" id="64e4-d744-0048-a4bc" targetId="dbd4-63-af05-998" primary="false"/>
+            <categoryLink name="Faction: IMC" hidden="false" id="257a-486c-553d-561b" targetId="a195-5a3e-4355-8d18" primary="false"/>
+            <categoryLink name="Fly" hidden="false" id="ab77-bdbc-e6eb-5568" targetId="c619-2086-bbcf-69c9" primary="false"/>
+            <categoryLink name="Drone" hidden="false" id="8873-4bc4-c94c-93ce" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+          </costs>
+          <modifiers>
+            <modifier type="set-primary" value="dbd4-63-af05-998" field="category"/>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Reaper Rockets" hidden="false" id="c148-f7bd-30f3-e125">
+              <profiles>
+                <profile name="Reaper Rockets" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="9891-7917-e24a-274f">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 2, Twin-linked,</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="40b1-0151-3662-cc49"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4290-e301-14ba-4e37"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Reaper Claw" hidden="false" id="4000-a047-1a17-1c7b">
+              <profiles>
+                <profile name="Reaper Claw" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="84c5-c7b5-0d71-7a68">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">12</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="89d4-3b96-9cda-43e2"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6ac2-d195-2603-413e"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <rules>
+            <rule name="Deep Strike" id="31cf-d5c3-d320-3f9f" hidden="false"/>
+          </rules>
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="5409-3022-4cbe-d6fc" percentValue="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a291-936c-18ad-f339"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
