@@ -1403,7 +1403,7 @@
         <categoryLink name="Faction: IMC" hidden="false" id="e2c9-4a13-94a0-bef3" targetId="a195-5a3e-4355-8d18" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="75"/>
       </costs>
       <modifiers>
         <modifier type="set-primary" value="cf47-a0d7-7207-29dc" field="category"/>
@@ -1557,7 +1557,7 @@
         <categoryLink name="Faction: IMC" hidden="false" id="45f4-612e-eb03-86a1" targetId="a195-5a3e-4355-8d18" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="75"/>
       </costs>
       <modifiers>
         <modifier type="set-primary" value="cf47-a0d7-7207-29dc" field="category"/>
