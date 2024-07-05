@@ -2564,14 +2564,11 @@
             <rule name="Deep Strike" id="31cf-d5c3-d320-3f9f" hidden="false"/>
           </rules>
           <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="5409-3022-4cbe-d6fc" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a291-936c-18ad-f339" includeChildSelections="true"/>
+            <constraint type="max" value="3" field="selections" scope="unit" shared="true" id="5409-3022-4cbe-d6fc" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="unit" shared="true" id="a291-936c-18ad-f339" includeChildSelections="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
-      <constraints>
-        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="fc7a-136a-04a0-9f3a" includeChildSelections="true"/>
-      </constraints>
     </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
