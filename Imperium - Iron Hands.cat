@@ -2487,7 +2487,7 @@
         <modifier type="set-primary" value="5591-0d87-3447-748c" field="category"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Reaper" hidden="false" id="99ee-4e75-f45e-7897">
+    <selectionEntry type="unit" import="true" name="Reapers" hidden="false" id="99ee-4e75-f45e-7897">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Reaper" hidden="false" id="9580-b01a-7f1b-f2b7">
           <profiles>
@@ -2555,11 +2555,12 @@
               </constraints>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="9606-a5fc-86f2-b60e"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ff21-3ca5-c00d-b678"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
-      <constraints>
-        <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="9606-a5fc-86f2-b60e"/>
-      </constraints>
       <profiles>
         <profile name="Orbital Insertion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="965b-5135-0f50-03e5">
           <characteristics>
