@@ -2555,11 +2555,11 @@
               </constraints>
             </selectionEntry>
           </selectionEntries>
-          <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="9606-a5fc-86f2-b60e"/>
-          </constraints>
         </selectionEntry>
       </selectionEntries>
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="9606-a5fc-86f2-b60e"/>
+      </constraints>
       <profiles>
         <profile name="Orbital Insertion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="965b-5135-0f50-03e5">
           <characteristics>
