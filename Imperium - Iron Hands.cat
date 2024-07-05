@@ -2039,7 +2039,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Tick" hidden="false" id="6f0d-3a27-2699-5efe">
+        <selectionEntry type="model" import="true" name="Tick" hidden="false" id="6f0d-3a27-2699-5efe">
           <profiles>
             <profile name="Tick" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="03a1-f81b-c5f0-9199">
               <characteristics>
