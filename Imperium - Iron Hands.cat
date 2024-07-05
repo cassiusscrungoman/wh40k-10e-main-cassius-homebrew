@@ -1926,7 +1926,7 @@
         <categoryLink name="Mechanized" hidden="false" id="421c-0420-30cd-a398" targetId="6f14-7e4d-2380-6087" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="80"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="75"/>
       </costs>
       <modifiers>
         <modifier type="set-primary" value="6f14-7e4d-2380-6087" field="category"/>
