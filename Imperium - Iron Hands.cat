@@ -2512,6 +2512,9 @@
           <costs>
             <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
           </costs>
+          <modifiers>
+            <modifier type="set-primary" value="dbd4-63-af05-998" field="category"/>
+          </modifiers>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Reaper Rockets" hidden="false" id="c148-f7bd-30f3-e125">
               <profiles>
@@ -2553,8 +2556,8 @@
             </selectionEntry>
           </selectionEntries>
           <constraints>
-            <constraint type="max" value="3" field="selections" scope="unit" shared="true" id="5409-3022-4cbe-d6fc" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-            <constraint type="min" value="1" field="selections" scope="unit" shared="true" id="a291-936c-18ad-f339" includeChildSelections="true"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="5409-3022-4cbe-d6fc" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a291-936c-18ad-f339" includeChildSelections="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -2571,6 +2574,9 @@
       <modifiers>
         <modifier type="set-primary" value="dbd4-63-af05-998" field="category"/>
       </modifiers>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
