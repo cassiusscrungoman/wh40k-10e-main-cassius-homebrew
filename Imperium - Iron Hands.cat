@@ -2530,10 +2530,6 @@
                   </characteristics>
                 </profile>
               </profiles>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="40b1-0151-3662-cc49"/>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4290-e301-14ba-4e37"/>
-              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Reaper Claw" hidden="false" id="4000-a047-1a17-1c7b">
               <profiles>
@@ -2549,10 +2545,6 @@
                   </characteristics>
                 </profile>
               </profiles>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="89d4-3b96-9cda-43e2"/>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6ac2-d195-2603-413e"/>
-              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
