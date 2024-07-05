@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="f27e-18c0-b73e-748e" name="The IMC" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="8" battleScribeVersion="2.03" type="catalogue" authorName="cassius">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="f27e-18c0-b73e-748e" name="The Interstellar Manufacturing Corporation" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="8" battleScribeVersion="2.03" type="catalogue" authorName="cassius">
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="IMC Pilot" hidden="false" id="3a31-10a4-b92b-99c7">
       <profiles>
@@ -1023,19 +1023,24 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit uses Smoke, it deploys Electric Smoke.  Non-mechanical units in the smoke (e.g. ones without the Vehicle keyword or similar like Drone) take 1d3 mortal wounds when the smoke is initially deployed, and 2d3 mortal wounds at the beginning of their next shooting phase.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Spectre Fighting Vehicle" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e9ec-6299-25d5-4c12">
+        <profile name="Mechanized Infantry Replacement Racks" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e9ec-6299-25d5-4c12">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of this unit&apos;s command phase, add 1d3 Replacement Spectre models to any nearby spectre units.  If they have the Replaceable Shock Troops detatchment rule, add an additional 2 models.  This does not stack with the detatchment rule.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of this unit&apos;s command phase, 5 Replacement Spectres disembark from this vehicle.</characteristic>
           </characteristics>
         </profile>
         <profile name="Paladin Tank" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="4a5a-94ab-54c5-2e5c">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">14</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">15</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Spectre Fighting Vehicle" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1e09-6acb-4bd2-76f0">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Any Spectre units within 6&quot; of this model have their save improved by 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1081,7 +1086,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                 <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
                 <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
                 <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 4, Sustained Hits 1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 4, Sustained Hits 1, Melta 1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1998,7 +2003,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <rule name="Deep Strike" id="111a-f6a8-3486-3856" hidden="false"/>
       </rules>
       <entryLinks>
-        <entryLink import="true" name="Ticks" hidden="false" id="37e5-9072-be83-8c1a" type="selectionEntry" targetId="f95d-f525-f5cd-c60f">
+        <entryLink import="true" name="Ticks" hidden="false" id="37e5-9072-be83-8c1a" type="selectionEntry" targetId="f95d-f525-f5cd-c60f" sortIndex="1">
           <costs>
             <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
           </costs>
@@ -2093,7 +2098,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit is attacked, if an attack misses, the attacker must make that attack against themselves.</characteristic>
           </characteristics>
         </profile>
-        <profile name="(Vortex Shield Optimizaion)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5a2c-c31f-33f8-cd0f">
+        <profile name="(Vortex Shield Optimization)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5a2c-c31f-33f8-cd0f">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When a pilot is embarked, subtract 1 from hit rolls made against this unit.</characteristic>
           </characteristics>
@@ -2527,7 +2532,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Tone" hidden="false" id="349c-1bdd-e95c-3e88">
       <profiles>
-        <profile name="Ion" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="561f-3f14-afc0-a290">
+        <profile name="Tone" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="561f-3f14-afc0-a290">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">9</characteristic>
