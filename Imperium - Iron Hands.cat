@@ -1816,16 +1816,6 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit uses Smoke, it deploys Electric Smoke.  Non-mechanical units in the smoke (e.g. ones without the Vehicle keyword or similar like Drone) take 1d3 mortal wounds when the smoke is initially deployed, and 2d3 mortal wounds at the beginning of their next shooting phase.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Factory Reaper" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="eecf-d0a8-62ba-9ab4">
-          <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">8</characteristic>
-            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">5</characteristic>
-            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
-          </characteristics>
-        </profile>
         <profile name="Orbital Insertion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="27a5-0dec-f47e-55e8">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When using Deep Strike, telegraph where this unit will deploy 1 turn in advance, at the start of your movement phase.  This cannot be ontop of control points.  It will deploy there regardless of how close enemy units are.  If anyone is within 2&quot; of the selected spot, they die.</characteristic>
@@ -1833,7 +1823,17 @@
         </profile>
         <profile name="Tick Launch" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="40bf-2fc4-9c4d-826e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of the command phase, this unit may deploy 6 Tick models up to 3&quot; away from it. </characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of the command phase, this unit may deploy 5 Tick models up to 3&quot; away from it. </characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Factory Reaper" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="a9b3-38ea-40a1-f352">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">5+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1846,7 +1846,7 @@
         <categoryLink name="Mechanized" hidden="false" id="421c-0420-30cd-a398" targetId="6f14-7e4d-2380-6087" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="75"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="80"/>
       </costs>
       <modifiers>
         <modifier type="set-primary" value="6f14-7e4d-2380-6087" field="category"/>
@@ -1950,8 +1950,8 @@
             </profile>
           </profiles>
           <constraints>
-            <constraint type="min" value="6" field="selections" scope="parent" shared="true" id="bbaa-0018-e228-1fbb"/>
-            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="f3b7-6db9-fb9c-7957"/>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="bbaa-0018-e228-1fbb"/>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="f3b7-6db9-fb9c-7957"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -2496,7 +2496,7 @@
                 <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
                 <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
                 <characteristic name="SV" typeId="450-a17e-9d5e-29da">5+</characteristic>
-                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
+                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">3</characteristic>
                 <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
                 <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
               </characteristics>
@@ -2510,7 +2510,7 @@
             <categoryLink name="Drone" hidden="false" id="8873-4bc4-c94c-93ce" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="40"/>
           </costs>
           <modifiers>
             <modifier type="set-primary" value="dbd4-63-af05-998" field="category"/>
