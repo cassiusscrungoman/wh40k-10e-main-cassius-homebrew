@@ -774,7 +774,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="IMC Drop Pod" hidden="false" id="3faf-e512-d794-a881">
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="50"/>
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1b94-5a51-bdd8-8bd7" includeChildSelections="false"/>
@@ -1485,7 +1485,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="IMC Drop Pod" hidden="false" id="bec7-8001-e774-3ec4" sortIndex="1">
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="50"/>
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="361d-e15b-aee1-bc90" includeChildSelections="false"/>
