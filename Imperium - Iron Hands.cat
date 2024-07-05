@@ -1066,7 +1066,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                 <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
                 <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
                 <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
-                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">4</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">5</characteristic>
                 <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy, Blast, Twin-linked</characteristic>
               </characteristics>
             </profile>
@@ -1084,7 +1084,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
                 <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
                 <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
                 <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
-                <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                 <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
                 <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 4, Sustained Hits 1, Melta 1</characteristic>
               </characteristics>
@@ -1179,28 +1179,28 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Neural Link" hidden="false" id="a496-9e0f-d69e-c85c" collective="false">
       <profiles>
-        <profile name="Emergency Embarkation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0043-265d-8d9b-ca28">
+        <profile name="We Are Stronger Together" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0043-265d-8d9b-ca28">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">An IMC Pilot may embark within this Titan at any point during their movement phase, regardless of what they&apos;ve done (advancing, falling back, disembarking, etc).  If they do, use the stats marked in () on this Titan&apos;s statblock until the Pilot disembarks.  The Titan&apos;s save becomes invulnerable when a pilot is embarked within.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">An IMC Pilot may embark or disembark within or from this Titan at any point during their movement phase, regardless of what they&apos;ve done (advancing, falling back, disembarking, etc).  If they do, use the stats marked in () on this Titan&apos;s statblock until the Pilot disembarks.  The Titan gains an invuln save of 5+ when a pilot is embarked within.</characteristic>
           </characteristics>
         </profile>
         <profile name="Nuclear Eject" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="47b9-35ee-6c69-c750">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this Titan is destroyed, if a pilot is embarked, eject any embarked pilots 20&quot; in any direction and deal 3 mortal wounds to all units within 6&quot;.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this Titan is destroyed, deal 1 mortal wound to *all models* within 2&quot;.   if a pilot is embarked, when this occurs, eject them 20&quot; in any direction.  One enemy unit within range of the Titan when it is destroyed may make an Overwatch move against the Pilot as they disembark.</characteristic>
           </characteristics>
         </profile>
         <profile name="Titanfall" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9e39-0636-e94a-4a09">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When using Deep Strike, telegraph where this unit will deploy 1 turn in advance, at the start of your movement phase.  This cannot be ontop of control points.  It will deploy there regardless of how close enemy units are.  If anyone is within 2&quot; of the selected spot, they die.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When using Deep Strike, telegraph where this unit will deploy 1 turn in advance, at the start of your shooting phase.  This cannot be ontop of control points.  At the start of your next shooting phase, it will deploy there regardless of how close enemy units are.  If any models are within 2&quot; of the selected spot, they die.</characteristic>
           </characteristics>
         </profile>
         <profile name="Titan Punch" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="d528-e1ec-8270-3fff">
           <characteristics>
             <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
             <characteristic name="A" typeId="2337-daa1-6682-b110">2 (3)</characteristic>
-            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+ (2+)</characteristic>
+            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
             <characteristic name="S" typeId="ab33-d393-96ce-ccba">10</characteristic>
-            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0 (-1)</characteristic>
+            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
             <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
             <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">(Anti-Infantry 2+), (Devastating Wounds)</characteristic>
           </characteristics>
@@ -1220,6 +1220,9 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
           </constraints>
         </selectionEntry>
       </selectionEntries>
+      <rules>
+        <rule name="(Invuln Save 5+)" id="a6af-7b3e-4eda-ff72" hidden="false"/>
+      </rules>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Harvester" hidden="false" id="07cd-d4a0-2195-0564">
       <profiles>
@@ -2044,7 +2047,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
             <profile name="Tick" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="03a1-f81b-c5f0-9199">
               <characteristics>
                 <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
-                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">2</characteristic>
+                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
                 <characteristic name="SV" typeId="450-a17e-9d5e-29da">6+</characteristic>
                 <characteristic name="W" typeId="750a-a2ec-90d3-21fe">1</characteristic>
                 <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
@@ -2053,8 +2056,8 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
             </profile>
           </profiles>
           <constraints>
-            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="bbaa-0018-e228-1fbb"/>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="f3b7-6db9-fb9c-7957"/>
+            <constraint type="min" value="6" field="selections" scope="parent" shared="true" id="bbaa-0018-e228-1fbb"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="f3b7-6db9-fb9c-7957"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -2075,32 +2078,27 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
           <characteristics>
             <characteristic name="Range" typeId="9896-9419-16a1-92fc">40&quot;</characteristic>
             <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+ (2+)</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Precision</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">4</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits, Anti-Infantry 2+, (Precision)</characteristic>
           </characteristics>
         </profile>
         <profile name="Splitter Rifle" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="6038-9253-6680-48eb">
           <characteristics>
             <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
             <characteristic name="A" typeId="3bb-c35f-f54-fb08">5</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+ (3+)</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 5, Melta 1, (Sustained Hits 1)</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 5, Melta 1, (Sustained Hits 2)</characteristic>
           </characteristics>
         </profile>
         <profile name="Vortex Shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="51ac-c0fd-2c6d-0501">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit is attacked, if an attack misses, the attacker must make that attack against themselves.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="(Vortex Shield Optimization)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5a2c-c31f-33f8-cd0f">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When a pilot is embarked, subtract 1 from hit rolls made against this unit.</characteristic>
           </characteristics>
         </profile>
         <profile name="(Stand Behind Me)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b846-c4aa-c6bc-8487">
@@ -2143,11 +2141,11 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         </profile>
         <profile name="Predator Cannon - Long Range" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="c496-cdf5-0e93-9dd2">
           <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">25&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">5</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+ (3+)</characteristic>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">10</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits, (Twin-linked),</characteristic>
           </characteristics>
@@ -2159,35 +2157,35 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         </profile>
         <profile name="Predator Cannon - Short Range" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="f213-b8b9-ac70-a74d">
           <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">15&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">10</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+ (2+)</characteristic>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">20&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">20</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits, (Twin-linked),</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1, Melta 1, (Twin-linked),</characteristic>
           </characteristics>
         </profile>
         <profile name="Power Shot - Short Range" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="f549-c499-495a-d42d">
           <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">15&quot;</characteristic>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">20&quot;</characteristic>
             <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+ (2+)</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">4</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Melta 4</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Melta 4, (Twin-linked)</characteristic>
           </characteristics>
         </profile>
         <profile name="Power Shot - Long Range" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="9d23-ff4b-98ff-e655">
           <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">25&quot;</characteristic>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
             <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+ (3+)</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds, (Twin-linked)</characteristic>
           </characteristics>
         </profile>
         <profile name="Mode Switch" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6fe5-ea7d-9f56-e0f5">
@@ -2238,25 +2236,25 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         </profile>
         <profile name="Siphon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6edc-3908-3703-c706">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit successfully hits a unit with their Energy Laser, the Monarch gains 1 wound.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit successfully hits a unit with their Energy Laser, the Monarch gains 2 wounds.</characteristic>
           </characteristics>
         </profile>
         <profile name="Rocket Salvo" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="e64f-8ca4-6991-1d99">
           <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">15&quot; (25&quot;)</characteristic>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">20&quot;</characteristic>
             <characteristic name="A" typeId="3bb-c35f-f54-fb08">5</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+ (2+)</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1, (-2)</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1,</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked, Precision</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked, Precision, Blast</characteristic>
           </characteristics>
         </profile>
         <profile name="Energy Laser" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="5883-b5c6-b0b2-2bcd">
           <characteristics>
             <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
             <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+ (2+)</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">3</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
@@ -2266,22 +2264,17 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         <profile name="XO-16A2 Chaingun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="252b-1f59-a7fb-6da6">
           <characteristics>
             <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">5</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">5+ (3+)</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1 (-2)</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 5, (Sustained Hits 1)</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 6, Sustained Hits 1, (Sustained Hits 2)</characteristic>
           </characteristics>
         </profile>
         <profile name="(Battery Thief)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0d50-8bc3-f94a-c8ec">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When a pilot is embarked, if this unit destroys an enemy vehicle model with a melee attack, it gains 3 wounds.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="(Multi-Target Lock)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="52a1-1493-fcae-0eee">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When a pilot is embarked, this unit may choose different targets for every single one of its weapons&apos; ranged attacks.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When a pilot is embarked, if this unit destroys an enemy model with a melee attack, it gains wounds equal to the destroyed target&apos;s total wounds, to a cap of 3 wounds.</characteristic>
           </characteristics>
         </profile>
         <profile name="Vinson Dynamics Electric Shields" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2ab2-e6a7-6618-f1d5">
@@ -2332,7 +2325,7 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
             <characteristic name="Range" typeId="9896-9419-16a1-92fc">50&quot;</characteristic>
             <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
             <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">13</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">15</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">4</characteristic>
             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked, Heavy, Melta 3,</characteristic>
@@ -2351,12 +2344,12 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         </profile>
         <profile name="PR-01 Plasma Railgun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="00ea-bd42-8abc-7545">
           <characteristics>
-            <characteristic name="Range" typeId="9896-9419-16a1-92fc">20&quot; (40&quot;)</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+ (3+)</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1 (-2)</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Twin-linked, (Heavy),</characteristic>
           </characteristics>
         </profile>
@@ -2566,17 +2559,12 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
         </profile>
         <profile name="Tracking Lock" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a2c8-229d-f7fd-c07f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Every time this unit hits an enemy unit with its 77mm Tracker Cannon, it can attack with its Tracking Rockets against that target once.  This stacks.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Every time this unit hits an enemy vehicle unit with its 77mm Tracker Cannon, it can attack with its Tracking Rockets against that target once.  This stacks.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sonar Lock" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6dec-19b9-8d16-9efd">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Select a location within 20&quot; that this unit has line of sight to.  This unit may attack every unit within 3&quot; of that location with its Tracking Rockets.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="(Stand Behind Me)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8a14-a8db-4a80-5767">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When a pilot is embarked, if an attack misses an allied unit within 2&quot; of this Titan, the attacker must make that attack against themselves.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">During this unit&apos;s Shooting phase, select a location within 20&quot; that this unit has line of sight to.  This unit may attack every unit within 3&quot; of that location with its Tracking Rockets.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2632,10 +2620,10 @@ Draw a line out infront of the aircraft which is 20&quot;, this Pilot can be dep
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Detachment" id="e2c1-bdbc-ebea-6795" hidden="false">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Army Rule - Outer Heaven" hidden="false" id="33fd-2bf5-71f5-a1c9">
+        <selectionEntry type="upgrade" import="true" name="Army Rule - Look, A Pilot!" hidden="false" id="33fd-2bf5-71f5-a1c9">
           <rules>
-            <rule name="No Borders" id="294d-7b63-1468-a7ca" hidden="false">
-              <description>This army may ignore the standard restrictions on how many Pilots they&apos;re allowed to have in their army.</description>
+            <rule name="Now The Odds Are In Our Favor" id="294d-7b63-1468-a7ca" hidden="false">
+              <description>Units within 3&quot; of a Pilot (including Pilots embarked within a Titan) may reroll hit rolls of 1.</description>
             </rule>
           </rules>
         </selectionEntry>
