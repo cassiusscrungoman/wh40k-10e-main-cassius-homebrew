@@ -733,7 +733,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Spectre" hidden="false" id="4303-c8af-547d-7073">
+    <selectionEntry type="unit" import="true" name="Spectre Mechanized Infantry Squad" hidden="false" id="4303-c8af-547d-7073">
       <profiles>
         <profile name="Electric Smoke" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="568e-96c9-541b-f892">
           <characteristics>
@@ -1823,7 +1823,7 @@
         </profile>
         <profile name="Tick Launch" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="40bf-2fc4-9c4d-826e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of the command phase, this unit may deploy 5 Tick models up to 3&quot; away from it. </characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of the command phase, this unit may deploy 5 Tick models up to 3&quot; away from it.</characteristic>
           </characteristics>
         </profile>
         <profile name="Factory Reaper" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="a9b3-38ea-40a1-f352">
