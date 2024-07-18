@@ -733,7 +733,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Spectre Mechanized Infantry Squad" hidden="false" id="4303-c8af-547d-7073">
+    <selectionEntry type="unit" import="true" name="Mechanized Infantry Spectre Squad" hidden="false" id="4303-c8af-547d-7073">
       <profiles>
         <profile name="Electric Smoke" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="568e-96c9-541b-f892">
           <characteristics>
