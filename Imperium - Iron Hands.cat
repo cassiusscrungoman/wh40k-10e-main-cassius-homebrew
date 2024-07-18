@@ -1187,7 +1187,7 @@
       <rules>
         <rule name="(Invuln Save 5+)" id="a6af-7b3e-4eda-ff72" hidden="false"/>
         <rule name="Termination" id="727d-608b-0d85-5cb1" hidden="false">
-          <description>If this Titan successfully wounds an enemy under half strength with its Titan Punch, that unit is destroyed.</description>
+          <description>If this Titan successfully wounds an enemy model under half strength with its Titan Punch, that model is destroyed.</description>
         </rule>
       </rules>
     </selectionEntry>
