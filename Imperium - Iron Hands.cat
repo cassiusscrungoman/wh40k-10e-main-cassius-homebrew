@@ -355,7 +355,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Grunt" hidden="false" id="a446-01ba-6fe7-7ffc">
+    <selectionEntry type="unit" import="true" name="Grunt Squad Leader" hidden="false" id="a446-01ba-6fe7-7ffc">
       <profiles>
         <profile name="Training Over Programming" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dd27-fddf-25ed-4acb">
           <characteristics>
