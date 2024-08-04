@@ -2543,6 +2543,9 @@
         <categoryLink name="Faction: IMC" hidden="false" id="db5a-19d6-ed92-9f7c" targetId="a195-5a3e-4355-8d18" primary="false"/>
         <categoryLink name="Mechanized" hidden="false" id="d23e-7c9f-5a22-fa69" targetId="6f14-7e4d-2380-6087" primary="false"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set-primary" value="ba07-411c-2832-1f79" field="category"/>
+      </modifiers>
     </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
