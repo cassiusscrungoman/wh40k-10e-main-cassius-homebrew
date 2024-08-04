@@ -2505,6 +2505,7 @@
           </profiles>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6d71-ea96-364f-4b7e"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="79ce-3536-5965-a315"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
