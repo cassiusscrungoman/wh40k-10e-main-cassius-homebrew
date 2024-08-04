@@ -1197,56 +1197,6 @@
         <modifier type="set-primary" value="cf47-a0d7-7207-29dc" field="category"/>
       </modifiers>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="MRVN Auxiliary" hidden="false" id="3df5-781a-f60e-082a" sortIndex="1">
-          <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
-          </costs>
-          <profiles>
-            <profile name="Happy Robot :3" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e604-961a-22b4-9878">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Though this model is a character, it does not count for assassination. :&gt;</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="MRVN Auxiliary" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="66be-3fa2-bebc-f0dd">
-              <characteristics>
-                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
-                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
-                <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">2</characteristic>
-                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
-                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">4</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="MRVN Blowtorch" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="5cf1-30fb-4b36-8d34">
-              <characteristics>
-                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
-                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">NA</characteristic>
-                <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
-                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Torrent</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="MRVN Engineer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="df0c-ebe8-c35c-68f1">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit has a MRVN Engineer attached to it which can heal any vehicles or mechanized units within 6&quot; for 2 wounds at the end of the command phase.</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="High Five?" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bb82-0b18-d6e4-6696">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">The unit this character is attached to may reroll leadership saves and they get a +1 to Men of The Hour rolls.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <categoryLinks>
-            <categoryLink name="Drone" hidden="false" id="82ba-90f1-e7f9-27d9" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
-            <categoryLink name="Character" hidden="false" id="bf13-64ea-87dd-6f49" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
-          </categoryLinks>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="abcf-3cd0-2713-1a37"/>
-          </constraints>
-        </selectionEntry>
         <selectionEntry type="model" import="true" name="Mortar Team" hidden="false" id="253a-1720-537a-1bca">
           <constraints>
             <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="7f16-0e78-b8d7-7a64-min"/>
@@ -1350,58 +1300,6 @@
       <modifiers>
         <modifier type="set-primary" value="cf47-a0d7-7207-29dc" field="category"/>
       </modifiers>
-      <selectionEntries>
-        <selectionEntry type="model" import="true" name="MRVN Auxiliary" hidden="false" id="d874-30f5-4637-ebf7" sortIndex="2">
-          <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
-          </costs>
-          <profiles>
-            <profile name="Happy Robot :3" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5361-a024-17c3-3ee8">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Though this model is a character, it does not count for assassination.</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="MRVN Auxiliary" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="54e3-503d-4050-22d1">
-              <characteristics>
-                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
-                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
-                <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">2</characteristic>
-                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
-                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">4</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="MRVN Blowtorch" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="1bba-f15a-fbe2-68eb">
-              <characteristics>
-                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
-                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">NA</characteristic>
-                <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
-                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Torrent</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="MRVN Engineer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0999-82e3-4929-d280">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit has a MRVN Engineer attached to it which can heal any vehicles or mechanized units within 6&quot; for 2 wounds at the end of the command phase.</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="High Five?" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5433-70c9-14e2-ee57">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">The unit this character is attached to may reroll leadership saves and they get a +1 to Men of The Hour rolls.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <categoryLinks>
-            <categoryLink name="Drone" hidden="false" id="50e5-bddc-5396-8616" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
-            <categoryLink name="Character" hidden="false" id="d388-989f-8224-4796" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
-          </categoryLinks>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8d66-352a-dc4c-dfec"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup name="Ordnance Team" id="f3e3-7ea1-1fc9-b695" hidden="false" sortIndex="3">
           <selectionEntries>
@@ -2545,6 +2443,64 @@
       </categoryLinks>
       <modifiers>
         <modifier type="set-primary" value="ba07-411c-2832-1f79" field="category"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="MRVN Auxiliary" hidden="false" id="2b19-f9d2-69a5-cf29">
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+      </costs>
+      <profiles>
+        <profile name="Happy Robot :3" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7bda-b87c-0089-c6c1">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Though this model is a character, it does not count for assassination.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="MRVN Auxiliary" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="94bb-061a-6360-ad7e">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">2</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="MRVN Blowtorch" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="d8d9-9e6f-8d89-0a3b">
+          <characteristics>
+            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">NA</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
+            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+            <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Torrent, Makes MRVN Sad</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="MRVN Engineer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="90dc-cc1b-b70d-0081">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit has a MRVN Engineer attached to it which can heal any vehicles or mechanized units within 6&quot; for 2 wounds at the end of the command phase.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="High Five?" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7781-a3e4-ae76-bd5f">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">The unit this character is attached to may reroll leadership saves and they get a +1 to Men of The Hour rolls.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Programming Over Training" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6792-033e-b121-2452">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model may be attached to Mortar Teams and Ordnance Teams.  It does not take up the leader slot for the unit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Drone" hidden="false" id="926d-c86d-9e4b-35ce" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
+        <categoryLink name="Character" hidden="false" id="6379-55bf-93a4-cfc6" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6d71-ea96-364f-4b7e"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set-primary" value="9cfd-1c32-585f-7d5c" field="category"/>
       </modifiers>
     </selectionEntry>
   </sharedSelectionEntries>
