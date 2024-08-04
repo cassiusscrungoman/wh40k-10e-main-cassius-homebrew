@@ -355,7 +355,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Grunt Squad Leader" hidden="false" id="a446-01ba-6fe7-7ffc">
+    <selectionEntry type="unit" import="true" name="Grunt Field Leader" hidden="false" id="a446-01ba-6fe7-7ffc">
       <profiles>
         <profile name="Training Over Programming" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dd27-fddf-25ed-4acb">
           <characteristics>
@@ -2583,9 +2583,9 @@
   </categoryEntries>
   <entryLinks>
     <entryLink import="true" name="IMC Pilot" hidden="false" id="4ad6-4f62-537b-fad5" type="selectionEntry" targetId="3a31-10a4-b92b-99c7"/>
-    <entryLink import="true" name="Grunt" hidden="false" id="2663-913e-f103-998d" type="selectionEntry" targetId="a446-01ba-6fe7-7ffc"/>
+    <entryLink import="true" name="Grunt Squad Leader" hidden="false" id="2663-913e-f103-998d" type="selectionEntry" targetId="a446-01ba-6fe7-7ffc"/>
     <entryLink import="true" name="Guntank" hidden="false" id="66ab-f1a3-1641-c8cb" type="selectionEntry" targetId="cdef-201f-aefc-729c"/>
-    <entryLink import="true" name="Spectre" hidden="false" id="1dae-f04d-9e13-6c6e" type="selectionEntry" targetId="4303-c8af-547d-7073"/>
+    <entryLink import="true" name="Mechanized Infantry Spectre Squad" hidden="false" id="1dae-f04d-9e13-6c6e" type="selectionEntry" targetId="4303-c8af-547d-7073"/>
     <entryLink import="true" name="Paladin Tank" hidden="false" id="8530-de0c-bcd5-8fc3" type="selectionEntry" targetId="a07d-f882-618e-8817"/>
     <entryLink import="true" name="Detachment" hidden="false" id="460d-4d21-0556-df12" type="selectionEntryGroup" targetId="e2c1-bdbc-ebea-6795"/>
     <entryLink import="true" name="Disposable Infiltration Fighter" hidden="false" id="7449-a0e0-0a4a-04c0" type="selectionEntry" targetId="087b-38b4-94cd-286b"/>
