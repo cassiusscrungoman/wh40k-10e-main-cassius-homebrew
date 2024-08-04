@@ -424,7 +424,7 @@
                 <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                 <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
                 <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-                <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
                 <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                 <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
                 <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Infantry 4+</characteristic>
@@ -688,16 +688,11 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Mechanized Infantry Spectre Squad" hidden="false" id="4303-c8af-547d-7073">
+    <selectionEntry type="unit" import="true" name="Spectre Squad" hidden="false" id="4303-c8af-547d-7073">
       <profiles>
         <profile name="Electric Smoke" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="568e-96c9-541b-f892">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit uses Smoke, it deploys Electric Smoke.  Non-mechanical units in the smoke (e.g. ones without the Vehicle keyword or similar like Drone) take 1d3 mortal wounds when the smoke is initially deployed, and 2d3 mortal wounds at the start of their command phase.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Self-Destruct Protocol" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="89cc-c0c8-0224-0b28">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this model is within engagement range of 1 or more enemy units at the beginning of its movement phase, it may self destruct.  For each Spectre and Replacement Spectre model you choose to use this ability with, they deal 1 mortal wound to all enemies in engagement range.  Stalkers deal 2 mortal wounds.</characteristic>
           </characteristics>
         </profile>
         <profile name="Expendable Mechanized Infantry" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9393-95d3-a4bf-e02a">
@@ -708,6 +703,11 @@
         <profile name="Anti-Vehicle Swarm" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e7c0-66c2-7678-ea04">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit charges a unit with the Vehicle tag, they get a +1 to their charge and may reroll it.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Volatile Power Supply" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="641c-ab86-8c6a-3cfe">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this model is within engagement range of 1 or more enemy units at the beginning of its movement phase, it may self destruct.  For each Spectre and Replacement Spectre model you choose to use this ability with, they deal 1 mortal wound to all MODELS in engagement range.  Stalkers deal 2 mortal wounds.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -726,99 +726,13 @@
       <modifiers>
         <modifier type="set-primary" value="e338-111e-d0c6-b687" field="category"/>
       </modifiers>
-      <selectionEntries>
-        <selectionEntry type="model" import="true" name="IMC Drop Pod" hidden="false" id="3faf-e512-d794-a881">
-          <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="50"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1b94-5a51-bdd8-8bd7" includeChildSelections="false"/>
-          </constraints>
-          <profiles>
-            <profile name="IMC Drop Pod" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="977b-2152-56ad-9d63">
-              <characteristics>
-                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">-</characteristic>
-                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">8</characteristic>
-                <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
-                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">8</characteristic>
-                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">-</characteristic>
-                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="On-Site Fabrication" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6131-be26-d2a0-2cc6">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may be deployed via IMC Drop Pods.  They deploy as if from Deep Strike.  If any spectre units are within 6&quot; of the drop pod, they gain 1d3 Replacement Spectre models at the end of their command phase.  If there are no spectre units around the drop pod, 1d3 Replacement Spectre disembark from the pod at the end of the command phase.  If they have the Replaceable Shock Troops detatchment rule, both of these triggers gain +2 models.  This does NOT stack with the detatchment rule.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule name="Deep Strike" id="ae1c-e246-dc0d-7d69" hidden="false"/>
-          </rules>
-          <categoryLinks>
-            <categoryLink name="Dedicated Transport" hidden="false" id="facb-6662-f847-edba" targetId="ba07-411c-2832-1f79" primary="false"/>
-            <categoryLink name="Faction: IMC" hidden="false" id="45ff-c336-787e-873f" targetId="a195-5a3e-4355-8d18" primary="false"/>
-            <categoryLink name="Mechanized" hidden="false" id="5a83-1a95-63e7-2129" targetId="6f14-7e4d-2380-6087" primary="false"/>
-          </categoryLinks>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Spectre &amp; Stalker" id="3ece-e122-1ff5-1228" hidden="false">
+        <selectionEntryGroup name="Mechanized Infantry" id="3ece-e122-1ff5-1228" hidden="false">
           <selectionEntries>
-            <selectionEntry type="model" import="true" name="Stalker" hidden="false" id="bade-ffca-1b8c-9b37">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="99a9-187f-228f-88e4"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="08ac-b9d5-3e1b-1138"/>
-              </constraints>
-              <profiles>
-                <profile name="Stalker" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="e65b-a7e5-9a02-9894">
-                  <characteristics>
-                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
-                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
-                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
-                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">2</characteristic>
-                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
-                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Stalker Claw" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="6ec8-93bc-5761-e825">
-                  <characteristics>
-                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                    <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
-                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
-                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">7</characteristic>
-                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
-                    <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds, Anti-Infantry 4+</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="L-STAR" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="a9a4-3a11-16af-2e76">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 4, Sustained Hits 1,</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="P2020 Sidearm" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="cac5-ca7a-62f2-71a7">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Assault, Rapid Fire 2</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
             <selectionEntry type="model" import="true" name="Spectre" hidden="false" id="335d-eedf-5444-f3ec">
               <constraints>
-                <constraint type="min" value="9" field="selections" scope="parent" shared="true" id="ad45-6062-59fb-3321"/>
-                <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="d987-2700-0924-01e4"/>
+                <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="ad45-6062-59fb-3321"/>
+                <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="d987-2700-0924-01e4"/>
               </constraints>
               <selectionEntryGroups>
                 <selectionEntryGroup name="Spectre Weapon Choice" id="26c3-c947-49db-fa7a" hidden="false" defaultSelectionEntryId="26b7-e7cf-33d8-9abe">
@@ -905,12 +819,12 @@
                 <profile name="Spectre Claw" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="235d-7dfc-0fe9-82bc">
                   <characteristics>
                     <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                    <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
                     <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds, Anti-Infantry 4+</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds, Anti-Infantry 5+</characteristic>
                   </characteristics>
                 </profile>
                 <profile name="P2020 Sidearm" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="6cf7-4616-7d06-8dd2">
@@ -1437,39 +1351,6 @@
         <modifier type="set-primary" value="cf47-a0d7-7207-29dc" field="category"/>
       </modifiers>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="IMC Drop Pod" hidden="false" id="bec7-8001-e774-3ec4" sortIndex="1">
-          <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="50"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="361d-e15b-aee1-bc90" includeChildSelections="false"/>
-          </constraints>
-          <profiles>
-            <profile name="IMC Drop Pod" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="4e51-6733-aa56-4c36">
-              <characteristics>
-                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">-</characteristic>
-                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">8</characteristic>
-                <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
-                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">8</characteristic>
-                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">-</characteristic>
-                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="On-Site Fabrication" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a18b-a647-a482-4915">
-              <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may be deployed via IMC Drop Pods. They deploy as if from Deep Strike. If any spectre units are within 6&quot; of the drop pod, they gain 1d3 Replacement Spectre models at the end of their command phase. If there are no spectre units around the drop pod, 1d3 Replacement Spectre disembark from the pod at the end of the command phase. If they have the Replaceable Shock Troops detatchment rule, both of these triggers gain +2 models. This does NOT stack with the detatchment rule.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule name="Deep Strike" id="13dd-8b22-3fbf-d26e" hidden="false"/>
-          </rules>
-          <categoryLinks>
-            <categoryLink name="Faction: IMC" hidden="false" id="5140-97d4-1a3b-652a" targetId="a195-5a3e-4355-8d18" primary="false"/>
-            <categoryLink name="Dedicated Transport" hidden="false" id="63c3-b512-5e50-f8fc" targetId="ba07-411c-2832-1f79" primary="false"/>
-            <categoryLink name="Mechanized" hidden="false" id="fa51-1c07-3134-4b0d" targetId="6f14-7e4d-2380-6087" primary="false"/>
-          </categoryLinks>
-        </selectionEntry>
         <selectionEntry type="model" import="true" name="MRVN Auxiliary" hidden="false" id="d874-30f5-4637-ebf7" sortIndex="2">
           <costs>
             <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
@@ -1666,7 +1547,7 @@
         <profile name="Spectre Claw" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="75a8-e101-0150-6edf">
           <characteristics>
             <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
             <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
             <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
             <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
@@ -1677,6 +1558,11 @@
         <profile name="Combat Reinforcements" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ddc1-84d4-a80f-cf00">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model may join any Spectre units within 2&quot;.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Self-Destruct Protocol" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9be7-d893-6d8a-693c">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this model is within engagement range of 1 or more enemy units at the beginning of its movement phase, it may self destruct.  For each Spectre and Replacement Spectre model you choose to use this ability with, they deal 1 mortal wound to all units in engagement range.  Stalkers deal 2 mortal wounds.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2532,6 +2418,132 @@
         <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Stalker Squad" hidden="false" id="4e65-6a86-31d1-70fd">
+      <profiles>
+        <profile name="Electric Smoke" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="88f4-9e1a-1f53-cadc">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit uses Smoke, it deploys Electric Smoke.  Non-mechanical units in the smoke (e.g. ones without the Vehicle keyword or similar like Drone) take 1d3 mortal wounds when the smoke is initially deployed, and 2d3 mortal wounds at the start of their command phase.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Volatile Power Supply" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a6db-85eb-90b1-d1f5">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this model is within engagement range of 1 or more enemy units at the beginning of its movement phase, it may self destruct.  For each Spectre and Replacement Spectre model you choose to use this ability with, they deal 1 mortal wound to all MODELS in engagement range.  Stalkers deal 2 mortal wounds.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Scary, But Still Replaceable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="80ec-e254-ed69-2553">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit has the Expendable, Deployed En-masse detatchment rule, if any Stalker units are within 6&quot; of a unit with the MECHANIZED tag, it gains 1 Stalker at the start of its command phase.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Ripper Protocol" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b3d4-cd0d-b297-5980">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of this unit&apos;s shooting phase, it may choose to discard their LSTARs and charge forward, overloading its Power Supply.  When it does this, it does not roll for charge moves and instead gets 12&quot; guaranteed.  It cannot use its ranged weapons after it does this.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Expendable Mechanized Infantry" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e74e-9606-2a7c-5b05">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may not make Men of The Hour rolls.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Grenades" hidden="false" id="c3a7-3d5b-de3b-5358" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
+        <categoryLink name="Infantry" hidden="false" id="c9f1-ccb0-a99e-5300" targetId="cf47-a0d7-7207-29dc" primary="false"/>
+        <categoryLink name="Fly" hidden="false" id="3526-d543-2514-eda5" targetId="c619-2086-bbcf-69c9" primary="false"/>
+        <categoryLink name="Drone" hidden="false" id="5c6b-84ed-cf2e-707e" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
+        <categoryLink name="Smoke" hidden="false" id="e73b-c39e-ec5e-68d4" targetId="6df-937-16bc-8c1a" primary="false"/>
+        <categoryLink name="Battleline" hidden="false" id="c2f9-0310-d38b-c4dc" targetId="e338-111e-d0c6-b687" primary="false"/>
+        <categoryLink name="Faction: IMC" hidden="false" id="fd2f-5ca3-6880-3f7e" targetId="a195-5a3e-4355-8d18" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="125"/>
+      </costs>
+      <modifiers>
+        <modifier type="set-primary" value="e338-111e-d0c6-b687" field="category"/>
+      </modifiers>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Mechanized Infantry" id="4b11-39fe-8a21-e656" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Stalker" hidden="false" id="022e-e50d-a790-af79">
+              <constraints>
+                <constraint type="min" value="6" field="selections" scope="parent" shared="true" id="08b1-19bd-ba09-0063"/>
+                <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="2f88-ac0e-0257-7d75"/>
+              </constraints>
+              <profiles>
+                <profile name="Stalker" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="53ff-7c10-9010-6acf">
+                  <characteristics>
+                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">8</characteristic>
+                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">2</characteristic>
+                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Stalker Claw" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="342d-598a-aa3a-e19b">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">7</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds, Anti-Infantry 3+</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="L-STAR" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="d902-4bac-0929-30b3">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1, Melta 1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="IMC Drop Pod" hidden="false" id="c13f-710f-bf9a-1456">
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="50ea-0317-6a8d-c807" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="IMC Drop Pod" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="1023-cb71-1803-5ede">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">-</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">8</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">8</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">-</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="On-Site Fabrication" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2c27-8716-b07d-5ff9">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may be deployed via IMC Drop Pods.  They deploy as if from Deep Strike.  If any spectre units are within 6&quot; of the drop pod, they gain 1d3 Replacement Spectre models at the end of their command phase.  If there are no spectre units around the drop pod, 1d3 Replacement Spectre disembark from the pod at the end of the command phase.  If they have the Replaceable Shock Troops detatchment rule, both of these triggers gain +2 models.  This does NOT stack with the detatchment rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Deep Strike" id="1890-4970-1685-75ea" hidden="false"/>
+        <rule name="Transport" id="6cd6-dfb5-714c-5302" hidden="false">
+          <description>An IMC Drop Pod may contain one unit of the following types: A Spectre, Stalker, Mortar, or Ordnance team.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink name="Dedicated Transport" hidden="false" id="3c5b-fbb9-6a5f-46d2" targetId="ba07-411c-2832-1f79" primary="false"/>
+        <categoryLink name="Faction: IMC" hidden="false" id="db5a-19d6-ed92-9f7c" targetId="a195-5a3e-4355-8d18" primary="false"/>
+        <categoryLink name="Mechanized" hidden="false" id="d23e-7c9f-5a22-fa69" targetId="6f14-7e4d-2380-6087" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
     <categoryEntry name="Faction: IMC" id="a195-5a3e-4355-8d18" hidden="false"/>
@@ -2550,7 +2562,13 @@
     <entryLink import="true" name="Reapers" hidden="false" id="201d-ee36-afff-2905" type="selectionEntry" targetId="99ee-4e75-f45e-7897"/>
     <entryLink import="true" name="Mortar Team" hidden="false" id="6b1a-5c32-4c9f-5a13" type="selectionEntry" targetId="83ae-7b76-3722-6ad7"/>
     <entryLink import="true" name="Ordnance Team" hidden="false" id="83cd-278f-1531-32f9" type="selectionEntry" targetId="b824-3dcd-07f9-eb7c"/>
-    <entryLink import="true" name="Replacement Spectre" hidden="false" id="b564-5c50-d901-feb0" type="selectionEntry" targetId="d664-94bb-cf29-50a2"/>
+    <entryLink import="true" name="Replacement Spectre" hidden="false" id="b564-5c50-d901-feb0" type="selectionEntry" targetId="d664-94bb-cf29-50a2">
+      <rules>
+        <rule name="Jank" id="add6-9ff4-916a-8edb" hidden="false">
+          <description>This is listed here so you can easily get access to the Replacement Spectre&apos;s statblock.</description>
+        </rule>
+      </rules>
+    </entryLink>
     <entryLink import="true" name="Ticks" hidden="false" id="1472-af38-fcc8-ef0b" type="selectionEntry" targetId="f95d-f525-f5cd-c60f"/>
     <entryLink import="true" name="Factory Reaper" hidden="false" id="5592-7d8c-029b-2b55" type="selectionEntry" targetId="3714-2007-bfc5-375e"/>
     <entryLink import="true" name="Goblin Aerial Transport" hidden="false" id="d8d7-7b93-5d43-ed55" type="selectionEntry" targetId="f4b1-c472-38f4-b40c"/>
@@ -2560,6 +2578,8 @@
     <entryLink import="true" name="Tone" hidden="false" id="6e4b-279e-221e-e832" type="selectionEntry" targetId="349c-1bdd-e95c-3e88"/>
     <entryLink import="true" name="Legion" hidden="false" id="73a5-e4e2-81ac-d689" type="selectionEntry" targetId="ee1a-aa43-2f49-da68"/>
     <entryLink import="true" name="Ion" hidden="false" id="fbaf-7643-3291-a1ce" type="selectionEntry" targetId="cc4b-1152-6588-e7eb"/>
+    <entryLink import="true" name="IMC Drop Pod" hidden="false" id="784d-39ad-6b92-3061" type="selectionEntry" targetId="c13f-710f-bf9a-1456"/>
+    <entryLink import="true" name="Stalker Squad" hidden="false" id="61b0-a50a-6557-b3c7" type="selectionEntry" targetId="4e65-6a86-31d1-70fd"/>
   </entryLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Detachment" id="e2c1-bdbc-ebea-6795" hidden="false">
