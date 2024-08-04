@@ -2539,6 +2539,7 @@
     <entryLink import="true" name="Ion" hidden="false" id="fbaf-7643-3291-a1ce" type="selectionEntry" targetId="cc4b-1152-6588-e7eb"/>
     <entryLink import="true" name="IMC Drop Pod" hidden="false" id="784d-39ad-6b92-3061" type="selectionEntry" targetId="c13f-710f-bf9a-1456"/>
     <entryLink import="true" name="Stalker Squad" hidden="false" id="61b0-a50a-6557-b3c7" type="selectionEntry" targetId="4e65-6a86-31d1-70fd"/>
+    <entryLink import="true" name="MRVN Auxiliary" hidden="false" id="68bc-6366-bb8a-db2f" type="selectionEntry" targetId="2b19-f9d2-69a5-cf29"/>
   </entryLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Detachment" id="e2c1-bdbc-ebea-6795" hidden="false">
