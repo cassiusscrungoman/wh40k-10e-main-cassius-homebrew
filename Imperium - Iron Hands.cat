@@ -355,21 +355,16 @@
         </entryLink>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Grunt Field Leader" hidden="false" id="a446-01ba-6fe7-7ffc">
+    <selectionEntry type="unit" import="true" name="Grunt Field Team Leader" hidden="false" id="a446-01ba-6fe7-7ffc">
       <profiles>
         <profile name="Training Over Programming" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dd27-fddf-25ed-4acb">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model&apos;s specialization applies to the unit it is leading.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model&apos;s specialization applies to the unit it is leading.  It may lead Spectre Squads, Mortar Teams, and Ordnance Teams.</characteristic>
           </characteristics>
         </profile>
         <profile name="Can&apos;t Back Out Of This Deal" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2a17-d4a8-4895-fc52">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit is within 6&quot; of the map edge, they may go to ground and be removed from the battlefield during your command phase.  If this happens, this unit counts as being EVACed and will be available for deployment in your next mission.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Experienced In The Field" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0104-7ec1-3716-2d62">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit successfully EVACs or survives until the end of the battle, it will be available in your next mission as an IMC Pilot.</characteristic>
           </characteristics>
         </profile>
         <profile name="Invulnerable Save (5+)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4164-6468-2fc3-f0da">
@@ -564,26 +559,6 @@
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Pathfinder Grunt" hidden="false" id="83d3-2fe5-a52d-3134" sortIndex="4">
-              <profiles>
-                <profile name="Pathfinder Grunt" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="607a-0f95-3fba-0fdf">
-                  <characteristics>
-                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
-                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
-                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
-                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
-                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
-                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
-              </costs>
-              <rules>
-                <rule name="Scouts 7&quot;" id="2a5f-6d9f-8b0c-7208" hidden="false"/>
-              </rules>
-            </selectionEntry>
             <selectionEntry type="model" import="true" name="Marksman Grunt" hidden="false" id="b856-f17b-cdd2-6cad" sortIndex="5">
               <profiles>
                 <profile name="Marksman Grunt" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="a450-2d8f-4e0a-69ef">
@@ -599,26 +574,6 @@
               </profiles>
               <infoLinks>
                 <infoLink name="Heavy" id="c185-9d9e-9e25-0d35" hidden="false" type="rule" targetId="1202-10a8-78e9-4c67"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="model" import="true" name="Infiltration Grunt" hidden="false" id="919d-1e46-49c4-a141" sortIndex="3">
-              <profiles>
-                <profile name="Infiltration Grunt" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="d3e7-581c-6934-9a4c">
-                  <characteristics>
-                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
-                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
-                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
-                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
-                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
-                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink name="Infiltrators" id="24b0-0dae-d45c-cfcb" hidden="false" type="rule" targetId="c05d-f4c3-f091-4938"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
