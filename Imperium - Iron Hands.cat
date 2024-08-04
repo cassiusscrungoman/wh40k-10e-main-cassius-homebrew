@@ -2455,17 +2455,6 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Though this model is a character, it does not count for assassination.</characteristic>
           </characteristics>
         </profile>
-        <profile name="MRVN Blowtorch" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="d8d9-9e6f-8d89-0a3b">
-          <characteristics>
-            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
-            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">NA</characteristic>
-            <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
-            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-            <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Torrent, Makes MRVN Sad</characteristic>
-          </characteristics>
-        </profile>
         <profile name="MRVN Engineer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="90dc-cc1b-b70d-0081">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit has a MRVN Engineer attached to it which can heal any vehicles or mechanized units within 6&quot; for 2 wounds at the end of the command phase.</characteristic>
@@ -2481,6 +2470,16 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model may be attached to Mortar Teams and Ordnance Teams.  It does not take up the leader slot for the unit.</characteristic>
           </characteristics>
         </profile>
+        <profile name="MRVN Auxiliary" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="94bb-061a-6360-ad7e">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">2</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">4</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink name="Drone" hidden="false" id="926d-c86d-9e4b-35ce" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
@@ -2490,16 +2489,17 @@
         <modifier type="set-primary" value="9cfd-1c32-585f-7d5c" field="category"/>
       </modifiers>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Friend" hidden="false" id="d29d-7df1-7a01-c2f4">
+        <selectionEntry type="upgrade" import="true" name="Repair Tool" hidden="false" id="d29d-7df1-7a01-c2f4">
           <profiles>
-            <profile name="MRVN Auxiliary" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="94bb-061a-6360-ad7e">
+            <profile name="MRVN Blowtorch" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="d8d9-9e6f-8d89-0a3b">
               <characteristics>
-                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
-                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
-                <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">2</characteristic>
-                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
-                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">4</characteristic>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">NA</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Torrent, Makes MRVN Sad</characteristic>
               </characteristics>
             </profile>
           </profiles>
