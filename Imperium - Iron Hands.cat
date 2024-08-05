@@ -1169,6 +1169,18 @@
         <rule name="Feel No Pain 4+" id="1b09-feae-d02f-e958" hidden="false"/>
         <rule name="Deadly Demise 2d6" id="8977-3082-09bc-8dbd" hidden="false"/>
       </rules>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Supercharge Harvester" hidden="false" id="c512-23be-db4c-8fcf">
+          <costs>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="-250"/>
+          </costs>
+          <rules>
+            <rule name="Frontier Defense" id="37e5-d5e4-46fe-ef0a" hidden="false">
+              <description>WITH THE PERMISSION OF BOTH PLAYERS AHEAD OF TIME, you may Supercharge your Harvester, enabling Frontier Defense mode and giving you a free random Titan (1d7).  All objectives and control points are discarded and removed.  If your Harvester still stands at the end of the fifth battle round, you win.  If it is destroyed, your opponent wins.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Cloak Drone" hidden="false" id="b530-1393-4643-f185">
       <profiles>
@@ -1219,7 +1231,6 @@
       <categoryLinks>
         <categoryLink name="Grenades" hidden="false" id="8bd2-cb4d-ff5e-b969" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
         <categoryLink name="Infantry" hidden="false" id="9d7c-a86e-8848-9c4c" targetId="cf47-a0d7-7207-29dc" primary="false"/>
-        <categoryLink name="Fly" hidden="false" id="fc79-6677-e12c-3f5a" targetId="c619-2086-bbcf-69c9" primary="false"/>
         <categoryLink name="Faction: IMC" hidden="false" id="e2c9-4a13-94a0-bef3" targetId="a195-5a3e-4355-8d18" primary="false"/>
       </categoryLinks>
       <costs>
@@ -1323,7 +1334,6 @@
       <categoryLinks>
         <categoryLink name="Grenades" hidden="false" id="f3a3-d46b-c8c5-182d" targetId="5a61-81ac-eb7c-a87e" primary="false"/>
         <categoryLink name="Infantry" hidden="false" id="bb34-90e7-035c-f24a" targetId="cf47-a0d7-7207-29dc" primary="false"/>
-        <categoryLink name="Fly" hidden="false" id="07c1-a0eb-2b21-7fce" targetId="c619-2086-bbcf-69c9" primary="false"/>
         <categoryLink name="Faction: IMC" hidden="false" id="45f4-612e-eb03-86a1" targetId="a195-5a3e-4355-8d18" primary="false"/>
       </categoryLinks>
       <costs>
