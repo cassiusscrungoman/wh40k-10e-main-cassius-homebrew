@@ -1180,7 +1180,7 @@
               <description>WITH THE PERMISSION OF BOTH PLAYERS AHEAD OF TIME, you may Supercharge your Harvester, enabling Frontier Defense mode and giving you a free random Titan (1d7).  All objectives and control points are discarded and removed.  If your Harvester still stands at the end of the fifth battle round, you win.  If it is destroyed, your opponent wins.</description>
             </rule>
             <rule name="Supercharged Shield" id="0f6e-2c61-bb7e-15d5" hidden="false">
-              <description>The Supercharged Harvester never loses Feel No Pain 4.</description>
+              <description>The Supercharged Harvester doesn&apos;t lose Feel No Pain 4+ when it goes below half strength.</description>
             </rule>
           </rules>
           <constraints>
