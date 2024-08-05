@@ -35,7 +35,7 @@
         </profile>
         <profile name="Drop Pod Beacon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="53dd-7eea-e225-a797">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If there are Spectres with an IMC Drop Pod in strategic reserves, once per game during the movement phase, the Pilot may throw a Drop Pod Beacon within 8&quot;.  The Drop Pod instantly arrives on the field as if deployed from Deep Strike.  This can happen on Round 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If there is an IMC Drop Pod in strategic reserves, once per game during the movement phase, the Pilot may throw a Drop Pod Beacon within 8&quot;.  The Drop Pod instantly arrives on the field as if deployed from Deep Strike.  This can happen on Round 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -359,7 +359,8 @@
       <profiles>
         <profile name="Training Over Programming" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dd27-fddf-25ed-4acb">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model&apos;s specialization applies to the unit it is leading.  It may lead Spectre Squads, Mortar Teams, and Ordnance Teams.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model&apos;s specialization applies to the unit it is leading.  It may lead Spectre Squads, Mortar Teams, and Ordnance Teams.
+&quot;Stalkers are fucking scary, I ain&apos;t leadin&apos; those things.&quot; - Sergeant Kornerus</characteristic>
           </characteristics>
         </profile>
         <profile name="Can&apos;t Back Out Of This Deal" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2a17-d4a8-4895-fc52">
@@ -663,7 +664,7 @@
         <categoryLink name="Transport" hidden="false" id="36ce-00b8-4d83-a6c7" targetId="75e8-57c4-40e3-1817" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="125"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="150"/>
       </costs>
       <modifiers>
         <modifier type="set-primary" value="dbd4-63-af05-998" field="category"/>
@@ -885,7 +886,7 @@
         </profile>
         <profile name="Mechanized Infantry Replacement Racks" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e9ec-6299-25d5-4c12">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of this unit&apos;s command phase, 5 Replacement Spectres disembark from this vehicle.  If they have the Expendable, Deployed En-masse detatchment rule, 1 Reaper may disembark instead.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of this unit&apos;s command phase, 5 Replacement Spectres disembark from this vehicle.  If they have the Expendable, Deployed En-masse detatchment rule, 1 Reaper may disembark as well.</characteristic>
           </characteristics>
         </profile>
         <profile name="Paladin Tank" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="4a5a-94ab-54c5-2e5c">
@@ -893,7 +894,7 @@
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">14</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">15</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">12</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
           </characteristics>
@@ -943,7 +944,7 @@
                 <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
                 <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
                 <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
                 <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                 <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
                 <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 4, Sustained Hits 1, Melta 1</characteristic>
@@ -1777,14 +1778,9 @@
             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 10, Melta 1, (Sustained Hits 2)</characteristic>
           </characteristics>
         </profile>
-        <profile name="Vortex Shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="51ac-c0fd-2c6d-0501">
+        <profile name="Vortex Shield(+)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="51ac-c0fd-2c6d-0501">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit is attacked by a ranged attack, if the ranged attack misses, the attacker must make that attack against themselves.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="(Stand Behind Me)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b846-c4aa-c6bc-8487">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When a pilot is embarked, if an attack misses an allied unit within 2&quot; of this Titan, the attacker must make that attack against themselves.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit is attacked by a ranged attack, if the ranged attack misses, the attacker must make that attack against themselves.  If a Pilot is embarked, this may trigger on attacks made to allies within 2&quot; of the Ion.  This may only trigger 3 times per shooting phase, per Ion.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2367,11 +2363,6 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Stalker Squad" hidden="false" id="4e65-6a86-31d1-70fd">
       <profiles>
-        <profile name="Electric Smoke" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="88f4-9e1a-1f53-cadc">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit uses Smoke, it deploys Electric Smoke.  Non-mechanical units in the smoke (e.g. ones without the Vehicle keyword or similar like Drone) take 1d3 mortal wounds when the smoke is initially deployed, and 2d3 mortal wounds at the start of their command phase.</characteristic>
-          </characteristics>
-        </profile>
         <profile name="Volatile Power Supply" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a6db-85eb-90b1-d1f5">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this model is within engagement range of 1 or more enemy units at the beginning of its movement phase, it may self destruct.  For each Spectre and Replacement Spectre model you choose to use this ability with, they deal 1 mortal wound to all MODELS in engagement range.  Stalkers deal 2 mortal wounds.</characteristic>
@@ -2403,7 +2394,7 @@
         <categoryLink name="Faction: IMC" hidden="false" id="fd2f-5ca3-6880-3f7e" targetId="a195-5a3e-4355-8d18" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="125"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="150"/>
       </costs>
       <modifiers>
         <modifier type="set-primary" value="e338-111e-d0c6-b687" field="category"/>
@@ -2419,8 +2410,8 @@
               <profiles>
                 <profile name="Stalker" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="53ff-7c10-9010-6acf">
                   <characteristics>
-                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
-                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">8</characteristic>
+                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">4&quot;</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
                     <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
                     <characteristic name="W" typeId="750a-a2ec-90d3-21fe">2</characteristic>
                     <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
