@@ -627,26 +627,26 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Guntank" hidden="false" id="cdef-201f-aefc-729c">
+    <selectionEntry type="model" import="true" name="Crow Gunship" hidden="false" id="cdef-201f-aefc-729c">
       <profiles>
-        <profile name="Electric Smoke" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="75bf-5e44-1dd8-0f15">
+        <profile name="Hellish Furball" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="75bf-5e44-1dd8-0f15">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit uses Smoke, it deploys Electric Smoke.  Non-mechanical units in the smoke (e.g. ones without the Vehicle keyword or similar like Drone) take 1d3 mortal wounds when the smoke is initially deployed, and 2d3 mortal wounds at the start of their command phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit gains a +1 to hit targets that can Fly.  If there are more than 4 units on the board (on either team, total) with the Fly tag, attacks against Flying units with its Air-To-Air Missile gain Torrent.</characteristic>
           </characteristics>
         </profile>
-        <profile name="BBRRRRTTTTTTT" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fd05-5df3-c7f9-dd69">
+        <profile name="Get In Close For Guns!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fd05-5df3-c7f9-dd69">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When attacking a unit that can Fly, this unit gets a +1 to their hit rolls.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When attacking an infantry unit that&apos;s within 30&quot; with the &quot;Caw&quot; Rotary Cannon, the attack gains Blast.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Terrifying Presence" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9b36-8685-e6f0-bd6b">
+        <profile name="Mobile Gunport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9b36-8685-e6f0-bd6b">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit attacks a unit of Infantry with its AA Cannon, that unit must pass a battle-shock test.  If they fail, they must move 2&quot; away from the Guntank.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Any units who are embarked within this transport cannot disembark unless the Gunship lands.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Guntank" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="53d1-ef44-5e6f-09c3">
+        <profile name="Crow Gunship" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="53d1-ef44-5e6f-09c3">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">20&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">7</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">8</characteristic>
@@ -661,15 +661,15 @@
         <categoryLink name="Faction: IMC" hidden="false" id="6caa-67b5-7a5f-ebab" targetId="a195-5a3e-4355-8d18" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="125"/>
       </costs>
       <modifiers>
         <modifier type="set-primary" value="dbd4-63-af05-998" field="category"/>
       </modifiers>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Guntank Main Gun" hidden="false" id="3c37-82d4-1398-521c">
+        <selectionEntry type="upgrade" import="true" name="Gunship Armaments" hidden="false" id="3c37-82d4-1398-521c">
           <profiles>
-            <profile name="AA Cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="d927-73a2-6c3c-63cc">
+            <profile name="&quot;Caw&quot; Rotary Cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="d927-73a2-6c3c-63cc">
               <characteristics>
                 <characteristic name="Range" typeId="9896-9419-16a1-92fc">60&quot;</characteristic>
                 <characteristic name="A" typeId="3bb-c35f-f54-fb08">10</characteristic>
@@ -677,7 +677,29 @@
                 <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
                 <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                 <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 5, Lethal Hits, Anti-Fly 3+</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 5, Lethal Hits, Anti-Fly 3+, (Blast)</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="➤ Air-To-Ground Missile" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="fc9d-af1d-2f55-aec8">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">60&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">14</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">4</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Twin-Linked</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="➤ Air-To-Air Missile" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="ffc6-8783-60ec-8351">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">60&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">5</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds, Anti-Fly 3+, Twin-Linked, (Torrent)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -687,6 +709,14 @@
           </constraints>
         </selectionEntry>
       </selectionEntries>
+      <rules>
+        <rule name="Firing Deck" id="4507-7188-93b7-02de" hidden="false">
+          <description>Anyone who is embarked within this transport may fire out of it.</description>
+        </rule>
+        <rule name="&quot;Transport&quot;" id="488f-2c82-cffb-1938" hidden="false">
+          <description>A single Infantry unit can be embarked within this unit.  They cannot disembark.</description>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Spectre Squad" hidden="false" id="4303-c8af-547d-7073">
       <profiles>
@@ -2516,9 +2546,9 @@
   </categoryEntries>
   <entryLinks>
     <entryLink import="true" name="IMC Pilot" hidden="false" id="4ad6-4f62-537b-fad5" type="selectionEntry" targetId="3a31-10a4-b92b-99c7"/>
-    <entryLink import="true" name="Grunt Squad Leader" hidden="false" id="2663-913e-f103-998d" type="selectionEntry" targetId="a446-01ba-6fe7-7ffc"/>
-    <entryLink import="true" name="Guntank" hidden="false" id="66ab-f1a3-1641-c8cb" type="selectionEntry" targetId="cdef-201f-aefc-729c"/>
-    <entryLink import="true" name="Mechanized Infantry Spectre Squad" hidden="false" id="1dae-f04d-9e13-6c6e" type="selectionEntry" targetId="4303-c8af-547d-7073"/>
+    <entryLink import="true" name="Grunt Field Team Leader" hidden="false" id="2663-913e-f103-998d" type="selectionEntry" targetId="a446-01ba-6fe7-7ffc"/>
+    <entryLink import="true" name="Crow Gunship" hidden="false" id="66ab-f1a3-1641-c8cb" type="selectionEntry" targetId="cdef-201f-aefc-729c"/>
+    <entryLink import="true" name="Spectre Squad" hidden="false" id="1dae-f04d-9e13-6c6e" type="selectionEntry" targetId="4303-c8af-547d-7073"/>
     <entryLink import="true" name="Paladin Tank" hidden="false" id="8530-de0c-bcd5-8fc3" type="selectionEntry" targetId="a07d-f882-618e-8817"/>
     <entryLink import="true" name="Detachment" hidden="false" id="460d-4d21-0556-df12" type="selectionEntryGroup" targetId="e2c1-bdbc-ebea-6795"/>
     <entryLink import="true" name="Disposable Infiltration Fighter" hidden="false" id="7449-a0e0-0a4a-04c0" type="selectionEntry" targetId="087b-38b4-94cd-286b"/>
