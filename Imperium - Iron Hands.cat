@@ -1164,6 +1164,7 @@
       </selectionEntryGroups>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="1251-acc4-8309-832e"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1691-6b81-8599-c0a1"/>
       </constraints>
       <rules>
         <rule name="Feel No Pain 4+" id="1b09-feae-d02f-e958" hidden="false"/>
@@ -1179,6 +1180,9 @@
               <description>WITH THE PERMISSION OF BOTH PLAYERS AHEAD OF TIME, you may Supercharge your Harvester, enabling Frontier Defense mode and giving you a free random Titan (1d7).  All objectives and control points are discarded and removed.  If your Harvester still stands at the end of the fifth battle round, you win.  If it is destroyed, your opponent wins.</description>
             </rule>
           </rules>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="58b3-c8a5-c590-a577"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
