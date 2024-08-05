@@ -1336,7 +1336,8 @@
         </profile>
         <profile name="Bomb Squad" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="578e-7640-ec3f-fb97">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per game, if this unit is on a control point, this unit may sacrifice its shooting phase to rig it to blow.  At the beginning of any of their next shooting phases, they can blow it up, dealing 5 mortal wounds to any units on the control point, removing the control point from play, and gaining 5 VP.  If this unit dies before it can set off the charges, the only way it can blow up is if another Ordnance Team unit&apos;s Ordnance Engineer grabs the detonator by moving ontop of where they died.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per game, if this unit is on a control point, this unit may sacrifice its shooting phase to rig it to blow.  At the beginning of any of their next shooting phases, they can blow it up, dealing 5 mortal wounds to any units on the control point, removing the control point from play, and gaining 5 VP.  If this unit dies before it can set off the charges, the only way it can blow up is if another Ordnance Team unit&apos;s Ordnance Engineer grabs the detonator by moving ontop of where they died.
+&quot;When you mix fuel, metal oxide, and metal powder in just the right way...&quot; - Combat Engineer Spyke</characteristic>
           </characteristics>
         </profile>
       </profiles>
