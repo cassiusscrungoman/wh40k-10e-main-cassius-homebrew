@@ -360,7 +360,7 @@
         <profile name="Training Over Programming" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dd27-fddf-25ed-4acb">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model&apos;s specialization applies to the unit it is leading.  It may lead Spectre Squads, Mortar Teams, and Ordnance Teams.
-&quot;Stalkers are fucking scary, I ain&apos;t leadin&apos; those things.&quot; - Sergeant Kornerus</characteristic>
+&quot;Stalkers are fucking scary, I ain&apos;t leadin&apos; those things.&quot; - Staff Sergeant Kornerus</characteristic>
           </characteristics>
         </profile>
         <profile name="Can&apos;t Back Out Of This Deal" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2a17-d4a8-4895-fc52">
