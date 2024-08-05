@@ -2442,9 +2442,6 @@
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
       </costs>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="50ea-0317-6a8d-c807" includeChildSelections="false"/>
-      </constraints>
       <profiles>
         <profile name="IMC Drop Pod" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="1023-cb71-1803-5ede">
           <characteristics>
