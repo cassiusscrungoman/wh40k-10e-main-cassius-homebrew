@@ -30,12 +30,14 @@
         </profile>
         <profile name="Drop, Shock, &amp; Rock" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="19ac-e9fc-54f7-e722">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may use weapons with the pistol tag as well as other weapons in the same shooting phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may use weapons with the pistol tag as well as other weapons in the same shooting phase.
+&quot;Switching to your pistol...&quot;</characteristic>
           </characteristics>
         </profile>
         <profile name="Drop Pod Beacon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="53dd-7eea-e225-a797">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If there is an IMC Drop Pod in strategic reserves, once per game during the movement phase, the Pilot may throw a Drop Pod Beacon within 8&quot;.  The Drop Pod instantly arrives on the field as if deployed from Deep Strike.  This can happen on Round 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If there is an IMC Drop Pod in strategic reserves, once per game during the movement phase, the Pilot may throw a Drop Pod Beacon within 8&quot;.  The Drop Pod instantly arrives on the field as if deployed from Deep Strike.  This can happen on Round 1.
+&quot;You can&apos;t do that, that&apos;s not canon!&quot; - Anonymous</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -735,12 +737,14 @@
         </profile>
         <profile name="Anti-Vehicle Swarm" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e7c0-66c2-7678-ea04">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit charges a unit with the Vehicle tag, they get a +1 to their charge and may reroll it.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit charges a unit with the Vehicle tag, they get a +1 to their charge and may reroll it.
+&quot;You wouldn&apos;t think it&apos;d be that scary, but I&apos;ve seen some Pilots disembark in fear after seeing half a dozen Spectres jump on their Titan.&quot; - Petty Officer Emiflake</characteristic>
           </characteristics>
         </profile>
         <profile name="Volatile Power Supply" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="641c-ab86-8c6a-3cfe">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this model is within engagement range of 1 or more enemy units at the beginning of its movement phase, it may self destruct.  For each Spectre and Replacement Spectre model you choose to use this ability with, they deal 1 mortal wound to all MODELS in engagement range.  Stalkers deal 2 mortal wounds.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this model is within engagement range of 1 or more enemy units at the beginning of its movement phase, it may self destruct. For each Spectre and Replacement Spectre model you choose to use this ability with, they deal 1 mortal wound to all MODELS in engagement range. Stalkers deal 2 mortal wounds.
+&quot;Ho...that was close. Hey...is that one still movin-&quot; - Last Recording Captured From Stalker Before Engaging Self Destruct Protocol</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -886,7 +890,8 @@
         </profile>
         <profile name="Mechanized Infantry Replacement Racks" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e9ec-6299-25d5-4c12">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of this unit&apos;s command phase, 5 Replacement Spectres disembark from this vehicle.  If they have the Expendable, Deployed En-masse detatchment rule, 1 Reaper may disembark as well.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of this unit&apos;s command phase, 5 Replacement Spectres disembark from this vehicle.  If they have the Expendable, Deployed En-masse detatchment rule, 1 Reaper may disembark as well.
+&quot;Holy hell, I didn&apos;t realize Spyglass had this many units made...&quot; - Private First Class </characteristic>
           </characteristics>
         </profile>
         <profile name="Paladin Tank" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="4a5a-94ab-54c5-2e5c">
@@ -1710,7 +1715,8 @@
         </profile>
         <profile name="Annoying Piece Of Shit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="aa9d-8003-938d-9d1c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ranged attacks against Tick models get a -1 to hit.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ranged attacks against Tick models get a -1 to hit.
+&quot;Spicy...&quot; - Private First Class Graham</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1782,7 +1788,8 @@
         </profile>
         <profile name="Vortex Shield(+)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="51ac-c0fd-2c6d-0501">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit is attacked by a ranged attack, if the ranged attack misses, the attacker must make that attack against themselves.  If a Pilot is embarked, this may trigger on attacks made to allies within 2&quot; of the Ion.  This may only trigger 3 times per shooting phase, per Ion.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit is attacked by a ranged attack, if the ranged attack misses, the attacker must make that attack against themselves.  If a Pilot is embarked, this may trigger on attacks made to allies within 2&quot; of the Ion.  This may only trigger 3 times per shooting phase, per Ion.
+&quot;Sorry, buddy.  Shoulda aimed better.&quot; - Pilot </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1872,9 +1879,10 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may only attack with either its two Long Range or Short Range weapons per battle round.</characteristic>
           </characteristics>
         </profile>
-        <profile name="(Multi-Target Lock)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="45b9-d0eb-abaa-e647">
+        <profile name="(Lightning Reflexes)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="45b9-d0eb-abaa-e647">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When a pilot is embarked, this unit may choose different targets for every single one of its weapons&apos; ranged attacks.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When a pilot is embarked, this unit may choose different targets for every single one of its weapons&apos; ranged attacks.
+&quot;God, I can&apos;t see fucking anything through all these kill indicators...&quot; - Pilot </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1953,7 +1961,8 @@
         </profile>
         <profile name="(Battery Thief)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0d50-8bc3-f94a-c8ec">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When a pilot is embarked, if this unit destroys an enemy model with a melee attack, it gains wounds equal to the destroyed target&apos;s total wounds, to a cap of 3 wounds.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When a pilot is embarked, if this unit destroys an enemy model with a melee attack, it gains wounds equal to the destroyed target&apos;s total wounds, to a cap of 3 wounds.
+&quot;They can do that...?&quot; - Gunnery Sergeant X, after seeing a Monarch heal for the first time</characteristic>
           </characteristics>
         </profile>
         <profile name="Vinson Dynamics Electric Shields" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2ab2-e6a7-6618-f1d5">
@@ -2034,7 +2043,8 @@
         </profile>
         <profile name="Flight(+)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="08f8-62bc-3275-04eb">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit has the Fly tag.  (It can move directly up and stay hovering in the air.  When in the air, it always counts for Heavy.)</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit has the Fly tag.  (It can move directly up and stay hovering in the air.  When in the air, it always counts for Heavy.)
+&quot;Nowhere to run...nowhere to hide.&quot; - Pilot Viper</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2073,7 +2083,8 @@
         </profile>
         <profile name="Sword Block(+)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ce8b-4463-47f4-1e43">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the shooting phase, declare if this unit will use its ranged weapons or not.  If not, subtract 1 from wound and hit rolls against this unit until the start of its next shooting phase.  If a Pilot is embarked within, if you choose not to use your ranged weapons, gain Feel No Pain 4+ as well.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of the shooting phase, declare if this unit will use its ranged weapons or not.  If not, subtract 1 from wound and hit rolls against this unit until the start of its next shooting phase.  If a Pilot is embarked within, if you choose not to use your ranged weapons, gain Feel No Pain 4+ as well.
+&quot;They say it&apos;s a brainless technique, that it&apos;s just holding up the sword and walking at people.  They&apos;d be right.&quot; - Pilot </characteristic>
           </characteristics>
         </profile>
         <profile name="Leadwall Shotgun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="ffdd-b3f5-643a-a4e0">
@@ -2175,7 +2186,8 @@
         </profile>
         <profile name="(Cockpit Cooling Reactivated)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a69d-9d89-1a30-b948">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a Pilot is embarked within this Titan, it can reroll charge rolls, and gets a +2 to them.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a Pilot is embarked within this Titan, it can reroll charge rolls, and gets a +2 to them.
+&quot;Every safety&apos;s coming off, no second chances.&quot; - Pilot Crimson</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2238,7 +2250,8 @@
         </profile>
         <profile name="Tracking Lock" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a2c8-229d-f7fd-c07f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Every time this unit hits an enemy vehicle unit with its 77mm Tracker Cannon, it can attack with its Tracking Rockets against that target once.  This stacks.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Every time this unit hits an enemy vehicle unit with its 77mm Tracker Cannon, it can attack with its Tracking Rockets against that target once.  This stacks.
+&quot;People call it bullshit, I don&apos;t care.  Learn to press the stick forward and charge if you wanna stop getting pelted at range.&quot; - Pilot Memo</characteristic>
           </characteristics>
         </profile>
         <profile name="Sonar Lock" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6dec-19b9-8d16-9efd">
@@ -2367,7 +2380,8 @@
       <profiles>
         <profile name="Volatile Power Supply" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a6db-85eb-90b1-d1f5">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this model is within engagement range of 1 or more enemy units at the beginning of its movement phase, it may self destruct.  For each Spectre and Replacement Spectre model you choose to use this ability with, they deal 1 mortal wound to all MODELS in engagement range.  Stalkers deal 2 mortal wounds.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this model is within engagement range of 1 or more enemy units at the beginning of its movement phase, it may self destruct.  For each Spectre and Replacement Spectre model you choose to use this ability with, they deal 1 mortal wound to all MODELS in engagement range.  Stalkers deal 2 mortal wounds.
+&quot;Ho...that was close.  Hey...is that one still movin-&quot; - Last Recording Captured From Stalker Before Engaging Self Destruct Protocol</characteristic>
           </characteristics>
         </profile>
         <profile name="Scary, But Still Replaceable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="80ec-e254-ed69-2553">
@@ -2377,7 +2391,8 @@
         </profile>
         <profile name="Ripper Protocol" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b3d4-cd0d-b297-5980">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of this unit&apos;s shooting phase, it may choose to discard their LSTARs and charge forward, overloading its Power Supply.  When it does this, it does not roll for charge moves and instead gets 12&quot; guaranteed.  It cannot use its ranged weapons after it does this.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of this unit&apos;s shooting phase, it may choose to discard their LSTARs and charge forward, overloading its Power Supply.  When it does this, it does not roll for charge moves and instead gets 12&quot; guaranteed.  It cannot use its ranged weapons after it does this.
+&quot;What the fuck, how are they going so fast!  What the hell is wrong with the IMC!? ...Oh shit-[STATIC]&quot; - Excerpt From Field Recording</characteristic>
           </characteristics>
         </profile>
         <profile name="Expendable Mechanized Infantry" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e74e-9606-2a7c-5b05">
@@ -2491,7 +2506,8 @@
       <profiles>
         <profile name="Happy Robot :3" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7bda-b87c-0089-c6c1">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Though this model is a character, it does not count for assassination.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Though this model is a character, it does not count for assassination.
+&quot;I love these things as much as the next grunt, but you gotta admit, Corporal, they&apos;re not very...smart.&quot; - Sergeant </characteristic>
           </characteristics>
         </profile>
         <profile name="MRVN Engineer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="90dc-cc1b-b70d-0081">
