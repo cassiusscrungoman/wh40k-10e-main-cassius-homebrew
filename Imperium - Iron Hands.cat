@@ -656,9 +656,11 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink name="Smoke" hidden="false" id="a9c8-f30a-9ced-92ea" targetId="6df-937-16bc-8c1a" primary="false"/>
         <categoryLink name="Vehicle" hidden="false" id="3c13-85cd-370b-ff8e" targetId="dbd4-63-af05-998" primary="false"/>
         <categoryLink name="Faction: IMC" hidden="false" id="6caa-67b5-7a5f-ebab" targetId="a195-5a3e-4355-8d18" primary="false"/>
+        <categoryLink name="Fly" hidden="false" id="bac0-f234-3e58-6d31" targetId="c619-2086-bbcf-69c9" primary="false"/>
+        <categoryLink name="Aircraft" hidden="false" id="58fc-3d18-e569-e1d3" targetId="63f1-e6e8-f6f6-a4f0" primary="false"/>
+        <categoryLink name="Transport" hidden="false" id="36ce-00b8-4d83-a6c7" targetId="75e8-57c4-40e3-1817" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="125"/>
@@ -674,10 +676,10 @@
                 <characteristic name="Range" typeId="9896-9419-16a1-92fc">60&quot;</characteristic>
                 <characteristic name="A" typeId="3bb-c35f-f54-fb08">10</characteristic>
                 <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
                 <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                 <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 5, Lethal Hits, Anti-Fly 3+, (Blast)</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 5, Lethal Hits, (Blast)</characteristic>
               </characteristics>
             </profile>
             <profile name="➤ Air-To-Ground Missile" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="fc9d-af1d-2f55-aec8">
@@ -1548,7 +1550,7 @@
         <cost name="pts" typeId="51b2-306e-1021-d207" value="125"/>
       </costs>
       <modifiers>
-        <modifier type="set-primary" value="ba07-411c-2832-1f79" field="category"/>
+        <modifier type="set-primary" value="6f14-7e4d-2380-6087" field="category"/>
       </modifiers>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="XO-16 Chaingun" hidden="false" id="0d97-33a3-50dc-1b73">
@@ -1558,7 +1560,7 @@
                 <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
                 <characteristic name="A" typeId="3bb-c35f-f54-fb08">10</characteristic>
                 <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
                 <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                 <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
                 <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 10,</characteristic>
@@ -2472,7 +2474,7 @@
         <categoryLink name="Mechanized" hidden="false" id="d23e-7c9f-5a22-fa69" targetId="6f14-7e4d-2380-6087" primary="false"/>
       </categoryLinks>
       <modifiers>
-        <modifier type="set-primary" value="ba07-411c-2832-1f79" field="category"/>
+        <modifier type="set-primary" value="6f14-7e4d-2380-6087" field="category"/>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="MRVN Auxiliary" hidden="false" id="2b19-f9d2-69a5-cf29">
