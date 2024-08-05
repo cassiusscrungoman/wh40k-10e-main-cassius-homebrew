@@ -1171,13 +1171,16 @@
         <rule name="Deadly Demise 2d6" id="8977-3082-09bc-8dbd" hidden="false"/>
       </rules>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Supercharge Harvester" hidden="false" id="c512-23be-db4c-8fcf">
+        <selectionEntry type="upgrade" import="true" name="Supercharged Harvester" hidden="false" id="c512-23be-db4c-8fcf">
           <costs>
             <cost name="pts" typeId="51b2-306e-1021-d207" value="-250"/>
           </costs>
           <rules>
             <rule name="Frontier Defense" id="37e5-d5e4-46fe-ef0a" hidden="false">
               <description>WITH THE PERMISSION OF BOTH PLAYERS AHEAD OF TIME, you may Supercharge your Harvester, enabling Frontier Defense mode and giving you a free random Titan (1d7).  All objectives and control points are discarded and removed.  If your Harvester still stands at the end of the fifth battle round, you win.  If it is destroyed, your opponent wins.</description>
+            </rule>
+            <rule name="Supercharged Shield" id="0f6e-2c61-bb7e-15d5" hidden="false">
+              <description>The Supercharged Harvester never loses Feel No Pain 4.</description>
             </rule>
           </rules>
           <constraints>
