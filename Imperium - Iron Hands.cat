@@ -750,7 +750,7 @@
         <profile name="Volatile Power Supply" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="641c-ab86-8c6a-3cfe">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this model is within engagement range of 1 or more enemy units at the beginning of its movement phase, it may self destruct. For each Spectre and Replacement Spectre model you choose to use this ability with, they deal 1 mortal wound to all MODELS in engagement range. Stalkers deal 2 mortal wounds.
-&quot;Ho...that was close. Hey...is that one still movin-&quot; - Last Recording Captured From Stalker Before Engaging Self Destruct Protocol</characteristic>
+&quot;Ho...that was close. Hey...is that one still movin-&quot; - Last recording captured from stalker before engaging self destruct protocol</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2399,7 +2399,7 @@
         <profile name="Volatile Power Supply" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a6db-85eb-90b1-d1f5">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this model is within engagement range of 1 or more enemy units at the beginning of its movement phase, it may self destruct.  For each Spectre and Replacement Spectre model you choose to use this ability with, they deal 1 mortal wound to all MODELS in engagement range.  Stalkers deal 2 mortal wounds.
-&quot;Ho...that was close.  Hey...is that one still movin-&quot; - Last Recording Captured From Stalker Before Engaging Self Destruct Protocol</characteristic>
+&quot;Ho...that was close.  Hey...is that one still movin-&quot; - Last recording captured from stalker before engaging self destruct protocol</characteristic>
           </characteristics>
         </profile>
         <profile name="Scary, But Still Replaceable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="80ec-e254-ed69-2553">
@@ -2410,7 +2410,7 @@
         <profile name="Ripper Protocol" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b3d4-cd0d-b297-5980">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of this unit&apos;s shooting phase, it may choose to discard their LSTARs and charge forward, overloading its Power Supply.  When it does this, it does not roll for charge moves and instead gets 12&quot; guaranteed.  It cannot use its ranged weapons after it does this.
-&quot;What the fuck, how are they going so fast!  What the hell is wrong with the IMC!? ...Oh shit-[STATIC]&quot; - Excerpt From Field Recording</characteristic>
+&quot;What the fuck, how are they going so fast!  What the hell is wrong with the IMC!? ...Oh shit-[STATIC]&quot; - Excerpt from field recording</characteristic>
           </characteristics>
         </profile>
         <profile name="Expendable Mechanized Infantry" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e74e-9606-2a7c-5b05">
