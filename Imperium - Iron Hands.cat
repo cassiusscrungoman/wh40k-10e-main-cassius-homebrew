@@ -1026,21 +1026,6 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Neural Link" hidden="false" id="a496-9e0f-d69e-c85c" collective="false">
       <profiles>
-        <profile name="Protocol 2" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0043-265d-8d9b-ca28">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When a pilot is embarked, this Titan gains an invuln save of 5+, all attacks have 1 more AP, and they may reroll hit rolls of 1.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Protocol 3" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="47b9-35ee-6c69-c750">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this Titan is destroyed, deal 1 mortal wound to *all models* within 2&quot;.   if a pilot is embarked, when this occurs, eject them 20&quot; in any direction.  One enemy unit within range of the Titan when it is destroyed may make an Overwatch move against the Pilot as they disembark.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Titanfall" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9e39-0636-e94a-4a09">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When using Deep Strike, telegraph where this unit will deploy 1 turn in advance, at the start of your shooting phase.  This cannot be ontop of control points.  At the start of your next shooting phase, it will deploy there regardless of how close enemy units are.  If any models are within 2&quot; of the selected spot, they die.</characteristic>
-          </characteristics>
-        </profile>
         <profile name="Titan Punch" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="d528-e1ec-8270-3fff">
           <characteristics>
             <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
@@ -1050,11 +1035,6 @@
             <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
             <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
             <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Termination, (Anti-Infantry 2+), (Devastating Wounds)</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Protocol 1" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="141a-0174-155b-227c">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">An IMC Pilot may embark or disembark within or from this Titan at any point during their movement phase, regardless of what they&apos;ve done (advancing, falling back, disembarking, etc).  If they do, use the stats marked in () on this Titan&apos;s statblock until the Pilot disembarks.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1076,6 +1056,18 @@
         <rule name="(Invuln Save 5+)" id="a6af-7b3e-4eda-ff72" hidden="false"/>
         <rule name="Termination" id="727d-608b-0d85-5cb1" hidden="false">
           <description>If this Titan successfully wounds an enemy model under a quarter strength with its Titan Punch, that model is destroyed.</description>
+        </rule>
+        <rule name="Protocol 1" id="0245-94d6-019d-362c" hidden="false">
+          <description>An IMC Pilot may embark or disembark within or from this Titan at any point during their movement phase, regardless of what they&apos;ve done (advancing, falling back, disembarking, etc). If they do, use the stats marked in () on this Titan&apos;s statblock until the Pilot disembarks.</description>
+        </rule>
+        <rule name="Protocol 3" id="2f69-c91b-74d5-ef94" hidden="false">
+          <description>When this Titan is destroyed, deal 1 mortal wound to *all models* within 2&quot;. if a pilot is embarked, when this occurs, eject them 20&quot; in any direction. One enemy unit within range of the Titan when it is destroyed may make an Overwatch move against the Pilot as they disembark.</description>
+        </rule>
+        <rule name="Protocol 2" id="d6e3-707a-8d82-6fab" hidden="false">
+          <description>When a pilot is embarked, this Titan gains an invuln save of 5+, all attacks have 1 more AP, and they may reroll hit rolls of 1.</description>
+        </rule>
+        <rule name="Titanfall" id="35f5-ad5a-c723-e642" hidden="false">
+          <description>When using Deep Strike, telegraph where this unit will deploy 1 turn in advance, at the start of your shooting phase. This cannot be ontop of control points. At the start of your next shooting phase, it will deploy there regardless of how close enemy units are. If any models are within 2&quot; of the selected spot, they die.</description>
         </rule>
       </rules>
     </selectionEntry>
@@ -2352,15 +2344,11 @@
           </constraints>
         </selectionEntry>
       </selectionEntries>
-      <profiles>
-        <profile name="Orbital Insertion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="965b-5135-0f50-03e5">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When using Deep Strike, telegraph where this unit will deploy 1 turn in advance, at the start of your movement phase.  This cannot be ontop of control points.  It will deploy there regardless of how close enemy units are.  If anyone is within 2&quot; of the selected spot, they die.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <rules>
         <rule name="Deep Strike" id="31cf-d5c3-d320-3f9f" hidden="false"/>
+        <rule name="Orbital Insertion" id="90bd-43ed-c567-855d" hidden="false">
+          <description>When using Deep Strike, telegraph where this unit will deploy 1 turn in advance, at the start of your shooting phase. This cannot be ontop of control points. At the start of your next shooting phase, it will deploy there regardless of how close enemy units are. If any models are within 2&quot; of the selected spot, they die.</description>
+        </rule>
       </rules>
       <modifiers>
         <modifier type="set-primary" value="dbd4-63-af05-998" field="category"/>
