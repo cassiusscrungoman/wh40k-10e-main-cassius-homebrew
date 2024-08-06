@@ -168,12 +168,6 @@
             <selectionEntryGroup name="Pilot&apos;s Primary Weapon Choice" id="4ffc-ed24-5ee9-fc98" hidden="false" defaultSelectionEntryId="26b7-e7cf-33d8-9abe" sortIndex="1">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Kraber Penetrating .500-cal Sniper Rifle" hidden="false" id="6721-a7fe-2836-3e39">
-                  <infoLinks>
-                    <infoLink name="Precision" id="8eaf-f948-f28e-001d" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
-                    <infoLink name="Anti-" id="58f9-a126-c08c-d4cd" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
-                    <infoLink name="Devastating Wounds" id="6a39-8678-3139-6a92" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
-                    <infoLink name="Lethal Hits" id="96a7-4119-b98a-54b7" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
-                  </infoLinks>
                   <profiles>
                     <profile name="Kraber Penetrating .500-cal Sniper Rifle" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="da84-7b8b-53e0-e147">
                       <characteristics>
@@ -207,11 +201,6 @@
                       </characteristics>
                     </profile>
                   </profiles>
-                  <infoLinks>
-                    <infoLink name="Anti-" id="ceab-69a2-2c35-3890" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
-                    <infoLink name="Precision" id="1aea-34ec-2fd2-172f" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
-                    <infoLink name="Heavy" id="69b8-c2fa-cfb7-93ed" hidden="false" type="rule" targetId="1202-10a8-78e9-4c67"/>
-                  </infoLinks>
                   <rules>
                     <rule name="Counter Strafing" id="4ade-4d2d-c2dd-268e" hidden="false">
                       <description>If this pilot selects the Charge Rifle as their primary weapon choice, if they Remain Stationary during their turn, they may reroll the hit roll or the wound roll.</description>
@@ -243,12 +232,6 @@
                       </characteristics>
                     </profile>
                   </profiles>
-                  <infoLinks>
-                    <infoLink name="Assault" id="4289-1eb7-6a4a-0e86" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
-                    <infoLink name="Twin-linked" id="4e4a-0c7b-e717-2e4a" hidden="false" type="rule" targetId="cf93-ad4d-2f08-a79d"/>
-                    <infoLink name="Melta" id="2d19-297f-0d42-1c0a" hidden="false" type="rule" targetId="7cdb-fb99-44a9-8849"/>
-                    <infoLink name="Precision" id="d6dd-aca8-e885-46c4" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
-                  </infoLinks>
                   <rules>
                     <rule name="Seein&apos; Red" id="ecec-3013-4cac-fa08" hidden="false">
                       <description>If this pilot selects the Peacekeeper as their primary weapon choice, they are still eligible to attack after performing a Fall Back move.</description>
@@ -269,10 +252,6 @@
                       </characteristics>
                     </profile>
                   </profiles>
-                  <infoLinks>
-                    <infoLink name="Anti-" id="dd19-96fe-161c-d33b" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
-                    <infoLink name="Devastating Wounds" id="b0f5-7229-8218-aa51" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
-                  </infoLinks>
                   <rules>
                     <rule name="Volume of Fire" id="d303-a5e0-2424-62c7" hidden="false">
                       <description>If this pilot selects the SMR as their primary weapon choice, when they attack with it, they may attack all Vehicles within range.</description>
@@ -293,10 +272,6 @@
                       </characteristics>
                     </profile>
                   </profiles>
-                  <infoLinks>
-                    <infoLink name="Assault" id="38bf-b3da-de4e-7527" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
-                    <infoLink name="Rapid Fire" id="9d14-06bd-660a-fab9" hidden="false" type="rule" targetId="c5c8-8b58-b8b6-7786"/>
-                  </infoLinks>
                   <rules>
                     <rule name="Shoot n&apos; Scoot" id="1f1d-2116-3389-3268" hidden="false">
                       <description>If this pilot selects the Volt SMG as their primary weapon choice, when they perform an action, they may still attack.</description>
@@ -912,7 +887,7 @@
         </profile>
         <profile name="Spectre Fighting Vehicle" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1e09-6acb-4bd2-76f0">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Any Spectre units within 6&quot; of this model have their save improved by 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Any Spectre and Stalker units within 6&quot; of this model have their save improved by 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
