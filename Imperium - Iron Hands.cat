@@ -1729,7 +1729,7 @@
         <profile name="Annoying Piece Of Shit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="aa9d-8003-938d-9d1c">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ranged attacks against Tick models get a -1 to hit.
-&quot;When you mix fuel, metal oxide, and metal powder in just the right way...&quot; Combat Engineer Spyke</characteristic>
+&quot;When you mix fuel, metal oxide, and metal powder in just the right way...&quot; Combat Engineer Levi</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1851,7 +1851,8 @@
         </profile>
         <profile name="Gun Shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="96a3-fcf8-573c-1baa">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle, when this unit is attacked by a ranged attack, you may activate the Legion&apos;s Gun Shield to subtract 1 from the enemy&apos;s hit and wound rolls until the end of the phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per battle, when this unit is attacked by a ranged attack, you may activate the Legion&apos;s Gun Shield to subtract 1 from the enemy&apos;s hit and wound rolls until the end of the phase.
+&quot;Do NOT be near the gunshield when it activates.  I don&apos;t know who made that shit, but it cannot be good for you to be in the way of that much energy suddenly coming into being all at once.&quot; - Specialist Engineer DevilishDM</characteristic>
           </characteristics>
         </profile>
         <profile name="Predator Cannon - Short Range" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="f213-b8b9-ac70-a74d">
@@ -1896,7 +1897,7 @@
         <profile name="(Lightning Reflexes)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="45b9-d0eb-abaa-e647">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When a pilot is embarked, this unit may choose different targets for every single one of its weapons&apos; ranged attacks.
-&quot;God, I can&apos;t see fucking anything through all these kill indicators...&quot; - Pilot Levi</characteristic>
+&quot;God, I can&apos;t see fucking anything through all these kill indicators...&quot; - Pilot Spyke</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2061,7 +2062,7 @@
         <profile name="Flight(+)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="08f8-62bc-3275-04eb">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit has the Fly tag.  (It can move directly up and stay hovering in the air.  When in the air, it always counts for Heavy.)
-&quot;Nowhere to run...nowhere to hide.&quot; - Pilot Viper</characteristic>
+&quot;It never felt so good to be a sitting duck.&quot; - Pilot Enbear</characteristic>
           </characteristics>
         </profile>
       </profiles>
