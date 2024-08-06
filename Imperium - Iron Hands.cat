@@ -2499,7 +2499,7 @@
         <profile name="On-Site Fabrication" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2c27-8716-b07d-5ff9">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may be deployed via IMC Drop Pods.  They deploy as if from Deep Strike.  If any spectre units are within 6&quot; of the drop pod, they gain 1d3 Replacement Spectre models at the end of their command phase.  If there are no spectre units around the drop pod, 1d3 Replacement Spectre disembark from the pod at the end of the command phase.  If they have the Replaceable Shock Troops detatchment rule, both of these triggers gain +2 models.  This does NOT stack with the detatchment rule.
-&quot;Marder, how the hell did you fit this in here?&quot; - Brigadier General Aldamert</characteristic>
+&quot;Marder, how the hell did you fit all of this shit in here?&quot; - Brigadier General Aldamert</characteristic>
           </characteristics>
         </profile>
       </profiles>
