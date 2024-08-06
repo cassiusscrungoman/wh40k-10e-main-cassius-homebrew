@@ -1745,7 +1745,7 @@
         <categoryLink name="Drone" hidden="false" id="c969-794b-c4b9-4f56" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="300"/>
       </costs>
       <modifiers>
         <modifier type="set-primary" value="5591-0d87-3447-748c" field="category"/>
@@ -1833,7 +1833,7 @@
         <infoLink name="Fights First" id="8408-12ca-da0f-50c5" hidden="false" type="rule" targetId="24-c886-e8ba-5a89"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="300"/>
       </costs>
       <modifiers>
         <modifier type="set-primary" value="5591-0d87-3447-748c" field="category"/>
@@ -1927,7 +1927,7 @@
         <categoryLink name="Drone" hidden="false" id="22f6-aa5a-d678-7894" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="300"/>
       </costs>
       <modifiers>
         <modifier type="set-primary" value="5591-0d87-3447-748c" field="category"/>
@@ -2006,7 +2006,7 @@
         <categoryLink name="Fly" hidden="false" id="61fa-7ad0-5924-41cd" targetId="c619-2086-bbcf-69c9" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="300"/>
       </costs>
       <modifiers>
         <modifier type="set-primary" value="5591-0d87-3447-748c" field="category"/>
@@ -2077,7 +2077,7 @@
         <infoLink name="Fights First" id="68f1-5181-76aa-8261" hidden="false" type="rule" targetId="24-c886-e8ba-5a89"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="300"/>
       </costs>
       <modifiers>
         <modifier type="set-primary" value="5591-0d87-3447-748c" field="category"/>
@@ -2141,7 +2141,7 @@
         <infoLink name="Fights First" id="ba7c-c660-4d96-abe5" hidden="false" type="rule" targetId="24-c886-e8ba-5a89"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="350"/>
       </costs>
       <modifiers>
         <modifier type="set-primary" value="5591-0d87-3447-748c" field="category"/>
@@ -2222,7 +2222,7 @@
         <categoryLink name="Drone" hidden="false" id="7fbe-4dec-cb61-17cd" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="300"/>
       </costs>
       <modifiers>
         <modifier type="set-primary" value="5591-0d87-3447-748c" field="category"/>
