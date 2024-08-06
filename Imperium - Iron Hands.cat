@@ -8,7 +8,7 @@
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">6</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">3</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
           </characteristics>
@@ -39,7 +39,7 @@
         </profile>
         <profile name="Drop Pod Beacon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="53dd-7eea-e225-a797">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If there is an IMC Drop Pod in strategic reserves, once per game during the movement phase, the Pilot may throw a Drop Pod Beacon within 8&quot;.  The Drop Pod instantly arrives on the field as if deployed from Deep Strike.  This can happen on Round 1.
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If there is an IMC Drop Pod in strategic reserves, during the pilot&apos;s movement phase, the Pilot may throw a Drop Pod Beacon anywhere within 8&quot;.  Next turn, the Drop Pod arrives on the field as if deployed from Deep Strike wherever the beacon was placed, and ignores deployment restrictions.
 &quot;You can&apos;t do that, that&apos;s not canon!&quot; - Anonymous</characteristic>
           </characteristics>
         </profile>
@@ -108,7 +108,6 @@
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
-        <infoLink name="Scouts" id="98ed-e1ee-1001-ad9a" hidden="false" type="rule" targetId="ada6-bac1-ffe0-d6f7"/>
         <infoLink name="Stealth" id="7594-b807-6720-d32a" hidden="false" type="rule" targetId="bec5-4288-34a6-ccfa"/>
       </infoLinks>
       <selectionEntryGroups>
@@ -130,13 +129,6 @@
                       </characteristics>
                     </profile>
                   </profiles>
-                  <infoLinks>
-                    <infoLink name="Pistol" id="5750-d785-809a-38ff" hidden="false" type="rule" targetId="8bf7-8812-923d-29e4"/>
-                    <infoLink name="Assault" id="8b8b-dd00-a116-90c4" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
-                    <infoLink name="Torrent" id="8f4d-f0f5-0f72-22a8" hidden="false" type="rule" targetId="5edf-d619-23e0-9b56"/>
-                    <infoLink name="Ignores Cover" id="a7b9-7981-c805-8a0f" hidden="false" type="rule" targetId="4640-43e7-30b-215a"/>
-                    <infoLink name="Precision" id="b295-62eb-cf09-5677" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
-                  </infoLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Wingman Elite" hidden="false" id="0dda-6731-1788-c0fb">
                   <profiles>
@@ -152,12 +144,6 @@
                       </characteristics>
                     </profile>
                   </profiles>
-                  <infoLinks>
-                    <infoLink name="Pistol" id="e959-7a60-adfd-7c4e" hidden="false" type="rule" targetId="8bf7-8812-923d-29e4"/>
-                    <infoLink name="Assault" id="01dd-fcd0-d14f-9a0c" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
-                    <infoLink name="Precision" id="14e6-a4c9-363e-449b" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
-                    <infoLink name="Twin-linked" id="2e4f-bab2-7fd9-1678" hidden="false" type="rule" targetId="cf93-ad4d-2f08-a79d"/>
-                  </infoLinks>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -235,26 +221,6 @@
                   <rules>
                     <rule name="Seein&apos; Red" id="ecec-3013-4cac-fa08" hidden="false">
                       <description>If this pilot selects the Peacekeeper as their primary weapon choice, they are still eligible to attack after performing a Fall Back move.</description>
-                    </rule>
-                  </rules>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Anti-Tank Sidewinder Micro Rocket Launcher (AT-SMR)" hidden="false" id="61a7-a0bf-4704-4762">
-                  <profiles>
-                    <profile name="AT-SMR" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="8a0c-9cf4-93ed-77db">
-                      <characteristics>
-                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">15&quot;</characteristic>
-                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
-                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                        <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
-                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
-                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Vehicle 5+, Devastating Wounds, Volume of Fire</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <rules>
-                    <rule name="Volume of Fire" id="d303-a5e0-2424-62c7" hidden="false">
-                      <description>If this pilot selects the SMR as their primary weapon choice, when they attack with it, they may attack all Vehicles within range.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -553,12 +519,12 @@
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink name="Heavy" id="c185-9d9e-9e25-0d35" hidden="false" type="rule" targetId="1202-10a8-78e9-4c67"/>
-              </infoLinks>
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
               </costs>
+              <rules>
+                <rule name="Heavy" id="74ac-171a-fcbd-16e7" hidden="false"/>
+              </rules>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="CQB Grunt" hidden="false" id="cb35-068e-d21b-f625" sortIndex="6">
               <profiles>
@@ -573,12 +539,12 @@
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink name="Fights First" id="e646-70f6-e693-23a4" hidden="false" type="rule" targetId="24-c886-e8ba-5a89"/>
-              </infoLinks>
               <costs>
                 <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
               </costs>
+              <rules>
+                <rule name="Fights First" id="6e6f-1c17-d1a4-8155" hidden="false"/>
+              </rules>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Shield Captain" hidden="false" id="df95-c7bd-5b8b-bde3" sortIndex="2">
               <profiles>
@@ -635,7 +601,7 @@
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">8</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">4</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -655,7 +621,7 @@
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Gunship Armaments" hidden="false" id="3c37-82d4-1398-521c">
           <profiles>
-            <profile name="&quot;Caw&quot; Rotary Cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="d927-73a2-6c3c-63cc">
+            <profile name="Lastimosa Rotary Cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="d927-73a2-6c3c-63cc">
               <characteristics>
                 <characteristic name="Range" typeId="9896-9419-16a1-92fc">60&quot;</characteristic>
                 <characteristic name="A" typeId="3bb-c35f-f54-fb08">10</characteristic>
@@ -702,13 +668,14 @@
         <rule name="&quot;Transport&quot;" id="488f-2c82-cffb-1938" hidden="false">
           <description>A single Infantry unit can be embarked within this unit.  They cannot disembark.</description>
         </rule>
+        <rule name="Hover" id="36d9-eb08-7230-379d" hidden="false"/>
       </rules>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Spectre Squad" hidden="false" id="4303-c8af-547d-7073">
       <profiles>
         <profile name="Electric Smoke" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="568e-96c9-541b-f892">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit uses Smoke, it deploys Electric Smoke.  Non-mechanical units in the smoke (e.g. ones without the Vehicle keyword or similar like Drone) take 1d3 mortal wounds when the smoke is initially deployed, and 2d3 mortal wounds at the start of their command phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit uses Smoke, it deploys Electric Smoke.  Non-mechanical units in the smoke (e.g. ones without the Vehicle keyword or similar like Drone) take 1d3 mortal wounds when the smoke is initially deployed, and 2d3 mortal wounds at the start of their command phase.  Smoke may be placed anywhere within 3&quot; of this unit and has a radius of 3&quot;.</characteristic>
           </characteristics>
         </profile>
         <profile name="Expendable Mechanized Infantry" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9393-95d3-a4bf-e02a">
@@ -720,12 +687,6 @@
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit charges a unit with the Vehicle tag, they get a +1 to their charge and may reroll it.
 &quot;You wouldn&apos;t think it&apos;d be that scary, but I&apos;ve seen some Pilots disembark in fear after seeing half a dozen Spectres jump on their Titan.&quot; - Petty Officer Emiflake</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Volatile Power Supply" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="641c-ab86-8c6a-3cfe">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this model is within engagement range of 1 or more enemy units at the beginning of its movement phase, it may self destruct. For each Spectre and Replacement Spectre model you choose to use this ability with, they deal 1 mortal wound to all MODELS in engagement range. Stalkers deal 2 mortal wounds.
-&quot;Ho...that was close. Hey...is that one still movin-&quot; - Last recording captured from stalker before engaging self destruct protocol</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -866,7 +827,7 @@
       <profiles>
         <profile name="Electric Smoke" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4768-a103-d0f0-7556">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit uses Smoke, it deploys Electric Smoke.  Non-mechanical units in the smoke (e.g. ones without the Vehicle keyword or similar like Drone) take 1d3 mortal wounds when the smoke is initially deployed, and 2d3 mortal wounds at the beginning of their next shooting phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit uses Smoke, it deploys Electric Smoke. Non-mechanical units in the smoke (e.g. ones without the Vehicle keyword or similar like Drone) take 1d3 mortal wounds when the smoke is initially deployed, and 2d3 mortal wounds at the start of their command phase. Smoke may be placed anywhere within 3&quot; of this unit and has a radius of 3&quot;.</characteristic>
           </characteristics>
         </profile>
         <profile name="Mechanized Infantry Replacement Racks" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e9ec-6299-25d5-4c12">
@@ -878,9 +839,9 @@
         <profile name="Paladin Tank" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="4a5a-94ab-54c5-2e5c">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">14</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">12</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">12</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">16</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">6</characteristic>
           </characteristics>
@@ -945,6 +906,7 @@
       </selectionEntries>
       <rules>
         <rule name="Wounded 1-6" id="4535-b672-0b7d-aec3" hidden="false"/>
+        <rule name="Deadly Demise 1d6" id="68d0-344c-169b-6b58" hidden="false"/>
       </rules>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Disposable Infiltration Fighter" hidden="false" id="087b-38b4-94cd-286b">
@@ -1061,13 +1023,13 @@
           <description>An IMC Pilot may embark or disembark within or from this Titan at any point during their movement phase, regardless of what they&apos;ve done (advancing, falling back, disembarking, etc). If they do, use the stats marked in () on this Titan&apos;s statblock until the Pilot disembarks.</description>
         </rule>
         <rule name="Protocol 3" id="2f69-c91b-74d5-ef94" hidden="false">
-          <description>When this Titan is destroyed, deal 1 mortal wound to *all models* within 2&quot;. if a pilot is embarked, when this occurs, eject them 20&quot; in any direction. One enemy unit within range of the Titan when it is destroyed may make an Overwatch move against the Pilot as they disembark.</description>
+          <description>When this Titan is destroyed, deal 1 mortal wound to *all models* within 2&quot;. if a pilot is embarked, when this occurs, eject them 20&quot; in any direction. One enemy unit within range of the Titan when it is destroyed may make an Overwatch move against the Pilot as they disembark.  The disembarked Pilot may only shoot if the Titan it was embarked in did not shoot.</description>
         </rule>
         <rule name="Protocol 2" id="d6e3-707a-8d82-6fab" hidden="false">
           <description>When a pilot is embarked, this Titan gains an invuln save of 5+, all attacks have 1 more AP, and they may reroll hit rolls of 1.</description>
         </rule>
         <rule name="Titanfall" id="35f5-ad5a-c723-e642" hidden="false">
-          <description>When using Deep Strike, telegraph where this unit will deploy 1 turn in advance, at the start of your shooting phase. This cannot be ontop of control points. At the start of your next shooting phase, it will deploy there regardless of how close enemy units are. If any models are within 2&quot; of the selected spot, they die.</description>
+          <description>During the movement phase, you may telegraph where this unit will deploy 1 turn in advance, with no deployment restrictions apart from not being ontop of control points. At the start of your next shooting phase, it will deploy there regardless of how close enemy units are. If any models are within 2&quot; of the selected spot, they are destroyed.</description>
         </rule>
       </rules>
     </selectionEntry>
@@ -1373,7 +1335,7 @@
                             <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                             <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
                             <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
-                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
                             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
                           </characteristics>
                         </profile>
@@ -1392,19 +1354,15 @@
                             <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
                             <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Volume of Fire, Blast, Anti-Vehicle 5+</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Volume of Fire, Blast,</characteristic>
                           </characteristics>
                         </profile>
                         <profile name="Volume of Fire" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="440f-6645-18d2-9fee">
                           <characteristics>
-                            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit selects the SMR or Mag Launcher as their primary weapon choice, when they attack with it, they may attack all Vehicles within range.</characteristic>
+                            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit selects the Mag Launcher as their primary weapon choice, when they attack with it, they may attack all Vehicles within range.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
-                      <infoLinks>
-                        <infoLink name="Blast" id="259c-eb4c-c7f6-0933" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
-                        <infoLink name="Anti-" id="8489-3f79-57a9-0cf9" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
-                      </infoLinks>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
@@ -1531,7 +1489,7 @@
         </profile>
         <profile name="Goblin Aerial Transport" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="053f-4d7f-101e-0741">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">20+&quot;</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">20&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">7</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">15</characteristic>
@@ -1556,17 +1514,17 @@
         <modifier type="set-primary" value="6f14-7e4d-2380-6087" field="category"/>
       </modifiers>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="XO-16 Chaingun" hidden="false" id="0d97-33a3-50dc-1b73">
+        <selectionEntry type="upgrade" import="true" name="Wonyeon Autocannon" hidden="false" id="0d97-33a3-50dc-1b73">
           <profiles>
-            <profile name="XO-16 Chaingun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="abe6-5be8-9993-8a90">
+            <profile name="Wonyeon Autocannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="abe6-5be8-9993-8a90">
               <characteristics>
                 <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
-                <characteristic name="A" typeId="3bb-c35f-f54-fb08">10</characteristic>
-                <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
-                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">4</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
                 <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 10,</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits, Blast</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1591,12 +1549,12 @@
         </profile>
         <profile name="Orbital Insertion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="27a5-0dec-f47e-55e8">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When using Deep Strike, telegraph where this unit will deploy 1 turn in advance, at the start of your movement phase.  This cannot be ontop of control points.  It will deploy there regardless of how close enemy units are.  If anyone is within 2&quot; of the selected spot, they die.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">During the movement phase, you may telegraph where this unit will deploy 1 turn in advance, with no deployment restrictions apart from not being ontop of control points. At the start of your next shooting phase, it will deploy there regardless of how close enemy units are. If any models are within 2&quot; of the selected spot, they are destroyed.</characteristic>
           </characteristics>
         </profile>
         <profile name="Tick Launch" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="40bf-2fc4-9c4d-826e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of the command phase, this unit may deploy 5 Tick models up to 3&quot; away from it.
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of the command phase, this unit may deploy 5 Tick models up to 3&quot; away from it.  This does not happen on the first round, instead, the Factory Reaper starts with 5 ticks already deployed next to it.
 &quot;This might not be balanced, I don&apos;t care.  Blame Respawn, they made it like this, not me.&quot; - Commander Cassius</characteristic>
           </characteristics>
         </profile>
@@ -1605,7 +1563,7 @@
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">5+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">6</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
           </characteristics>
@@ -1938,7 +1896,7 @@
             <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 6, Sustained Hits 1, (Sustained Hits 2)</characteristic>
           </characteristics>
         </profile>
@@ -2281,7 +2239,7 @@
                 <characteristic name="SV" typeId="450-a17e-9d5e-29da">5+</characteristic>
                 <characteristic name="W" typeId="750a-a2ec-90d3-21fe">3</characteristic>
                 <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
-                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">4</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2293,7 +2251,7 @@
             <categoryLink name="Drone" hidden="false" id="8873-4bc4-c94c-93ce" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="40"/>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="30"/>
           </costs>
           <modifiers>
             <modifier type="set-primary" value="dbd4-63-af05-998" field="category"/>
@@ -2347,7 +2305,7 @@
       <rules>
         <rule name="Deep Strike" id="31cf-d5c3-d320-3f9f" hidden="false"/>
         <rule name="Orbital Insertion" id="90bd-43ed-c567-855d" hidden="false">
-          <description>When using Deep Strike, telegraph where this unit will deploy 1 turn in advance, at the start of your shooting phase. This cannot be ontop of control points. At the start of your next shooting phase, it will deploy there regardless of how close enemy units are. If any models are within 2&quot; of the selected spot, they die.</description>
+          <description>During the movement phase, you may telegraph where this unit will deploy 1 turn in advance, with no deployment restrictions apart from not being ontop of control points. At the start of your next shooting phase, it will deploy there regardless of how close enemy units are. If any models are within 2&quot; of the selected spot, they are destroyed.</description>
         </rule>
       </rules>
       <modifiers>
@@ -2361,7 +2319,7 @@
       <profiles>
         <profile name="Volatile Power Supply" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a6db-85eb-90b1-d1f5">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this model is within engagement range of 1 or more enemy units at the beginning of its movement phase, it may self destruct.  For each Spectre and Replacement Spectre model you choose to use this ability with, they deal 1 mortal wound to all MODELS in engagement range.  Stalkers deal 2 mortal wounds.
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this model is within engagement range of 1 or more enemy units at the beginning of its movement phase, it may self destruct.  For each Stalker model you choose to use this ability with, they deal 2 mortal wounds to all units within engagement range.
 &quot;Ho...that was close.  Hey...is that one still movin-&quot; - Last recording captured from stalker before engaging self destruct protocol</characteristic>
           </characteristics>
         </profile>
@@ -2408,7 +2366,7 @@
               <profiles>
                 <profile name="Stalker" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="53ff-7c10-9010-6acf">
                   <characteristics>
-                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">4&quot;</characteristic>
+                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
                     <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
                     <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
                     <characteristic name="W" typeId="750a-a2ec-90d3-21fe">2</characteristic>
@@ -2435,7 +2393,7 @@
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1, Melta 1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Melta 1</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2454,14 +2412,16 @@
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">-</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">8</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">8</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">4</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">-</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0</characteristic>
           </characteristics>
         </profile>
         <profile name="On-Site Fabrication" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2c27-8716-b07d-5ff9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may be deployed via IMC Drop Pods.  They deploy as if from Deep Strike.  If any spectre units are within 6&quot; of the drop pod, they gain 1d3 Replacement Spectre models at the end of their command phase.  If there are no spectre units around the drop pod, 1d3 Replacement Spectre disembark from the pod at the end of the command phase.  If they have the Replaceable Shock Troops detatchment rule, both of these triggers gain +2 models.  This does NOT stack with the detatchment rule.
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When a Spectre Squad initially disembarks from this model, 3 additional Replacement Spectre models disembark with it.  
+When a Stalker Squad initially disembarks from this model, 1 additional Stalker model disembarks with it.
+Note that this unit has the Mechanized keyword.
 &quot;Marder, how the hell did you fit all of this shit in here?&quot; - Brigadier General Aldamert</characteristic>
           </characteristics>
         </profile>
@@ -2598,7 +2558,7 @@
         <selectionEntry type="upgrade" import="true" name="Spyglass&apos; Mechanized Doctrine" hidden="false" id="21fd-8029-8896-03a9">
           <rules>
             <rule name="Expendable, Deployed En-masse" id="1319-1106-fbaf-5fe1" hidden="false">
-              <description>If any spectre units are within 6&quot; of a unit with the MECHANIZED tag, they gain 1d3 Replacement Spectre models at the end of their command phase.  If a Mechanized unit has no spectre units around it, it produces 1d3 Replacement Spectre models at the end of its command phase which disembark from it.</description>
+              <description>At the end of each command phase, units with the Mechanized tag produce 3 Replacement Spectre models which disembark from it.  If there are any Spectre units within 6&quot;, you may choose one of those units and add these 3 Replacement Spectre models to that unit, and they deploy within that unit&apos;s coherency.  This DOES NOT occur on the first round, INSTEAD, each Spectre Squad starts with 3 additional Replacement Spectre models already attached to them regardless of how close they are to any Mechanized units.  Stalker Squads start with 1 additional Stalker model.</description>
             </rule>
           </rules>
         </selectionEntry>
