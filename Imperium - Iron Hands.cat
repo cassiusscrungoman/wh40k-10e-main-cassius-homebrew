@@ -1721,7 +1721,7 @@
             <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 10, Melta 1, (Sustained Hits 2)</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 10, (Sustained Hits 1)</characteristic>
           </characteristics>
         </profile>
         <profile name="Vortex Shield(+)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="51ac-c0fd-2c6d-0501">
@@ -1745,7 +1745,7 @@
         <categoryLink name="Drone" hidden="false" id="c969-794b-c4b9-4f56" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="300"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
       </costs>
       <modifiers>
         <modifier type="set-primary" value="5591-0d87-3447-748c" field="category"/>
@@ -1833,7 +1833,7 @@
         <infoLink name="Fights First" id="8408-12ca-da0f-50c5" hidden="false" type="rule" targetId="24-c886-e8ba-5a89"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="300"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="325"/>
       </costs>
       <modifiers>
         <modifier type="set-primary" value="5591-0d87-3447-748c" field="category"/>
@@ -1927,7 +1927,7 @@
         <categoryLink name="Drone" hidden="false" id="22f6-aa5a-d678-7894" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="300"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
       </costs>
       <modifiers>
         <modifier type="set-primary" value="5591-0d87-3447-748c" field="category"/>
@@ -2006,7 +2006,7 @@
         <categoryLink name="Fly" hidden="false" id="61fa-7ad0-5924-41cd" targetId="c619-2086-bbcf-69c9" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="300"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="160"/>
       </costs>
       <modifiers>
         <modifier type="set-primary" value="5591-0d87-3447-748c" field="category"/>
@@ -2077,7 +2077,7 @@
         <infoLink name="Fights First" id="68f1-5181-76aa-8261" hidden="false" type="rule" targetId="24-c886-e8ba-5a89"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="300"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="160"/>
       </costs>
       <modifiers>
         <modifier type="set-primary" value="5591-0d87-3447-748c" field="category"/>
@@ -2108,8 +2108,8 @@
         <profile name="T-203 Thermite Launcher" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="81c2-74e9-1c5c-7b12">
           <characteristics>
             <characteristic name="Range" typeId="9896-9419-16a1-92fc">20&quot;</characteristic>
-            <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
@@ -2141,7 +2141,7 @@
         <infoLink name="Fights First" id="ba7c-c660-4d96-abe5" hidden="false" type="rule" targetId="24-c886-e8ba-5a89"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="350"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="325"/>
       </costs>
       <modifiers>
         <modifier type="set-primary" value="5591-0d87-3447-748c" field="category"/>
@@ -2222,7 +2222,7 @@
         <categoryLink name="Drone" hidden="false" id="7fbe-4dec-cb61-17cd" targetId="2471-e2e0-3f55-d6cb" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="300"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="250"/>
       </costs>
       <modifiers>
         <modifier type="set-primary" value="5591-0d87-3447-748c" field="category"/>
